@@ -1,0 +1,6257 @@
+{
+  "source": "https://mooc1.chaoxing.com/mooc-ans/mooc2/work/dowork?courseId=257551334&classId=134688333&cpi=357258724&workId=48522739&answerId=54778826&knowledgeId=&jobid=&standardEnc=14c127f016e2e532914589645a1eec95&enc=0dfa7c1a13be5ce264744460d21d0e7f",
+  "ts": 1765974268919,
+  "items": [
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题) 以下哪个不是Web的特点?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "具有平台无关性"
+        },
+        {
+          "label": "B",
+          "text": "不支持分布式结构"
+        },
+        {
+          "label": "C",
+          "text": "易导航和图形化"
+        },
+        {
+          "label": "D",
+          "text": "具有交互性"
+        }
+      ],
+      "correctAnswer": [
+        "不支持分布式结构"
+      ],
+      "selectedAnswer": [
+        "不支持分布式结构"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题) 关于CSS一词，以下哪个全称是正确的?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cascading Style Structure"
+        },
+        {
+          "label": "B",
+          "text": "Cascading Style Sheets"
+        },
+        {
+          "label": "C",
+          "text": "Cascading Special Structure"
+        },
+        {
+          "label": "D",
+          "text": "Cascading Special Sheets"
+        }
+      ],
+      "correctAnswer": [
+        "Cascading Style Sheets"
+      ],
+      "selectedAnswer": [
+        "Cascading Special Structure"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题) HTML是一种( )语言。",
+      "options": [
+        {
+          "label": "A",
+          "text": "编译型"
+        },
+        {
+          "label": "B",
+          "text": "超文本标记"
+        },
+        {
+          "label": "C",
+          "text": "高级程序设计"
+        },
+        {
+          "label": "D",
+          "text": "面向对象的编程"
+        }
+      ],
+      "correctAnswer": [
+        "超文本标记"
+      ],
+      "selectedAnswer": [
+        "超文本标记"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题) 下列不是开发HTML网页的软件是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "VS Code"
+        },
+        {
+          "label": "B",
+          "text": "WebStorm"
+        },
+        {
+          "label": "C",
+          "text": "HBuilder"
+        },
+        {
+          "label": "D",
+          "text": "Visual BASIC"
+        }
+      ],
+      "correctAnswer": [
+        "Visual BASIC"
+      ],
+      "selectedAnswer": [
+        "Visual BASIC"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题) Web标准的制定者是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "欧洲计算机制造商协会(ECMA)"
+        },
+        {
+          "label": "B",
+          "text": "微软公司(Microsoft)"
+        },
+        {
+          "label": "C",
+          "text": "网景公司(Netscape)"
+        },
+        {
+          "label": "D",
+          "text": "万维网联盟(W3C)"
+        }
+      ],
+      "correctAnswer": [
+        "万维网联盟(W3C)"
+      ],
+      "selectedAnswer": [
+        "万维网联盟(W3C)"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题) HTML中规范的注释声明是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "//这是注释"
+        },
+        {
+          "label": "B",
+          "text": "！！这是注释"
+        },
+        {
+          "label": "C",
+          "text": "/*这是注释*/"
+        },
+        {
+          "label": "D",
+          "text": "<!--这是注释-->"
+        }
+      ],
+      "correctAnswer": [
+        "<!--这是注释-->"
+      ],
+      "selectedAnswer": [
+        "/*这是注释*/"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题) 关于HTML文件类型，以下哪种说法是正确的？（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "HTML文件后缀名既可以是.html也可以是.htm结尾。"
+        },
+        {
+          "label": "B",
+          "text": "HTML文件后缀名只能是.html结尾。"
+        },
+        {
+          "label": "C",
+          "text": "HTML文件可以没有后缀名。"
+        },
+        {
+          "label": "D",
+          "text": "HTML文件后缀名是.txt。"
+        }
+      ],
+      "correctAnswer": [
+        "HTML文件后缀名既可以是.html也可以是.htm结尾。"
+      ],
+      "selectedAnswer": [
+        "HTML文件后缀名既可以是.html也可以是.htm结尾。"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题) 关于换行标签<br>以下描述不正确的是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "<br>相当于一次回车键所产生的换行效果。"
+        },
+        {
+          "label": "B",
+          "text": "每出现一次<br>标签只能换一行。"
+        },
+        {
+          "label": "C",
+          "text": "可以直接连续按多次回车键代替多个<br>标签。"
+        },
+        {
+          "label": "D",
+          "text": "可以使用多个<br>标签显示多行连续换行效果。"
+        }
+      ],
+      "correctAnswer": [
+        "可以直接连续按多次回车键代替多个<br>标签。"
+      ],
+      "selectedAnswer": [
+        "可以直接连续按多次回车键代替多个标签。"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题) 以下哪个标签可以实现加粗字体的效果?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "<br>"
+        },
+        {
+          "label": "B",
+          "text": "<i>"
+        },
+        {
+          "label": "C",
+          "text": "<sub>"
+        },
+        {
+          "label": "D",
+          "text": "<strong>"
+        }
+      ],
+      "correctAnswer": [
+        "<strong>"
+      ],
+      "selectedAnswer": [
+        "<strong>"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题) 以下哪个标签可以把文本显示为上标效果?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "<sub>"
+        },
+        {
+          "label": "B",
+          "text": "<sup>"
+        },
+        {
+          "label": "C",
+          "text": "<del>"
+        },
+        {
+          "label": "D",
+          "text": "<ins>"
+        }
+      ],
+      "correctAnswer": [
+        "<sup>"
+      ],
+      "selectedAnswer": [
+        "<sup>"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题) 以下哪个标签可以为文本添加删除线?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "<sub>"
+        },
+        {
+          "label": "B",
+          "text": "<sup>"
+        },
+        {
+          "label": "C",
+          "text": "<del>"
+        },
+        {
+          "label": "D",
+          "text": "<ins>"
+        }
+      ],
+      "correctAnswer": [
+        "<del>"
+      ],
+      "selectedAnswer": [
+        "<del>"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题) 使用何种标签可以使得其内部的多次回车换行或多次空格可以正常显示?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "<p>"
+        },
+        {
+          "label": "B",
+          "text": "<div>"
+        },
+        {
+          "label": "C",
+          "text": "<pre>"
+        },
+        {
+          "label": "D",
+          "text": "<a>"
+        }
+      ],
+      "correctAnswer": [
+        "<pre>"
+      ],
+      "selectedAnswer": [
+        "<pre>"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题) 关于标题字标记对齐方式，标记属性取值不正确的是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "居中对齐:<h1align=\"middle\">…</h1>"
+        },
+        {
+          "label": "B",
+          "text": "居右对齐:<h2 align=\"right\">…</h2>"
+        },
+        {
+          "label": "C",
+          "text": "居左对齐:<h4 align=\"left\">…</h4>"
+        },
+        {
+          "label": "D",
+          "text": "两端对齐:<h6 align=\"justify\">…</h6>"
+        }
+      ],
+      "correctAnswer": [
+        "居中对齐:<h1align=\"middle\">…</h1>"
+      ],
+      "selectedAnswer": [
+        "居中对齐:…"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14. (单选题) 下列标记中是单标记的是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "body标记"
+        },
+        {
+          "label": "B",
+          "text": "br标记"
+        },
+        {
+          "label": "C",
+          "text": "html标记"
+        },
+        {
+          "label": "D",
+          "text": "title标记"
+        }
+      ],
+      "correctAnswer": [
+        "br标记"
+      ],
+      "selectedAnswer": [
+        "br标记"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15. (单选题) 下列标记中表示版权符号的是( ) 。",
+      "options": [
+        {
+          "label": "A",
+          "text": "©"
+        },
+        {
+          "label": "B",
+          "text": "®"
+        },
+        {
+          "label": "C",
+          "text": "&"
+        },
+        {
+          "label": "D",
+          "text": "\""
+        }
+      ],
+      "correctAnswer": [
+        "©"
+      ],
+      "selectedAnswer": [
+        "©"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. (单选题) 在HTML中，下列代码（ ）可以实现每隔60s自动刷新页面的功能。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<meta http-equiv =\"refresh\" content = \"1\">"
+        },
+        {
+          "label": "B",
+          "text": "<meta http-equiv =\"refresh\" content = \"60\">"
+        },
+        {
+          "label": "C",
+          "text": "<meta http-equiv =\"expires\" content = \"1\">"
+        },
+        {
+          "label": "D",
+          "text": "<meta http-equiv =\"expires\" content = \"60\">"
+        }
+      ],
+      "correctAnswer": [
+        "<meta http-equiv =\"refresh\" content = \"60\">"
+      ],
+      "selectedAnswer": [
+        "<meta http-equiv =\"refresh\" content = \"60\">"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. (单选题) 在HTML文件中，ul标记之间必须使用li标记作用是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "添加列表项值"
+        },
+        {
+          "label": "B",
+          "text": "创建有序列表"
+        },
+        {
+          "label": "C",
+          "text": "创建无序列表"
+        },
+        {
+          "label": "D",
+          "text": "创建自定义列表"
+        }
+      ],
+      "correctAnswer": [
+        "添加列表项值"
+      ],
+      "selectedAnswer": [
+        "创建无序列表"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. (单选题) 以下哪个标签用于定义列表项?",
+      "options": [
+        {
+          "label": "A",
+          "text": "<item>"
+        },
+        {
+          "label": "B",
+          "text": "<li>"
+        },
+        {
+          "label": "C",
+          "text": "<list>"
+        },
+        {
+          "label": "D",
+          "text": "<ld>"
+        }
+      ],
+      "correctAnswer": [
+        "<li>"
+      ],
+      "selectedAnswer": [
+        "<li>"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. (单选题) 以下哪个属性可以改变有序列表的编号类型?",
+      "options": [
+        {
+          "label": "A",
+          "text": "type"
+        },
+        {
+          "label": "B",
+          "text": "style"
+        },
+        {
+          "label": "C",
+          "text": "start"
+        },
+        {
+          "label": "D",
+          "text": "value"
+        }
+      ],
+      "correctAnswer": [
+        "type"
+      ],
+      "selectedAnswer": [
+        "type"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. (单选题) 以下哪个CSS属性可以去掉列表项前的符号?",
+      "options": [
+        {
+          "label": "A",
+          "text": "list-style-type: none;"
+        },
+        {
+          "label": "B",
+          "text": "list-style-image: none;"
+        },
+        {
+          "label": "C",
+          "text": "list-style-position: none;"
+        },
+        {
+          "label": "D",
+          "text": "list-style: remove;"
+        }
+      ],
+      "correctAnswer": [
+        "list-style-type: none;"
+      ],
+      "selectedAnswer": [
+        "list-style-type: none;"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "单选",
+      "title": "21. (单选题) 以下哪个属性可以设置有序列表的起始编号?",
+      "options": [
+        {
+          "label": "A",
+          "text": "start"
+        },
+        {
+          "label": "B",
+          "text": "value"
+        },
+        {
+          "label": "C",
+          "text": "type"
+        },
+        {
+          "label": "D",
+          "text": "begin"
+        }
+      ],
+      "correctAnswer": [
+        "start"
+      ],
+      "selectedAnswer": [
+        "value"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "单选",
+      "title": "22. (单选题) 超链接的地址通过哪个属性指定?",
+      "options": [
+        {
+          "label": "A",
+          "text": "src"
+        },
+        {
+          "label": "B",
+          "text": "href"
+        },
+        {
+          "label": "C",
+          "text": "url"
+        },
+        {
+          "label": "D",
+          "text": "link"
+        }
+      ],
+      "correctAnswer": [
+        "href"
+      ],
+      "selectedAnswer": [
+        "href"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "单选",
+      "title": "23. (单选题) 以下哪个属性可以让超链接在新窗口打开?",
+      "options": [
+        {
+          "label": "A",
+          "text": "target=\"_self\""
+        },
+        {
+          "label": "B",
+          "text": "target=\"_blank\""
+        },
+        {
+          "label": "C",
+          "text": "target=\"_top\""
+        },
+        {
+          "label": "D",
+          "text": "target=\"_parent\""
+        }
+      ],
+      "correctAnswer": [
+        "target=\"_blank\""
+      ],
+      "selectedAnswer": [
+        "target=\"_blank\""
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "单选",
+      "title": "24. (单选题) 以下哪个是锚点链接的正确写法?",
+      "options": [
+        {
+          "label": "A",
+          "text": "<a href=\"#section1\">跳转到 section1</a>"
+        },
+        {
+          "label": "B",
+          "text": "<a name=\"section1\">跳转到 section1</a>"
+        },
+        {
+          "label": "C",
+          "text": "<a link=\"#section1\">跳转到 section1</a>"
+        },
+        {
+          "label": "D",
+          "text": "<a id=\"section1\">跳转到 section1</a>"
+        }
+      ],
+      "correctAnswer": [
+        "<a href=\"#section1\">跳转到 section1</a>"
+      ],
+      "selectedAnswer": [
+        "跳转到 section1"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25. (单选题) 以下哪个伪类用于设置链接被点击瞬间的样式?",
+      "options": [
+        {
+          "label": "A",
+          "text": ":hover"
+        },
+        {
+          "label": "B",
+          "text": ":visited"
+        },
+        {
+          "label": "C",
+          "text": ":active"
+        },
+        {
+          "label": "D",
+          "text": ":focus"
+        }
+      ],
+      "correctAnswer": [
+        ":active"
+      ],
+      "selectedAnswer": [
+        ":active"
+      ],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26. (单选题) 在HTML文档中，下面代码的作用是( )。<a href=\"poem.htm#李白\">李白诗词</a>",
+      "options": [
+        {
+          "label": "A",
+          "text": "在poem.htm页面创建锚点“李白”"
+        },
+        {
+          "label": "B",
+          "text": "在poem.htm页面创建锚点“李白诗词”"
+        },
+        {
+          "label": "C",
+          "text": "跳转到poem.htm页面的锚点“李白”处"
+        },
+        {
+          "label": "D",
+          "text": "跳转到poem.htm页面的锚点“李白诗词”处"
+        }
+      ],
+      "correctAnswer": [
+        "跳转到poem.htm页面的锚点“李白”处"
+      ],
+      "selectedAnswer": [
+        "跳转到poem.htm页面的锚点“李白诗词”处"
+      ],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27. (单选题) <img> 标签中必须用于指定图片路径的属性是",
+      "options": [
+        {
+          "label": "A",
+          "text": "href"
+        },
+        {
+          "label": "B",
+          "text": "src"
+        },
+        {
+          "label": "C",
+          "text": "url"
+        },
+        {
+          "label": "D",
+          "text": "link"
+        }
+      ],
+      "correctAnswer": [
+        "src"
+      ],
+      "selectedAnswer": [
+        "src"
+      ],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28. (单选题) 当图片无法显示时，供用户查看的替代文字由哪个属性给出?",
+      "options": [
+        {
+          "label": "A",
+          "text": "title"
+        },
+        {
+          "label": "B",
+          "text": "text"
+        },
+        {
+          "label": "C",
+          "text": "alt"
+        },
+        {
+          "label": "D",
+          "text": "name"
+        }
+      ],
+      "correctAnswer": [
+        "alt"
+      ],
+      "selectedAnswer": [
+        "title"
+      ],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "单选",
+      "title": "29. (单选题) 若想使图片宽度 200 px 且保持原比例，应只设置",
+      "options": [
+        {
+          "label": "A",
+          "text": "仅 width=\"200\""
+        },
+        {
+          "label": "B",
+          "text": "仅 height=\"200\""
+        },
+        {
+          "label": "C",
+          "text": "同时设 width 与 height"
+        },
+        {
+          "label": "D",
+          "text": "设 zoom=\"200\""
+        }
+      ],
+      "correctAnswer": [
+        "仅 width=\"200\""
+      ],
+      "selectedAnswer": [
+        "仅 width=\"200\""
+      ],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "单选",
+      "title": "30. (单选题) 给图片加“鼠标悬停提示”应使用",
+      "options": [
+        {
+          "label": "A",
+          "text": "alt"
+        },
+        {
+          "label": "B",
+          "text": "title"
+        },
+        {
+          "label": "C",
+          "text": "tooltip"
+        },
+        {
+          "label": "D",
+          "text": "prompt"
+        }
+      ],
+      "correctAnswer": [
+        "title"
+      ],
+      "selectedAnswer": [
+        "title"
+      ],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "单选",
+      "title": "31. (单选题) 运行如下代码，将会在浏览器里看到( )。<table width = \"30%\" border = \"1\"><tr><td colspan = \"3\"> </td></tr><tr><td rowspan = \"2\"> </td> <td> </td> <td> </td> </tr><tr><td> </td> <td> </td></tr></table>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3个单元格"
+        },
+        {
+          "label": "B",
+          "text": "4个单元格"
+        },
+        {
+          "label": "C",
+          "text": "5个单元格"
+        },
+        {
+          "label": "D",
+          "text": "6个单元格"
+        }
+      ],
+      "correctAnswer": [
+        "6个单元格"
+      ],
+      "selectedAnswer": [
+        "6个单元格"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "单选",
+      "title": "32. (单选题) 默认状态下 <th> 文字的对齐方式是",
+      "options": [
+        {
+          "label": "A",
+          "text": "加粗 + 水平居中"
+        },
+        {
+          "label": "B",
+          "text": "斜体 + 右对齐"
+        },
+        {
+          "label": "C",
+          "text": "正常 + 左对齐"
+        },
+        {
+          "label": "D",
+          "text": "下划线"
+        }
+      ],
+      "correctAnswer": [
+        "加粗 + 水平居中"
+      ],
+      "selectedAnswer": [
+        "加粗 + 水平居中"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "单选",
+      "title": "33. (单选题) 合并同一行中的多个单元格应使用属性",
+      "options": [
+        {
+          "label": "A",
+          "text": "rowspan"
+        },
+        {
+          "label": "B",
+          "text": "colspan"
+        },
+        {
+          "label": "C",
+          "text": "merge"
+        },
+        {
+          "label": "D",
+          "text": "span"
+        }
+      ],
+      "correctAnswer": [
+        "colspan"
+      ],
+      "selectedAnswer": [
+        "colspan"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "单选",
+      "title": "34. (单选题) 下列标签中，能把表格结构划分为“头部、主体、尾部”的是",
+      "options": [
+        {
+          "label": "A",
+          "text": "<caption>"
+        },
+        {
+          "label": "B",
+          "text": "<header> <main> <footer>"
+        },
+        {
+          "label": "C",
+          "text": "<colgroup>"
+        },
+        {
+          "label": "D",
+          "text": "<thead> <tbody> <tfoot>"
+        }
+      ],
+      "correctAnswer": [
+        "<thead> <tbody> <tfoot>"
+      ],
+      "selectedAnswer": [
+        "<thead> <tbody> <tfoot>"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "单选",
+      "title": "35. (单选题) 让表格标题 <caption> 显示在底部，需设置",
+      "options": [
+        {
+          "label": "A",
+          "text": "caption-align:bottom"
+        },
+        {
+          "label": "B",
+          "text": "caption-side:bottom"
+        },
+        {
+          "label": "C",
+          "text": "align:bottom"
+        },
+        {
+          "label": "D",
+          "text": "caption-place:bottom"
+        }
+      ],
+      "correctAnswer": [
+        "caption-side:bottom"
+      ],
+      "selectedAnswer": [
+        "caption-side:bottom"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "单选",
+      "title": "36. (单选题) 以下哪些属于表格标签系列?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "<table>,<hr>和<td>"
+        },
+        {
+          "label": "B",
+          "text": "<table>,<tr>和<div>"
+        },
+        {
+          "label": "C",
+          "text": "<table>,<tr>和<td>"
+        },
+        {
+          "label": "D",
+          "text": "<table>,<br>和<th>"
+        }
+      ],
+      "correctAnswer": [
+        "<table>,<tr>和<td>"
+      ],
+      "selectedAnswer": [
+        "<table>,<tr>和<td>"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "单选",
+      "title": "37. (单选题) 关于表格标题标签<caption>，以下哪种说法是错误的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "使用该标签添加的标题默认会出现在表格顶部。"
+        },
+        {
+          "label": "B",
+          "text": "使用该标签添加的标题默认会出现在表格底部。"
+        },
+        {
+          "label": "C",
+          "text": "使用该标签添加的标题默认会居中显示。"
+        },
+        {
+          "label": "D",
+          "text": "不使用该标签也可以生成一个无标题的表格，不会报错。"
+        }
+      ],
+      "correctAnswer": [
+        "使用该标签添加的标题默认会出现在表格底部。"
+      ],
+      "selectedAnswer": [
+        "使用该标签添加的标题默认会出现在表格底部。"
+      ],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "单选",
+      "title": "38. (单选题) HTML中( )标签用于在网页中创建表单。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<input>"
+        },
+        {
+          "label": "B",
+          "text": "<select>"
+        },
+        {
+          "label": "C",
+          "text": "<table>"
+        },
+        {
+          "label": "D",
+          "text": "<form>"
+        }
+      ],
+      "correctAnswer": [
+        "<form>"
+      ],
+      "selectedAnswer": [
+        "<form>"
+      ],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "单选",
+      "title": "39. (单选题) HTML中( )属性用于设置表单要提交的地址。",
+      "options": [
+        {
+          "label": "A",
+          "text": "name"
+        },
+        {
+          "label": "B",
+          "text": "method"
+        },
+        {
+          "label": "C",
+          "text": "action"
+        },
+        {
+          "label": "D",
+          "text": "Id"
+        }
+      ],
+      "correctAnswer": [
+        "action"
+      ],
+      "selectedAnswer": [
+        "action"
+      ],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "单选",
+      "title": "40. (单选题) 阅读代码，选择正确答案( )。<input type = \"text\"……<input type = \"radio\"……<input type = \"checkbox\"……<input type = \"file\"……",
+      "options": [
+        {
+          "label": "A",
+          "text": "分别表示:文本框，单选按钮，复选框，文件域"
+        },
+        {
+          "label": "B",
+          "text": "分别表示:单选按钮，文本框，复选框，文件域"
+        },
+        {
+          "label": "C",
+          "text": "分别表示:复选框，文本框，单选按钮，文件域"
+        },
+        {
+          "label": "D",
+          "text": "分别表示:文件域，文本框，单选按钮，复选框"
+        }
+      ],
+      "correctAnswer": [
+        "分别表示:文本框，单选按钮，复选框，文件域"
+      ],
+      "selectedAnswer": [
+        "分别表示:文本框，单选按钮，复选框，文件域"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "单选",
+      "title": "41. (单选题) 让表单提交的数据使用 POST 方式，应在 form 标签内写()。",
+      "options": [
+        {
+          "label": "A",
+          "text": "method=\"POST\""
+        },
+        {
+          "label": "B",
+          "text": "type=\"POST\""
+        },
+        {
+          "label": "C",
+          "text": "action=\"POST\""
+        },
+        {
+          "label": "D",
+          "text": "way=\"POST\""
+        }
+      ],
+      "correctAnswer": [
+        "method=\"POST\""
+      ],
+      "selectedAnswer": [
+        "method=\"POST\""
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "单选",
+      "title": "42. (单选题) 下拉列表的多选属性是()。",
+      "options": [
+        {
+          "label": "A",
+          "text": "multiple"
+        },
+        {
+          "label": "B",
+          "text": "multiselect"
+        },
+        {
+          "label": "C",
+          "text": "many"
+        },
+        {
+          "label": "D",
+          "text": "checkbox"
+        }
+      ],
+      "correctAnswer": [
+        "multiple"
+      ],
+      "selectedAnswer": [
+        "multiple"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "单选",
+      "title": "43. (单选题) 限制输入框只能输入 0-100 之间的数字，最佳原生方案是()。",
+      "options": [
+        {
+          "label": "A",
+          "text": "type=\"number\" min=\"0\" max=\"100\""
+        },
+        {
+          "label": "B",
+          "text": "type=\"range\""
+        },
+        {
+          "label": "C",
+          "text": "type= text pattern= [0-9]"
+        },
+        {
+          "label": "D",
+          "text": "type=\"digit\""
+        }
+      ],
+      "correctAnswer": [
+        "type=\"number\" min=\"0\" max=\"100\""
+      ],
+      "selectedAnswer": [
+        "type=\"number\" min=\"0\" max=\"100\""
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "单选",
+      "title": "44. (单选题) 为 input 输入框添加提示文本，应使用属性()。",
+      "options": [
+        {
+          "label": "A",
+          "text": "placeholder"
+        },
+        {
+          "label": "B",
+          "text": "hint"
+        },
+        {
+          "label": "C",
+          "text": "title"
+        },
+        {
+          "label": "D",
+          "text": "prompt"
+        }
+      ],
+      "correctAnswer": [
+        "placeholder"
+      ],
+      "selectedAnswer": [
+        "placeholder"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "单选",
+      "title": "45. (单选题) 为 input 添加必填提示，应使用的属性是",
+      "options": [
+        {
+          "label": "A",
+          "text": "must"
+        },
+        {
+          "label": "B",
+          "text": "required"
+        },
+        {
+          "label": "C",
+          "text": "validate"
+        },
+        {
+          "label": "D",
+          "text": "not-empty"
+        }
+      ],
+      "correctAnswer": [
+        "required"
+      ],
+      "selectedAnswer": [
+        "required"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "单选",
+      "title": "46. (单选题) HTML5 中用于输入网址且自带协议检测的新类型是",
+      "options": [
+        {
+          "label": "A",
+          "text": "type=\"url\""
+        },
+        {
+          "label": "B",
+          "text": "type=\"http\""
+        },
+        {
+          "label": "C",
+          "text": "type=\"link\""
+        },
+        {
+          "label": "D",
+          "text": "type=\"web\""
+        }
+      ],
+      "correctAnswer": [
+        "type=\"url\""
+      ],
+      "selectedAnswer": [
+        "type=\"url\""
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "单选",
+      "title": "47. (单选题) CSS样式表根据代码放置的位置共有3种形式，那么代码片段<p style=\"color:red\">测试</p>的声明方式属于哪一种?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "外部样式表"
+        },
+        {
+          "label": "B",
+          "text": "内部样式表"
+        },
+        {
+          "label": "C",
+          "text": "内联样式表"
+        },
+        {
+          "label": "D",
+          "text": "以上都不正确"
+        }
+      ],
+      "correctAnswer": [
+        "内联样式表"
+      ],
+      "selectedAnswer": [
+        "内联样式表"
+      ],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "单选",
+      "title": "48. (单选题) 已知外部css文件中有:p{color:red}，<style>与</style>中有:p{color:green} , 而<body>与</body>中有:<p style=\"color:yellow\">测试</p>，请问此时段落元素<p>的字体颜色是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "黄色"
+        },
+        {
+          "label": "B",
+          "text": "绿色"
+        },
+        {
+          "label": "C",
+          "text": "红色"
+        },
+        {
+          "label": "D",
+          "text": "黑色"
+        }
+      ],
+      "correctAnswer": [
+        "黄色"
+      ],
+      "selectedAnswer": [
+        "黄色"
+      ],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "单选",
+      "title": "49. (单选题) 关于样式表以下说明不正确的是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "样式表可以用来设置元素的字体、颜色等样式内容。"
+        },
+        {
+          "label": "B",
+          "text": "行内样式表使用的是style属性。"
+        },
+        {
+          "label": "C",
+          "text": "如果样式表中设置的内容和浏览器的默认设置不同，则最终显示结果为样式表中的内容。"
+        },
+        {
+          "label": "D",
+          "text": "每个外部样式表都只能链接到一个网页文档。"
+        }
+      ],
+      "correctAnswer": [
+        "每个外部样式表都只能链接到一个网页文档。"
+      ],
+      "selectedAnswer": [
+        "每个外部样式表都只能链接到一个网页文档。"
+      ],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "单选",
+      "title": "50. (单选题) 关于外部样式表的说法错误的是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "文件扩展名为.css"
+        },
+        {
+          "label": "B",
+          "text": "外部样式表中的内容以<style>开始，</style>结束。"
+        },
+        {
+          "label": "C",
+          "text": "使用外部样式表可以使多个网页统一样式风格。"
+        },
+        {
+          "label": "D",
+          "text": "同一个网页文档允许引用多个外部样式表。"
+        }
+      ],
+      "correctAnswer": [
+        "外部样式表中的内容以<style>开始，</style>结束。"
+      ],
+      "selectedAnswer": [
+        "外部样式表中的内容以<style>开始，</style>结束。"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "单选",
+      "title": "51. (单选题) 引用外部样式表时，link 标签应放在 HTML 的哪一部分?",
+      "options": [
+        {
+          "label": "A",
+          "text": "<title> 之前"
+        },
+        {
+          "label": "B",
+          "text": "<head> 内"
+        },
+        {
+          "label": "C",
+          "text": "<body> 底部"
+        },
+        {
+          "label": "D",
+          "text": "任意位置"
+        }
+      ],
+      "correctAnswer": [
+        "<head> 内"
+      ],
+      "selectedAnswer": [
+        "<head> 内"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "单选",
+      "title": "52. (单选题) 若同一元素被行内、内部、外部三种样式同时定义，浏览器默认按哪层叠顺序渲染?",
+      "options": [
+        {
+          "label": "A",
+          "text": "外部→内部→行内"
+        },
+        {
+          "label": "B",
+          "text": "行内→内部→外部"
+        },
+        {
+          "label": "C",
+          "text": "内部→外部→行内"
+        },
+        {
+          "label": "D",
+          "text": "随机"
+        }
+      ],
+      "correctAnswer": [
+        "行内→内部→外部"
+      ],
+      "selectedAnswer": [
+        "行内→内部→外部"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "单选",
+      "title": "53. (单选题) 在 <style> 标签内注释 CSS 代码，应使用",
+      "options": [
+        {
+          "label": "A",
+          "text": "// 注释"
+        },
+        {
+          "label": "B",
+          "text": "/* 注释 */"
+        },
+        {
+          "label": "C",
+          "text": "<!-- 注释 -->"
+        },
+        {
+          "label": "D",
+          "text": "# 注释"
+        }
+      ],
+      "correctAnswer": [
+        "/* 注释 */"
+      ],
+      "selectedAnswer": [
+        "/* 注释 */"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "单选",
+      "title": "54. (单选题) 若要向网页中导入同一目录下的样式表“main.css”，正确的代码是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<link src=\"main.css\" rel=\"stylesheet\" type=\"text/css\">"
+        },
+        {
+          "label": "B",
+          "text": "<link href=\"main.css\" rel=\"stylesheet\" type=\"text/css\">"
+        },
+        {
+          "label": "C",
+          "text": "<link href=\"main.css\" type=\"text/css\">"
+        },
+        {
+          "label": "D",
+          "text": "<include rel=\"stylesheet\" type=\"text/css\" src=\"main.css\">"
+        }
+      ],
+      "correctAnswer": [
+        "<link href=\"main.css\" rel=\"stylesheet\" type=\"text/css\">"
+      ],
+      "selectedAnswer": [
+        "<link href=\"main.css\" rel=\"stylesheet\" type=\"text/css\">"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "单选",
+      "title": "55. (单选题) 如何给页面上所有的段落元素<p>添加字体颜色为绿色?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": ".p{color:green}"
+        },
+        {
+          "label": "B",
+          "text": "p.all{color:green}"
+        },
+        {
+          "label": "C",
+          "text": "#p{color:green}"
+        },
+        {
+          "label": "D",
+          "text": "p{color:green}"
+        }
+      ],
+      "correctAnswer": [
+        "p{color:green}"
+      ],
+      "selectedAnswer": [
+        "p{color:green}"
+      ],
+      "images": []
+    },
+    {
+      "id": 56,
+      "type": "单选",
+      "title": "56. (单选题) 在CSS中为某个<div>标签设置样式div{width:100px; height: 100px; padding:0 15px; border:7px}请问在W3C标准模型的状态下该<div>元素的实际宽度是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "100px"
+        },
+        {
+          "label": "B",
+          "text": "114px"
+        },
+        {
+          "label": "C",
+          "text": "130px"
+        },
+        {
+          "label": "D",
+          "text": "144px"
+        }
+      ],
+      "correctAnswer": [
+        "144px"
+      ],
+      "selectedAnswer": [
+        "144px"
+      ],
+      "images": []
+    },
+    {
+      "id": 57,
+      "type": "单选",
+      "title": "57. (单选题) 希望为段落元素<p>设置:文本居中对齐、首行缩进2个字符、字符间距为10像素，以下哪种写法是正确的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "p{text-indent: center; text-align: 2em; letter-spacing: 10px;}"
+        },
+        {
+          "label": "B",
+          "text": "p{letter-spacing: center; text-indent: 2em; text-align: 10px;}"
+        },
+        {
+          "label": "C",
+          "text": "p{text-align: center; letter-spacing: 2em; text-indent: 10px;}"
+        },
+        {
+          "label": "D",
+          "text": "p{text-align: center; text-indent: 2em; letter-spacing: 10px;}"
+        }
+      ],
+      "correctAnswer": [
+        "p{text-align: center; text-indent: 2em; letter-spacing: 10px;}"
+      ],
+      "selectedAnswer": [
+        "p{text-align: center; text-indent: 2em; letter-spacing: 10px;}"
+      ],
+      "images": []
+    },
+    {
+      "id": 58,
+      "type": "单选",
+      "title": "58. (单选题) 以下哪种做法可以让背景图像balloon.jpg不平铺并且固定在屏幕上不要随着滚动条下拉而滚动?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "body{background: url(balloon.jpg) no-repeat; background-attachment: scroll;}"
+        },
+        {
+          "label": "B",
+          "text": "body{background: url(balloon.jpg); background-attachment: scroll;}"
+        },
+        {
+          "label": "C",
+          "text": "body{background: url(balloon.jpg) no-repeat; background-attachment: fixed;}"
+        },
+        {
+          "label": "D",
+          "text": "body{background: url(balloon.jpg); background-attachment: fixed;}"
+        }
+      ],
+      "correctAnswer": [
+        "body{background: url(balloon.jpg) no-repeat; background-attachment: fixed;}"
+      ],
+      "selectedAnswer": [
+        "body{background: url(balloon.jpg) no-repeat; background-attachment: fixed;}"
+      ],
+      "images": []
+    },
+    {
+      "id": 59,
+      "type": "单选",
+      "title": "59. (单选题) 想要设置1像素宽的实线红色边框效果，以下哪句是正确的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "border: 1px dashed red;"
+        },
+        {
+          "label": "B",
+          "text": "border: 1px solid #FF0;"
+        },
+        {
+          "label": "C",
+          "text": "border: 1px dashed rgb(255,0,0);"
+        },
+        {
+          "label": "D",
+          "text": "border: 1px solid #ff0000;"
+        }
+      ],
+      "correctAnswer": [
+        "border: 1px solid #ff0000;"
+      ],
+      "selectedAnswer": [
+        "border: 1px solid #ff0000;"
+      ],
+      "images": []
+    },
+    {
+      "id": 60,
+      "type": "单选",
+      "title": "60. (单选题) 关于字体的样式风格，以下哪种说法是不正确的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "font-variant: small-caps;用于设置字体中英文字母均为小写字母。"
+        },
+        {
+          "label": "B",
+          "text": "font-family: \"宋体\";用于设置字体的系列为宋体字。"
+        },
+        {
+          "label": "C",
+          "text": "font-size:16px;用于设置字体尺寸大小为16像素。"
+        },
+        {
+          "label": "D",
+          "text": "font-weight: bold;用于设置字体加粗。"
+        }
+      ],
+      "correctAnswer": [
+        "font-variant: small-caps;用于设置字体中英文字母均为小写字母。"
+      ],
+      "selectedAnswer": [
+        "font-variant: small-caps;用于设置字体中英文字母均为小写字母。"
+      ],
+      "images": []
+    },
+    {
+      "id": 61,
+      "type": "单选",
+      "title": "61. (单选题) 希望实现上下边框均为虚线、左右边框均为实线效果，以下哪种写法不正确?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "border-style: dashed solid;"
+        },
+        {
+          "label": "B",
+          "text": "border-style: dashed solid dashed solid;"
+        },
+        {
+          "label": "C",
+          "text": "border-style: dashed solid dashed;"
+        },
+        {
+          "label": "D",
+          "text": "border-style: dashed solid solid;"
+        }
+      ],
+      "correctAnswer": [
+        "border-style: dashed solid solid;"
+      ],
+      "selectedAnswer": [
+        "border-style: dashed solid solid;"
+      ],
+      "images": []
+    },
+    {
+      "id": 62,
+      "type": "单选",
+      "title": "62. (单选题) 去掉列表项前默认圆点，应写()。",
+      "options": [
+        {
+          "label": "A",
+          "text": "list-style: none"
+        },
+        {
+          "label": "B",
+          "text": "list-type: 0 C"
+        },
+        {
+          "label": "C",
+          "text": "marker: hide"
+        },
+        {
+          "label": "D",
+          "text": "ul-style: none"
+        }
+      ],
+      "correctAnswer": [
+        "list-style: none"
+      ],
+      "selectedAnswer": [
+        "list-style: none"
+      ],
+      "images": []
+    },
+    {
+      "id": 63,
+      "type": "单选",
+      "title": "63. (单选题) 关于超链接<a>的样式描述，以下哪种是不正确的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "a:visited表示已经访问过的超链接。"
+        },
+        {
+          "label": "B",
+          "text": "a:hover表示鼠标悬浮在上面的超链接。"
+        },
+        {
+          "label": "C",
+          "text": "a:active表示正在被点击的超链接。"
+        },
+        {
+          "label": "D",
+          "text": "a:link表示鼠标悬浮的超链接"
+        }
+      ],
+      "correctAnswer": [
+        "a:link表示鼠标悬浮的超链接"
+      ],
+      "selectedAnswer": [
+        "a:link表示鼠标悬浮的超链接"
+      ],
+      "images": []
+    },
+    {
+      "id": 64,
+      "type": "单选",
+      "title": "64. (单选题) 通配符选择器的符号是()。",
+      "options": [
+        {
+          "label": "A",
+          "text": "#"
+        },
+        {
+          "label": "B",
+          "text": "."
+        },
+        {
+          "label": "C",
+          "text": "*"
+        },
+        {
+          "label": "D",
+          "text": "@"
+        }
+      ],
+      "correctAnswer": [
+        "*"
+      ],
+      "selectedAnswer": [
+        "*"
+      ],
+      "images": []
+    },
+    {
+      "id": 65,
+      "type": "单选",
+      "title": "65. (单选题) 选择 class=\"box\" 的元素，语法是()。",
+      "options": [
+        {
+          "label": "A",
+          "text": "box{}"
+        },
+        {
+          "label": "B",
+          "text": ".box{}"
+        },
+        {
+          "label": "C",
+          "text": "#box{}"
+        },
+        {
+          "label": "D",
+          "text": "*box{}"
+        }
+      ],
+      "correctAnswer": [
+        ".box{}"
+      ],
+      "selectedAnswer": [
+        ".box{}"
+      ],
+      "images": []
+    },
+    {
+      "id": 66,
+      "type": "单选",
+      "title": "66. (单选题) 后代选择器用于选中某元素内部的所有指定后代，其符号是()。",
+      "options": [
+        {
+          "label": "A",
+          "text": ">"
+        },
+        {
+          "label": "B",
+          "text": "(空格)"
+        },
+        {
+          "label": "C",
+          "text": "+"
+        },
+        {
+          "label": "D",
+          "text": "~"
+        }
+      ],
+      "correctAnswer": [
+        "(空格)"
+      ],
+      "selectedAnswer": [
+        "(空格)"
+      ],
+      "images": []
+    },
+    {
+      "id": 67,
+      "type": "单选",
+      "title": "67. (单选题) 子选择器(仅选中直接子元素)的符号是()。",
+      "options": [
+        {
+          "label": "A",
+          "text": ">"
+        },
+        {
+          "label": "B",
+          "text": "(空格)"
+        },
+        {
+          "label": "C",
+          "text": "+"
+        },
+        {
+          "label": "D",
+          "text": "~"
+        }
+      ],
+      "correctAnswer": [
+        ">"
+      ],
+      "selectedAnswer": [
+        ">"
+      ],
+      "images": []
+    },
+    {
+      "id": 68,
+      "type": "单选",
+      "title": "68. (单选题) 以下哪个属性不能用于设置元素的单边内边距?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "padding-upper"
+        },
+        {
+          "label": "B",
+          "text": "padding-left"
+        },
+        {
+          "label": "C",
+          "text": "padding-right"
+        },
+        {
+          "label": "D",
+          "text": "padding-bottom"
+        }
+      ],
+      "correctAnswer": [
+        "padding-upper"
+      ],
+      "selectedAnswer": [
+        "padding-upper"
+      ],
+      "images": []
+    },
+    {
+      "id": 69,
+      "type": "单选",
+      "title": "69. (单选题) 下列( )属性能够设置框模型的内边距为10、20、30、40(顺时针方向)。",
+      "options": [
+        {
+          "label": "A",
+          "text": "padding:10px"
+        },
+        {
+          "label": "B",
+          "text": "padding:10px 20px 30px"
+        },
+        {
+          "label": "C",
+          "text": "padding:10px 20px 30px 40px"
+        },
+        {
+          "label": "D",
+          "text": "padding:10px 40px"
+        }
+      ],
+      "correctAnswer": [
+        "padding:10px 20px 30px 40px"
+      ],
+      "selectedAnswer": [
+        "padding:10px 20px 30px 40px"
+      ],
+      "images": []
+    },
+    {
+      "id": 70,
+      "type": "单选",
+      "title": "70. (单选题) CSS 盒模型中，默认情况下元素可见框的总宽度等于",
+      "options": [
+        {
+          "label": "A",
+          "text": "width"
+        },
+        {
+          "label": "B",
+          "text": "width+padding"
+        },
+        {
+          "label": "C",
+          "text": "width+padding+border"
+        },
+        {
+          "label": "D",
+          "text": "width+padding+border+margin"
+        }
+      ],
+      "correctAnswer": [
+        "width+padding+border"
+      ],
+      "selectedAnswer": [
+        "width+padding+border"
+      ],
+      "images": []
+    },
+    {
+      "id": 71,
+      "type": "单选",
+      "title": "71. (单选题) 给元素设置 margin:10px 20px; 表示",
+      "options": [
+        {
+          "label": "A",
+          "text": "上下 10，左右 20"
+        },
+        {
+          "label": "B",
+          "text": "上下 20，左右 10"
+        },
+        {
+          "label": "C",
+          "text": "四边均 15"
+        },
+        {
+          "label": "D",
+          "text": "仅左右生效"
+        }
+      ],
+      "correctAnswer": [
+        "上下 10，左右 20"
+      ],
+      "selectedAnswer": [
+        "上下 10，左右 20"
+      ],
+      "images": []
+    },
+    {
+      "id": 72,
+      "type": "单选",
+      "title": "72. (单选题) 设置元素左浮动应使用",
+      "options": [
+        {
+          "label": "A",
+          "text": "float: left"
+        },
+        {
+          "label": "B",
+          "text": "float: right"
+        },
+        {
+          "label": "C",
+          "text": "float: center"
+        },
+        {
+          "label": "D",
+          "text": "align: left"
+        }
+      ],
+      "correctAnswer": [
+        "float: left"
+      ],
+      "selectedAnswer": [
+        "float: left"
+      ],
+      "images": []
+    },
+    {
+      "id": 73,
+      "type": "单选",
+      "title": "73. (单选题) 浮动元素会脱离下列哪种流?",
+      "options": [
+        {
+          "label": "A",
+          "text": "文本流"
+        },
+        {
+          "label": "B",
+          "text": "正常文档流"
+        },
+        {
+          "label": "C",
+          "text": "定位流"
+        },
+        {
+          "label": "D",
+          "text": "弹性流"
+        }
+      ],
+      "correctAnswer": [
+        "正常文档流"
+      ],
+      "selectedAnswer": [
+        "正常文档流"
+      ],
+      "images": []
+    },
+    {
+      "id": 74,
+      "type": "单选",
+      "title": "74. (单选题) 浮动元素默认宽度为",
+      "options": [
+        {
+          "label": "A",
+          "text": "100%"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "内容宽度"
+        },
+        {
+          "label": "D",
+          "text": "父元素宽度"
+        }
+      ],
+      "correctAnswer": [
+        "内容宽度"
+      ],
+      "selectedAnswer": [
+        "内容宽度"
+      ],
+      "images": []
+    },
+    {
+      "id": 75,
+      "type": "单选",
+      "title": "75. (单选题) 默认值 position: ______ 表示元素保持在普通文档流中。",
+      "options": [
+        {
+          "label": "A",
+          "text": "static"
+        },
+        {
+          "label": "B",
+          "text": "relative"
+        },
+        {
+          "label": "C",
+          "text": "absolute"
+        },
+        {
+          "label": "D",
+          "text": "fixed"
+        }
+      ],
+      "correctAnswer": [
+        "static"
+      ],
+      "selectedAnswer": [
+        "static"
+      ],
+      "images": []
+    },
+    {
+      "id": 76,
+      "type": "单选",
+      "title": "76. (单选题) 绝对定位 position: absolute 的偏移基准是",
+      "options": [
+        {
+          "label": "A",
+          "text": "视口"
+        },
+        {
+          "label": "B",
+          "text": "父元素 content 区域"
+        },
+        {
+          "label": "C",
+          "text": "最近的已定位祖先元素"
+        },
+        {
+          "label": "D",
+          "text": "页面顶部"
+        }
+      ],
+      "correctAnswer": [
+        "最近的已定位祖先元素"
+      ],
+      "selectedAnswer": [
+        "最近的已定位祖先元素"
+      ],
+      "images": []
+    },
+    {
+      "id": 77,
+      "type": "单选",
+      "title": "77. (单选题) 固定定位 position: fixed 的偏移基准是",
+      "options": [
+        {
+          "label": "A",
+          "text": "视口"
+        },
+        {
+          "label": "B",
+          "text": "父元素"
+        },
+        {
+          "label": "C",
+          "text": "根元素"
+        },
+        {
+          "label": "D",
+          "text": "自身原位置"
+        }
+      ],
+      "correctAnswer": [
+        "视口"
+      ],
+      "selectedAnswer": [
+        "视口"
+      ],
+      "images": []
+    },
+    {
+      "id": 78,
+      "type": "单选",
+      "title": "78. (单选题) 提高定位元素层叠顺序，应设置",
+      "options": [
+        {
+          "label": "A",
+          "text": "index"
+        },
+        {
+          "label": "B",
+          "text": "z-index"
+        },
+        {
+          "label": "C",
+          "text": "layer"
+        },
+        {
+          "label": "D",
+          "text": "stack"
+        }
+      ],
+      "correctAnswer": [
+        "z-index"
+      ],
+      "selectedAnswer": [
+        "z-index"
+      ],
+      "images": []
+    },
+    {
+      "id": 79,
+      "type": "单选",
+      "title": "79. (单选题) 以下哪个属于JavaScript单行注释的正确写法?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<!--被注释掉的内容-->"
+        },
+        {
+          "label": "B",
+          "text": "#被注释掉的内容"
+        },
+        {
+          "label": "C",
+          "text": "//被注释掉的内容"
+        },
+        {
+          "label": "D",
+          "text": "“被注释掉的内容”"
+        }
+      ],
+      "correctAnswer": [
+        "//被注释掉的内容"
+      ],
+      "selectedAnswer": [
+        "//被注释掉的内容"
+      ],
+      "images": []
+    },
+    {
+      "id": 80,
+      "type": "单选",
+      "title": "80. (单选题) 已知有var msg = \"Hello JavaScript\";且var k = msg.charAt(1);请问k的取值是多少?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "H"
+        },
+        {
+          "label": "B",
+          "text": "e"
+        },
+        {
+          "label": "C",
+          "text": "t"
+        },
+        {
+          "label": "D",
+          "text": "J"
+        }
+      ],
+      "correctAnswer": [
+        "e"
+      ],
+      "selectedAnswer": [
+        "e"
+      ],
+      "images": []
+    },
+    {
+      "id": 81,
+      "type": "单选",
+      "title": "81. (单选题) 在JavaScript中，已知有for(var i=0; i<10; i++){alert(i);}，请问该段循环一共执行几次alert()语句?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": [
+        "10"
+      ],
+      "selectedAnswer": [
+        "10"
+      ],
+      "images": []
+    },
+    {
+      "id": 82,
+      "type": "单选",
+      "title": "82. (单选题) 在JavaScript中，已知有var t = document.getElementById(\"test\");以下哪句可以更改该元素t背景色为蓝色?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "t.backgroundColor = \"blue\";"
+        },
+        {
+          "label": "B",
+          "text": "t.style.background-color = \"blue\";"
+        },
+        {
+          "label": "C",
+          "text": "t.style.backgroundColor = \"blue\";"
+        },
+        {
+          "label": "D",
+          "text": "t.background-color = \"blue\";"
+        }
+      ],
+      "correctAnswer": [
+        "t.style.backgroundColor = \"blue\";"
+      ],
+      "selectedAnswer": [
+        "t.style.backgroundColor = \"blue\";"
+      ],
+      "images": []
+    },
+    {
+      "id": 83,
+      "type": "单选",
+      "title": "83. (单选题) 在HTML页面中直接插入JavaScript代码的正确做法是使用何种标签?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<div></div>标签"
+        },
+        {
+          "label": "B",
+          "text": "<js></js>标签"
+        },
+        {
+          "label": "C",
+          "text": "<script></script>标签"
+        },
+        {
+          "label": "D",
+          "text": "<p></p>标签"
+        }
+      ],
+      "correctAnswer": [
+        "<script></script>标签"
+      ],
+      "selectedAnswer": [
+        "<script></script>标签"
+      ],
+      "images": []
+    },
+    {
+      "id": 84,
+      "type": "单选",
+      "title": "84. (单选题) 在JavaScript中，已知有以下代码:function testEven(num){if(num % 2 != 0) return;alert(num +\"是偶数!\");}请问调用该函数执行testEven(99);会出现什么结果?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "程序报错。"
+        },
+        {
+          "label": "B",
+          "text": "不会弹出提示框。"
+        },
+        {
+          "label": "C",
+          "text": "弹出alert提示框，并提示“99是偶数”。"
+        },
+        {
+          "label": "D",
+          "text": "弹出alert提示框，并提示“99不是偶数”。"
+        }
+      ],
+      "correctAnswer": [
+        "不会弹出提示框。"
+      ],
+      "selectedAnswer": [
+        "不会弹出提示框。"
+      ],
+      "images": []
+    },
+    {
+      "id": 85,
+      "type": "单选",
+      "title": "85. (单选题) 在JavaScript中，以下哪个事件指的是元素失去焦点?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "onfocus"
+        },
+        {
+          "label": "B",
+          "text": "onblur"
+        },
+        {
+          "label": "C",
+          "text": "onselect"
+        },
+        {
+          "label": "D",
+          "text": "onchange"
+        }
+      ],
+      "correctAnswer": [
+        "onblur"
+      ],
+      "selectedAnswer": [
+        "onblur"
+      ],
+      "images": []
+    },
+    {
+      "id": 86,
+      "type": "单选",
+      "title": "86. (单选题) 引用JavaScript外部脚本的正确写法是?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<script src=\"JavaScript文件URL\"></script>"
+        },
+        {
+          "label": "B",
+          "text": "<link src=\"JavaScript文件URL\"></link>"
+        },
+        {
+          "label": "C",
+          "text": "<meta src=\"JavaScript文件URL\"></meta>"
+        },
+        {
+          "label": "D",
+          "text": "<title src=\"JavaScript文件URL\"></title>"
+        }
+      ],
+      "correctAnswer": [
+        "<script src=\"JavaScript文件URL\"></script>"
+      ],
+      "selectedAnswer": [
+        "<script src=\"JavaScript文件URL\"></script>"
+      ],
+      "images": []
+    },
+    {
+      "id": 87,
+      "type": "单选",
+      "title": "87. (单选题) 已知有var msg = \"happy\";且var k1 = msg.substring(1,-1); var k2 = slice(1,-1);请问k1和k2的取值分别是多少?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "k1取值为\"h\"，k2取值为\"hap\"。"
+        },
+        {
+          "label": "B",
+          "text": "k1取值为\"y\"，k2取值为\"hap\"。"
+        },
+        {
+          "label": "C",
+          "text": "k1取值为\"h\"，k2取值为\"app\"。"
+        },
+        {
+          "label": "D",
+          "text": "k1取值为\"y\"，k2取值为\"app\"。"
+        }
+      ],
+      "correctAnswer": [
+        "k1取值为\"h\"，k2取值为\"app\"。"
+      ],
+      "selectedAnswer": [
+        "k1取值为\"h\"，k2取值为\"app\"。"
+      ],
+      "images": []
+    },
+    {
+      "id": 88,
+      "type": "单选",
+      "title": "88. (单选题) 在JavaScript中，已知有以下代码: var people = new Object();people.name = \"Mary\";people.age = 20; 则执行for(x in people){ alert(people[x]); }会出现何种结果?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "只弹一次alert提示框，显示\"Mary\"。"
+        },
+        {
+          "label": "B",
+          "text": "弹两次alert提示框，第一次显示\"Mary\"，第二次显示20。"
+        },
+        {
+          "label": "C",
+          "text": "弹两次alert提示框，第一次显示\"name\"，第二次显示\"age\"。"
+        },
+        {
+          "label": "D",
+          "text": "报错，因为people对象没有x属性。"
+        }
+      ],
+      "correctAnswer": [
+        "弹两次alert提示框，第一次显示\"Mary\"，第二次显示20。"
+      ],
+      "selectedAnswer": [
+        "弹两次alert提示框，第一次显示\"Mary\"，第二次显示20。"
+      ],
+      "images": []
+    },
+    {
+      "id": 89,
+      "type": "单选",
+      "title": "89. (单选题) 在JavaScript中，使用document.write(\"HelloWorld\");可以往HTML页面动态输出文本内容，请问如果需要在这两个单词之间输出换行需要使用以下哪种方式?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "document.write(\"Hello\\nWorld\");"
+        },
+        {
+          "label": "B",
+          "text": "document.write(\"Hello<br>World\");"
+        },
+        {
+          "label": "C",
+          "text": "document.write(\"Hello/nWorld\");"
+        },
+        {
+          "label": "D",
+          "text": "document.write(\"Hello<enter>World\");"
+        }
+      ],
+      "correctAnswer": [
+        "document.write(\"Hello<br>World\");"
+      ],
+      "selectedAnswer": [
+        "document.write(\"Hello<br>World\");"
+      ],
+      "images": []
+    },
+    {
+      "id": 90,
+      "type": "单选",
+      "title": "90. (单选题) 在JavaScript中，以下哪些变量的声明是不正确的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "var test;"
+        },
+        {
+          "label": "B",
+          "text": "var 123test;"
+        },
+        {
+          "label": "C",
+          "text": "var $test;"
+        },
+        {
+          "label": "D",
+          "text": "var _test;"
+        }
+      ],
+      "correctAnswer": [
+        "var 123test;"
+      ],
+      "selectedAnswer": [
+        "var 123test;"
+      ],
+      "images": []
+    },
+    {
+      "id": 91,
+      "type": "单选",
+      "title": "91. (单选题) 在JavaScript中，已知有以下代码:function total(num1, num2){return num1+num2;}var rs = total(20,\"25\");请问rs的值是多少?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "\"20+25\""
+        },
+        {
+          "label": "C",
+          "text": "\"2025\""
+        },
+        {
+          "label": "D",
+          "text": "NaN"
+        }
+      ],
+      "correctAnswer": [
+        "\"2025\""
+      ],
+      "selectedAnswer": [
+        "\"2025\""
+      ],
+      "images": []
+    },
+    {
+      "id": 92,
+      "type": "单选",
+      "title": "92. (单选题) 在JavaScript中，以下哪句代码可以创建一个新的段落标签<p>?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "document.createElements(\"p\");"
+        },
+        {
+          "label": "B",
+          "text": "document.appendElement(\"p\");"
+        },
+        {
+          "label": "C",
+          "text": "document.createElement(\"p\");"
+        },
+        {
+          "label": "D",
+          "text": "document.appendElements(\"p\");"
+        }
+      ],
+      "correctAnswer": [
+        "document.createElement(\"p\");"
+      ],
+      "selectedAnswer": [
+        "document.createElement(\"p\");"
+      ],
+      "images": []
+    },
+    {
+      "id": 93,
+      "type": "单选",
+      "title": "93. (单选题) 已知var x = 12; var y = \"34\";var k = x + y;则k的值是?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"1234\""
+        },
+        {
+          "label": "B",
+          "text": "12 + 34"
+        },
+        {
+          "label": "C",
+          "text": "46"
+        },
+        {
+          "label": "D",
+          "text": "xy"
+        }
+      ],
+      "correctAnswer": [
+        "\"1234\""
+      ],
+      "selectedAnswer": [
+        "\"1234\""
+      ],
+      "images": []
+    },
+    {
+      "id": 94,
+      "type": "单选",
+      "title": "94. (单选题) 已知有var x = 3.14e7;请问x的取值等同于以下哪个?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "3140000000"
+        },
+        {
+          "label": "B",
+          "text": "3.140000000"
+        },
+        {
+          "label": "C",
+          "text": "31400000"
+        },
+        {
+          "label": "D",
+          "text": "3.14的7次方"
+        }
+      ],
+      "correctAnswer": [
+        "31400000"
+      ],
+      "selectedAnswer": [
+        "31400000"
+      ],
+      "images": []
+    },
+    {
+      "id": 95,
+      "type": "单选",
+      "title": "95. (单选题) 在JavaScript中，已知有以下代码:var sum = 1, i = 4;do{sum = sum * i;i--;} while(i>1)alert(sum);请问alert提示框中显示的内容是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"sum\""
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": [
+        "24"
+      ],
+      "selectedAnswer": [
+        "24"
+      ],
+      "images": []
+    },
+    {
+      "id": 96,
+      "type": "单选",
+      "title": "96. (单选题) 在JavaScript中，假设已有元素p1表示新创建的段落元素<p>，且有元素t表示页面上已存在的<div>元素，如何将p1追加到t元素内部?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "p1.appendChild(t);"
+        },
+        {
+          "label": "B",
+          "text": "p1.append(t);"
+        },
+        {
+          "label": "C",
+          "text": "t.appendChild(p1);"
+        },
+        {
+          "label": "D",
+          "text": "t.append(p1);"
+        }
+      ],
+      "correctAnswer": [
+        "t.appendChild(p1);"
+      ],
+      "selectedAnswer": [
+        "t.appendChild(p1);"
+      ],
+      "images": []
+    },
+    {
+      "id": 97,
+      "type": "单选",
+      "title": "97. (单选题) 已知有var x = 0xA;请问x的取值等同于十进制的哪个数字?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": [
+        "10"
+      ],
+      "selectedAnswer": [
+        "10"
+      ],
+      "images": []
+    },
+    {
+      "id": 98,
+      "type": "单选",
+      "title": "98. (单选题) 已知有var x = 0.9999;var k = x.toFixed(2);请问k的取值会是多少?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "1.00"
+        },
+        {
+          "label": "C",
+          "text": "0.99"
+        },
+        {
+          "label": "D",
+          "text": "0.00"
+        }
+      ],
+      "correctAnswer": [
+        "1.00"
+      ],
+      "selectedAnswer": [
+        "1.00"
+      ],
+      "images": []
+    },
+    {
+      "id": 99,
+      "type": "单选",
+      "title": "99. (单选题) 已知有var x = 9e30000;请问alert(x)时显示的内容是什么?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "9e30000"
+        },
+        {
+          "label": "B",
+          "text": "9000"
+        },
+        {
+          "label": "C",
+          "text": "NaN"
+        },
+        {
+          "label": "D",
+          "text": "Infinity"
+        }
+      ],
+      "correctAnswer": [
+        "Infinity"
+      ],
+      "selectedAnswer": [
+        "Infinity"
+      ],
+      "images": []
+    },
+    {
+      "id": 100,
+      "type": "单选",
+      "title": "100. (单选题) 已知有var x1 = Boolean(\"hello\");var x2 = Boolean(0);请问x1和x2的返回值分别是什么?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "x1返回值是false，x2返回值是true。"
+        },
+        {
+          "label": "B",
+          "text": "x1返回值是true，x2返回值是false。"
+        },
+        {
+          "label": "C",
+          "text": "x1返回值是false，x2返回值是false。"
+        },
+        {
+          "label": "D",
+          "text": "x1返回值是true，x2返回值是true。"
+        }
+      ],
+      "correctAnswer": [
+        "x1返回值是true，x2返回值是false。"
+      ],
+      "selectedAnswer": [
+        "x1返回值是true，x2返回值是false。"
+      ],
+      "images": []
+    },
+    {
+      "id": 101,
+      "type": "单选",
+      "title": "101. (单选题) 已知有var mobile = new Array(\"苹果\", \"三星\", \"华为\");var x = mobile[2];请问x的取值是?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"苹果\""
+        },
+        {
+          "label": "B",
+          "text": "\"三星\""
+        },
+        {
+          "label": "C",
+          "text": "\"华为\""
+        },
+        {
+          "label": "D",
+          "text": "以上均不正确。"
+        }
+      ],
+      "correctAnswer": [
+        "\"华为\""
+      ],
+      "selectedAnswer": [
+        "\"华为\""
+      ],
+      "images": []
+    },
+    {
+      "id": 102,
+      "type": "单选",
+      "title": "102. (单选题) 以下变量定义不正确的有( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "var a, b=10;"
+        },
+        {
+          "label": "B",
+          "text": "var a=12;"
+        },
+        {
+          "label": "C",
+          "text": "var a, var b;"
+        },
+        {
+          "label": "D",
+          "text": "var a=b=10;"
+        }
+      ],
+      "correctAnswer": [
+        "var a, var b;"
+      ],
+      "selectedAnswer": [
+        "var a, var b;"
+      ],
+      "images": []
+    },
+    {
+      "id": 103,
+      "type": "单选",
+      "title": "103. (单选题) 关于DOM模型说法不正确的有( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "document对象是DOM模型的根节点"
+        },
+        {
+          "label": "B",
+          "text": "DOM模型是一种与浏览器、平台和语言无关的接口"
+        },
+        {
+          "label": "C",
+          "text": "DOM模型应用于HTML或者XML，用于动态访问文档的结构、内容及样式"
+        },
+        {
+          "label": "D",
+          "text": "DOM模型与浏览器对象模型无关"
+        }
+      ],
+      "correctAnswer": [
+        "DOM模型与浏览器对象模型无关"
+      ],
+      "selectedAnswer": [
+        "DOM模型与浏览器对象模型无关"
+      ],
+      "images": []
+    },
+    {
+      "id": 104,
+      "type": "单选",
+      "title": "104. (单选题) 下列关于DOM模型节点访问，说法正确的有( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "可以根据节点id访问DOM节点"
+        },
+        {
+          "label": "B",
+          "text": "getElementsByTagName方法根据节点的name属性访问节点"
+        },
+        {
+          "label": "C",
+          "text": "getElementsByName方法的作用是获取一个指定name属性值的节点"
+        },
+        {
+          "label": "D",
+          "text": "nodeValue属性可以访问节点的value属性值"
+        }
+      ],
+      "correctAnswer": [
+        "可以根据节点id访问DOM节点"
+      ],
+      "selectedAnswer": [
+        "可以根据节点id访问DOM节点"
+      ],
+      "images": []
+    },
+    {
+      "id": 105,
+      "type": "单选",
+      "title": "105. (单选题) 下面事件中属于表单提交事件的是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "onload事件"
+        },
+        {
+          "label": "B",
+          "text": "onclick事件"
+        },
+        {
+          "label": "C",
+          "text": "onsubmit事件"
+        },
+        {
+          "label": "D",
+          "text": "onfocus事件"
+        }
+      ],
+      "correctAnswer": [
+        "onsubmit事件"
+      ],
+      "selectedAnswer": [
+        "onsubmit事件"
+      ],
+      "images": []
+    },
+    {
+      "id": 106,
+      "type": "单选",
+      "title": "106. (单选题) 下列选项中不属于JavaScript基本数据类型的有( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "String"
+        },
+        {
+          "label": "B",
+          "text": "Number"
+        },
+        {
+          "label": "C",
+          "text": "Boolean"
+        },
+        {
+          "label": "D",
+          "text": "Class"
+        }
+      ],
+      "correctAnswer": [
+        "Class"
+      ],
+      "selectedAnswer": [
+        "Class"
+      ],
+      "images": []
+    },
+    {
+      "id": 107,
+      "type": "单选",
+      "title": "107. (单选题) 在String对象中，能够查找子字符串出现位置的方法是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "indexof方法"
+        },
+        {
+          "label": "B",
+          "text": "lastIndexof方法"
+        },
+        {
+          "label": "C",
+          "text": "split方法"
+        },
+        {
+          "label": "D",
+          "text": "match方法"
+        }
+      ],
+      "correctAnswer": [
+        "indexof方法"
+      ],
+      "selectedAnswer": [
+        "indexof方法"
+      ],
+      "images": []
+    },
+    {
+      "id": 108,
+      "type": "单选",
+      "title": "108. (单选题) 以下关于substr和substring方法描述错误的有( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "substr方法用于截取指定长度的子字符串"
+        },
+        {
+          "label": "B",
+          "text": "substring方法用于截取指定长度的子字符串"
+        },
+        {
+          "label": "C",
+          "text": "substr方法从start下标开始的指定数目的字符"
+        },
+        {
+          "label": "D",
+          "text": "\"hello word!\".substring(5) 用于截取第5个字符后的所有字符"
+        }
+      ],
+      "correctAnswer": [
+        "substring方法用于截取指定长度的子字符串"
+      ],
+      "selectedAnswer": [
+        "substring方法用于截取指定长度的子字符串"
+      ],
+      "images": []
+    },
+    {
+      "id": 109,
+      "type": "单选",
+      "title": "109. (单选题) 以下不属于浏览器对象的有( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Date"
+        },
+        {
+          "label": "B",
+          "text": "window"
+        },
+        {
+          "label": "C",
+          "text": "document"
+        },
+        {
+          "label": "D",
+          "text": "Location"
+        }
+      ],
+      "correctAnswer": [
+        "Date"
+      ],
+      "selectedAnswer": [
+        "Date"
+      ],
+      "images": []
+    },
+    {
+      "id": 110,
+      "type": "单选",
+      "title": "110. (单选题) 以下( )选项是浏览器模型中的顶层对象。",
+      "options": [
+        {
+          "label": "A",
+          "text": "window"
+        },
+        {
+          "label": "B",
+          "text": "document"
+        },
+        {
+          "label": "C",
+          "text": "history"
+        },
+        {
+          "label": "D",
+          "text": "Location"
+        }
+      ],
+      "correctAnswer": [
+        "window"
+      ],
+      "selectedAnswer": [
+        "window"
+      ],
+      "images": []
+    },
+    {
+      "id": 111,
+      "type": "单选",
+      "title": "111. (单选题) 下列关于浏览器对象说法错误的是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "window对象是浏览器模型的顶层对象"
+        },
+        {
+          "label": "B",
+          "text": "document代表整个HTML文档"
+        },
+        {
+          "label": "C",
+          "text": "history对象的forward方法可以实现浏览器的前进功能"
+        },
+        {
+          "label": "D",
+          "text": "history对象用于管理当前窗口最近访问过的URL"
+        }
+      ],
+      "correctAnswer": [
+        "history对象用于管理当前窗口最近访问过的URL"
+      ],
+      "selectedAnswer": [
+        "history对象用于管理当前窗口最近访问过的URL"
+      ],
+      "images": []
+    },
+    {
+      "id": 112,
+      "type": "单选",
+      "title": "112. (单选题) 以下哪个是新增记号标签?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<mark>"
+        },
+        {
+          "label": "B",
+          "text": "<pregress>"
+        },
+        {
+          "label": "C",
+          "text": "<meter>"
+        },
+        {
+          "label": "D",
+          "text": "<aside>"
+        }
+      ],
+      "correctAnswer": [
+        "<mark>"
+      ],
+      "selectedAnswer": [
+        "<mark>"
+      ],
+      "images": []
+    },
+    {
+      "id": 113,
+      "type": "单选",
+      "title": "113. (单选题) 关于新增的HTML5文档结构标签，以下哪种说法是错误的?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<header>是页眉标签，可以用于定义整个文档或某一节的标题。"
+        },
+        {
+          "label": "B",
+          "text": "<footer>是页脚标签，可以用于定义整个文档或某一节的页脚。"
+        },
+        {
+          "label": "C",
+          "text": "<nav>是导航标签，可以用于定义导航栏菜单。"
+        },
+        {
+          "label": "D",
+          "text": "<article>是侧栏标签，可以用于定义网页两侧的侧栏内容。"
+        }
+      ],
+      "correctAnswer": [
+        "<article>是侧栏标签，可以用于定义网页两侧的侧栏内容。"
+      ],
+      "selectedAnswer": [
+        "<article>是侧栏标签，可以用于定义网页两侧的侧栏内容。"
+      ],
+      "images": []
+    },
+    {
+      "id": 114,
+      "type": "单选",
+      "title": "114. (单选题) HTML5的正确doctype是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<!DOCTYPE html>"
+        },
+        {
+          "label": "B",
+          "text": "<!DOCTYPE HTML5>"
+        },
+        {
+          "label": "C",
+          "text": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 5.0//EN\" \"http://www.w3.org/TR/html5/strict.dtd\">"
+        },
+        {
+          "label": "D",
+          "text": "以上都不是"
+        }
+      ],
+      "correctAnswer": [
+        "<!DOCTYPE html>"
+      ],
+      "selectedAnswer": [
+        "<!DOCTYPE html>"
+      ],
+      "images": []
+    },
+    {
+      "id": 115,
+      "type": "单选",
+      "title": "115. (单选题) 用于播放 HTML5 视频文件的正确 HTML5 元素是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<media>"
+        },
+        {
+          "label": "B",
+          "text": "<audio></audio>"
+        },
+        {
+          "label": "C",
+          "text": "<video></video>"
+        },
+        {
+          "label": "D",
+          "text": "<movie>"
+        }
+      ],
+      "correctAnswer": [
+        "<video></video>"
+      ],
+      "selectedAnswer": [
+        "<video></video>"
+      ],
+      "images": []
+    },
+    {
+      "id": 116,
+      "type": "单选",
+      "title": "116. (单选题) 在HTML5中，规定输入字段是必填的属性是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "required"
+        },
+        {
+          "label": "B",
+          "text": "formvalidate"
+        },
+        {
+          "label": "C",
+          "text": "validate"
+        },
+        {
+          "label": "D",
+          "text": "placeholder"
+        }
+      ],
+      "correctAnswer": [
+        "required"
+      ],
+      "selectedAnswer": [
+        "required"
+      ],
+      "images": []
+    },
+    {
+      "id": 117,
+      "type": "单选",
+      "title": "117. (单选题) 下列属于输入类型为定义滑块控件的是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "search"
+        },
+        {
+          "label": "B",
+          "text": "controls"
+        },
+        {
+          "label": "C",
+          "text": "slider"
+        },
+        {
+          "label": "D",
+          "text": "range"
+        }
+      ],
+      "correctAnswer": [
+        "range"
+      ],
+      "selectedAnswer": [
+        "range"
+      ],
+      "images": []
+    },
+    {
+      "id": 118,
+      "type": "单选",
+      "title": "118. (单选题) 下列输入类型用于定义周和年控件(无时区)是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "date"
+        },
+        {
+          "label": "B",
+          "text": "week"
+        },
+        {
+          "label": "C",
+          "text": "year"
+        },
+        {
+          "label": "D",
+          "text": "time"
+        }
+      ],
+      "correctAnswer": [
+        "week"
+      ],
+      "selectedAnswer": [
+        "week"
+      ],
+      "images": []
+    },
+    {
+      "id": 119,
+      "type": "单选",
+      "title": "119. (单选题) 以下哪一组不属于HTML5新增文档结构标签?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<header>和<footer>"
+        },
+        {
+          "label": "B",
+          "text": "<nav>和<section>"
+        },
+        {
+          "label": "C",
+          "text": "<article>和<aside>"
+        },
+        {
+          "label": "D",
+          "text": "<head>和<body>"
+        }
+      ],
+      "correctAnswer": [
+        "<head>和<body>"
+      ],
+      "selectedAnswer": [
+        "<head>和<body>"
+      ],
+      "images": []
+    },
+    {
+      "id": 120,
+      "type": "单选",
+      "title": "120. (单选题) 以下哪个是新增度量标签?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<p><mark> </p>"
+        },
+        {
+          "label": "B",
+          "text": "<p><progress> </p>"
+        },
+        {
+          "label": "C",
+          "text": "<meter>"
+        },
+        {
+          "label": "D",
+          "text": "<aside>"
+        }
+      ],
+      "correctAnswer": [
+        "<meter>"
+      ],
+      "selectedAnswer": [
+        "<meter>"
+      ],
+      "images": []
+    },
+    {
+      "id": 121,
+      "type": "单选",
+      "title": "121. (单选题) 以下哪个是新增进度标签?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "<mark>"
+        },
+        {
+          "label": "B",
+          "text": "<p><progress> </p>"
+        },
+        {
+          "label": "C",
+          "text": "<meter>"
+        },
+        {
+          "label": "D",
+          "text": "<aside>"
+        }
+      ],
+      "correctAnswer": [
+        "<p><progress> </p>"
+      ],
+      "selectedAnswer": [
+        "<p><progress> </p>"
+      ],
+      "images": []
+    },
+    {
+      "id": 122,
+      "type": "单选",
+      "title": "122. (单选题) 在CSS3中，以下哪个属性可以用于为元素设置矩形边框的阴影效果?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "border-radius"
+        },
+        {
+          "label": "B",
+          "text": "box-shadow"
+        },
+        {
+          "label": "C",
+          "text": "border-image"
+        },
+        {
+          "label": "D",
+          "text": "border-bottom"
+        }
+      ],
+      "correctAnswer": [
+        "box-shadow"
+      ],
+      "selectedAnswer": [
+        "box-shadow"
+      ],
+      "images": []
+    },
+    {
+      "id": 123,
+      "type": "单选",
+      "title": "123. (单选题) 在CSS3中，关于圆角边框的取值以下哪个说法是不正确的?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "取值可以是长度值或者是百分比。"
+        },
+        {
+          "label": "B",
+          "text": "取值不可以是负数。"
+        },
+        {
+          "label": "C",
+          "text": "数字越大则圆角的弧度越明显。"
+        },
+        {
+          "label": "D",
+          "text": "该属性值表示圆角边框的圆角直径长度。"
+        }
+      ],
+      "correctAnswer": [
+        "该属性值表示圆角边框的圆角直径长度。"
+      ],
+      "selectedAnswer": [
+        "该属性值表示圆角边框的圆角直径长度。"
+      ],
+      "images": []
+    },
+    {
+      "id": 124,
+      "type": "单选",
+      "title": "124. (单选题) 在CSS3中，以下哪个属性可以单独设置边框右上角的弧度?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "border-top-left-radius"
+        },
+        {
+          "label": "B",
+          "text": "border-top-right-radius"
+        },
+        {
+          "label": "C",
+          "text": "border-bottom-left-radius"
+        },
+        {
+          "label": "D",
+          "text": "border-bottom -right-radius"
+        }
+      ],
+      "correctAnswer": [
+        "border-top-right-radius"
+      ],
+      "selectedAnswer": [
+        "border-top-right-radius"
+      ],
+      "images": []
+    },
+    {
+      "id": 125,
+      "type": "单选",
+      "title": "125. (单选题) 在CSS3中给元素设置一个宽15像素的银色矩形阴影，如果希望该阴影在元素右下角出现(水平方向和垂直方向都偏移10像素)，以下哪个写法正确?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "box-shadow:10px 10px 15px silver;"
+        },
+        {
+          "label": "B",
+          "text": "box-shadow:-10px 10px 15px silver;"
+        },
+        {
+          "label": "C",
+          "text": "box-shadow:10px -10px 15px silver;"
+        },
+        {
+          "label": "D",
+          "text": "box-shadow:-10px -10px 15px silver;"
+        }
+      ],
+      "correctAnswer": [
+        "box-shadow:10px 10px 15px silver;"
+      ],
+      "selectedAnswer": [
+        "box-shadow:10px 10px 15px silver;"
+      ],
+      "images": []
+    },
+    {
+      "id": 126,
+      "type": "单选",
+      "title": "126. (单选题) 在CSS3中,以下哪个不属于background-size属性允许的取值?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "50%"
+        },
+        {
+          "label": "B",
+          "text": "cover"
+        },
+        {
+          "label": "C",
+          "text": "contain"
+        },
+        {
+          "label": "D",
+          "text": "100s"
+        }
+      ],
+      "correctAnswer": [
+        "100s"
+      ],
+      "selectedAnswer": [
+        "100s"
+      ],
+      "images": []
+    },
+    {
+      "id": 127,
+      "type": "单选",
+      "title": "127. (单选题) 在CSS3中，假设有背景图片原图尺寸为宽400px、高800px。样式background-size:200px;可以将其缩放成何种尺寸，以下哪种说法正确?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "宽高均缩放为200px。"
+        },
+        {
+          "label": "B",
+          "text": "宽度缩放为200px、高度缩放为400px。"
+        },
+        {
+          "label": "C",
+          "text": "宽度缩放为200px、高度不变仍然是800px。"
+        },
+        {
+          "label": "D",
+          "text": "宽度不变仍然是400px、高度缩放为200px。"
+        }
+      ],
+      "correctAnswer": [
+        "宽度缩放为200px、高度缩放为400px。"
+      ],
+      "selectedAnswer": [
+        "宽度缩放为200px、高度缩放为400px。"
+      ],
+      "images": []
+    },
+    {
+      "id": 128,
+      "type": "单选",
+      "title": "128. (单选题) 在CSS3中关于字体的说法不正确的是?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "浏览器只能显示设备上已经安装的字体。"
+        },
+        {
+          "label": "B",
+          "text": "浏览器可以使用@font-face来规定显示特殊字体。"
+        },
+        {
+          "label": "C",
+          "text": "浏览器可以使用font-family来定义自定义名称的字体。"
+        },
+        {
+          "label": "D",
+          "text": "浏览器可以显示放在服务器端的特殊字体。"
+        }
+      ],
+      "correctAnswer": [
+        "浏览器只能显示设备上已经安装的字体。"
+      ],
+      "selectedAnswer": [
+        "浏览器只能显示设备上已经安装的字体。"
+      ],
+      "images": []
+    },
+    {
+      "id": 129,
+      "type": "单选",
+      "title": "129. (单选题) 在CSS3中，以下哪个方法可以用于元素尺寸的放大缩小?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "translate(x, y)"
+        },
+        {
+          "label": "B",
+          "text": "rotate(degree)"
+        },
+        {
+          "label": "C",
+          "text": "scale(x, y)"
+        },
+        {
+          "label": "D",
+          "text": "skew(xdeg, ydeg)"
+        }
+      ],
+      "correctAnswer": [
+        "scale(x, y)"
+      ],
+      "selectedAnswer": [
+        "scale(x, y)"
+      ],
+      "images": []
+    },
+    {
+      "id": 130,
+      "type": "单选",
+      "title": "130. (单选题) 在CSS3中，以下哪个方法可以用于元素顺时针或逆时针旋转?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "scale(x, y)"
+        },
+        {
+          "label": "B",
+          "text": "translate(x, y)"
+        },
+        {
+          "label": "C",
+          "text": "skew(xdeg, ydeg)"
+        },
+        {
+          "label": "D",
+          "text": "rotate(degree)"
+        }
+      ],
+      "correctAnswer": [
+        "rotate(degree)"
+      ],
+      "selectedAnswer": [
+        "rotate(degree)"
+      ],
+      "images": []
+    },
+    {
+      "id": 131,
+      "type": "单选",
+      "title": "131. (单选题) 在CSS3中，以下哪个方法可以用于元素水平方向或垂直方向上平移位置?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "translate(x, y)"
+        },
+        {
+          "label": "B",
+          "text": "rotate(degree)"
+        },
+        {
+          "label": "C",
+          "text": "scale(x, y)"
+        },
+        {
+          "label": "D",
+          "text": "skew(xdeg, ydeg)"
+        }
+      ],
+      "correctAnswer": [
+        "translate(x, y)"
+      ],
+      "selectedAnswer": [
+        "translate(x, y)"
+      ],
+      "images": []
+    },
+    {
+      "id": 132,
+      "type": "单选",
+      "title": "132. (单选题) 在CSS3技术的Transition动画属性中，以下哪个可以用于设置动画的持续时间?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "transition-delay"
+        },
+        {
+          "label": "B",
+          "text": "transition-duration"
+        },
+        {
+          "label": "C",
+          "text": "transition-timing-function"
+        },
+        {
+          "label": "D",
+          "text": "transition-property"
+        }
+      ],
+      "correctAnswer": [
+        "transition-duration"
+      ],
+      "selectedAnswer": [
+        "transition-duration"
+      ],
+      "images": []
+    },
+    {
+      "id": 133,
+      "type": "单选",
+      "title": "133. (单选题) 在CSS3技术的Transition动画属性中，以下哪个可以用于设置动画的渐变速度?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "transition-delay"
+        },
+        {
+          "label": "B",
+          "text": "transition-duration"
+        },
+        {
+          "label": "C",
+          "text": "transition-timing-function"
+        },
+        {
+          "label": "D",
+          "text": "transition-property"
+        }
+      ],
+      "correctAnswer": [
+        "transition-timing-function"
+      ],
+      "selectedAnswer": [
+        "transition-timing-function"
+      ],
+      "images": []
+    },
+    {
+      "id": 134,
+      "type": "单选",
+      "title": "134. (单选题) 在CSS3中，transition-timing-function属性取值为linear时指的是什么意思?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "动画的渐变速度为匀速渐变。"
+        },
+        {
+          "label": "B",
+          "text": "动画的渐变速度为逐渐变慢。"
+        },
+        {
+          "label": "C",
+          "text": "动画的渐变速度为先加速后减速。"
+        },
+        {
+          "label": "D",
+          "text": "动画的渐变速度为减速。"
+        }
+      ],
+      "correctAnswer": [
+        "动画的渐变速度为匀速渐变。"
+      ],
+      "selectedAnswer": [
+        "动画的渐变速度为匀速渐变。"
+      ],
+      "images": []
+    },
+    {
+      "id": 135,
+      "type": "单选",
+      "title": "135. (单选题) 在CSS3中，如果设置动画渐变的延迟时间为10秒，以下哪句代码写法是正确的?( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "transition-delay: 10ms"
+        },
+        {
+          "label": "B",
+          "text": "transition-delay: 1000ms"
+        },
+        {
+          "label": "C",
+          "text": "transition-delay: 10m"
+        },
+        {
+          "label": "D",
+          "text": "transition-delay: 10s"
+        }
+      ],
+      "correctAnswer": [
+        "transition-delay: 10s"
+      ],
+      "selectedAnswer": [
+        "transition-delay: 10s"
+      ],
+      "images": []
+    },
+    {
+      "id": 136,
+      "type": "单选",
+      "title": "136. (单选题) 把元素设为可拖动，需加属性",
+      "options": [
+        {
+          "label": "A",
+          "text": "drop=\"true\""
+        },
+        {
+          "label": "B",
+          "text": "B. drag=\"true\""
+        },
+        {
+          "label": "C",
+          "text": "C. draggable=\"true\""
+        },
+        {
+          "label": "D",
+          "text": "D. movable=\"true\""
+        }
+      ],
+      "correctAnswer": [
+        "C. draggable=\"true\""
+      ],
+      "selectedAnswer": [
+        "C. draggable=\"true\""
+      ],
+      "images": []
+    },
+    {
+      "id": 137,
+      "type": "单选",
+      "title": "137. (单选题) 在 dragstart 事件里保存拖拽数据，应使用",
+      "options": [
+        {
+          "label": "A",
+          "text": "event.data"
+        },
+        {
+          "label": "B",
+          "text": "event.detail"
+        },
+        {
+          "label": "C",
+          "text": "event.dataTransfer"
+        },
+        {
+          "label": "D",
+          "text": "event.dragData"
+        }
+      ],
+      "correctAnswer": [
+        "event.dataTransfer"
+      ],
+      "selectedAnswer": [
+        "event.dataTransfer"
+      ],
+      "images": []
+    },
+    {
+      "id": 138,
+      "type": "单选",
+      "title": "138. (单选题) 允许放置元素触发 drop 事件，必须在 dragover 处理器内",
+      "options": [
+        {
+          "label": "A",
+          "text": "返回 true"
+        },
+        {
+          "label": "B",
+          "text": "调用 preventDefault()"
+        },
+        {
+          "label": "C",
+          "text": "设置 dropable=true"
+        },
+        {
+          "label": "D",
+          "text": "什么都不做"
+        }
+      ],
+      "correctAnswer": [
+        "调用 preventDefault()"
+      ],
+      "selectedAnswer": [
+        "调用 preventDefault()"
+      ],
+      "images": []
+    },
+    {
+      "id": 139,
+      "type": "单选",
+      "title": "139. (单选题) Canvas 2D 上下文获取方法是",
+      "options": [
+        {
+          "label": "A",
+          "text": "getCanvas()"
+        },
+        {
+          "label": "B",
+          "text": "getContext(\"2d\")"
+        },
+        {
+          "label": "C",
+          "text": "get2D()"
+        },
+        {
+          "label": "D",
+          "text": "context(\"2d\")"
+        }
+      ],
+      "correctAnswer": [
+        "getContext(\"2d\")"
+      ],
+      "selectedAnswer": [
+        "getContext(\"2d\")"
+      ],
+      "images": []
+    },
+    {
+      "id": 140,
+      "type": "单选",
+      "title": "140. (单选题) 在 Canvas 中绘制填充矩形，使用",
+      "options": [
+        {
+          "label": "A",
+          "text": "strokeRect()"
+        },
+        {
+          "label": "B",
+          "text": "fillRect()"
+        },
+        {
+          "label": "C",
+          "text": "rect()"
+        },
+        {
+          "label": "D",
+          "text": "drawRect()"
+        }
+      ],
+      "correctAnswer": [
+        "fillRect()"
+      ],
+      "selectedAnswer": [
+        "fillRect()"
+      ],
+      "images": []
+    },
+    {
+      "id": 141,
+      "type": "单选",
+      "title": "141. (单选题) 设置 Canvas 画笔颜色，修改属性",
+      "options": [
+        {
+          "label": "A",
+          "text": "fillStyle"
+        },
+        {
+          "label": "B",
+          "text": "fillColor"
+        },
+        {
+          "label": "C",
+          "text": "color"
+        },
+        {
+          "label": "D",
+          "text": "brushColor"
+        }
+      ],
+      "correctAnswer": [
+        "fillStyle"
+      ],
+      "selectedAnswer": [
+        "fillStyle"
+      ],
+      "images": []
+    },
+    {
+      "id": 142,
+      "type": "单选",
+      "title": "142. (单选题) 绘制圆弧的核心函数是",
+      "options": [
+        {
+          "label": "A",
+          "text": "arc()"
+        },
+        {
+          "label": "B",
+          "text": "circle()"
+        },
+        {
+          "label": "C",
+          "text": "drawArc()"
+        },
+        {
+          "label": "D",
+          "text": "curve()"
+        }
+      ],
+      "correctAnswer": [
+        "arc()"
+      ],
+      "selectedAnswer": [
+        "arc()"
+      ],
+      "images": []
+    },
+    {
+      "id": 143,
+      "type": "单选",
+      "title": "143. (单选题) 若 Canvas 宽高在 CSS 中设置，而未在 HTML 属性设置，会导致",
+      "options": [
+        {
+          "label": "A",
+          "text": "绘图区域不变"
+        },
+        {
+          "label": "B",
+          "text": "坐标系拉伸变形"
+        },
+        {
+          "label": "C",
+          "text": "无法绘图"
+        },
+        {
+          "label": "D",
+          "text": "自动清空"
+        }
+      ],
+      "correctAnswer": [
+        "坐标系拉伸变形"
+      ],
+      "selectedAnswer": [
+        "坐标系拉伸变形"
+      ],
+      "images": []
+    },
+    {
+      "id": 144,
+      "type": "单选",
+      "title": "144. (单选题) 在浏览器中持久化存储大量字符串数据，优先使用",
+      "options": [
+        {
+          "label": "A",
+          "text": "cookie"
+        },
+        {
+          "label": "B",
+          "text": "localStorage"
+        },
+        {
+          "label": "C",
+          "text": "sessionStorage"
+        },
+        {
+          "label": "D",
+          "text": "cache"
+        }
+      ],
+      "correctAnswer": [
+        "localStorage"
+      ],
+      "selectedAnswer": [
+        "localStorage"
+      ],
+      "images": []
+    },
+    {
+      "id": 145,
+      "type": "单选",
+      "title": "145. (单选题) 关闭标签页即自动清除的存储对象是",
+      "options": [
+        {
+          "label": "A",
+          "text": "localStorage"
+        },
+        {
+          "label": "B",
+          "text": "sessionStorage"
+        },
+        {
+          "label": "C",
+          "text": "cookie"
+        },
+        {
+          "label": "D",
+          "text": "indexDB"
+        }
+      ],
+      "correctAnswer": [
+        "sessionStorage"
+      ],
+      "selectedAnswer": [
+        "sessionStorage"
+      ],
+      "images": []
+    },
+    {
+      "id": 146,
+      "type": "单选",
+      "title": "146. (单选题) 向 localStorage 写入数据，正确语法是",
+      "options": [
+        {
+          "label": "A",
+          "text": "localStorage.setItem(key, value)"
+        },
+        {
+          "label": "B",
+          "text": "localStorage[key] = value"
+        },
+        {
+          "label": "C",
+          "text": "localStorage.write(key, value)"
+        },
+        {
+          "label": "D",
+          "text": "A 与 B 均可"
+        }
+      ],
+      "correctAnswer": [
+        "A 与 B 均可"
+      ],
+      "selectedAnswer": [
+        "A 与 B 均可"
+      ],
+      "images": []
+    },
+    {
+      "id": 147,
+      "type": "单选",
+      "title": "147. (单选题) 使用 XMLHttpRequest 发起异步请求，默认方法为",
+      "options": [
+        {
+          "label": "A",
+          "text": "GET"
+        },
+        {
+          "label": "B",
+          "text": "POST"
+        },
+        {
+          "label": "C",
+          "text": "PUT"
+        },
+        {
+          "label": "D",
+          "text": "HEAD"
+        }
+      ],
+      "correctAnswer": [
+        "GET"
+      ],
+      "selectedAnswer": [
+        "GET"
+      ],
+      "images": []
+    },
+    {
+      "id": 148,
+      "type": "单选",
+      "title": "148. (单选题) 与服务器保持长连接、实现全双工通信的最佳技术是",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ajax 轮询"
+        },
+        {
+          "label": "B",
+          "text": "Server-Sent Events"
+        },
+        {
+          "label": "C",
+          "text": "WebSocket"
+        },
+        {
+          "label": "D",
+          "text": "fetch"
+        }
+      ],
+      "correctAnswer": [
+        "WebSocket"
+      ],
+      "selectedAnswer": [
+        "WebSocket"
+      ],
+      "images": []
+    },
+    {
+      "id": 149,
+      "type": "单选",
+      "title": "149. (单选题) 关于正则表达式说法不正确的是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "正则表达式是一种对文字进行模糊匹配的语言"
+        },
+        {
+          "label": "B",
+          "text": "正则表达式可以实现数据格式的有效性验证"
+        },
+        {
+          "label": "C",
+          "text": "正则表达式可以替换和删除文本中满足某种模式的内容"
+        },
+        {
+          "label": "D",
+          "text": "正则表达式的模式匹配不能实现区分大小写"
+        }
+      ],
+      "correctAnswer": [
+        "正则表达式的模式匹配不能实现区分大小写"
+      ],
+      "selectedAnswer": [
+        "正则表达式的模式匹配不能实现区分大小写"
+      ],
+      "images": []
+    },
+    {
+      "id": 150,
+      "type": "单选",
+      "title": "150. (单选题) 关于正则表达式中的方法，说法正确的是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "exec方法的作用是执行一段JavaScript脚本"
+        },
+        {
+          "label": "B",
+          "text": "test方法用于测试正则表达式的有效性"
+        },
+        {
+          "label": "C",
+          "text": "match方法用于匹配模式字符串，并返回所有的匹配结果"
+        },
+        {
+          "label": "D",
+          "text": "exec方法的作用是搜索符合正则表达式模式字符串的内容难以程度:中"
+        }
+      ],
+      "correctAnswer": [
+        "exec方法的作用是搜索符合正则表达式模式字符串的内容难以程度:中"
+      ],
+      "selectedAnswer": [
+        "exec方法的作用是搜索符合正则表达式模式字符串的内容难以程度:中"
+      ],
+      "images": []
+    },
+    {
+      "id": 151,
+      "type": "判断",
+      "title": "151. (判断题) JavaScript是Java的一个版本，是由Sun公司的James Gosling发明的一种面向对象语言。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 152,
+      "type": "判断",
+      "title": "152. (判断题) Web具有平台无关性的特点，可以运行在不同的操作系统上。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 153,
+      "type": "判断",
+      "title": "153. (判断题) Web系统由Web服务器、浏览器和通信协议组成。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 154,
+      "type": "判断",
+      "title": "154. (判断题) CSS3不兼容CSS2的语法，原先基于CSS2设计的网页内容需要重写代码方可正常显示。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 155,
+      "type": "判断",
+      "title": "155. (判断题) ＜strong＞＜/strong＞标记与＜b＞＜/b＞标记作用相同。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 156,
+      "type": "判断",
+      "title": "156. (判断题) 一对段落缩进(块引用)blockquote标记可以实现在块引用标记所包围的内容的首部留出5个空格的位置。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 157,
+      "type": "判断",
+      "title": "157. (判断题) 如果希望字体加粗，使用标签<b>或者<strong>都可以做到。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 158,
+      "type": "判断",
+      "title": "158. (判断题) 可以使用<br>或者&nbsp来表示换行。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 159,
+      "type": "判断",
+      "title": "159. (判断题) 有序列表的type属性可以设置为“A”以大写字母编号。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 160,
+      "type": "判断",
+      "title": "160. (判断题) list-style-type属性不能设置为“none”。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 161,
+      "type": "判断",
+      "title": "161. (判断题) dl标签用于创建定义列表?",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 162,
+      "type": "判断",
+      "title": "162. (判断题) 锚点链接只能跳转到当前页面的指定位置。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 163,
+      "type": "判断",
+      "title": "163. (判断题) hover 伪类只能用于超链接，不能用于其他元素。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 164,
+      "type": "判断",
+      "title": "164. (判断题) img标签的alt 属性内容会在鼠标悬停时显示。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 165,
+      "type": "判断",
+      "title": "165. (判断题) <table> 必须包含 <tbody> 标签才能正常显示。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 166,
+      "type": "判断",
+      "title": "166. (判断题) rowspan=\"2\" 表示单元格纵向跨越两行。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 167,
+      "type": "判断",
+      "title": "167. (判断题) <input type=\"email\"> 会自动验证是否包含 @ 符号。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 168,
+      "type": "判断",
+      "title": "168. (判断题) checkbox 与 radio 控件都必须写 value 属性才能提交数据。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 169,
+      "type": "判断",
+      "title": "169. (判断题) 使用 GET 方式提交表单时，数据放在请求体中。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 170,
+      "type": "判断",
+      "title": "170. (判断题) CSS 负责网页的结构与语义，HTML 负责表现。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 171,
+      "type": "判断",
+      "title": "171. (判断题) 外部样式表可以被多个 HTML 页面共享引用。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 172,
+      "type": "判断",
+      "title": "172. (判断题) 行内样式的优先级高于外部和内部样式。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 173,
+      "type": "判断",
+      "title": "173. (判断题) text-align: center 能让块级元素自身水平居中。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 174,
+      "type": "判断",
+      "title": "174. (判断题) nav > li 只会选中 .nav 的直接子元素 li。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 175,
+      "type": "判断",
+      "title": "175. (判断题) div p 与 div > p 在选择范围上完全相同。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 176,
+      "type": "判断",
+      "title": "176. (判断题) 选择器 .box:hover 表示鼠标悬停在 .box 上时的状态。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 177,
+      "type": "判断",
+      "title": "177. (判断题) padding 值可为负。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 178,
+      "type": "判断",
+      "title": "178. (判断题) 设置 display:inline-block 后，元素不再具有盒模型属性。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 179,
+      "type": "判断",
+      "title": "179. (判断题) position: static 元素可以使用 top/left 进行偏移。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 180,
+      "type": "判断",
+      "title": "180. (判断题) z-index 值越大，元素越靠近用户。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 181,
+      "type": "判断",
+      "title": "181. (判断题) 绝对定位元素会脱离普通文档流。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 182,
+      "type": "判断",
+      "title": "182. (判断题) JavaScript不允许使用一个关键词var同时定义多个变量，每声明一个变量都必须重新使用一次关键词var，例如var x1; var x2; var x3;必须分开定义。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 183,
+      "type": "判断",
+      "title": "183. (判断题) 在JavaScript中，onclick事件指的是元素被鼠标左键单击。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 184,
+      "type": "判断",
+      "title": "184. (判断题) JavaScript语言是一种大小写敏感的语言，例如字母a和A会被认为是不同的内容。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 185,
+      "type": "判断",
+      "title": "185. (判断题) 虽然JavaScript变量是弱类型的，同一个变量不可以用于存放不同类型的值。例如假设已有var x = 9;则后面只能使用x存放数字。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 186,
+      "type": "判断",
+      "title": "186. (判断题) JavaScript程序在编写后只能在Windows操作系统中运行。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 187,
+      "type": "判断",
+      "title": "187. (判断题) JavaScript需要定义变量的类型，在变量声明时可以使用int表示整型、String表示字符串。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 188,
+      "type": "判断",
+      "title": "188. (判断题) 在JavaScript中，history.back()指的是前进到下一个页面，相当于点击了浏览器上的前进按钮。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 189,
+      "type": "判断",
+      "title": "189. (判断题) 在HTML文档引用外部JavaScript文件时，引用语句必须放在<head>首尾标签中。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 190,
+      "type": "判断",
+      "title": "190. (判断题) 在JavaScript中，已知有var x = true;则x属于string类型。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 191,
+      "type": "判断",
+      "title": "191. (判断题) 在JavaScript中可使用match()或search()方法查找匹配正则表达式的字符串内容。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 192,
+      "type": "判断",
+      "title": "192. (判断题) 在JavaScript中有var x = 020;则alert(x);显示的数字是20。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 193,
+      "type": "判断",
+      "title": "193. (判断题) nav标记代表页面的一部分，是一个可以作为页面导航的链接组。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 194,
+      "type": "判断",
+      "title": "194. (判断题) 记号mark 标记用来定义带有记号的文本。在需要突出显示文本时可以使用mark 标记。此标记对关键字做高亮处理(蓝底色标注)，突出显示，标注重点，在搜索方面可以应用。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 195,
+      "type": "判断",
+      "title": "195. (判断题) 设置video标记的preload属性，则视频在页面加载时进行加载，并预备播放。如果使用autoplay，则忽略该属性。该属性有三种值:auto、metadata、none。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 196,
+      "type": "判断",
+      "title": "196. (判断题) 使用source 标记只能给audio 标记提供不同格式的音频文件，浏览器将使用第一个支持的音频文件。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 197,
+      "type": "判断",
+      "title": "197. (判断题) CSS3不兼容CSS2的语法，原先基于CSS2设计的网页内容需要重写代码方可正常显示。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 198,
+      "type": "判断",
+      "title": "198. (判断题) 所谓CSS3 动画，就是指元素从一种样式逐渐变化为另一种样式的效果。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 199,
+      "type": "判断",
+      "title": "199. (判断题) 在@keyframes中规定某项CSS样式，只能定义CSS3动画开始时和动画结束时的两个状态的样式属性。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 200,
+      "type": "判断",
+      "title": "200. (判断题) 在CSS3中，background-clip属性值为content-box可以保留边框本身及其内部的元素背景区域。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 201,
+      "type": "判断",
+      "title": "201. (判断题) 在CSS3中，@keyframes属性可以用于设置动画的内容，内部只能包含0%和100%分别表示起始动画和结束，不允许有其它百分比。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 202,
+      "type": "判断",
+      "title": "202. (判断题) 在CSS3中，animation: myFrame 10s;指的是在10毫秒之内执行自定义名称叫做myFrame的animation动画效果。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 203,
+      "type": "判断",
+      "title": "203. (判断题) 在CSS3中，animation-direction属性的取值为normal时表示反方向运行动画。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 204,
+      "type": "判断",
+      "title": "204. (判断题) 任何元素加 draggable=\"true\" 后都能直接触发 drop 事件，无需额外代码。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 205,
+      "type": "判断",
+      "title": "205. (判断题) dragend 事件在松开鼠标时触发，无论是否成功放置。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 206,
+      "type": "判断",
+      "title": "206. (判断题) Canvas 绘图方法 fillRect() 会同时产生路径记录，可用 fill()再次填充。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 207,
+      "type": "判断",
+      "title": "207. (判断题) 通过 event.dataTransfer.setData() 可自定义拖拽数据格式与内容。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 208,
+      "type": "判断",
+      "title": "208. (判断题) localStorage 存储的数据在浏览器重启后依然有效。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 209,
+      "type": "判断",
+      "title": "209. (判断题) XMLHttpRequest 只能发起同域请求，不能实现 CORS。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 210,
+      "type": "判断",
+      "title": "210. (判断题) WebSocket 连接建立后，客户端与服务器可互相主动推送数据。",
+      "options": [
+        {
+          "label": "true",
+          "text": "对"
+        },
+        {
+          "label": "false",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 211,
+      "type": "填空",
+      "title": "211. (简答题) 请分别简述HTML、CSS和JavaScript的作用。",
+      "options": [],
+      "correctAnswer": [
+        "HTML用来决定网页的结构和内容;CSS用来设计网页的表现形式;JavaScript用来控制网页的行为。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 212,
+      "type": "填空",
+      "title": "212. (简答题) 请简述URL的组成。",
+      "options": [],
+      "correctAnswer": [
+        "协议类型://服务器地址(端口号)/路径/文件名。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 213,
+      "type": "填空",
+      "title": "213. (简答题) 简述可通过元信息标签<meta>设置哪些信息（回答至少5点）。",
+      "options": [],
+      "correctAnswer": [
+        "设置页面关键字；设置页面描述；设定作者信息；设置网页的定时跳转；设定有效期限；设定网页版权信息；禁止从缓存中调用；删除过期的cookie。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 214,
+      "type": "填空",
+      "title": "214. (简答题) 简述HTML中三种列表类型的特点及适用场景。",
+      "options": [],
+      "correctAnswer": [
+        "无序列表ul:用于表示项目之间无特定顺序的关系，默认符号为实心圆点，适合导航菜单、功能列表等。 有序列表ol:用于表示项目之间有顺序或优先级的关系，默认编号为阿拉伯数字，适合步骤说明、排行榜等。 定义列表dl:用于表示术语及其定义的关系，由和组成，适合词汇表、FAQ等。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 215,
+      "type": "填空",
+      "title": "215. (简答题) 简要说明“外部样式表”相对于“行内样式”的三大优势。",
+      "options": [],
+      "correctAnswer": [
+        "复用性高:一份 CSS 可被多页面共享，减少冗余代码。 可维护性强:修改一处即可全站生效，便于统一风格。 分离结构与表现:HTML 只关注语义，CSS 专注样式，提升可读性与加载缓存效率。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 216,
+      "type": "填空",
+      "title": "216. (简答题) 简述 absolute 与 fixed 定位在参考系、脱离文档流和适用场景三方面的区别。",
+      "options": [],
+      "correctAnswer": [
+        "参考系:absolute 相对于最近的已定位祖先;fixed 相对于视口。 脱离流:两者均脱离普通文档流，但 fixed 不随页面滚动。 场景:absolute 用于下拉菜单、提示框;fixed 用于吸顶导航、返回顶部按钮。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 217,
+      "type": "填空",
+      "title": "217. (简答题) JavaScript有哪些原始数据类型（基本数据类型）?",
+      "options": [],
+      "correctAnswer": [
+        "JavaScript的原始类型分别是:Number(数字)、Boolean(布尔值)、String(字符串)、Null(空值)、Undefined(未定义)、Symbol（符号，ES6新增）和BigInt（大整数，ES2020新增）。回答出前5个即可得满分。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 218,
+      "type": "填空",
+      "title": "218. (简答题) 请说明JavaScript中typeof运算符的作用及其返回的几种结果。",
+      "options": [],
+      "correctAnswer": [
+        "typeof 是 JavaScript 的 一元运算符，用于返回操作数的数据类型，它的返回值是一个字符串。返回值可以是'undefined'，'boolean'，'string'，'number'，'object'，'function'，‘bigint’，‘symbol’。（回答出前6种即可得满分）"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 219,
+      "type": "填空",
+      "title": "219. (简答题) 简述 HTML5 原生表单验证的三种常用方式，并各举一例。",
+      "options": [],
+      "correctAnswer": [
+        "类型验证:使用 自动检测 @ 与域名。范围验证: 限制数值区间。 模式验证: 利用正则强制 6 位数字。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 220,
+      "type": "填空",
+      "title": "220. (简答题) HTML5中新增的表单元素类型有哪些?",
+      "options": [],
+      "correctAnswer": [
+        "Color:颜色选择对话框 Datetime:日历对话框 Datetime-local:含有本地时间的日历 Email:含有email校验的HTML文本框 Time:只能输入时间 Url:URL验证设置类型 Range:显示范围控制 Telephone:电话号码文本框 Number:文本展示数字范围 Search:搜索文本框"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 221,
+      "type": "填空",
+      "title": "221. (简答题) Localstorage和 Cookies（存储在用户本地终端上的数据）之间的区别是什么？",
+      "options": [],
+      "correctAnswer": [
+        "客户端/服务端的区别：Cookie的数据通过每一个请求发送到服务端，客户端和服务端都能访问数据。Localstorage只有本地浏览器端可访问数据，服务器不能访问本地存储，直到通过POST或者GET的通道发送到服务器。（2）大小的区别：每个Cookie有4096字节，Localstorage每个域5MB。（3）过期时间的区别：Cookies有有效期，所以在过期之后Cookie和Cookie数据会被删除。Localstorage没有过期数据，除非主动删除数据，否则数据是永远不会过期的。"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 222,
+      "type": "填空",
+      "title": "222. (填空题) Web架构是由Web浏览器和____组成的，又称为B/S架构。",
+      "options": [],
+      "correctAnswer": [
+        "Web服务器"
+      ],
+      "selectedAnswer": [
+        "啊实打实大"
+      ],
+      "images": []
+    },
+    {
+      "id": 223,
+      "type": "填空",
+      "title": "223. (填空题) URL(uniform resource locator),中文名称为____是对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。",
+      "options": [],
+      "correctAnswer": [
+        "统一资源定位符"
+      ],
+      "selectedAnswer": [
+        "(1) 统一资源定位符"
+      ],
+      "images": []
+    },
+    {
+      "id": 224,
+      "type": "填空",
+      "title": "224. (填空题) 若要设置标题(h1-h6)居中，可通过___属性设置。",
+      "options": [],
+      "correctAnswer": [
+        "align"
+      ],
+      "selectedAnswer": [
+        "(1) align"
+      ],
+      "images": []
+    },
+    {
+      "id": 225,
+      "type": "填空",
+      "title": "225. (填空题) 要生成水平线，可用______标签。",
+      "options": [],
+      "correctAnswer": [
+        "<hr>"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 226,
+      "type": "填空",
+      "title": "226. (填空题) 与标记<b></b>功能相同的标记是______。",
+      "options": [],
+      "correctAnswer": [
+        "<strong></strong>"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 227,
+      "type": "填空",
+      "title": "227. (填空题) 设置有序列表的 属性可以改变编号的起始值，该属性值的类型是整数型数值，表示从哪一个数字或字母开始编号。",
+      "options": [],
+      "correctAnswer": [
+        "start"
+      ],
+      "selectedAnswer": [
+        "(1) start"
+      ],
+      "images": []
+    },
+    {
+      "id": 228,
+      "type": "填空",
+      "title": "228. (填空题) 插入图片的基本语法:<img ____=\"路径\" alt=\"描述\">",
+      "options": [],
+      "correctAnswer": [
+        "src"
+      ],
+      "selectedAnswer": [
+        "(1) src"
+      ],
+      "images": []
+    },
+    {
+      "id": 229,
+      "type": "填空",
+      "title": "229. (填空题) 设置表单提交地址的属性是 ____。",
+      "options": [],
+      "correctAnswer": [
+        "action"
+      ],
+      "selectedAnswer": [
+        "(1) action"
+      ],
+      "images": []
+    },
+    {
+      "id": 230,
+      "type": "填空",
+      "title": "230. (填空题) 让下拉框支持多选，需要给 select 标签加 ____属性。",
+      "options": [],
+      "correctAnswer": [
+        "multiple"
+      ],
+      "selectedAnswer": [
+        "(1) multiple"
+      ],
+      "images": []
+    },
+    {
+      "id": 231,
+      "type": "填空",
+      "title": "231. (填空题) CSS 规则由选择器和 ____两部分组成。",
+      "options": [],
+      "correctAnswer": [
+        "声明块(或“样式块”)"
+      ],
+      "selectedAnswer": [
+        "(1) 声明块(或“样式块”)"
+      ],
+      "images": []
+    },
+    {
+      "id": 232,
+      "type": "填空",
+      "title": "232. (填空题) 引用外部样式表使用的标签是 ____。",
+      "options": [],
+      "correctAnswer": [
+        "link"
+      ],
+      "selectedAnswer": [
+        "(1) link"
+      ],
+      "images": []
+    },
+    {
+      "id": 233,
+      "type": "填空",
+      "title": "233. (填空题) 去掉 a 标签默认下划线，用 text-decoration: ____。",
+      "options": [],
+      "correctAnswer": [
+        "none"
+      ],
+      "selectedAnswer": [
+        "(1) none"
+      ],
+      "images": []
+    },
+    {
+      "id": 234,
+      "type": "填空",
+      "title": "234. (填空题) 设置背景图完全覆盖容器且保持比例，用 background-size: ____;",
+      "options": [],
+      "correctAnswer": [
+        "cover"
+      ],
+      "selectedAnswer": [
+        "(1) cover"
+      ],
+      "images": []
+    },
+    {
+      "id": 235,
+      "type": "填空",
+      "title": "235. (填空题) 选中所有元素使用的选择器符号是 ____。",
+      "options": [],
+      "correctAnswer": [
+        "*"
+      ],
+      "selectedAnswer": [
+        "(1) *"
+      ],
+      "images": []
+    },
+    {
+      "id": 236,
+      "type": "填空",
+      "title": "236. (填空题) 选中 ul 直接子元素 li，选择器写 ____。",
+      "options": [],
+      "correctAnswer": [
+        "ul > li"
+      ],
+      "selectedAnswer": [
+        "(1) ul > li"
+      ],
+      "images": []
+    },
+    {
+      "id": 237,
+      "type": "填空",
+      "title": "237. (填空题) 盒模型由 content、padding、border 和 ____四部分组成。",
+      "options": [],
+      "correctAnswer": [
+        "margin"
+      ],
+      "selectedAnswer": [
+        "(1) margin"
+      ],
+      "images": []
+    },
+    {
+      "id": 238,
+      "type": "填空",
+      "title": "238. (填空题) HTML5新增媒体元素除了通过src属性可以加载媒介文件URL外，还可以通过____标记加载不同格式的媒介文件，以满足浏览器支持的需要。",
+      "options": [],
+      "correctAnswer": [
+        "source"
+      ],
+      "selectedAnswer": [
+        "(1) source"
+      ],
+      "images": []
+    },
+    {
+      "id": 239,
+      "type": "填空",
+      "title": "239. (填空题) HTML5新增____类型的input元素可以拾取颜色。",
+      "options": [],
+      "correctAnswer": [
+        "color"
+      ],
+      "selectedAnswer": [
+        "(1) color"
+      ],
+      "images": []
+    },
+    {
+      "id": 240,
+      "type": "填空",
+      "title": "240. (填空题) HTML5新增____类型的input元素可以限制只能输入数字，并可以微调。",
+      "options": [],
+      "correctAnswer": [
+        "number"
+      ],
+      "selectedAnswer": [
+        "(1) number"
+      ],
+      "images": []
+    },
+    {
+      "id": 241,
+      "type": "填空",
+      "title": "241. (填空题) 在CSS3中，border-top-____-radius属性用于定义边框左上角的弧度。(区分大小写)",
+      "options": [],
+      "correctAnswer": [
+        "left"
+      ],
+      "selectedAnswer": [
+        "(1) left"
+      ],
+      "images": []
+    },
+    {
+      "id": 242,
+      "type": "填空",
+      "title": "242. (填空题) 在CSS3中,text-shadow的默认属性值是 ____，表示无阴影效果。(区分大小写)",
+      "options": [],
+      "correctAnswer": [
+        "none"
+      ],
+      "selectedAnswer": [
+        "(1) none"
+      ],
+      "images": []
+    },
+    {
+      "id": 243,
+      "type": "填空",
+      "title": "243. (填空题) 在CSS3中，scaleY(____)表示高度缩放为原来的一半。",
+      "options": [],
+      "correctAnswer": [
+        "0.5"
+      ],
+      "selectedAnswer": [
+        "(1) 0.5"
+      ],
+      "images": []
+    },
+    {
+      "id": 244,
+      "type": "填空",
+      "title": "244. (填空题) CSS3 过渡是元素从一种样式逐渐改变为另一种的效果。要实现这种效果，需要设置两个因素，分别是指定要添加效果的CSS属性、指定效果的____。",
+      "options": [],
+      "correctAnswer": [
+        "持续时间(时间)"
+      ],
+      "selectedAnswer": [
+        "(1) 持续时间(时间)"
+      ],
+      "images": []
+    },
+    {
+      "id": 246,
+      "type": "填空",
+      "title": "换一张",
+      "options": [],
+      "correctAnswer": [],
+      "selectedAnswer": [],
+      "images": [
+        "https://mooc1.chaoxing.com/mooc-ans/mooc2/work/dowork?courseId=257551334&classId=134688333&cpi=357258724&workId=48522739&answerId=54778826&knowledgeId=&jobid=&standardEnc=14c127f016e2e532914589645a1eec95&enc=0dfa7c1a13be5ce264744460d21d0e7f"
+      ]
+    }
+  ]
+}

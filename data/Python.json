@@ -1,0 +1,4126 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题, 1.0 points) Python语言属于以下哪种语言?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "机器语言"
+        },
+        {
+          "label": "B",
+          "text": "汇编语言"
+        },
+        {
+          "label": "C",
+          "text": "高级语言"
+        },
+        {
+          "label": "D",
+          "text": "以上都不是"
+        }
+      ],
+      "correctAnswer": [
+        "高级语言"
+      ],
+      "selectedAnswer": [
+        "高级语言"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题, 1.0 points) 下列不属于Python特性的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "简单、易学"
+        },
+        {
+          "label": "B",
+          "text": "开源的、免费的"
+        },
+        {
+          "label": "C",
+          "text": "属于低级语言"
+        },
+        {
+          "label": "D",
+          "text": "具有高可移植性"
+        }
+      ],
+      "correctAnswer": [
+        "属于低级语言"
+      ],
+      "selectedAnswer": [
+        "属于低级语言"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题, 1.0 points) 下列计算机语言中,不属于解释型语言的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Python"
+        },
+        {
+          "label": "B",
+          "text": "JavaScript"
+        },
+        {
+          "label": "C",
+          "text": "C++"
+        },
+        {
+          "label": "D",
+          "text": "HTML"
+        }
+      ],
+      "correctAnswer": [
+        "C++"
+      ],
+      "selectedAnswer": [
+        "C++"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题, 1.0 points) 下列哪方面的应用,不适合使用Python开发?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "科学运算"
+        },
+        {
+          "label": "B",
+          "text": "系统运维"
+        },
+        {
+          "label": "C",
+          "text": "网站设计"
+        },
+        {
+          "label": "D",
+          "text": "数据库编程"
+        }
+      ],
+      "correctAnswer": [
+        "网站设计"
+      ],
+      "selectedAnswer": [
+        "网站设计"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题, 1.0 points) 下列关于Python版本的说法中,正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "目前存在Python 3.x兼容Python 2.x版本的程序"
+        },
+        {
+          "label": "B",
+          "text": "Python 2.x版本需要升级到Python 3.x版本才能使用"
+        },
+        {
+          "label": "C",
+          "text": "目前Python 2.x版本还会发布新版本"
+        },
+        {
+          "label": "D",
+          "text": "Python 2.x和Python 3.x是两个不兼容的版本"
+        }
+      ],
+      "correctAnswer": [
+        "Python 2.x和Python 3.x是两个不兼容的版本"
+      ],
+      "selectedAnswer": [
+        "Python 2.x和Python 3.x是两个不兼容的版本"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题, 1.0 points) Python脚本文件的扩展名是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": ".pyc"
+        },
+        {
+          "label": "B",
+          "text": ".py"
+        },
+        {
+          "label": "C",
+          "text": ".pt"
+        },
+        {
+          "label": "D",
+          "text": ".pyw"
+        }
+      ],
+      "correctAnswer": [
+        ".py"
+      ],
+      "selectedAnswer": [
+        ".py"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题, 1.0 points) Python内置的集成开发环境是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "PyCharm"
+        },
+        {
+          "label": "B",
+          "text": "Pydev"
+        },
+        {
+          "label": "C",
+          "text": "IDLE"
+        },
+        {
+          "label": "D",
+          "text": "pip"
+        }
+      ],
+      "correctAnswer": [
+        "IDLE"
+      ],
+      "selectedAnswer": [
+        "IDLE"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题, 1.0 points) 以下关于Python语言的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Python语言编写的程序比大部分编程语言编写的程序更为简洁"
+        },
+        {
+          "label": "B",
+          "text": "Python语言主要是用于系统编程和Web开发的语言"
+        },
+        {
+          "label": "C",
+          "text": "Python语言是解释执行的,执行速度比编译型语言慢"
+        },
+        {
+          "label": "D",
+          "text": "Python程序要实现更高的执行速度,例如数值计算或动画,可以调用C语言编写的代码"
+        }
+      ],
+      "correctAnswer": [
+        "Python语言主要是用于系统编程和Web开发的语言"
+      ],
+      "selectedAnswer": [
+        "Python语言主要是用于系统编程和Web开发的语言"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题, 1.0 points) 以下关于计算机语言的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "解释是将源代码逐条转换成目标代码并同时逐条运行目标代码的过程"
+        },
+        {
+          "label": "B",
+          "text": "C语言是静态编译语言,Python语言是脚本语言"
+        },
+        {
+          "label": "C",
+          "text": "编译是将源代码转换成目标代码的过程"
+        },
+        {
+          "label": "D",
+          "text": "静态语言采用解释方式执行,脚本语言采用编译方式执行"
+        }
+      ],
+      "correctAnswer": [
+        "静态语言采用解释方式执行,脚本语言采用编译方式执行"
+      ],
+      "selectedAnswer": [
+        "静态语言采用解释方式执行,脚本语言采用编译方式执行"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题, 1.0 points) 以下关于部署Python环境、运行Python程序的操作系统环境的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "不同的操作系统均可以"
+        },
+        {
+          "label": "B",
+          "text": "Linux操作系统可以"
+        },
+        {
+          "label": "C",
+          "text": "macOS操作系统不可以"
+        },
+        {
+          "label": "D",
+          "text": "Windows操作系统可以"
+        }
+      ],
+      "correctAnswer": [
+        "macOS操作系统不可以"
+      ],
+      "selectedAnswer": [
+        "macOS操作系统不可以"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题, 1.0 points) 下列选项中,不是Python关键字的是哪一项?()",
+      "options": [
+        {
+          "label": "A",
+          "text": "pass"
+        },
+        {
+          "label": "B",
+          "text": "from"
+        },
+        {
+          "label": "C",
+          "text": "yield"
+        },
+        {
+          "label": "D",
+          "text": "static"
+        }
+      ],
+      "correctAnswer": [
+        "static"
+      ],
+      "selectedAnswer": [
+        "static"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题, 1.0 points) 下列选项中,可作为Python标识符的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "getpath()"
+        },
+        {
+          "label": "B",
+          "text": "throw"
+        },
+        {
+          "label": "C",
+          "text": "my#var"
+        },
+        {
+          "label": "D",
+          "text": "_My _price"
+        }
+      ],
+      "correctAnswer": [
+        "throw"
+      ],
+      "selectedAnswer": [
+        "throw"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题, 1.0 points) 下列选项中,使用bool()函数测试,值不是False的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "[]"
+        },
+        {
+          "label": "C",
+          "text": "{}"
+        },
+        {
+          "label": "D",
+          "text": "−1"
+        }
+      ],
+      "correctAnswer": [
+        "−1"
+      ],
+      "selectedAnswer": [
+        "−1"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14. (单选题, 1.0 points) 假设x、y、z的值都是0,下列表达式中非法的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "x=y=z=2"
+        },
+        {
+          "label": "B",
+          "text": "x,y=y,x"
+        },
+        {
+          "label": "C",
+          "text": "x=(y==z+1)"
+        },
+        {
+          "label": "D",
+          "text": "x=(y=z+1)"
+        }
+      ],
+      "correctAnswer": [
+        "x=(y=z+1)"
+      ],
+      "selectedAnswer": [
+        "x=(y=z+1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15. (单选题, 1.0 points) 下列关于字符串的定义中,错误的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "'''hipython'''"
+        },
+        {
+          "label": "B",
+          "text": "'hipython'"
+        },
+        {
+          "label": "C",
+          "text": "\"hipython\""
+        },
+        {
+          "label": "D",
+          "text": "[hipython]"
+        }
+      ],
+      "correctAnswer": [
+        "[hipython]"
+      ],
+      "selectedAnswer": [
+        "[hipython]"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. (单选题, 1.0 points) 下列数据类型中,Python不支持的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "char"
+        },
+        {
+          "label": "B",
+          "text": "int"
+        },
+        {
+          "label": "C",
+          "text": "float"
+        },
+        {
+          "label": "D",
+          "text": "list"
+        }
+      ],
+      "correctAnswer": [
+        "char"
+      ],
+      "selectedAnswer": [
+        "char"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. (单选题, 1.0 points) Python 语句 print(type(1/2))的输出结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "class <'int'>"
+        },
+        {
+          "label": "B",
+          "text": "class <'number'>"
+        },
+        {
+          "label": "C",
+          "text": "class <'float'>"
+        },
+        {
+          "label": "D",
+          "text": "class <'double'>"
+        }
+      ],
+      "correctAnswer": [
+        "class <'float'>"
+      ],
+      "selectedAnswer": [
+        "class <'float'>"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. (单选题, 1.0 points) Python语句x='car';y=2;print(x+y)的输出结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "语法错"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "car2"
+        },
+        {
+          "label": "D",
+          "text": "catcar"
+        }
+      ],
+      "correctAnswer": [
+        "语法错"
+      ],
+      "selectedAnswer": [
+        "语法错"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. (单选题, 1.0 points) Python 语句 print(0.1+0.2==0.3)的输出结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "True"
+        },
+        {
+          "label": "B",
+          "text": "False"
+        },
+        {
+          "label": "C",
+          "text": "−1"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": [
+        "False"
+      ],
+      "selectedAnswer": [
+        "False"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. (单选题, 1.0 points) 以下语句的输出结果是哪一项?( ) a=10.99 print(complex(a))",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.99"
+        },
+        {
+          "label": "B",
+          "text": "10.99+j"
+        },
+        {
+          "label": "C",
+          "text": "10.99"
+        },
+        {
+          "label": "D",
+          "text": "(10.99+0j)"
+        }
+      ],
+      "correctAnswer": [
+        "(10.99+0j)"
+      ],
+      "selectedAnswer": [
+        "(10.99+0j)"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "单选",
+      "title": "21. (单选题, 1.0 points) 以下关于Python语言浮点数类型的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Python语言要求所有浮点数必须带有小数部分"
+        },
+        {
+          "label": "B",
+          "text": "浮点数类型表示带有小数的类型"
+        },
+        {
+          "label": "C",
+          "text": "小数部分不可以为0"
+        },
+        {
+          "label": "D",
+          "text": "浮点数类型与数学中实数的概念一致"
+        }
+      ],
+      "correctAnswer": [
+        "小数部分不可以为0"
+      ],
+      "selectedAnswer": [
+        "小数部分不可以为0"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "单选",
+      "title": "22. (单选题, 1.0 points) Python的运算符中**的作用是哪一项?()",
+      "options": [
+        {
+          "label": "A",
+          "text": "非法符号"
+        },
+        {
+          "label": "B",
+          "text": "幂运算"
+        },
+        {
+          "label": "C",
+          "text": "乘法运算"
+        },
+        {
+          "label": "D",
+          "text": "操作数取平方"
+        }
+      ],
+      "correctAnswer": [
+        "幂运算"
+      ],
+      "selectedAnswer": [
+        "幂运算"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "单选",
+      "title": "23. (单选题, 1.0 points) 下列关于字符串的表述中,不合法的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "'''python'''"
+        },
+        {
+          "label": "B",
+          "text": "[python]"
+        },
+        {
+          "label": "C",
+          "text": "\"p'yth'on\""
+        },
+        {
+          "label": "D",
+          "text": "'py\"th\"on'"
+        }
+      ],
+      "correctAnswer": [
+        "[python]"
+      ],
+      "selectedAnswer": [
+        "[python]"
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "单选",
+      "title": "24. (单选题, 1.0 points) 下列代码的输出结果是哪一项?( ) print(\"数量{1},单价{0}\".format(23.4,34.2))",
+      "options": [
+        {
+          "label": "A",
+          "text": "数量34.2,单价23.4"
+        },
+        {
+          "label": "B",
+          "text": "数量,单价34.2"
+        },
+        {
+          "label": "C",
+          "text": "数量34,单价23"
+        },
+        {
+          "label": "D",
+          "text": "数量23,单价34"
+        }
+      ],
+      "correctAnswer": [
+        "数量34.2,单价23.4"
+      ],
+      "selectedAnswer": [
+        "数量34.2,单价23.4"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25. (单选题, 1.0 points) 下列代码的输出结果是哪一项?( ) print('a'.rjust(10,\"*\"))",
+      "options": [
+        {
+          "label": "A",
+          "text": "a*********"
+        },
+        {
+          "label": "B",
+          "text": "*********a"
+        },
+        {
+          "label": "C",
+          "text": "aaaaaaaaaa"
+        },
+        {
+          "label": "D",
+          "text": "a*(前有9个空格)"
+        }
+      ],
+      "correctAnswer": [
+        "*********a"
+      ],
+      "selectedAnswer": [
+        "*********a"
+      ],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26. (单选题, 1.0 points) 下列代码的输出结果是哪一项?( ) >>> str1=\"helloPython\" >>> min(str1)",
+      "options": [
+        {
+          "label": "A",
+          "text": "y"
+        },
+        {
+          "label": "B",
+          "text": "P"
+        },
+        {
+          "label": "C",
+          "text": "e"
+        },
+        {
+          "label": "D",
+          "text": "运行异常"
+        }
+      ],
+      "correctAnswer": [
+        "P"
+      ],
+      "selectedAnswer": [
+        "P"
+      ],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27. (单选题, 1.0 points) 关于表达式id(\"45\")结果的描述,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "是一个字符串"
+        },
+        {
+          "label": "B",
+          "text": "是一个正整数"
+        },
+        {
+          "label": "C",
+          "text": "可能是46319680"
+        },
+        {
+          "label": "D",
+          "text": "是\"45\"的内存地址"
+        }
+      ],
+      "correctAnswer": [
+        "是一个字符串"
+      ],
+      "selectedAnswer": [
+        "是一个字符串"
+      ],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28. (单选题, 1.0 points) 设str1=\"*@python@*\",语句print(str1[2:].strip(\"@\"))的执行结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "*@python@*"
+        },
+        {
+          "label": "B",
+          "text": "python*"
+        },
+        {
+          "label": "C",
+          "text": "python@*"
+        },
+        {
+          "label": "D",
+          "text": "*python*"
+        }
+      ],
+      "correctAnswer": [
+        "python@*"
+      ],
+      "selectedAnswer": [
+        "python@*"
+      ],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "单选",
+      "title": "29. (单选题, 1.0 points) 设str1=\"python\",语句print(str1.center(10,\"*\"))的执行结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "**python**"
+        },
+        {
+          "label": "B",
+          "text": "python****"
+        },
+        {
+          "label": "C",
+          "text": "****python"
+        },
+        {
+          "label": "D",
+          "text": "SyntaxError"
+        }
+      ],
+      "correctAnswer": [
+        "**python**"
+      ],
+      "selectedAnswer": [
+        "**python**"
+      ],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "单选",
+      "title": "30. (单选题, 1.0 points) 字符串tstr=\"television\",显示结果为vi的选项是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "print(tstr[-6:6])"
+        },
+        {
+          "label": "B",
+          "text": "print(tstr[5:7])"
+        },
+        {
+          "label": "C",
+          "text": "print(tstr[4:7])"
+        },
+        {
+          "label": "D",
+          "text": "print(tstr[4:-2])"
+        }
+      ],
+      "correctAnswer": [
+        "print(tstr[-6:6])"
+      ],
+      "selectedAnswer": [
+        "print(tstr[-6:6])"
+      ],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "单选",
+      "title": "31. (单选题, 1.0 points) 以下关于Python字符串的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "字符串可以表示为\"\"或' '"
+        },
+        {
+          "label": "B",
+          "text": "Python的字符串中可以混合使用正整数和负整数进行索引和切片"
+        },
+        {
+          "label": "C",
+          "text": "字符串'my\\\\text.dat'中第一个\\表示转义符"
+        },
+        {
+          "label": "D",
+          "text": "Python字符串采用[N:M]格式进行切片,获取字符串从索引N到M的子字符串(包含N和M)"
+        }
+      ],
+      "correctAnswer": [
+        "Python字符串采用[N:M]格式进行切片,获取字符串从索引N到M的子字符串(包含N和M)"
+      ],
+      "selectedAnswer": [
+        "Python字符串采用[N:M]格式进行切片,获取字符串从索引N到M的子字符串(包含N和M)"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "单选",
+      "title": "32. (单选题, 1.0 points) 表达式eval(\"500//10\")的结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "500/10"
+        },
+        {
+          "label": "B",
+          "text": "50.0"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "\"500//10\""
+        }
+      ],
+      "correctAnswer": [
+        "50"
+      ],
+      "selectedAnswer": [
+        "50"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "单选",
+      "title": "33. (单选题, 1.0 points) 下列选项中,不属于Python循环结构的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "for循环"
+        },
+        {
+          "label": "B",
+          "text": "while循环"
+        },
+        {
+          "label": "C",
+          "text": "do…while循环"
+        },
+        {
+          "label": "D",
+          "text": "嵌套的while循环"
+        }
+      ],
+      "correctAnswer": [
+        "do…while循环"
+      ],
+      "selectedAnswer": [
+        "do…while循环"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "单选",
+      "title": "34. (单选题, 1.0 points) 以下代码段,运行结果正确的是哪一项?( ) x=2 y=2.0 if x==y: print(\"Equal\") else: print(\"Not Equal\")",
+      "options": [
+        {
+          "label": "A",
+          "text": "Equal"
+        },
+        {
+          "label": "B",
+          "text": "Not Equal"
+        },
+        {
+          "label": "C",
+          "text": "运行异常"
+        },
+        {
+          "label": "D",
+          "text": "以上结果都不对"
+        }
+      ],
+      "correctAnswer": [
+        "Equal"
+      ],
+      "selectedAnswer": [
+        "Equal"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "单选",
+      "title": "35. (单选题, 1.0 points) 以下代码段,运行结果正确的是哪一项?( ) x=2 if x: print(True) else: print(False)",
+      "options": [
+        {
+          "label": "A",
+          "text": "True"
+        },
+        {
+          "label": "B",
+          "text": "False"
+        },
+        {
+          "label": "C",
+          "text": "运行异常"
+        },
+        {
+          "label": "D",
+          "text": "以上结果都不对"
+        }
+      ],
+      "correctAnswer": [
+        "True"
+      ],
+      "selectedAnswer": [
+        "True"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "单选",
+      "title": "36. (单选题, 1.0 points) 关于下面代码的叙述,正确的是哪一项?( ) x=0 while x<10: x+=1 print(x) if x>3: break",
+      "options": [
+        {
+          "label": "A",
+          "text": "代码编译异常"
+        },
+        {
+          "label": "B",
+          "text": "输出:0 1 2"
+        },
+        {
+          "label": "C",
+          "text": "输出:1 2 3"
+        },
+        {
+          "label": "D",
+          "text": "输出:1 2 3 4"
+        }
+      ],
+      "correctAnswer": [
+        "输出:1 2 3 4"
+      ],
+      "selectedAnswer": [
+        "输出:1 2 3 4"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "单选",
+      "title": "37. (单选题, 1.0 points) 以下代码段,运行结果正确的是哪一项?( ) for i in range(4): if i==3: break print(i) print(i)",
+      "options": [
+        {
+          "label": "A",
+          "text": "0123"
+        },
+        {
+          "label": "B",
+          "text": "0122"
+        },
+        {
+          "label": "C",
+          "text": "123"
+        },
+        {
+          "label": "D",
+          "text": "234"
+        }
+      ],
+      "correctAnswer": [
+        "0123"
+      ],
+      "selectedAnswer": [
+        "0123"
+      ],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "单选",
+      "title": "38. (单选题, 1.0 points) 以下代码段,运行结果正确的是哪一项?( ) a=17 b=6 result=a%b if(a%b>4) else a/b print(result)",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": [
+        "5"
+      ],
+      "selectedAnswer": [
+        "5"
+      ],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "单选",
+      "title": "39. (单选题, 1.0 points) 以下代码段,运行结果正确的是哪一项?( ) i =3 j =0 k=3.2 if(i< k): if( i== j): print(i) else: print(j) else: print(k)",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "3.2"
+        },
+        {
+          "label": "D",
+          "text": "以上结果都不对"
+        }
+      ],
+      "correctAnswer": [
+        "0"
+      ],
+      "selectedAnswer": [
+        "0"
+      ],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "单选",
+      "title": "40. (单选题, 1.0 points) 下列选项的功能是求两个数值x、y中的最大数,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "result=x if x>y else y"
+        },
+        {
+          "label": "B",
+          "text": "result=max(x,y)"
+        },
+        {
+          "label": "C",
+          "text": "if x>y:result=x else:result=y"
+        },
+        {
+          "label": "D",
+          "text": "if y>=x:result=y result=x"
+        }
+      ],
+      "correctAnswer": [
+        "if y>=x:result=y result=x"
+      ],
+      "selectedAnswer": [
+        "if y>=x:result=y result=x"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "单选",
+      "title": "41. (单选题, 1.0 points) 在Python中,使用for…in方式形成的循环不能遍历的类型是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "字典"
+        },
+        {
+          "label": "B",
+          "text": "列表"
+        },
+        {
+          "label": "C",
+          "text": "整数"
+        },
+        {
+          "label": "D",
+          "text": "字符串"
+        }
+      ],
+      "correctAnswer": [
+        "整数"
+      ],
+      "selectedAnswer": [
+        "整数"
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "单选",
+      "title": "42. (单选题, 1.0 points) 以下关于Python循环结构的描述中,错误的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "continue语句只结束本次循环"
+        },
+        {
+          "label": "B",
+          "text": "遍历循环中的遍历结构可以是字符串、文件、组合数据类型和range()函数等"
+        },
+        {
+          "label": "C",
+          "text": "Python使用for、while等保留字构建循环结构"
+        },
+        {
+          "label": "D",
+          "text": "break语句用来结束当前当次语句,不跳出当前的循环体"
+        }
+      ],
+      "correctAnswer": [
+        "break语句用来结束当前当次语句,不跳出当前的循环体"
+      ],
+      "selectedAnswer": [
+        "break语句用来结束当前当次语句,不跳出当前的循环体"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "单选",
+      "title": "43. (单选题, 1.0 points) 以下关于“for in ”的描述,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "上面的循环体中不能有break语句,会影响循环次数"
+        },
+        {
+          "label": "B",
+          "text": "使用 [1,2,3]和 ['1','2','3'],循环次数是一样的"
+        },
+        {
+          "label": "C",
+          "text": "使用range(a,b)函数指定for循环的循环变量取值是a到b−1"
+        },
+        {
+          "label": "D",
+          "text": "for i in range(1,10,2)表示循环5次,i的值是从1到9的奇数"
+        }
+      ],
+      "correctAnswer": [
+        "上面的循环体中不能有break语句,会影响循环次数"
+      ],
+      "selectedAnswer": [
+        "上面的循环体中不能有break语句,会影响循环次数"
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "单选",
+      "title": "44. (单选题, 1.0 points) 以下代码的运行结果是哪一项?( ) s=\"北京,上海,广州,深圳,\" print(s.strip(\",\").replace(\",\",\";\"))",
+      "options": [
+        {
+          "label": "A",
+          "text": "北京 上海 广州 深圳"
+        },
+        {
+          "label": "B",
+          "text": "北京;上海;广州;深圳,"
+        },
+        {
+          "label": "C",
+          "text": "北京;上海;广州;深圳;"
+        },
+        {
+          "label": "D",
+          "text": "北京;上海;广州;深圳"
+        }
+      ],
+      "correctAnswer": [
+        "北京;上海;广州;深圳"
+      ],
+      "selectedAnswer": [
+        "北京;上海;广州;深圳"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "单选",
+      "title": "45. (单选题, 1.0 points) 下列选项中,不属于字典操作的方法是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "dicts.keys()"
+        },
+        {
+          "label": "B",
+          "text": "dicts.pop()"
+        },
+        {
+          "label": "C",
+          "text": "dicts.values()"
+        },
+        {
+          "label": "D",
+          "text": "dicts.items()"
+        }
+      ],
+      "correctAnswer": [
+        "dicts.pop()"
+      ],
+      "selectedAnswer": [
+        "dicts.pop()"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "单选",
+      "title": "46. (单选题, 1.0 points) Python语句 temp=['a','1',2,3,None,]; print(len(temp)) 的输出结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": [
+        "5"
+      ],
+      "selectedAnswer": [
+        "5"
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "单选",
+      "title": "47. (单选题, 1.0 points) Python语句temp=set([1,2,3,2,3,4,5]); print(len(temp)) 的输出结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": [
+        "5"
+      ],
+      "selectedAnswer": [
+        "5"
+      ],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "单选",
+      "title": "48. (单选题, 1.0 points) 执行下面的操作后,lst的值是多少?( ) lst1=[3,4,5,6] lst2=lst1 lst1[2]=100 print(lst2)",
+      "options": [
+        {
+          "label": "A",
+          "text": "[3,4,5,6]"
+        },
+        {
+          "label": "B",
+          "text": "[3,4,100,6]"
+        },
+        {
+          "label": "C",
+          "text": "[3,100,5,6]"
+        },
+        {
+          "label": "D",
+          "text": "[3,4,100,5,6]"
+        }
+      ],
+      "correctAnswer": [
+        "[3,4,100,6]"
+      ],
+      "selectedAnswer": [
+        "[3,4,100,6]"
+      ],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "单选",
+      "title": "49. (单选题, 1.0 points) 下列选项中,正确定义了一个字典的是哪个选项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "a=[a',1,b',2,'c,3]"
+        },
+        {
+          "label": "B",
+          "text": "d=('a':1, 'b':2, 'c':3)"
+        },
+        {
+          "label": "C",
+          "text": "{\"a\":1,\"b\":2,\"c\":3}"
+        },
+        {
+          "label": "D",
+          "text": "d={'a':1, 'b':2, 'c':3}"
+        }
+      ],
+      "correctAnswer": [
+        "d={'a':1, 'b':2, 'c':3}"
+      ],
+      "selectedAnswer": [
+        "d={'a':1, 'b':2, 'c':3}"
+      ],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "单选",
+      "title": "50. (单选题, 1.0 points) 下列选项中,不能使用索引运算的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "列表(list)"
+        },
+        {
+          "label": "B",
+          "text": "元组(tuple)"
+        },
+        {
+          "label": "C",
+          "text": "集合(set)"
+        },
+        {
+          "label": "D",
+          "text": "字符串(str)"
+        }
+      ],
+      "correctAnswer": [
+        "集合(set)"
+      ],
+      "selectedAnswer": [
+        "集合(set)"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "单选",
+      "title": "51. (单选题, 1.0 points) 下列关于列表的说法中,错误的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "列表是一个有序集合,可以添加或删除元素"
+        },
+        {
+          "label": "B",
+          "text": "列表可以存放任意类型的元素"
+        },
+        {
+          "label": "C",
+          "text": "使用列表时,其下标可以是负数"
+        },
+        {
+          "label": "D",
+          "text": "列表是不可变的数据结构"
+        }
+      ],
+      "correctAnswer": [
+        "列表是不可变的数据结构"
+      ],
+      "selectedAnswer": [
+        "列表是不可变的数据结构"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "单选",
+      "title": "52. (单选题, 1.0 points) Python语句 s={'a',1,'b',2};print(s[])的输出结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "'b'"
+        },
+        {
+          "label": "D",
+          "text": "语法错误"
+        }
+      ],
+      "correctAnswer": [
+        "语法错误"
+      ],
+      "selectedAnswer": [
+        "语法错误"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "单选",
+      "title": "53. (单选题, 1.0 points) 以下代码的输出结果是哪一项?( ) d={\"food\":{\"cake\":1,\"egg\":5}} print(d.get(\"cake\",\"no this food\") )",
+      "options": [
+        {
+          "label": "A",
+          "text": "no this food"
+        },
+        {
+          "label": "B",
+          "text": "egg"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "food"
+        }
+      ],
+      "correctAnswer": [
+        "no this food"
+      ],
+      "selectedAnswer": [
+        "no this food"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "单选",
+      "title": "54. (单选题, 1.0 points) 以下代码的输出结果是哪一项?( ) s=[4,2,9,1] s.insert(2,3) print(s)",
+      "options": [
+        {
+          "label": "A",
+          "text": "[4,2,9,2,1]"
+        },
+        {
+          "label": "B",
+          "text": "[4,2,3,9,1]"
+        },
+        {
+          "label": "C",
+          "text": "[4,3,2,9,1]"
+        },
+        {
+          "label": "D",
+          "text": "[4,2,9,1,2,3]"
+        }
+      ],
+      "correctAnswer": [
+        "[4,2,3,9,1]"
+      ],
+      "selectedAnswer": [
+        "[4,2,3,9,1]"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "单选",
+      "title": "55. (单选题, 1.0 points) 下列说法中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Python的str、tuple、list类型都属于序列类型"
+        },
+        {
+          "label": "B",
+          "text": "组合数据类型可以分为3类:序列类型、集合类型和映射类型"
+        },
+        {
+          "label": "C",
+          "text": "组合数据类型能够将多个数据组织起来,通过单一的表示使数据操作更有序,更容易理解"
+        },
+        {
+          "label": "D",
+          "text": "序列类型是二维元素向量,元素之间存在先后关系,通过序号访问"
+        }
+      ],
+      "correctAnswer": [
+        "序列类型是二维元素向量,元素之间存在先后关系,通过序号访问"
+      ],
+      "selectedAnswer": [
+        "序列类型是二维元素向量,元素之间存在先后关系,通过序号访问"
+      ],
+      "images": []
+    },
+    {
+      "id": 56,
+      "type": "单选",
+      "title": "56. (单选题, 1.0 points) 下列关于列表变量ls的方法的说法中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "ls.append(x):在列表ls最后增加一个元素x"
+        },
+        {
+          "label": "B",
+          "text": "ls.clear():删除列表ls中的最后一个元素"
+        },
+        {
+          "label": "C",
+          "text": "ls.copy():复制生成一个包括ls中所有元素的新列表"
+        },
+        {
+          "label": "D",
+          "text": "ls.reverse():反转列表ls中的元素"
+        }
+      ],
+      "correctAnswer": [
+        "ls.clear():删除列表ls中的最后一个元素"
+      ],
+      "selectedAnswer": [
+        "ls.clear():删除列表ls中的最后一个元素"
+      ],
+      "images": []
+    },
+    {
+      "id": 57,
+      "type": "单选",
+      "title": "57. (单选题, 1.0 points) 可以用来创建 Python自定义函数的关键字是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "function"
+        },
+        {
+          "label": "B",
+          "text": "def"
+        },
+        {
+          "label": "C",
+          "text": "class"
+        },
+        {
+          "label": "D",
+          "text": "return"
+        }
+      ],
+      "correctAnswer": [
+        "def"
+      ],
+      "selectedAnswer": [
+        "def"
+      ],
+      "images": []
+    },
+    {
+      "id": 58,
+      "type": "单选",
+      "title": "58. (单选题, 1.0 points) 关于Python函数参数的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Python实行按值传递参数,值传递是指调用函数时将常量或变量的值传递给函数的参数"
+        },
+        {
+          "label": "B",
+          "text": "实参与形参分别存储在各自的内存空间中,是两个不相关的独立变量"
+        },
+        {
+          "label": "C",
+          "text": "在函数内部改变形参的值时,实参的值一般是不会改变的"
+        },
+        {
+          "label": "D",
+          "text": "实参与形参的名字必须相同"
+        }
+      ],
+      "correctAnswer": [
+        "实参与形参的名字必须相同"
+      ],
+      "selectedAnswer": [
+        "实参与形参的名字必须相同"
+      ],
+      "images": []
+    },
+    {
+      "id": 59,
+      "type": "单选",
+      "title": "59. (单选题, 1.0 points) 下列哪一项不属于函数的参数类型?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "位置参数"
+        },
+        {
+          "label": "B",
+          "text": "默认参数"
+        },
+        {
+          "label": "C",
+          "text": "可变参数"
+        },
+        {
+          "label": "D",
+          "text": "地址参数"
+        }
+      ],
+      "correctAnswer": [
+        "地址参数"
+      ],
+      "selectedAnswer": [
+        "地址参数"
+      ],
+      "images": []
+    },
+    {
+      "id": 60,
+      "type": "单选",
+      "title": "60. (单选题, 1.0 points) Python语句f=lambda x,y:x*y; f(2,6)的运行结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": [
+        "12"
+      ],
+      "selectedAnswer": [
+        "12"
+      ],
+      "images": []
+    },
+    {
+      "id": 61,
+      "type": "单选",
+      "title": "61. (单选题, 1.0 points) 下列程序的运行结果是哪一项?( ) s=\"hello\" def setstr(): s=\"hi\" s+=\"world\" setstr() print(s)",
+      "options": [
+        {
+          "label": "A",
+          "text": "hi"
+        },
+        {
+          "label": "B",
+          "text": "hello"
+        },
+        {
+          "label": "C",
+          "text": "hiworld"
+        },
+        {
+          "label": "D",
+          "text": "helloworld"
+        }
+      ],
+      "correctAnswer": [
+        "hello"
+      ],
+      "selectedAnswer": [
+        "hello"
+      ],
+      "images": []
+    },
+    {
+      "id": 62,
+      "type": "单选",
+      "title": "62. (单选题, 1.0 points) 下列哪个函数不属于序列操作函数?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "map()"
+        },
+        {
+          "label": "B",
+          "text": "reduce()"
+        },
+        {
+          "label": "C",
+          "text": "filter()"
+        },
+        {
+          "label": "D",
+          "text": "lambda"
+        }
+      ],
+      "correctAnswer": [
+        "lambda"
+      ],
+      "selectedAnswer": [
+        "lambda"
+      ],
+      "images": []
+    },
+    {
+      "id": 63,
+      "type": "单选",
+      "title": "63. (单选题, 1.0 points) 以下的函数定义中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "def vfunc(a,b=2):"
+        },
+        {
+          "label": "B",
+          "text": "def vfunc(a,b):"
+        },
+        {
+          "label": "C",
+          "text": "def vfunc(a,*b):"
+        },
+        {
+          "label": "D",
+          "text": "def vfunc(*a,b):"
+        }
+      ],
+      "correctAnswer": [
+        "def vfunc(*a,b):"
+      ],
+      "selectedAnswer": [
+        "def vfunc(*a,b):"
+      ],
+      "images": []
+    },
+    {
+      "id": 64,
+      "type": "单选",
+      "title": "64. (单选题, 1.0 points) 运行以下程序,输入fish520,输出结果是哪一项?( ) w=input() for x in w: if '0'<=x<='9': continue else: w.replace(x,\"\")",
+      "options": [
+        {
+          "label": "A",
+          "text": "fish520"
+        },
+        {
+          "label": "B",
+          "text": "fish"
+        },
+        {
+          "label": "C",
+          "text": "520"
+        },
+        {
+          "label": "D",
+          "text": "520fish"
+        }
+      ],
+      "correctAnswer": [
+        "fish520"
+      ],
+      "selectedAnswer": [
+        "fish520"
+      ],
+      "images": []
+    },
+    {
+      "id": 65,
+      "type": "单选",
+      "title": "65. (单选题, 1.0 points) 运行以下程序,输出结果是哪一项?( ) def calu(x=3,y=2): return(x*y) a='abc' b=2 print(calu(a,b),end=\",\")",
+      "options": [
+        {
+          "label": "A",
+          "text": "abcabc,"
+        },
+        {
+          "label": "B",
+          "text": "abcabc"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "abcabc,6"
+        }
+      ],
+      "correctAnswer": [
+        "abcabc,"
+      ],
+      "selectedAnswer": [
+        "abcabc,"
+      ],
+      "images": []
+    },
+    {
+      "id": 66,
+      "type": "单选",
+      "title": "66. (单选题, 1.0 points) Python中,用来描述一类相同或相似事物的共同属性的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "类"
+        },
+        {
+          "label": "B",
+          "text": "对象"
+        },
+        {
+          "label": "C",
+          "text": "方法"
+        },
+        {
+          "label": "D",
+          "text": "数据区"
+        }
+      ],
+      "correctAnswer": [
+        "类"
+      ],
+      "selectedAnswer": [
+        "类"
+      ],
+      "images": []
+    },
+    {
+      "id": 67,
+      "type": "单选",
+      "title": "67. (单选题, 1.0 points) 关于类和对象的关系,描述正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "类是面向对象的基础"
+        },
+        {
+          "label": "B",
+          "text": "类是现实世界中事物的描述"
+        },
+        {
+          "label": "C",
+          "text": "对象是根据类创建的,并且一个类只能对应一个对象"
+        },
+        {
+          "label": "D",
+          "text": "对象是类的实例,是具体的事物"
+        }
+      ],
+      "correctAnswer": [
+        "对象是类的实例,是具体的事物"
+      ],
+      "selectedAnswer": [
+        "对象是类的实例,是具体的事物"
+      ],
+      "images": []
+    },
+    {
+      "id": 68,
+      "type": "单选",
+      "title": "68. (单选题, 1.0 points) 构造方法的作用是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "显示对象初始信息"
+        },
+        {
+          "label": "B",
+          "text": "初始化类"
+        },
+        {
+          "label": "C",
+          "text": "初始化对象"
+        },
+        {
+          "label": "D",
+          "text": "引用对象"
+        }
+      ],
+      "correctAnswer": [
+        "初始化对象"
+      ],
+      "selectedAnswer": [
+        "初始化对象"
+      ],
+      "images": []
+    },
+    {
+      "id": 69,
+      "type": "单选",
+      "title": "69. (单选题, 1.0 points) Python中定义私有属性的方法是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "使用 private关键字"
+        },
+        {
+          "label": "B",
+          "text": "使用public关键字"
+        },
+        {
+          "label": "C",
+          "text": "使用__XX__定义属性名"
+        },
+        {
+          "label": "D",
+          "text": "使用__XX定义属性名"
+        }
+      ],
+      "correctAnswer": [
+        "使用__XX定义属性名"
+      ],
+      "selectedAnswer": [
+        "使用__XX定义属性名"
+      ],
+      "images": []
+    },
+    {
+      "id": 70,
+      "type": "单选",
+      "title": "70. (单选题, 1.0 points) 在以下C类继承A类和B类的格式中,正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "class C extends A, B:"
+        },
+        {
+          "label": "B",
+          "text": "class C(A: B):"
+        },
+        {
+          "label": "C",
+          "text": "class C(A, B):"
+        },
+        {
+          "label": "D",
+          "text": "class C implements A, B:"
+        }
+      ],
+      "correctAnswer": [
+        "class C(A, B):"
+      ],
+      "selectedAnswer": [
+        "class C(A, B):"
+      ],
+      "images": []
+    },
+    {
+      "id": 71,
+      "type": "单选",
+      "title": "71. (单选题, 1.0 points) 下列选项中,用于标识为静态方法的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "@classmethod"
+        },
+        {
+          "label": "B",
+          "text": "@staticmethod"
+        },
+        {
+          "label": "C",
+          "text": "@instancemethod"
+        },
+        {
+          "label": "D",
+          "text": "@privatemethod"
+        }
+      ],
+      "correctAnswer": [
+        "@staticmethod"
+      ],
+      "selectedAnswer": [
+        "@staticmethod"
+      ],
+      "images": []
+    },
+    {
+      "id": 72,
+      "type": "单选",
+      "title": "72. (单选题, 1.0 points) 关于下面程序的说法中,不正确的是哪一项?( ) class Hello: def __(self,id,color=\"yellow\"): self.id=id self.color=color def Hello(self,weight): return 20+weight #主程序 h=Hello(100) print(h.color)",
+      "options": [
+        {
+          "label": "A",
+          "text": "构造方法是__init__(self,id,color=\"yellow\")"
+        },
+        {
+          "label": "B",
+          "text": "Hello(self,weight) 是成员方法"
+        },
+        {
+          "label": "C",
+          "text": "代码h=Hello(100)无法通过编译"
+        },
+        {
+          "label": "D",
+          "text": "print(h.color)语句的输出结果是yellow"
+        }
+      ],
+      "correctAnswer": [
+        "代码h=Hello(100)无法通过编译"
+      ],
+      "selectedAnswer": [
+        "代码h=Hello(100)无法通过编译"
+      ],
+      "images": []
+    },
+    {
+      "id": 73,
+      "type": "单选",
+      "title": "73. (单选题, 1.0 points) 下列导入模块的语句中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "import numpy as np"
+        },
+        {
+          "label": "B",
+          "text": "from numpy import * as np"
+        },
+        {
+          "label": "C",
+          "text": "from numpy import *"
+        },
+        {
+          "label": "D",
+          "text": "import matplotlib.pyplot"
+        }
+      ],
+      "correctAnswer": [
+        "from numpy import * as np"
+      ],
+      "selectedAnswer": [
+        "from numpy import * as np"
+      ],
+      "images": []
+    },
+    {
+      "id": 74,
+      "type": "单选",
+      "title": "74. (单选题, 1.0 points) 下列关于包的说明中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "包的外层目录必须包含在Python的搜索路径中"
+        },
+        {
+          "label": "B",
+          "text": "包的所有下级子目录都需要包含一个__init__.py文件"
+        },
+        {
+          "label": "C",
+          "text": "包由模块、类和函数等组成"
+        },
+        {
+          "label": "D",
+          "text": "包的扩展名是.py"
+        }
+      ],
+      "correctAnswer": [
+        "包的扩展名是.py"
+      ],
+      "selectedAnswer": [
+        "包的扩展名是.py"
+      ],
+      "images": []
+    },
+    {
+      "id": 75,
+      "type": "单选",
+      "title": "75. (单选题, 1.0 points) 下列哪个是Python的标准库?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Turtle"
+        },
+        {
+          "label": "B",
+          "text": "jieba"
+        },
+        {
+          "label": "C",
+          "text": "PIL"
+        },
+        {
+          "label": "D",
+          "text": "pyintaller"
+        }
+      ],
+      "correctAnswer": [
+        "Turtle"
+      ],
+      "selectedAnswer": [
+        "Turtle"
+      ],
+      "images": []
+    },
+    {
+      "id": 76,
+      "type": "单选",
+      "title": "76. (单选题, 1.0 points) 在Python语言中,能够处理图像的第三方库是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "PIL"
+        },
+        {
+          "label": "B",
+          "text": "pyserial"
+        },
+        {
+          "label": "C",
+          "text": "requests"
+        },
+        {
+          "label": "D",
+          "text": "pyinstaller"
+        }
+      ],
+      "correctAnswer": [
+        "PIL"
+      ],
+      "selectedAnswer": [
+        "PIL"
+      ],
+      "images": []
+    },
+    {
+      "id": 77,
+      "type": "单选",
+      "title": "77. (单选题, 1.0 points) 在Python语言中,用于数据分析的第三方库是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Django"
+        },
+        {
+          "label": "B",
+          "text": "flask"
+        },
+        {
+          "label": "C",
+          "text": "pandas"
+        },
+        {
+          "label": "D",
+          "text": "PIL"
+        }
+      ],
+      "correctAnswer": [
+        "pandas"
+      ],
+      "selectedAnswer": [
+        "pandas"
+      ],
+      "images": []
+    },
+    {
+      "id": 78,
+      "type": "单选",
+      "title": "78. (单选题, 1.0 points) turtle画图结束后,让画面停顿,不立即关掉窗口的方法是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "turtle.clear()"
+        },
+        {
+          "label": "B",
+          "text": "turtle.setup()"
+        },
+        {
+          "label": "C",
+          "text": "turtle.penup()"
+        },
+        {
+          "label": "D",
+          "text": "turtle.done()"
+        }
+      ],
+      "correctAnswer": [
+        "turtle.done()"
+      ],
+      "selectedAnswer": [
+        "turtle.done()"
+      ],
+      "images": []
+    },
+    {
+      "id": 79,
+      "type": "单选",
+      "title": "79. (单选题, 1.0 points) 当文件不存在时,下列哪种模式在使用open()方法打开文件时会报异常?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "'r'"
+        },
+        {
+          "label": "B",
+          "text": "'a'"
+        },
+        {
+          "label": "C",
+          "text": "'w'"
+        },
+        {
+          "label": "D",
+          "text": "'w+'"
+        }
+      ],
+      "correctAnswer": [
+        "'r'"
+      ],
+      "selectedAnswer": [
+        "'r'"
+      ],
+      "images": []
+    },
+    {
+      "id": 80,
+      "type": "单选",
+      "title": "80. (单选题, 1.0 points) file是文本文件对象,下列选项中,哪一项用于读取文件的一行?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "file.read()"
+        },
+        {
+          "label": "B",
+          "text": "file.readline(80)"
+        },
+        {
+          "label": "C",
+          "text": "file.readlines()"
+        },
+        {
+          "label": "D",
+          "text": "file.readline()"
+        }
+      ],
+      "correctAnswer": [
+        "file.readline()"
+      ],
+      "selectedAnswer": [
+        "file.readline()"
+      ],
+      "images": []
+    },
+    {
+      "id": 81,
+      "type": "单选",
+      "title": "81. (单选题, 1.0 points) 下列方法中,用于获取文件当前目录的是哪一个选项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "os.mkdir()"
+        },
+        {
+          "label": "B",
+          "text": "os.listdir()"
+        },
+        {
+          "label": "C",
+          "text": "os.getcwd()"
+        },
+        {
+          "label": "D",
+          "text": "os.mkdir(path)"
+        }
+      ],
+      "correctAnswer": [
+        "os.getcwd()"
+      ],
+      "selectedAnswer": [
+        "os.getcwd()"
+      ],
+      "images": []
+    },
+    {
+      "id": 82,
+      "type": "单选",
+      "title": "82. (单选题, 1.0 points) 下列代码可以成功执行,则myfile.data文件的保存目录是哪一个选项?( ) open(\"myfile.data\",\"ab\")",
+      "options": [
+        {
+          "label": "A",
+          "text": "C盘根目录下"
+        },
+        {
+          "label": "B",
+          "text": "由path路径指明"
+        },
+        {
+          "label": "C",
+          "text": "Python安装目录下"
+        },
+        {
+          "label": "D",
+          "text": "与程序文件在相同的目录下"
+        }
+      ],
+      "correctAnswer": [
+        "与程序文件在相同的目录下"
+      ],
+      "selectedAnswer": [
+        "与程序文件在相同的目录下"
+      ],
+      "images": []
+    },
+    {
+      "id": 83,
+      "type": "单选",
+      "title": "83. (单选题, 1.0 points) 下列说法中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "以'w'模式打开一个可读/写的文件,如果文件存在会被覆盖"
+        },
+        {
+          "label": "B",
+          "text": "使用write()方法写入文件时,数据会追加到文件的末尾"
+        },
+        {
+          "label": "C",
+          "text": "使用read()方法可以一次性读取文件中的所有数据"
+        },
+        {
+          "label": "D",
+          "text": "使用readlines()方法可以一次性读取文件中的所有数据"
+        }
+      ],
+      "correctAnswer": [
+        "使用write()方法写入文件时,数据会追加到文件的末尾"
+      ],
+      "selectedAnswer": [
+        "使用write()方法写入文件时,数据会追加到文件的末尾"
+      ],
+      "images": []
+    },
+    {
+      "id": 84,
+      "type": "单选",
+      "title": "84. (单选题, 1.0 points) 在读写CSV文件时,最不可能使用的字符串处理方法是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "join()"
+        },
+        {
+          "label": "B",
+          "text": "index()"
+        },
+        {
+          "label": "C",
+          "text": "strip()"
+        },
+        {
+          "label": "D",
+          "text": "split()"
+        }
+      ],
+      "correctAnswer": [
+        "index()"
+      ],
+      "selectedAnswer": [
+        "index()"
+      ],
+      "images": []
+    },
+    {
+      "id": 85,
+      "type": "单选",
+      "title": "85. (单选题, 1.0 points) 使用open()函数打开Windows操作系统的文件,路径名不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "open(r\"d:\\Python\\a.txt\",'w')"
+        },
+        {
+          "label": "B",
+          "text": "open(\"d:\\Python\\a.txt\",'w')"
+        },
+        {
+          "label": "C",
+          "text": "open(\"d:/Python/a.txt\",'w')"
+        },
+        {
+          "label": "D",
+          "text": "open(\"d:\\\\Python\\\\a.txt\",'w')"
+        }
+      ],
+      "correctAnswer": [
+        "open(\"d:\\Python\\a.txt\",'w')"
+      ],
+      "selectedAnswer": [
+        "open(\"d:\\Python\\a.txt\",'w')"
+      ],
+      "images": []
+    },
+    {
+      "id": 86,
+      "type": "单选",
+      "title": "86. (单选题, 1.0 points) 文件exam.txt与下面的程序在同一目录,其内容是一段文本:Learning Python,以下最可能的输出结果是哪一项?( ) fo=open(\"exam.txt\") print(fo) fo.close()",
+      "options": [
+        {
+          "label": "A",
+          "text": "Learning Python"
+        },
+        {
+          "label": "B",
+          "text": "exam.txt"
+        },
+        {
+          "label": "C",
+          "text": "exam"
+        },
+        {
+          "label": "D",
+          "text": "<_io.textiowrapper>"
+        }
+      ],
+      "correctAnswer": [
+        "<_io.textiowrapper>"
+      ],
+      "selectedAnswer": [
+        "<_io.textiowrapper>"
+      ],
+      "images": []
+    },
+    {
+      "id": 87,
+      "type": "单选",
+      "title": "87. (单选题, 1.0 points) 在SQL中,实现分组查询的短语是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "order by"
+        },
+        {
+          "label": "B",
+          "text": "group by"
+        },
+        {
+          "label": "C",
+          "text": "having"
+        },
+        {
+          "label": "D",
+          "text": "asc"
+        }
+      ],
+      "correctAnswer": [
+        "group by"
+      ],
+      "selectedAnswer": [
+        "group by"
+      ],
+      "images": []
+    },
+    {
+      "id": 88,
+      "type": "单选",
+      "title": "88. (单选题, 1.0 points) 下列关于SQL语句中的短语的说法中,正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "必须是大写的字母"
+        },
+        {
+          "label": "B",
+          "text": "必须是小写的字母"
+        },
+        {
+          "label": "C",
+          "text": "大小写字母均可"
+        },
+        {
+          "label": "D",
+          "text": "大小写字母不能混合使用"
+        }
+      ],
+      "correctAnswer": [
+        "大小写字母均可"
+      ],
+      "selectedAnswer": [
+        "大小写字母均可"
+      ],
+      "images": []
+    },
+    {
+      "id": 89,
+      "type": "单选",
+      "title": "89. (单选题, 1.0 points) “delete from s where 年龄>60”语句的功能是什么?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "从s表中删除年龄大于60岁的记录"
+        },
+        {
+          "label": "B",
+          "text": "从s表中删除年龄大于60岁的首条记录"
+        },
+        {
+          "label": "C",
+          "text": "删除s表"
+        },
+        {
+          "label": "D",
+          "text": "删除s表的年龄列"
+        }
+      ],
+      "correctAnswer": [
+        "从s表中删除年龄大于60岁的记录"
+      ],
+      "selectedAnswer": [
+        "从s表中删除年龄大于60岁的记录"
+      ],
+      "images": []
+    },
+    {
+      "id": 90,
+      "type": "单选",
+      "title": "90. (单选题, 1.0 points) “update student set年龄=年龄+1”语句的功能是什么?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "将student表中的所有学生的年龄变为1岁"
+        },
+        {
+          "label": "B",
+          "text": "给student表中的所有学生的年龄增加1岁"
+        },
+        {
+          "label": "C",
+          "text": "给student表中当前记录的学生的年龄增加1岁"
+        },
+        {
+          "label": "D",
+          "text": "将student表中当前记录的学生的年龄变为1岁"
+        }
+      ],
+      "correctAnswer": [
+        "给student表中的所有学生的年龄增加1岁"
+      ],
+      "selectedAnswer": [
+        "给student表中的所有学生的年龄增加1岁"
+      ],
+      "images": []
+    },
+    {
+      "id": 91,
+      "type": "单选",
+      "title": "91. (单选题, 1.0 points) 在Python中连接SQLite的test数据库,正确的代码是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "conn= sqlite3.connect(\"e:\\db\\test\")"
+        },
+        {
+          "label": "B",
+          "text": "conn= sqlite3.connect(\"e:/db/test\")"
+        },
+        {
+          "label": "C",
+          "text": "conn= sqlite3.Connect(\"e:\\db\\test\")"
+        },
+        {
+          "label": "D",
+          "text": "conn= sqlite3.Connect(\"e:/db/test\")"
+        }
+      ],
+      "correctAnswer": [
+        "conn= sqlite3.connect(\"e:/db/test\")"
+      ],
+      "selectedAnswer": [
+        "conn= sqlite3.connect(\"e:/db/test\")"
+      ],
+      "images": []
+    },
+    {
+      "id": 92,
+      "type": "单选",
+      "title": "92. (单选题, 1.0 points) 关于SQLite3的数据类型的说法中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "在SQLite3数据库中,表的主键应为integer类型"
+        },
+        {
+          "label": "B",
+          "text": "SQLite3的动态数据类型与其他数据库使用的静态类型是不兼容的"
+        },
+        {
+          "label": "C",
+          "text": "SQLite3的表完全可以不声明列的类型"
+        },
+        {
+          "label": "D",
+          "text": "SQLite3的动态的数据类型是指根据列值自动判断列的数据类型"
+        }
+      ],
+      "correctAnswer": [
+        "SQLite3的动态数据类型与其他数据库使用的静态类型是不兼容的"
+      ],
+      "selectedAnswer": [
+        "SQLite3的动态数据类型与其他数据库使用的静态类型是不兼容的"
+      ],
+      "images": []
+    },
+    {
+      "id": 93,
+      "type": "单选",
+      "title": "93. (单选题, 1.0 points) 下列选项中,不属于Connect对象conn的方法是( )。",
+      "options": [
+        {
+          "label": "A",
+          "text": "conn.commit()"
+        },
+        {
+          "label": "B",
+          "text": "conn.close()"
+        },
+        {
+          "label": "C",
+          "text": "conn.execute()"
+        },
+        {
+          "label": "D",
+          "text": "conn.open()"
+        }
+      ],
+      "correctAnswer": [
+        "conn.open()"
+      ],
+      "selectedAnswer": [
+        "conn.open()"
+      ],
+      "images": []
+    },
+    {
+      "id": 94,
+      "type": "单选",
+      "title": "94. (单选题, 1.0 points) 在代码import matplotlib.pyplot as plt中,plt的含义是什么?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "函数名"
+        },
+        {
+          "label": "B",
+          "text": "类名"
+        },
+        {
+          "label": "C",
+          "text": "库的别名"
+        },
+        {
+          "label": "D",
+          "text": "变量名"
+        }
+      ],
+      "correctAnswer": [
+        "库的别名"
+      ],
+      "selectedAnswer": [
+        "库的别名"
+      ],
+      "images": []
+    },
+    {
+      "id": 95,
+      "type": "单选",
+      "title": "95. (单选题, 1.0 points) 以下哪个选项不是matplotlib.pyplot的绘图函数?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "hist()"
+        },
+        {
+          "label": "B",
+          "text": "bar()"
+        },
+        {
+          "label": "C",
+          "text": "pie()"
+        },
+        {
+          "label": "D",
+          "text": "curve()"
+        }
+      ],
+      "correctAnswer": [
+        "curve()"
+      ],
+      "selectedAnswer": [
+        "curve()"
+      ],
+      "images": []
+    },
+    {
+      "id": 96,
+      "type": "单选",
+      "title": "96. (单选题, 1.0 points) 以下哪个选项不能生成一个ndarray对象?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "arr1 = np.array([0, 1, 2, 3, 4])"
+        },
+        {
+          "label": "B",
+          "text": "arr2 = np.array({0:0,1:1,2:2,3:3,4:4})"
+        },
+        {
+          "label": "C",
+          "text": "arr3 = np.array((0, 1, 2, 3, 4))"
+        },
+        {
+          "label": "D",
+          "text": "arr4 = np.array(0, 1, 2, 3, 4)"
+        }
+      ],
+      "correctAnswer": [
+        "arr1 = np.array([0, 1, 2, 3, 4])"
+      ],
+      "selectedAnswer": [
+        "arr1 = np.array([0, 1, 2, 3, 4])"
+      ],
+      "images": []
+    },
+    {
+      "id": 97,
+      "type": "单选",
+      "title": "97. (单选题, 1.0 points) 下面代码中,savefig ()函数的作用是什么?( ) import matplotlib.pyplot as plt plt.plot([9,7, 15, 2, 9]) plt.savefig('test',dpi=600)",
+      "options": [
+        {
+          "label": "A",
+          "text": "将数据图存储为文件"
+        },
+        {
+          "label": "B",
+          "text": "显示所绘制的数据图"
+        },
+        {
+          "label": "C",
+          "text": "记录并存储数据"
+        },
+        {
+          "label": "D",
+          "text": "刷新数据"
+        }
+      ],
+      "correctAnswer": ["将数据图存储为文件"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 98,
+      "type": "单选",
+      "title": "98. (单选题, 1.0 points) 下面代码运行后,数组arr的值是哪一项?( ) >>> import numpy as np >>> arr1=np.array([2,3,4]) >>> arr2=np.array([[1,1,1],[2,2,2],[3,3,3],[4,4,4]]) >>> arr=arr1*arr2",
+      "options": [
+        {
+          "label": "A",
+          "text": "array([[ 2,4,6 ,8], [ 3,6,9,12],[ 4,8,12,16]])"
+        },
+        {
+          "label": "B",
+          "text": "array([[ 2,2,2], [ 6,6,6],[ 12,12,12], [4,4,4]])"
+        },
+        {
+          "label": "C",
+          "text": "array( [[ 2,3,4], [ 4,6,8],[ 6,9,12], [ 8,12,16]]"
+        },
+        {
+          "label": "D",
+          "text": "两个数组的行数不同,不能运算"
+        }
+      ],
+      "correctAnswer": ["array( [[ 2,3,4], [ 4,6,8],[ 6,9,12], [ 8,12,16]]"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 99,
+      "type": "单选",
+      "title": "99. (单选题, 1.0 points) 下面代码的运行结果是哪一项?( ) >>>import numpy as np >>>arr1=np.array([[2,3,4],[1,2,3],[3,4,5]]) >>>np.transpose(arr1) >>>arr1.T",
+      "options": [
+        {
+          "label": "A",
+          "text": "array([[2,1,3], [3,2,4] ,[4,3,5]])array([[2,1,3], [3,2,4] ,[4,3,5]])"
+        },
+        {
+          "label": "B",
+          "text": "array([[2,3,4],[1,2,3],[3,4,5]]) array([[2,3,4],[1,2,3],[3,4,5]])"
+        },
+        {
+          "label": "C",
+          "text": "array([[2,1,3], [3,2,4] ,[4,3,5]])array([[2,3,4],[1,2,3],[3,4,5]])"
+        },
+        {
+          "label": "D",
+          "text": "array([[2,1,3], [3,2,4] ,[4,3,5]]) array( [2,1,3,3,2,4, 4,3,5])"
+        }
+      ],
+      "correctAnswer": ["array([[2,1,3], [3,2,4] ,[4,3,5]])array([[2,1,3], [3,2,4] ,[4,3,5]])"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 100,
+      "type": "单选",
+      "title": "100. (单选题, 1.0 points) 下面代码的运行结果是哪一项?( ) >>>arr=np.arange(-1,-10,-2) >>>arr[::-1]",
+      "options": [
+        {
+          "label": "A",
+          "text": "array([-9, -7, -5, -3, -1])"
+        },
+        {
+          "label": "B",
+          "text": "array([-1, -3, -5, -7, -9])"
+        },
+        {
+          "label": "C",
+          "text": "array([-2, -4, -6, -8, -10])"
+        },
+        {
+          "label": "D",
+          "text": "array([-10, -8, -6, -4, -2])"
+        }
+      ],
+      "correctAnswer": ["array([-9, -7, -5, -3, -1])"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 101,
+      "type": "单选",
+      "title": "101. (单选题, 1.0 points) 以下哪个选项不是Python的Web应用框架?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Flask"
+        },
+        {
+          "label": "B",
+          "text": "Django"
+        },
+        {
+          "label": "C",
+          "text": "Tornado"
+        },
+        {
+          "label": "D",
+          "text": "urllib"
+        }
+      ],
+      "correctAnswer": ["urllib"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 102,
+      "type": "单选",
+      "title": "102. (单选题, 1.0 points) 第三方库beautifulsoup4的功能是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "解析和处理HTML和XML"
+        },
+        {
+          "label": "B",
+          "text": "支持Web应用程序框架"
+        },
+        {
+          "label": "C",
+          "text": "支持Webservices框架"
+        },
+        {
+          "label": "D",
+          "text": "处理HTTP请求"
+        }
+      ],
+      "correctAnswer": ["解析和处理HTML和XML"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 103,
+      "type": "单选",
+      "title": "103. (单选题, 1.0 points) 以下不属于网络爬虫领域的第三方库是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "Scrapy"
+        },
+        {
+          "label": "B",
+          "text": "SnowNLP"
+        },
+        {
+          "label": "C",
+          "text": "Requests"
+        },
+        {
+          "label": "D",
+          "text": "PySpider"
+        }
+      ],
+      "correctAnswer": ["SnowNLP"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 104,
+      "type": "单选",
+      "title": "104. (单选题, 1.0 points) 下面是解析网页的一段代码,其中,soup是一个BeautifulSoup对象,最后一行代码中,变量str内容的功能是哪一项?( ) contents=soup.select('.hot') for items in contents: item=items.select('li') for i in item: str=i.a['href']",
+      "options": [
+        {
+          "label": "A",
+          "text": "超级链接的网址"
+        },
+        {
+          "label": "B",
+          "text": "列表中的一个数据项"
+        },
+        {
+          "label": "C",
+          "text": "超级链接的属性信息"
+        },
+        {
+          "label": "D",
+          "text": "超级链接的格式信息"
+        }
+      ],
+      "correctAnswer": ["超级链接的属性信息"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 105,
+      "type": "单选",
+      "title": "105. (单选题, 1.0 points) requests.get()函数的返回值类型是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "String"
+        },
+        {
+          "label": "B",
+          "text": "text"
+        },
+        {
+          "label": "C",
+          "text": "Response"
+        },
+        {
+          "label": "D",
+          "text": "Request"
+        }
+      ],
+      "correctAnswer": ["Response"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 106,
+      "type": "单选",
+      "title": "106. (单选题, 1.0 points) 下列关于异常处理的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "程序运行产生的异常由用户或者Python解释器进行处理"
+        },
+        {
+          "label": "B",
+          "text": "使用try…except语句捕获异常"
+        },
+        {
+          "label": "C",
+          "text": "使用raise语句抛出异常"
+        },
+        {
+          "label": "D",
+          "text": "捕获到的异常只能在当前方法中处理,而不能在其他方法中处理"
+        }
+      ],
+      "correctAnswer": ["捕获到的异常只能在当前方法中处理,而不能在其他方法中处理"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 107,
+      "type": "单选",
+      "title": "107. (单选题, 1.0 points) 下列关于try…except…finally语句的描述中,正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "try语句后面的程序段将给出处理异常的语句"
+        },
+        {
+          "label": "B",
+          "text": "except语句在try语句的后面,该语句可以不接异常名称"
+        },
+        {
+          "label": "C",
+          "text": "except语句后的异常名称与异常类的含义是相同的"
+        },
+        {
+          "label": "D",
+          "text": "finally语句后面的代码段不一定总是被执行的,如果抛出异常,该代码不执行"
+        }
+      ],
+      "correctAnswer": ["except语句在try语句的后面,该语句可以不接异常名称"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 108,
+      "type": "单选",
+      "title": "108. (单选题, 1.0 points) 下列关于创建用户自定义异常的描述中,不正确的是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "用户自定义异常需要继承Exception类或其他异常类"
+        },
+        {
+          "label": "B",
+          "text": "在方法中声明抛出异常 关键字是throw语句"
+        },
+        {
+          "label": "C",
+          "text": "捕捉异常的方法是使用try…except…else…finaIly语句"
+        },
+        {
+          "label": "D",
+          "text": "使用异常处理会使整个系统更加安全和稳健"
+        }
+      ],
+      "correctAnswer": ["在方法中声明抛出异常 关键字是throw语句"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 109,
+      "type": "单选",
+      "title": "109. (单选题, 1.0 points) 给定以下代码: def problem(): raise NameError def method1(): try: print(\"a\") problem() except NameError: print(\"b\") except Exception: print(\"c\") finally: print(\"d\") print(\"e\") method1() 当执行method1 ()方法后,输出结果是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "acd"
+        },
+        {
+          "label": "B",
+          "text": "abd"
+        },
+        {
+          "label": "C",
+          "text": "abde"
+        },
+        {
+          "label": "D",
+          "text": "a"
+        }
+      ],
+      "correctAnswer": ["abde"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 110,
+      "type": "单选",
+      "title": "110. (单选题, 1.0 points) 下列选项中,不在运行时发生的异常是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "ZerodivisionError"
+        },
+        {
+          "label": "B",
+          "text": "NameError"
+        },
+        {
+          "label": "C",
+          "text": "SyntaxError"
+        },
+        {
+          "label": "D",
+          "text": "KeyError"
+        }
+      ],
+      "correctAnswer": ["SyntaxError"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 111,
+      "type": "单选",
+      "title": "111. (单选题, 1.0 points) 当try语句块中没有任何错误信息时,一定不会执行的语句是哪一项?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "try"
+        },
+        {
+          "label": "B",
+          "text": "else"
+        },
+        {
+          "label": "C",
+          "text": "finally"
+        },
+        {
+          "label": "D",
+          "text": "except"
+        }
+      ],
+      "correctAnswer": ["except"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 112,
+      "type": "单选",
+      "title": "112. (单选题, 1.0 points) 如果Python程序中试图打开不存在的文件,解释器将在运行时抛出哪类异常?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "NameError"
+        },
+        {
+          "label": "B",
+          "text": "SyntaxError"
+        },
+        {
+          "label": "C",
+          "text": "FileNotFoundError"
+        },
+        {
+          "label": "D",
+          "text": "ZeroDivisionError"
+        }
+      ],
+      "correctAnswer": ["FileNotFoundError"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 113,
+      "type": "单选",
+      "title": "113. (单选题, 1.0 points) Python程序中,假设列表s=[1,23,2],如果语句中使用s[3],则解释器将抛出哪类异常?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "NameError"
+        },
+        {
+          "label": "B",
+          "text": "IndexError"
+        },
+        {
+          "label": "C",
+          "text": "SyntaxError"
+        },
+        {
+          "label": "D",
+          "text": "ZeroDivisionError"
+        }
+      ],
+      "correctAnswer": ["IndexError"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 114,
+      "type": "单选",
+      "title": "114. (单选题, 1.0 points) Python程序中,假设字典d={'1':'male','2':'female'},如果语句中使用d[3],则解释器将抛出哪类异常?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "NameError"
+        },
+        {
+          "label": "B",
+          "text": "IndexError"
+        },
+        {
+          "label": "C",
+          "text": "SyntaxError"
+        },
+        {
+          "label": "D",
+          "text": "KeyError"
+        }
+      ],
+      "correctAnswer": ["KeyError"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 115,
+      "type": "填空",
+      "title": "115. (填空题, 1.0 points) 下面程序的输出结果是什么？ x=\"god\" y=\"\" for i in x: y+=str(ord(i)-ord('a')) print(y)______",
+      "options": [],
+      "correctAnswer": [
+        "6143"
+      ],
+      "selectedAnswer": [
+        "6143"
+      ],
+      "images": []
+    },
+    {
+      "id": 116,
+      "type": "填空",
+      "title": "116. (填空题, 1.0 points) 下面程序的输出结果是“found it! 44”，[代码]处应补充的语句是什么？ ls=[12,33,44,55,66] for i in ls: if i==44: print(\"found it! i=44\",i) ______ else: continue",
+      "options": [],
+      "correctAnswer": [
+        "break"
+      ],
+      "selectedAnswer": [
+        "break"
+      ],
+      "images": []
+    },
+    {
+      "id": 117,
+      "type": "填空",
+      "title": "117. (填空题, 1.0 points) 假设有一个列表a，现要求从列表a中每3个元素取1个，并且将取到的元素组成新的列表b。请设计命令。（算术运算符和赋值运算符前后不要有空格）______",
+      "options": [],
+      "correctAnswer": [
+        "b=a[::3];b=a[::3];b=a[::3];b=a[::3];b=[a[i] for i in range(0, len(a), 3)]"
+      ],
+      "selectedAnswer": [
+        "b=a[::3];b=a[::3];b=a[::3];b=a[::3];b=[a[i] for i in range(0, len(a), 3)]"
+      ],
+      "images": []
+    },
+    {
+      "id": 118,
+      "type": "填空",
+      "title": "118. (填空题, 1.0 points) 给出一文本文件vote.txt，内容是校园歌手投票数据，如下所示。一行只有一个校园歌手姓名的投票才是有效票；一行有多个校园歌手姓名时，姓名之间用空格分隔，均为无效选票。下面的程序用于统计有效票数，请在[填空1][填空2]处补充合适的内容。 文本文件vote.txt内容如下。 杨雨 朱丽 陆寒 陆寒 陆寒 孙妮 杨雨 孙妮 朱丽 孙妮 杨雨…… 程序代码如下。 f = open(\"vote.txt\") names = f.readlines() f.close() n = 0 for name in ______ : num =______ if num==1: n+=1 print(\"有效票{}张\".format(n))",
+      "options": [],
+      "correctAnswer": [
+        "names",
+        "len(name.split());len(name.split(\" \"))"
+      ],
+      "selectedAnswer": [
+        "names",
+        "len(name.split());len(name.split(\" \"))"
+      ],
+      "images": []
+    },
+    {
+      "id": 119,
+      "type": "填空",
+      "title": "119. (填空题, 1.0 points) 下面的程序运行时，要求通过键盘输入某班每个同学就业的行业名称，行业名称之间用空格间隔（回车结束输入）。程序的功能是统计各行业就业的学生数量，按数量从高到低排序输出。例如： 输入内容如下：交通 计算机 通信 计算机 网络 网络 交通 计算机输出内容如下：计算机：3网络：2交通：2通信：1 完善程序，请在填空处补充合适的内容。（算术运算符和赋值运算符前后不要有空格）（排序用到的lambda的参数为x,不要使用其他名) names=input(\"请输入就业行业名称，用空格间隔（回车结束输入）：\") t=names.split() d = {} for c in range(len(t)): d[t[c]]= ______ ls = list(d.items()) ls.sort(______ ) # 按照数量排序 for k in range(len(ls)): zy,num=ls[k] print(\"{}:{}\".format(zy,num))",
+      "options": [],
+      "correctAnswer": [
+        "d.get(t[c],0)+1;t.count(t[c])",
+        "key=lambda x:x[1], reverse=True"
+      ],
+      "selectedAnswer": [
+        "d.get(t[c],0)+1;t.count(t[c])",
+        "key=lambda x:x[1], reverse=True"
+      ],
+      "images": []
+    },
+    {
+      "id": 120,
+      "type": "填空",
+      "title": "120. (填空题, 1.0 points) 下面程序的功能是：输入以逗号分隔的一组单词，判断是否有重复的单词。如果存在重复的单词，打印“有重复单词”，退出；如果无重复的单词，把单词加到words列表中，打印“没有重复单词”。[代码]处应补充的语句是什么？ txt=input(\"请输入一组单词，以逗号分隔：\") ls=txt.split(',') words=[] for word in ls: if word in words: print(\"有重复单词\") break else: ______ else: print(\"没有重复单词\")",
+      "options": [],
+      "correctAnswer": [
+        "words.append(word)"
+      ],
+      "selectedAnswer": [
+        "words.append(word)"
+      ],
+      "images": []
+    },
+    {
+      "id": 121,
+      "type": "填空",
+      "title": "121. (填空题, 1.0 points) 写出判断整数x能否同时被3和5整除的Python 语言表达式。（算术运算符、比较运算符和赋值运算符前后不要有空格）______",
+      "options": [],
+      "correctAnswer": [
+        "x%3==0 and x%5==0;x%3==x%5==0;0==x%3 and 0==x%5;x%5=0 and x%3==0;0==x%5 and 0==x%3;x%5==x%3==0"
+      ],
+      "selectedAnswer": [
+        "x%3==0 and x%5==0;x%3==x%5==0;0==x%3 and 0==x%5;x%5=0 and x%3==0;0==x%5 and 0==x%3;x%5==x%3==0"
+      ],
+      "images": []
+    },
+    {
+      "id": 122,
+      "type": "填空",
+      "title": "122. (填空题, 1.0 points) 以下程序的运行结果是什么？ def func(a,b): c=a**2+b b=a return c a=10 b=100 c=func(a,b)+a print(a,b,c)______",
+      "options": [],
+      "correctAnswer": [
+        "10 100 210"
+      ],
+      "selectedAnswer": [
+        "10 100 210"
+      ],
+      "images": []
+    },
+    {
+      "id": 123,
+      "type": "填空",
+      "title": "123. (填空题, 1.0 points) 以下程序的输出结果是什么？ for i in range(1,8): if i%4==0: break else: print(i,end=\",\")______",
+      "options": [],
+      "correctAnswer": [
+        "1,2,3,"
+      ],
+      "selectedAnswer": [
+        "1,2,3,"
+      ],
+      "images": []
+    },
+    {
+      "id": 124,
+      "type": "填空",
+      "title": "124. (填空题, 1.0 points) 下面程序的值是什么？在程序中运行获取结果 a,b=2,1 sum=0 for i in range(20): sum+=a/b t=a a=a+b b=t print(int(sum))______",
+      "options": [],
+      "correctAnswer": [
+        "32"
+      ],
+      "selectedAnswer": [
+        "32"
+      ],
+      "images": []
+    },
+    {
+      "id": 125,
+      "type": "填空",
+      "title": "125. (填空题, 1.0 points) 要求通过input()函数输入元素来分别创建长度为3的列表ls1和ls2。如：ls1 = [\"name\",\"age\",\"job\"]和ls2 = [\"Peter\",23,\"student\"]。其中列表ls1的三个元素都是字符串类型，列表ls2中的第一个元素和第三个元素都是字符串类型，第二个元素是整数。然后由ls1和ls2得到如下字典： dt = {\"name\":\"Peter\",\"age\":23,\"job\":\"student}。要求： （1）输出字典的信息：{'name': 'Peter', 'age': 23, 'job': 'student'}； （2）按照如下形式输出字典中元素的信息： name--->Peter‪‪‪‪‪‪‫‪‪‪‪‪‪‫‪‪‪‪‪‪‪‪‪‪‪‫‫‪‪‪‪‪‪ age--->23‪‪‪‪‪‪‫‪‪‪‪‪‪‫‪‪‪‪‪‪‪‪‪‪‪‫‫‪‪‪‪‪‪ job--->student‪‪‪‪‪‫‪‪‪‪‪‪‫‪‪‪‪‪‪‪‪‪‪‪‫‫‪‪‪‪‪‪ （3）利用字典中的信息输出以下结果：‪‪‪‪‪‪‫‪‪‪‪‪‪‫‪‪‪‪‪‪‪‪‪‪‪‫‫‪‪‪‪‪‪ 键name对应的值是Peter，不是student 说明：以上输出仅是示例，程序的输出结果会随着输入的列表元素值不同而发生变化。 ls1 = [] ls2 = [] for i in range(3): x = input() ls1.append(x) for i in range(3): x = input() ______ ls2[1] = eval(ls2[1]) dt = dict.fromkeys(ls1) for i in range(len(ls2)): dt[ls1[i]] = ls2[i] print(dt) lskey = list(dt.keys()) for key,value in ______ : print(\"{0}--->{1}\".format(key,value)) print(\"键{0}对应的值是{1}，不是{2}\".format(lskey[0],dt[lskey[0]],dt[lskey[2]]))",
+      "options": [],
+      "correctAnswer": [
+        "ls2.append(x)",
+        "dt.items()"
+      ],
+      "selectedAnswer": [
+        "ls2.append(x)",
+        "dt.items()"
+      ],
+      "images": []
+    },
+    {
+      "id": 126,
+      "type": "填空",
+      "title": "126. (填空题, 1.0 points) 要求通过input()函数输入元素来创建一个长度为3的列表ls1，要求列表中所有元素均为整数。将ls1中的每一个元素乘以2得到列表ls2，然后将两个列表中对应位置元素相加得到一个新的列表 new_ls，打印输出新列表new_ls。 ls1 = [] new_ls= [] for i in range(3): x = input() ls1.append(eval(x)) ls2 =______ for i in range(3): ______ print(\"新列表new_ls为：{}\".format(new_ls))",
+      "options": [],
+      "correctAnswer": [
+        "[2*x for x in ls1]",
+        "new_ls.append(ls1[i]+ls2[i])"
+      ],
+      "selectedAnswer": [
+        "[2*x for x in ls1]",
+        "new_ls.append(ls1[i]+ls2[i])"
+      ],
+      "images": []
+    },
+    {
+      "id": 127,
+      "type": "填空",
+      "title": "127. (填空题, 1.0 points) 程序的功能是：从键盘输入一句中文文本，不含标点符号和空格、命名为变量txt，使用jieba 库对其进行分词，输出该文本中词语的平均长度，保留1位小数。 例如，从键盘输入“一半勾留在此湖”，屏幕输出“1.8”。 在横线上书写代码，完善py102.Py，代码框架如下。 #请在 处使用一行代码或表达式换 #注意:请不要修改其他已给出的代码 import ______ txt = input(\"请输入一段中文文本:\") ______ print(\"{:.1f}\".format(len(txt)/len(ls)))",
+      "options": [],
+      "correctAnswer": [
+        "jieba",
+        "ls=jieba.lcut(txt);ls = jieba.lcut(txt)"
+      ],
+      "selectedAnswer": [
+        "jieba",
+        "ls=jieba.lcut(txt);ls = jieba.lcut(txt)"
+      ],
+      "images": []
+    },
+    {
+      "id": 128,
+      "type": "填空",
+      "title": "128. (填空题, 1.0 points) 程序的功能是：接收从键盘输入的4个数字，数字之间使用空格分隔，对应的变量名是 x0、y0、x1、y1。计算两点(x0,y0)和(x1,y1)之间的距离并输出这个距离，保留2位小数。 例如，从键盘输入“0 1 3 5”，屏幕输出“5.00”。 在横线上书写代码，完善py101.Py，代码框架如下。 #请在 处使用一行代码或表达式替换 #注意：请不要修改其他已给出的代码 ntxt = input(\"请输入4个数字(空格分隔):\") ______ x0 = eval(nls[0]) y0 = eval(nls[1]) x1 = eval(nls[2]) y1 = eval(nls[3]) r = pow(pow(x1-x0,2)+pow(y1-y0,2), ______) print(\"{:.2f}\".format(r))",
+      "options": [],
+      "correctAnswer": [
+        "nls=ntxt.split();nls = ntxt.split()",
+        "0.5"
+      ],
+      "selectedAnswer": [
+        "nls=ntxt.split();nls = ntxt.split()",
+        "0.5"
+      ],
+      "images": []
+    },
+    {
+      "id": 129,
+      "type": "填空",
+      "title": "129. (填空题, 1.0 points) 已知一个列表中的元素都是由数字构成的字符串，如：st = [\"2\",\"4\",\"1\",\"56\"]，编程实现将列表中的元素进行数字的加法运算，并输出加法等式，即：2+4+1+56 = 63。要求不能使用循环语句。 st = [\"2\",\"4\",\"1\",\"56\"] s = ______ print(\"{0} = {1}\".format(s, ______))",
+      "options": [],
+      "correctAnswer": [
+        "\"+\".join(st);'+'.join(st)",
+        "eval(s)"
+      ],
+      "selectedAnswer": [
+        "\"+\".join(st);'+'.join(st)",
+        "eval(s)"
+      ],
+      "images": []
+    },
+    {
+      "id": 130,
+      "type": "单选",
+      "title": "130. (判断题, 1.0 points) 浏览器或网络爬虫向服务器发送请求后，得到响应码200 表示请求成功。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 131,
+      "type": "单选",
+      "title": "131. (判断题, 1.0 points) for循环可以用于遍历字符串、列表、元组、字典等可迭代对象。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 132,
+      "type": "单选",
+      "title": "132. (判断题, 1.0 points) 列表的sort()方法会对列表进行排序，返回一个新的排序后的列表。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["False"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 133,
+      "type": "单选",
+      "title": "133. (判断题, 1.0 points) 在 Python 中，//运算符表示整除，会返回商的整数部分。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 134,
+      "type": "单选",
+      "title": "134. (判断题, 1.0 points) 在 Python 中，变量不需要先声明就可以直接使用。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 135,
+      "type": "单选",
+      "title": "135. (判断题, 1.0 points) 集合中的元素是无序且不重复的。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 136,
+      "type": "单选",
+      "title": "136. (判断题, 1.0 points) 字符串的split()方法可以根据指定的分隔符将字符串分割成一个列表。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 137,
+      "type": "单选",
+      "title": "137. (判断题, 1.0 points) 字符串可以使用单引号、双引号或三引号来定义。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 138,
+      "type": "单选",
+      "title": "138. (判断题, 1.0 points) with语句用于简化文件操作等资源管理，确保资源在使用后被正确释放。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 139,
+      "type": "单选",
+      "title": "139. (判断题, 1.0 points) 字典的get()方法可以根据键获取对应的值，如果键不存在，会返回默认值。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 140,
+      "type": "单选",
+      "title": "140. (判断题, 1.0 points) 子类可以重写父类的方法，以实现不同的功能。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 141,
+      "type": "单选",
+      "title": "141. (判断题, 1.0 points) 在 Python 中，所有的对象都有一个唯一的标识符，可以使用id()函数来获取。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 142,
+      "type": "单选",
+      "title": "142. (判断题, 1.0 points) 字典中的键必须是唯一的。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 143,
+      "type": "单选",
+      "title": "143. (判断题, 1.0 points) 可以使用*运算符来重复字符串、列表等对象。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 144,
+      "type": "单选",
+      "title": "144. (判断题, 1.0 points) Python 中的异常处理可以使用try-except语句来捕获和处理异常。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 145,
+      "type": "单选",
+      "title": "145. (判断题, 1.0 points) range()函数生成的序列默认从 1 开始。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["False"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 146,
+      "type": "单选",
+      "title": "146. (判断题, 1.0 points) 函数内部可以使用global关键字来声明全局变量，以便在函数内部修改全局变量的值。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 147,
+      "type": "单选",
+      "title": "147. (判断题, 1.0 points) 列表和元组都可以通过索引来访问元素，且都可以修改元素的值。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": ["False"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 148,
+      "type": "单选",
+      "title": "148. (判断题, 1.0 points) 可以使用in关键字来判断一个元素是否在列表、字符串、字典等对象中。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": [ "True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 149,
+      "type": "单选",
+      "title": "149. (判断题, 1.0 points) 在 Python 中，if语句后面的条件表达式不需要用括号括起来。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": [ "True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 150,
+      "type": "单选",
+      "title": "150. (判断题, 1.0 points) 列表的append()方法可以在列表末尾添加一个元素，extend()方法可以在列表末尾添加多个元素。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": [ "True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 151,
+      "type": "单选",
+      "title": "151. (判断题, 1.0 points) Python 中的函数可以返回多个值。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": [ "True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 152,
+      "type": "单选",
+      "title": "152. (判断题, 1.0 points) while循环和for循环都可以使用break语句来跳出循环。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": [ "True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 153,
+      "type": "单选",
+      "title": "153. (判断题, 1.0 points) 函数可以作为参数传递给其他函数。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": [ "True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 154,
+      "type": "单选",
+      "title": "154. (判断题, 1.0 points) 可以使用+运算符来连接两个字符串。( )",
+      "options": [
+        {
+          "label": "true",
+          "text": "True"
+        },
+        {
+          "label": "false",
+          "text": "False"
+        }
+      ],
+      "correctAnswer": [ "True"],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 155,
+      "type": "填空",
+      "title": "155. (简答题, 1.0 points) 字符串合并与拆分的函数是什么，通过示例来验证",
+      "options": [],
+      "correctAnswer": [
+        "split(sep, num)，以sep为分隔符分隔字符串，如果num有指定值，则仅截取num个子字符串join(seq)，以指定字符串作为分隔符，将seq中所有的元素(的字符串表示)合并为一个新的字符串"
+      ],
+      "selectedAnswer": [
+        "split(sep, num)，以sep为分隔符分隔字符串，如果num有指定值，则仅截取num个子字符串join(seq)，以指定字符串作为分隔符，将seq中所有的元素(的字符串表示)合并为一个新的字符串"
+      ],
+      "images": []
+    },
+    {
+      "id": 156,
+      "type": "填空",
+      "title": "156. (简答题, 1.0 points) 程序流程图包括哪些元素，并在word上绘出 对应的 基本元素图，截图上传",
+      "options": [],
+      "correctAnswer": [
+        "控制流，处理流，判断框，起始结束框等。（图略"
+      ],
+      "selectedAnswer": [
+        "控制流，处理流，判断框，起始结束框等。（图略"
+      ],
+      "images": []
+    },
+    {
+      "id": 157,
+      "type": "填空",
+      "title": "157. (简答题, 1.0 points) 数据库可以分为关系型数据库和非关系型数据库，什么是关系？",
+      "options": [],
+      "correctAnswer": [
+        "关系型数据库中的一个关系就是一张二维表。通常将一个没有重复行、重复列的二维表看成一个关系，每个关系都有一个关系名，也就是表名。"
+      ],
+      "selectedAnswer": [
+        "关系型数据库中的一个关系就是一张二维表。通常将一个没有重复行、重复列的二维表看成一个关系，每个关系都有一个关系名，也就是表名。"
+      ],
+      "images": []
+    },
+    {
+      "id": 158,
+      "type": "填空",
+      "title": "158. (简答题, 1.0 points) 简述程序的编译方式和解释方式的区别。",
+      "options": [],
+      "correctAnswer": [
+        "编译是将源程序代码转换成目标代码的过程。源代码是计算机高级语言代码，而目标代码则是机器语言代码。解释是将源代码逐条转换成目标代码同时逐条运行目标代码的过程。执行解释的计算机程序称为解释器(Interpreter)。 解释和编译的区别在于编译是一次性地翻译，程序被编译后，运行的时候不再需要源代码。解释则在每次程序运行时都需要解释器和源代码。这两者的区类似于外语资料的翻译和实时的同声传译。"
+      ],
+      "selectedAnswer": [
+        "编译是将源程序代码转换成目标代码的过程。源代码是计算机高级语言代码，而目标代码则是机器语言代码。解释是将源代码逐条转换成目标代码同时逐条运行目标代码的过程。执行解释的计算机程序称为解释器(Interpreter)。 解释和编译的区别在于编译是一次性地翻译，程序被编译后，运行的时候不再需要源代码。解释则在每次程序运行时都需要解释器和源代码。这两者的区类似于外语资料的翻译和实时的同声传译。"
+      ],
+      "images": []
+    },
+    {
+      "id": 159,
+      "type": "填空",
+      "title": "159. (简答题, 1.0 points) 列表、元组、字典都用什么标记或函数创建？",
+      "options": [],
+      "correctAnswer": [
+        "列表：用方括号 [] 创建，元组：用圆括号 () 创建， 字典：用花括号 {} 创建， 另外也可以用内置的函数创建： 创建空列表： my_list = list() 创建空元组： my_tuple = tuple() 创建空字典： my_dict = dict()"
+      ],
+      "selectedAnswer": [
+        "列表：用方括号 [] 创建，元组：用圆括号 () 创建， 字典：用花括号 {} 创建， 另外也可以用内置的函数创建： 创建空列表： my_list = list() 创建空元组： my_tuple = tuple() 创建空字典： my_dict = dict()"
+      ],
+      "images": []
+    },
+    {
+      "id": 160,
+      "type": "填空",
+      "title": "160. (简答题, 1.0 points) Python的内置属性__name__有什么作用？",
+      "options": [],
+      "correctAnswer": [
+        "__name__ 是Python的内置属性，用于表示当前模块的名字，也能反映一个包的结构。如果.py文件作为模块被调用，__name__的属性值为模块文件的主名，如果模块独立运行，__name__属性值为__main__。 语句if __name__ == 'main' 的作用就是控制这两种不同情况执行代码的过程，当 __name__ 值为“main”时，文件作为脚本直接执行，而使用import或from语句导入到其他程序中时，模块中的代码是不会被执行的。"
+      ],
+      "selectedAnswer": [
+        "__name__ 是Python的内置属性，用于表示当前模块的名字，也能反映一个包的结构。如果.py文件作为模块被调用，__name__的属性值为模块文件的主名，如果模块独立运行，__name__属性值为__main__。 语句if __name__ == 'main' 的作用就是控制这两种不同情况执行代码的过程，当 __name__ 值为“main”时，文件作为脚本直接执行，而使用import或from语句导入到其他程序中时，模块中的代码是不会被执行的。"
+      ],
+      "images": []
+    },
+    {
+      "id": 161,
+      "type": "填空",
+      "title": "161. (简答题, 1.0 points) 面向对象语言有哪三个特性？类的成员有那些?",
+      "options": [],
+      "correctAnswer": [
+        "面向对象语言的三个特点是封装、继承和多态。 类的成员包括 属性和方法。属性是类中的变量，用于存储对象的状态信息；方法是类中的函数，用于描述对象可以执行的操作。一个类的成员可以被访问控制修饰符限制访问权限，常见的有public、private和protected。类的成员可以分为静态成员和实例成员，静态成员属于整个类本身，实例成员属于实例对象。"
+      ],
+      "selectedAnswer": [
+        "面向对象语言的三个特点是封装、继承和多态。 类的成员包括 属性和方法。属性是类中的变量，用于存储对象的状态信息；方法是类中的函数，用于描述对象可以执行的操作。一个类的成员可以被访问控制修饰符限制访问权限，常见的有public、private和protected。类的成员可以分为静态成员和实例成员，静态成员属于整个类本身，实例成员属于实例对象。"
+      ],
+      "images": []
+    },
+    {
+      "id": 162,
+      "type": "填空",
+      "title": "162. (简答题, 1.0 points) requests库的get()方法返回Response对象，该对象的status_code、text、encoding等属性的含义是什么？",
+      "options": [],
+      "correctAnswer": [
+        "requests.get()代表请求过程，它返回的Response对象代表响应。返回内容作为一个对象更便于操作，Response对象的主要属性如下。 · status_code：返回HTTP请求的状态，200表示连接成功，404表示失败。 · text：HTTP响应内容的字符串形式，即url对应的页面内容。 · encoding：HTTP响应内容的编码方式。"
+      ],
+      "selectedAnswer": [
+        "requests.get()代表请求过程，它返回的Response对象代表响应。返回内容作为一个对象更便于操作，Response对象的主要属性如下。 · status_code：返回HTTP请求的状态，200表示连接成功，404表示失败。 · text：HTTP响应内容的字符串形式，即url对应的页面内容。 · encoding：HTTP响应内容的编码方式。"
+      ],
+      "images": []
+    },
+    {
+      "id": 163,
+      "type": "填空",
+      "title": "163. (简答题, 1.0 points) 简述程序设计的IPO模式的特点。",
+      "options": [],
+      "correctAnswer": [
+        "程序设计模式的IPO模式，即程序包括输入(Input)、处理(Process)、输出(Output)3部分；输入是程序设计的起点，包括文件输入、网络输入、交互输入、参数输入等。输出是程序展示运算成果的方式，包括文件输出、网络输出、控制台输出、图表输出等。而处理部分则是编程的核心，包括数据处理与赋值，更重要的是算法。"
+      ],
+      "selectedAnswer": [
+        "程序设计模式的IPO模式，即程序包括输入(Input)、处理(Process)、输出(Output)3部分；输入是程序设计的起点，包括文件输入、网络输入、交互输入、参数输入等。输出是程序展示运算成果的方式，包括文件输出、网络输出、控制台输出、图表输出等。而处理部分则是编程的核心，包括数据处理与赋值，更重要的是算法。"
+      ],
+      "images": []
+    }
+  ]

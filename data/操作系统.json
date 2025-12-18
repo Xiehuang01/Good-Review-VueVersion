@@ -1,0 +1,5001 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题) 可变分区方式常用的内存分配算法中，（ ）总是找到能满足作业要求的最小空闲区分配。",
+      "options": [
+        {
+          "label": "A",
+          "text": "首次适应算法"
+        },
+        {
+          "label": "B",
+          "text": "最坏适应算法"
+        },
+        {
+          "label": "C",
+          "text": "循环首次适应算法"
+        },
+        {
+          "label": "D",
+          "text": "最佳适应算法"
+        }
+      ],
+      "correctAnswer": [
+        "最佳适应算法"
+      ],
+      "selectedAnswer": [
+        "最佳适应算法"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题) 临界区是指（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "公共数据区"
+        },
+        {
+          "label": "B",
+          "text": "与共享变量有关的程序段"
+        },
+        {
+          "label": "C",
+          "text": "临时的工作区"
+        },
+        {
+          "label": "D",
+          "text": "系统管理区"
+        }
+      ],
+      "correctAnswer": [
+        "与共享变量有关的程序段"
+      ],
+      "selectedAnswer": [
+        "与共享变量有关的程序段"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题) 死锁定理是用于处理死锁的哪一种方法（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "检测死锁"
+        },
+        {
+          "label": "B",
+          "text": "预防死锁"
+        },
+        {
+          "label": "C",
+          "text": "解除死锁"
+        },
+        {
+          "label": "D",
+          "text": "避免死锁"
+        }
+      ],
+      "correctAnswer": [
+        "检测死锁"
+      ],
+      "selectedAnswer": [
+        "检测死锁"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题) 地址重定位的目的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "提高内存访问速度"
+        },
+        {
+          "label": "B",
+          "text": "扩大内存容量"
+        },
+        {
+          "label": "C",
+          "text": "将逻辑地址转换为物理地址"
+        },
+        {
+          "label": "D",
+          "text": "实现内存保护"
+        }
+      ],
+      "correctAnswer": [
+        "将逻辑地址转换为物理地址"
+      ],
+      "selectedAnswer": [
+        "将逻辑地址转换为物理地址"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题) 两个进程合作完成一个任务。在并发执行中，一个进程要等待其合作伙伴发来消息，或者建立某个条件后再向前执行，这种制约性合作关系被称为进程（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "执行"
+        },
+        {
+          "label": "B",
+          "text": "互斥"
+        },
+        {
+          "label": "C",
+          "text": "调度"
+        },
+        {
+          "label": "D",
+          "text": "同步"
+        }
+      ],
+      "correctAnswer": [
+        "同步"
+      ],
+      "selectedAnswer": [
+        "同步"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题) 指定扇区旋转到磁头下所需的时间是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "优化时间"
+        },
+        {
+          "label": "B",
+          "text": "传输时间"
+        },
+        {
+          "label": "C",
+          "text": "查找时间"
+        },
+        {
+          "label": "D",
+          "text": "等待时间"
+        }
+      ],
+      "correctAnswer": [
+        "等待时间"
+      ],
+      "selectedAnswer": [
+        "等待时间"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题) 银行家算法是一种（ ）算法。",
+      "options": [
+        {
+          "label": "A",
+          "text": "检测死锁"
+        },
+        {
+          "label": "B",
+          "text": "预防死锁"
+        },
+        {
+          "label": "C",
+          "text": "避免死锁"
+        },
+        {
+          "label": "D",
+          "text": "解除死锁"
+        }
+      ],
+      "correctAnswer": [
+        "避免死锁"
+      ],
+      "selectedAnswer": [
+        "避免死锁"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题) 以下哪项不是进程的基本状态？（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "挂起态"
+        },
+        {
+          "label": "B",
+          "text": "就绪态"
+        },
+        {
+          "label": "C",
+          "text": "运行态"
+        },
+        {
+          "label": "D",
+          "text": "阻塞态"
+        }
+      ],
+      "correctAnswer": [
+        "挂起态"
+      ],
+      "selectedAnswer": [
+        "挂起态"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题) （ ）优先权是在创建进程的时候确定的，确定之后在整个进程运行期间不再改变。",
+      "options": [
+        {
+          "label": "A",
+          "text": "动态"
+        },
+        {
+          "label": "B",
+          "text": "静态"
+        },
+        {
+          "label": "C",
+          "text": "短作业"
+        },
+        {
+          "label": "D",
+          "text": "高响应比"
+        }
+      ],
+      "correctAnswer": [
+        "静态"
+      ],
+      "selectedAnswer": [
+        "静态"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题) 磁带上的文件一般只能（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "顺序存取"
+        },
+        {
+          "label": "B",
+          "text": "按字节为单位存取"
+        },
+        {
+          "label": "C",
+          "text": "随机存取"
+        },
+        {
+          "label": "D",
+          "text": "按键存取"
+        }
+      ],
+      "correctAnswer": [
+        "顺序存取"
+      ],
+      "selectedAnswer": [
+        "顺序存取"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题) 某系统有 3 个进程 P1、P2、P3，共享 2 个同类资源 R，每个进程最多需 2 个资源。若进程按 “P1 申请 1→P2 申请 1→P3 申请 1→P1 申请 1” 的顺序请求资源，此时系统状态",
+      "options": [
+        {
+          "label": "A",
+          "text": "空闲"
+        },
+        {
+          "label": "B",
+          "text": "死锁"
+        },
+        {
+          "label": "C",
+          "text": "安全"
+        },
+        {
+          "label": "D",
+          "text": "临界"
+        }
+      ],
+      "correctAnswer": [
+        "死锁"
+      ],
+      "selectedAnswer": [
+        "死锁"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题) 线程与进程的主要区别是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "线程有独立地址空间"
+        },
+        {
+          "label": "B",
+          "text": "线程不能共享进程资源"
+        },
+        {
+          "label": "C",
+          "text": "线程上下文切换开销更小"
+        },
+        {
+          "label": "D",
+          "text": "线程是资源分配基本单位"
+        }
+      ],
+      "correctAnswer": [
+        "线程上下文切换开销更小"
+      ],
+      "selectedAnswer": [
+        "线程上下文切换开销更小"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题) 若把操作系看做计算机资源的管理者，下列的（ ）不属于操作系统所管理的资源。",
+      "options": [
+        {
+          "label": "A",
+          "text": "中断"
+        },
+        {
+          "label": "B",
+          "text": "内存"
+        },
+        {
+          "label": "C",
+          "text": "磁盘"
+        },
+        {
+          "label": "D",
+          "text": "CPU"
+        }
+      ],
+      "correctAnswer": [
+        "中断"
+      ],
+      "selectedAnswer": [
+        "中断"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14. (单选题) 计算机操作中，最外层的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "系统软件"
+        },
+        {
+          "label": "B",
+          "text": "应用软件"
+        },
+        {
+          "label": "C",
+          "text": "硬件系统"
+        },
+        {
+          "label": "D",
+          "text": "支撑软件"
+        }
+      ],
+      "correctAnswer": [
+        "应用软件"
+      ],
+      "selectedAnswer": [
+        "应用软件"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15. (单选题) 已经获得了除（ ）以外的所有运行所需资源的进程处于就绪状态。",
+      "options": [
+        {
+          "label": "A",
+          "text": "存储器"
+        },
+        {
+          "label": "B",
+          "text": "磁盘空间"
+        },
+        {
+          "label": "C",
+          "text": "CPU"
+        },
+        {
+          "label": "D",
+          "text": "打印机"
+        }
+      ],
+      "correctAnswer": [
+        "CPU"
+      ],
+      "selectedAnswer": [
+        "CPU"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. (单选题) 下列进程变化状态中，（ ）变化是不可能发生的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "阻塞→执行"
+        },
+        {
+          "label": "B",
+          "text": "阻塞→就绪"
+        },
+        {
+          "label": "C",
+          "text": "执行→就绪"
+        },
+        {
+          "label": "D",
+          "text": "执行→阻塞"
+        }
+      ],
+      "correctAnswer": [
+        "阻塞→执行"
+      ],
+      "selectedAnswer": [
+        "阻塞→执行"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. (单选题) 防止系统故障造成破坏，文件系统可以采用（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "建立副本和定时转储"
+        },
+        {
+          "label": "B",
+          "text": "把文件信息翻译成密文"
+        },
+        {
+          "label": "C",
+          "text": "对每个文件规定使用权限"
+        },
+        {
+          "label": "D",
+          "text": "为文件设置口令"
+        }
+      ],
+      "correctAnswer": [
+        "建立副本和定时转储"
+      ],
+      "selectedAnswer": [
+        "建立副本和定时转储"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. (单选题) 引入多道程序设计技术的目的在于（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "提高每一个算题的速度"
+        },
+        {
+          "label": "B",
+          "text": "充分利用存储器"
+        },
+        {
+          "label": "C",
+          "text": "充分利用CPU，增加单位时间内的算题量"
+        },
+        {
+          "label": "D",
+          "text": "有利于代码共享，减少内、外存信息交换量"
+        }
+      ],
+      "correctAnswer": [
+        "充分利用CPU，增加单位时间内的算题量"
+      ],
+      "selectedAnswer": [
+        "充分利用CPU，增加单位时间内的算题量"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. (单选题) “死锁”问题的讨论是针对（ ）的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "多个并发进程竞争独占型资源"
+        },
+        {
+          "label": "B",
+          "text": "某个进程申请系统中不存在的资源"
+        },
+        {
+          "label": "C",
+          "text": "某个进程申请资源数超过了系统拥有的最大资源数"
+        },
+        {
+          "label": "D",
+          "text": "硬件故障"
+        }
+      ],
+      "correctAnswer": [
+        "多个并发进程竞争独占型资源"
+      ],
+      "selectedAnswer": [
+        "多个并发进程竞争独占型资源"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. (单选题) 可变分区方式常用的内存分配算法中，（ ）总是找到能满足作业要求的最大空闲区分配。",
+      "options": [
+        {
+          "label": "A",
+          "text": "最坏适应算法"
+        },
+        {
+          "label": "B",
+          "text": "循环首次适应算法"
+        },
+        {
+          "label": "C",
+          "text": "最佳适应算法"
+        },
+        {
+          "label": "D",
+          "text": "首次适应算法"
+        }
+      ],
+      "correctAnswer": [
+        "最坏适应算法"
+      ],
+      "selectedAnswer": [
+        "最坏适应算法"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "单选",
+      "title": "21. (单选题) 操作系统的基本类型主要有（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "批处理操作系统、分时操作系统及实时操作系统"
+        },
+        {
+          "label": "B",
+          "text": "单用户系统、多用户系统和批处理系统"
+        },
+        {
+          "label": "C",
+          "text": "批处理系统、分时系统和多任务系统"
+        },
+        {
+          "label": "D",
+          "text": "实时系统、分时系统和多用户系统"
+        }
+      ],
+      "correctAnswer": [
+        "批处理操作系统、分时操作系统及实时操作系统"
+      ],
+      "selectedAnswer": [
+        "批处理操作系统、分时操作系统及实时操作系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "单选",
+      "title": "22. (单选题) 下列（ ）存储方式不能实现虚拟存储器。",
+      "options": [
+        {
+          "label": "A",
+          "text": "段页式"
+        },
+        {
+          "label": "B",
+          "text": "段式"
+        },
+        {
+          "label": "C",
+          "text": "页式"
+        },
+        {
+          "label": "D",
+          "text": "分区"
+        }
+      ],
+      "correctAnswer": [
+        "分区"
+      ],
+      "selectedAnswer": [
+        "分区"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "单选",
+      "title": "23. (单选题) 下列文件全属于物理文件的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "连续文件、索引文件"
+        },
+        {
+          "label": "B",
+          "text": "流式文件、记录式文件"
+        },
+        {
+          "label": "C",
+          "text": "索引文件、记录式文件"
+        },
+        {
+          "label": "D",
+          "text": "流式文件、串联文件"
+        }
+      ],
+      "correctAnswer": [
+        "连续文件、索引文件"
+      ],
+      "selectedAnswer": [
+        "连续文件、索引文件"
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "单选",
+      "title": "24. (单选题) 下例的信号量操作中，相当于一个可控开关的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Swait(s,d,d)"
+        },
+        {
+          "label": "B",
+          "text": "Swait(s,0,0)"
+        },
+        {
+          "label": "C",
+          "text": "Swait(s,1,0)"
+        },
+        {
+          "label": "D",
+          "text": "Swait(s,1,1)"
+        }
+      ],
+      "correctAnswer": [
+        "Swait(s,1,0)"
+      ],
+      "selectedAnswer": [
+        "Swait(s,1,0)"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25. (单选题) 下列哪项不是操作系统的特征？（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "并发性"
+        },
+        {
+          "label": "B",
+          "text": "虚拟性"
+        },
+        {
+          "label": "C",
+          "text": "确定性"
+        },
+        {
+          "label": "D",
+          "text": "共享性"
+        }
+      ],
+      "correctAnswer": [
+        "确定性"
+      ],
+      "selectedAnswer": [
+        "确定性"
+      ],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26. (单选题) 不属于文件物理结构的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "树形结构"
+        },
+        {
+          "label": "B",
+          "text": "索引结构"
+        },
+        {
+          "label": "C",
+          "text": "链接结构"
+        },
+        {
+          "label": "D",
+          "text": "连续结构"
+        }
+      ],
+      "correctAnswer": [
+        "树形结构"
+      ],
+      "selectedAnswer": [
+        "树形结构"
+      ],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27. (单选题) 位示图法可用于（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "分页式存储管理中内存空闲块的分配和回收"
+        },
+        {
+          "label": "B",
+          "text": "可变式分区存储管理中空闲区的分配和回收"
+        },
+        {
+          "label": "C",
+          "text": "页式虚拟存储管理中页面置换"
+        },
+        {
+          "label": "D",
+          "text": "文件貝录的查找"
+        }
+      ],
+      "correctAnswer": [
+        "分页式存储管理中内存空闲块的分配和回收"
+      ],
+      "selectedAnswer": [
+        "分页式存储管理中内存空闲块的分配和回收"
+      ],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28. (单选题) 磁盘物理块地址通常用（ ）表示。",
+      "options": [
+        {
+          "label": "A",
+          "text": "段号、页号"
+        },
+        {
+          "label": "B",
+          "text": "页号、块号"
+        },
+        {
+          "label": "C",
+          "text": "文件名、路径名"
+        },
+        {
+          "label": "D",
+          "text": "柱面号、磁头号、扇区号"
+        }
+      ],
+      "correctAnswer": [
+        "柱面号、磁头号、扇区号"
+      ],
+      "selectedAnswer": [
+        "柱面号、磁头号、扇区号"
+      ],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "单选",
+      "title": "29. (单选题) 中断处理的正确顺序是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "中断响应→中断请求→中断处理→中断返回"
+        },
+        {
+          "label": "B",
+          "text": "中断请求→中断响应→中断处理→中断返回"
+        },
+        {
+          "label": "C",
+          "text": "中断请求→中断处理→中断响应→中断返回"
+        },
+        {
+          "label": "D",
+          "text": "中断处理→中断请求→中断响应→中断返回"
+        }
+      ],
+      "correctAnswer": [
+        "中断请求→中断响应→中断处理→中断返回"
+      ],
+      "selectedAnswer": [
+        "中断请求→中断响应→中断处理→中断返回"
+      ],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "单选",
+      "title": "30. (单选题) 从用户的角度看，引入文件系统的主要目的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "保存系统文档"
+        },
+        {
+          "label": "B",
+          "text": "实现虚拟存储"
+        },
+        {
+          "label": "C",
+          "text": "实现对文件的按名存取"
+        },
+        {
+          "label": "D",
+          "text": "保存用户和系统文档"
+        }
+      ],
+      "correctAnswer": [
+        "实现对文件的按名存取"
+      ],
+      "selectedAnswer": [
+        "实现对文件的按名存取"
+      ],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "单选",
+      "title": "31. (单选题) 页表的核心作用是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "记录页面对应的物理块号"
+        },
+        {
+          "label": "B",
+          "text": "管理内存空闲块"
+        },
+        {
+          "label": "C",
+          "text": "实现进程调度"
+        },
+        {
+          "label": "D",
+          "text": "控制I/O访问"
+        }
+      ],
+      "correctAnswer": [
+        "记录页面对应的物理块号"
+      ],
+      "selectedAnswer": [
+        "记录页面对应的物理块号"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "单选",
+      "title": "32. (单选题) 下面关于操作系统的叙述中正确的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "批处理作业必须具有作业控制信息"
+        },
+        {
+          "label": "B",
+          "text": "分时系统不一定都具有人机交互能力"
+        },
+        {
+          "label": "C",
+          "text": "从响应时间的角度看，实时系统与分时系统差不多"
+        },
+        {
+          "label": "D",
+          "text": "由于采用了分时技术，用户可以独占计算机的资源"
+        }
+      ],
+      "correctAnswer": [
+        "批处理作业必须具有作业控制信息"
+      ],
+      "selectedAnswer": [
+        "批处理作业必须具有作业控制信息"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "单选",
+      "title": "33. (单选题) 高响应比优先（HRRN）调度算法中，响应比的计算依据是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "（等待时间 + 运行时间）/运行时间"
+        },
+        {
+          "label": "B",
+          "text": "等待时间/运行时间"
+        },
+        {
+          "label": "C",
+          "text": "运行时间/等待时间"
+        },
+        {
+          "label": "D",
+          "text": "（运行时间 - 等待时间）/运行时间"
+        }
+      ],
+      "correctAnswer": [
+        "（等待时间 + 运行时间）/运行时间"
+      ],
+      "selectedAnswer": [
+        "（等待时间 + 运行时间）/运行时间"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "单选",
+      "title": "34. (单选题) 磁盘的文件以（ ）为单位读／写。",
+      "options": [
+        {
+          "label": "A",
+          "text": "记录"
+        },
+        {
+          "label": "B",
+          "text": "磁道"
+        },
+        {
+          "label": "C",
+          "text": "块"
+        },
+        {
+          "label": "D",
+          "text": "柱面"
+        }
+      ],
+      "correctAnswer": [
+        "块"
+      ],
+      "selectedAnswer": [
+        "块"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "单选",
+      "title": "35. (单选题) 位示图可用于（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "磁盘空间的分配和回收"
+        },
+        {
+          "label": "B",
+          "text": "固定分区的存储管理"
+        },
+        {
+          "label": "C",
+          "text": "动态分区存储管理中空闲区的分配回收"
+        },
+        {
+          "label": "D",
+          "text": "页式虚存中的页面置换"
+        }
+      ],
+      "correctAnswer": [
+        "磁盘空间的分配和回收"
+      ],
+      "selectedAnswer": [
+        "磁盘空间的分配和回收"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "单选",
+      "title": "36. (单选题) 文件的逻辑组织将文件分为记录式文件和（ ）文件。",
+      "options": [
+        {
+          "label": "A",
+          "text": "流式文件"
+        },
+        {
+          "label": "B",
+          "text": "索引文件"
+        },
+        {
+          "label": "C",
+          "text": "字符文件"
+        },
+        {
+          "label": "D",
+          "text": "读／写文件"
+        }
+      ],
+      "correctAnswer": [
+        "流式文件"
+      ],
+      "selectedAnswer": [
+        "流式文件"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "单选",
+      "title": "37. (单选题) UNIX操作系统中，对磁盘存储空间的空闲块进行管理时采用（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "位示图"
+        },
+        {
+          "label": "B",
+          "text": "空闲块成组链接法"
+        },
+        {
+          "label": "C",
+          "text": "FAT表"
+        },
+        {
+          "label": "D",
+          "text": "空闲块多级目录法"
+        }
+      ],
+      "correctAnswer": [
+        "空闲块成组链接法"
+      ],
+      "selectedAnswer": [
+        "空闲块成组链接法"
+      ],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "单选",
+      "title": "38. (单选题) 操作系统的（ ）管理部分负责对进程进行调度。",
+      "options": [
+        {
+          "label": "A",
+          "text": "处理机"
+        },
+        {
+          "label": "B",
+          "text": "设备"
+        },
+        {
+          "label": "C",
+          "text": "存储器"
+        },
+        {
+          "label": "D",
+          "text": "文件"
+        }
+      ],
+      "correctAnswer": [
+        "处理机"
+      ],
+      "selectedAnswer": [
+        "处理机"
+      ],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "单选",
+      "title": "39. (单选题) 生产者 - 消费者问题中，empty 信号量的初始值应设为（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "已存产品数量"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "缓冲区大小"
+        }
+      ],
+      "correctAnswer": [
+        "缓冲区大小"
+      ],
+      "selectedAnswer": [
+        "缓冲区大小"
+      ],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "单选",
+      "title": "40. (单选题) 固定分区存储管理中，分区大小（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "可动态调整"
+        },
+        {
+          "label": "B",
+          "text": "由用户指定"
+        },
+        {
+          "label": "C",
+          "text": "运行期间固定不变"
+        },
+        {
+          "label": "D",
+          "text": "随作业大小变化"
+        }
+      ],
+      "correctAnswer": [
+        "运行期间固定不变"
+      ],
+      "selectedAnswer": [
+        "运行期间固定不变"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "单选",
+      "title": "41. (单选题) 分区管理要求对每一个作业都分配（ ）的内存单元。",
+      "options": [
+        {
+          "label": "A",
+          "text": "地址连续"
+        },
+        {
+          "label": "B",
+          "text": "若干不连续的帧"
+        },
+        {
+          "label": "C",
+          "text": "若干地址不连续的"
+        },
+        {
+          "label": "D",
+          "text": "若干连续的页"
+        }
+      ],
+      "correctAnswer": [
+        "地址连续"
+      ],
+      "selectedAnswer": [
+        "地址连续"
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "单选",
+      "title": "42. (单选题) 在进程管理中，当（ ）时，进程从阻塞状态变为就绪状态。",
+      "options": [
+        {
+          "label": "A",
+          "text": "等待某一事件"
+        },
+        {
+          "label": "B",
+          "text": "时间片用完"
+        },
+        {
+          "label": "C",
+          "text": "进程被进程调度程序选中"
+        },
+        {
+          "label": "D",
+          "text": "等待的事件发生"
+        }
+      ],
+      "correctAnswer": [
+        "等待的事件发生"
+      ],
+      "selectedAnswer": [
+        "等待的事件发生"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "单选",
+      "title": "43. (单选题) 文件系统是指（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "实现文件管理的一组软件"
+        },
+        {
+          "label": "B",
+          "text": "文件的目录"
+        },
+        {
+          "label": "C",
+          "text": "文件、管理文件的软件及数据结构的总体"
+        },
+        {
+          "label": "D",
+          "text": "文件的集合"
+        }
+      ],
+      "correctAnswer": [
+        "文件、管理文件的软件及数据结构的总体"
+      ],
+      "selectedAnswer": [
+        "文件、管理文件的软件及数据结构的总体"
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "单选",
+      "title": "44. (单选题) 缺页中断属于（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "I/O中断"
+        },
+        {
+          "label": "B",
+          "text": "硬件故障中断"
+        },
+        {
+          "label": "C",
+          "text": "外部中断"
+        },
+        {
+          "label": "D",
+          "text": "程序中断"
+        }
+      ],
+      "correctAnswer": [
+        "程序中断"
+      ],
+      "selectedAnswer": [
+        "程序中断"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "单选",
+      "title": "45. (单选题) 所谓（ ）是指将一个以上的作业放入内存，并且同时处于运行状态，这些作业共享处理机和外围设备等其他资源。",
+      "options": [
+        {
+          "label": "A",
+          "text": "实时处理"
+        },
+        {
+          "label": "B",
+          "text": "多重处理"
+        },
+        {
+          "label": "C",
+          "text": "共同执行"
+        },
+        {
+          "label": "D",
+          "text": "多道程序设计"
+        }
+      ],
+      "correctAnswer": [
+        "多道程序设计"
+      ],
+      "selectedAnswer": [
+        "多道程序设计"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "单选",
+      "title": "46. (单选题) 在可变分区存储管理中，某作业完成后要收回其内存空间，该空间可能与相邻空闲区合并，修改空闲区表使空闲区始址改变但空闲区数不变的是（ ）情况。",
+      "options": [
+        {
+          "label": "A",
+          "text": "有上邻空闲区也有下邻空闲区"
+        },
+        {
+          "label": "B",
+          "text": "无上邻空闲区且也无下邻空闲区"
+        },
+        {
+          "label": "C",
+          "text": "无上邻空闲区但有下邻空闲区"
+        },
+        {
+          "label": "D",
+          "text": "有上邻空闲区但无下邻空闲区"
+        }
+      ],
+      "correctAnswer": [
+        "无上邻空闲区但有下邻空闲区"
+      ],
+      "selectedAnswer": [
+        "无上邻空闲区但有下邻空闲区"
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "单选",
+      "title": "47. (单选题) 页面置换算法的目的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "减少 I/O 次数"
+        },
+        {
+          "label": "B",
+          "text": "选择调出内存的页面"
+        },
+        {
+          "label": "C",
+          "text": "选择装入内存的页面"
+        },
+        {
+          "label": "D",
+          "text": "提高 CPU 利用率"
+        }
+      ],
+      "correctAnswer": [
+        "选择调出内存的页面"
+      ],
+      "selectedAnswer": [
+        "选择调出内存的页面"
+      ],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "单选",
+      "title": "48. (单选题) 页面置换算法中，（ ）不是基于程序执行的局部性理论。",
+      "options": [
+        {
+          "label": "A",
+          "text": "先进先出调度算法"
+        },
+        {
+          "label": "B",
+          "text": "LRU"
+        },
+        {
+          "label": "C",
+          "text": "最近最不常用调度算法"
+        },
+        {
+          "label": "D",
+          "text": "LFU"
+        }
+      ],
+      "correctAnswer": [
+        "先进先出调度算法"
+      ],
+      "selectedAnswer": [
+        "先进先出调度算法"
+      ],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "单选",
+      "title": "49. (单选题) 请求页式存储的核心思想是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "只装入当前需要的页面"
+        },
+        {
+          "label": "B",
+          "text": "整个程序一次性装入内存"
+        },
+        {
+          "label": "C",
+          "text": "无需页表地址转换"
+        },
+        {
+          "label": "D",
+          "text": "按段装入需要的部分"
+        }
+      ],
+      "correctAnswer": [
+        "只装入当前需要的页面"
+      ],
+      "selectedAnswer": [
+        "只装入当前需要的页面"
+      ],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "单选",
+      "title": "50. (单选题) 分页虚拟存储管理中，缺页中断时，欲调度一页进入内存中，内存已无空闲块，如何决定淘汰已在内存的块时，（ ）的选择是很重要的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "覆盖技术"
+        },
+        {
+          "label": "B",
+          "text": "地址变换"
+        },
+        {
+          "label": "C",
+          "text": "对换方式"
+        },
+        {
+          "label": "D",
+          "text": "页面调度算法"
+        }
+      ],
+      "correctAnswer": [
+        "页面调度算法"
+      ],
+      "selectedAnswer": [
+        "页面调度算法"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "单选",
+      "title": "51. (单选题) 在存储管理中，采用覆盖与交换技术的目的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "实现内存共享"
+        },
+        {
+          "label": "B",
+          "text": "节省内存空间"
+        },
+        {
+          "label": "C",
+          "text": "物理上扩充内存容量"
+        },
+        {
+          "label": "D",
+          "text": "提高CPU的效率"
+        }
+      ],
+      "correctAnswer": [
+        "节省内存空间"
+      ],
+      "selectedAnswer": [
+        "节省内存空间"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "单选",
+      "title": "52. (单选题) 动态重定位技术依赖于（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "地址结构"
+        },
+        {
+          "label": "B",
+          "text": "重定位寄存器"
+        },
+        {
+          "label": "C",
+          "text": "重定位装入程序"
+        },
+        {
+          "label": "D",
+          "text": "目标程序"
+        }
+      ],
+      "correctAnswer": [
+        "重定位寄存器"
+      ],
+      "selectedAnswer": [
+        "重定位寄存器"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "单选",
+      "title": "53. (单选题) 操作系统是一种（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "应用软件"
+        },
+        {
+          "label": "B",
+          "text": "通用软件"
+        },
+        {
+          "label": "C",
+          "text": "系统软件"
+        },
+        {
+          "label": "D",
+          "text": "工具软件"
+        }
+      ],
+      "correctAnswer": [
+        "系统软件"
+      ],
+      "selectedAnswer": [
+        "系统软件"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "单选",
+      "title": "54. (单选题) 分页式存储管理的主要特点是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "不要求作业装入到内存的连续区域"
+        },
+        {
+          "label": "B",
+          "text": "要求处理缺页中断"
+        },
+        {
+          "label": "C",
+          "text": "要求扩充内存容量"
+        },
+        {
+          "label": "D",
+          "text": "不要求作业全部同时装入内存"
+        }
+      ],
+      "correctAnswer": [
+        "不要求作业装入到内存的连续区域"
+      ],
+      "selectedAnswer": [
+        "不要求作业装入到内存的连续区域"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "单选",
+      "title": "55. (单选题) 使用文件前必须先（ ）文件。",
+      "options": [
+        {
+          "label": "A",
+          "text": "打开"
+        },
+        {
+          "label": "B",
+          "text": "命名"
+        },
+        {
+          "label": "C",
+          "text": "建立"
+        },
+        {
+          "label": "D",
+          "text": "备份"
+        }
+      ],
+      "correctAnswer": [
+        "打开"
+      ],
+      "selectedAnswer": [
+        "打开"
+      ],
+      "images": []
+    },
+    {
+      "id": 56,
+      "type": "单选",
+      "title": "56. (单选题) 作业执行中发生了缺页中断，经操作系统处理后，应让其执行（ ）指令。",
+      "options": [
+        {
+          "label": "A",
+          "text": "启动时的第一条"
+        },
+        {
+          "label": "B",
+          "text": "被中断的后一条"
+        },
+        {
+          "label": "C",
+          "text": "被中断的"
+        },
+        {
+          "label": "D",
+          "text": "被中断的前一条"
+        }
+      ],
+      "correctAnswer": [
+        "被中断的"
+      ],
+      "selectedAnswer": [
+        "被中断的"
+      ],
+      "images": []
+    },
+    {
+      "id": 57,
+      "type": "单选",
+      "title": "57. (单选题) 缓冲技术的主要目的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "减少磁盘寻道时间"
+        },
+        {
+          "label": "B",
+          "text": "提高 CPU 与 I/O 的并行性"
+        },
+        {
+          "label": "C",
+          "text": "增加内存容量"
+        },
+        {
+          "label": "D",
+          "text": "实现设备共享"
+        }
+      ],
+      "correctAnswer": [
+        "提高 CPU 与 I/O 的并行性"
+      ],
+      "selectedAnswer": [
+        "提高 CPU 与 I/O 的并行性"
+      ],
+      "images": []
+    },
+    {
+      "id": 58,
+      "type": "单选",
+      "title": "58. (单选题) 时间片轮转调度算法经常用于（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "分时操作系统"
+        },
+        {
+          "label": "B",
+          "text": "批处理系统"
+        },
+        {
+          "label": "C",
+          "text": "单用户操作系统"
+        },
+        {
+          "label": "D",
+          "text": "实时系统"
+        }
+      ],
+      "correctAnswer": [
+        "分时操作系统"
+      ],
+      "selectedAnswer": [
+        "分时操作系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 59,
+      "type": "单选",
+      "title": "59. (单选题) 进程从执行态到阻塞态不可能是由于现运行进程（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "出现缺页中断"
+        },
+        {
+          "label": "B",
+          "text": "申请磁带读/写"
+        },
+        {
+          "label": "C",
+          "text": "释放某种资源"
+        },
+        {
+          "label": "D",
+          "text": "发生越界中断"
+        }
+      ],
+      "correctAnswer": [
+        "释放某种资源"
+      ],
+      "selectedAnswer": [
+        "发生越界中断"
+      ],
+      "images": []
+    },
+    {
+      "id": 60,
+      "type": "单选",
+      "title": "60. (单选题) 文件目录项中，不包含的信息是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "文件物理地址"
+        },
+        {
+          "label": "B",
+          "text": "文件创建时间"
+        },
+        {
+          "label": "C",
+          "text": "文件内容"
+        },
+        {
+          "label": "D",
+          "text": "文件名"
+        }
+      ],
+      "correctAnswer": [
+        "文件内容"
+      ],
+      "selectedAnswer": [
+        "文件内容"
+      ],
+      "images": []
+    },
+    {
+      "id": 61,
+      "type": "单选",
+      "title": "61. (单选题) （ ）是由硬件设计时固定的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "传输时间"
+        },
+        {
+          "label": "B",
+          "text": "查找时间"
+        },
+        {
+          "label": "C",
+          "text": "优化时间"
+        },
+        {
+          "label": "D",
+          "text": "等待时间"
+        }
+      ],
+      "correctAnswer": [
+        "传输时间"
+      ],
+      "selectedAnswer": [
+        "传输时间"
+      ],
+      "images": []
+    },
+    {
+      "id": 62,
+      "type": "单选",
+      "title": "62. (单选题) 除了可以采用资源剥夺法解除死锁外，还可以采用（ ）方法解除死锁。",
+      "options": [
+        {
+          "label": "A",
+          "text": "修改信号量"
+        },
+        {
+          "label": "B",
+          "text": "执行并行操作"
+        },
+        {
+          "label": "C",
+          "text": "拒绝分配新的资源"
+        },
+        {
+          "label": "D",
+          "text": "撤销进程"
+        }
+      ],
+      "correctAnswer": [
+        "撤销进程"
+      ],
+      "selectedAnswer": [
+        "撤销进程"
+      ],
+      "images": []
+    },
+    {
+      "id": 63,
+      "type": "单选",
+      "title": "63. (单选题) 在操作系统中，进程是一个具有独立运行功能的程序在某个数据集合上的一次（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "关联过程"
+        },
+        {
+          "label": "B",
+          "text": "等待过程"
+        },
+        {
+          "label": "C",
+          "text": "单独过程"
+        },
+        {
+          "label": "D",
+          "text": "运行过程"
+        }
+      ],
+      "correctAnswer": [
+        "运行过程"
+      ],
+      "selectedAnswer": [
+        "运行过程"
+      ],
+      "images": []
+    },
+    {
+      "id": 64,
+      "type": "单选",
+      "title": "64. (单选题) 磁头在移动臂带动下移动到指定柱面所花的时间是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "查找时间"
+        },
+        {
+          "label": "B",
+          "text": "传输时间"
+        },
+        {
+          "label": "C",
+          "text": "优化时间"
+        },
+        {
+          "label": "D",
+          "text": "等待时间"
+        }
+      ],
+      "correctAnswer": [
+        "查找时间"
+      ],
+      "selectedAnswer": [
+        "查找时间"
+      ],
+      "images": []
+    },
+    {
+      "id": 65,
+      "type": "单选",
+      "title": "65. (单选题) 信号量 S 初始值为 3，若 1 个进程 P1 执行 P (S) 后，2 个进程 P2、P3 依次执行 P (S)，此时 S 的值为（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "-2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "-1"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": [
+        "0"
+      ],
+      "selectedAnswer": [
+        "0"
+      ],
+      "images": []
+    },
+    {
+      "id": 66,
+      "type": "单选",
+      "title": "66. (单选题) 进程调度的关键问题是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程调度算法"
+        },
+        {
+          "label": "B",
+          "text": "时间片大小"
+        },
+        {
+          "label": "C",
+          "text": "内存空间利用率"
+        },
+        {
+          "label": "D",
+          "text": "CPU速度"
+        }
+      ],
+      "correctAnswer": [
+        "进程调度算法"
+      ],
+      "selectedAnswer": [
+        "进程调度算法"
+      ],
+      "images": []
+    },
+    {
+      "id": 67,
+      "type": "单选",
+      "title": "67. (单选题) 进程从执行态到阻塞状态可能是由于（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "释放某种资源"
+        },
+        {
+          "label": "B",
+          "text": "现运行进程时间片用完"
+        },
+        {
+          "label": "C",
+          "text": "请求某种资源"
+        },
+        {
+          "label": "D",
+          "text": "进程调度程序的调度"
+        }
+      ],
+      "correctAnswer": [
+        "请求某种资源"
+      ],
+      "selectedAnswer": [
+        "请求某种资源"
+      ],
+      "images": []
+    },
+    {
+      "id": 68,
+      "type": "单选",
+      "title": "68. (单选题) 动态分区分配中，最佳适应算法的特点是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "优先分配最大的空闲分区"
+        },
+        {
+          "label": "B",
+          "text": "优先分配最小的空闲分区"
+        },
+        {
+          "label": "C",
+          "text": "优先分配地址最低的空闲分区"
+        },
+        {
+          "label": "D",
+          "text": "优先分配最先找到的空闲分区"
+        }
+      ],
+      "correctAnswer": [
+        "优先分配最小的空闲分区"
+      ],
+      "selectedAnswer": [
+        "优先分配最小的空闲分区"
+      ],
+      "images": []
+    },
+    {
+      "id": 69,
+      "type": "单选",
+      "title": "69. (单选题) 在下列解决死锁的方法中，属于死锁预防策略的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "资源有序分配法"
+        },
+        {
+          "label": "B",
+          "text": "资源分配图化简法"
+        },
+        {
+          "label": "C",
+          "text": "银行家算法"
+        },
+        {
+          "label": "D",
+          "text": "死锁检测法"
+        }
+      ],
+      "correctAnswer": [
+        "资源有序分配法"
+      ],
+      "selectedAnswer": [
+        "资源有序分配法"
+      ],
+      "images": []
+    },
+    {
+      "id": 70,
+      "type": "单选",
+      "title": "70. (单选题) 一次中断后可能引起若干个进程状态的变化，因此中断处理后，由（ ）来决定哪个进程可占用处理机。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程调度"
+        },
+        {
+          "label": "B",
+          "text": "移臂调度"
+        },
+        {
+          "label": "C",
+          "text": "作业调度"
+        },
+        {
+          "label": "D",
+          "text": "页面调度"
+        }
+      ],
+      "correctAnswer": [
+        "进程调度"
+      ],
+      "selectedAnswer": [
+        "进程调度"
+      ],
+      "images": []
+    },
+    {
+      "id": 71,
+      "type": "单选",
+      "title": "71. (单选题) 进程在执行中发生了缺页中断，经操作系统处理后，应让其进入（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "阻塞态"
+        },
+        {
+          "label": "B",
+          "text": "就绪态"
+        },
+        {
+          "label": "C",
+          "text": "终止态"
+        },
+        {
+          "label": "D",
+          "text": "运行态"
+        }
+      ],
+      "correctAnswer": [
+        "就绪态"
+      ],
+      "selectedAnswer": [
+        "就绪态"
+      ],
+      "images": []
+    },
+    {
+      "id": 72,
+      "type": "单选",
+      "title": "72. (单选题) 资源的按序分配策略以破坏（ ）条件。",
+      "options": [
+        {
+          "label": "A",
+          "text": "环路等待"
+        },
+        {
+          "label": "B",
+          "text": "互斥"
+        },
+        {
+          "label": "C",
+          "text": "请求和保持"
+        },
+        {
+          "label": "D",
+          "text": "不剥夺"
+        }
+      ],
+      "correctAnswer": [
+        "环路等待"
+      ],
+      "selectedAnswer": [
+        "环路等待"
+      ],
+      "images": []
+    },
+    {
+      "id": 73,
+      "type": "单选",
+      "title": "73. (单选题) 存储设备与存储器之间进行信息交换的物理单位是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "块"
+        },
+        {
+          "label": "B",
+          "text": "文件"
+        },
+        {
+          "label": "C",
+          "text": "记录"
+        },
+        {
+          "label": "D",
+          "text": "卷"
+        }
+      ],
+      "correctAnswer": [
+        "块"
+      ],
+      "selectedAnswer": [
+        "块"
+      ],
+      "images": []
+    },
+    {
+      "id": 74,
+      "type": "单选",
+      "title": "74. (单选题) 除了因为资源不足，进程竞争资源可能出现死锁以外，不适当的（ ）也可能产生死锁。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程优先权"
+        },
+        {
+          "label": "B",
+          "text": "分配队列优先权"
+        },
+        {
+          "label": "C",
+          "text": "进程推进顺序"
+        },
+        {
+          "label": "D",
+          "text": "资源的线性分配"
+        }
+      ],
+      "correctAnswer": [
+        "进程推进顺序"
+      ],
+      "selectedAnswer": [
+        "进程推进顺序"
+      ],
+      "images": []
+    },
+    {
+      "id": 75,
+      "type": "单选",
+      "title": "75. (单选题) 使多个用户通过与计算机相连的终端、以交互方式同时使用计算机的操作系统是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "实时系统"
+        },
+        {
+          "label": "B",
+          "text": "分时系统"
+        },
+        {
+          "label": "C",
+          "text": "多道批处理系统"
+        },
+        {
+          "label": "D",
+          "text": "单道批处理系统"
+        }
+      ],
+      "correctAnswer": [
+        "分时系统"
+      ],
+      "selectedAnswer": [
+        "分时系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 76,
+      "type": "单选",
+      "title": "76. (单选题) 逻辑文件中逻辑记录的长度由（ ）因素决定。",
+      "options": [
+        {
+          "label": "A",
+          "text": "文件的性质"
+        },
+        {
+          "label": "B",
+          "text": "文件的长度"
+        },
+        {
+          "label": "C",
+          "text": "存储介质的分块"
+        },
+        {
+          "label": "D",
+          "text": "内存块的大小"
+        }
+      ],
+      "correctAnswer": [
+        "文件的性质"
+      ],
+      "selectedAnswer": [
+        "文件的性质"
+      ],
+      "images": []
+    },
+    {
+      "id": 77,
+      "type": "单选",
+      "title": "77. (单选题) 进程同步机制中，临界区是指（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程中用于实现同步的代码段"
+        },
+        {
+          "label": "B",
+          "text": "进程中等待消息的代码段"
+        },
+        {
+          "label": "C",
+          "text": "进程中初始化资源的代码段"
+        },
+        {
+          "label": "D",
+          "text": "进程中访问共享资源的代码段"
+        }
+      ],
+      "correctAnswer": [
+        "进程中访问共享资源的代码段"
+      ],
+      "selectedAnswer": [
+        "进程中访问共享资源的代码段"
+      ],
+      "images": []
+    },
+    {
+      "id": 78,
+      "type": "单选",
+      "title": "78. (单选题) 多道程序环境下，操作系统分配资源以（ ）为基本单位。",
+      "options": [
+        {
+          "label": "A",
+          "text": "作业"
+        },
+        {
+          "label": "B",
+          "text": "程序"
+        },
+        {
+          "label": "C",
+          "text": "进程"
+        },
+        {
+          "label": "D",
+          "text": "指令"
+        }
+      ],
+      "correctAnswer": [
+        "进程"
+      ],
+      "selectedAnswer": [
+        "进程"
+      ],
+      "images": []
+    },
+    {
+      "id": 79,
+      "type": "单选",
+      "title": "79. (单选题) 死锁产生的四个必要条件不包括（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "不可剥夺条件"
+        },
+        {
+          "label": "B",
+          "text": "请求与保持条件"
+        },
+        {
+          "label": "C",
+          "text": "互斥条件"
+        },
+        {
+          "label": "D",
+          "text": "进程优先级条件"
+        }
+      ],
+      "correctAnswer": [
+        "进程优先级条件"
+      ],
+      "selectedAnswer": [
+        "进程优先级条件"
+      ],
+      "images": []
+    },
+    {
+      "id": 80,
+      "type": "单选",
+      "title": "80. (单选题) 在指令系统中只能由操作系统使用的指令称为（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "非特权指令"
+        },
+        {
+          "label": "B",
+          "text": "特权指令"
+        },
+        {
+          "label": "C",
+          "text": "系统指令"
+        },
+        {
+          "label": "D",
+          "text": "设备指令"
+        }
+      ],
+      "correctAnswer": [
+        "特权指令"
+      ],
+      "selectedAnswer": [
+        "特权指令"
+      ],
+      "images": []
+    },
+    {
+      "id": 81,
+      "type": "单选",
+      "title": "81. (单选题) 在（ ）的情况下，系统出现死锁。",
+      "options": [
+        {
+          "label": "A",
+          "text": "计算机系统发生了重大故障"
+        },
+        {
+          "label": "B",
+          "text": "若干个进程因竞争资源而无休止地相互等待他方释放已占有的资源"
+        },
+        {
+          "label": "C",
+          "text": "资源数大大小于进程数或进程同时申请的资源数大大超过资源总数"
+        },
+        {
+          "label": "D",
+          "text": "有多个阻塞的进程存在"
+        }
+      ],
+      "correctAnswer": [
+        "若干个进程因竞争资源而无休止地相互等待他方释放已占有的资源"
+      ],
+      "selectedAnswer": [
+        "若干个进程因竞争资源而无休止地相互等待他方释放已占有的资源"
+      ],
+      "images": []
+    },
+    {
+      "id": 82,
+      "type": "单选",
+      "title": "82. (单选题) 下面叙述中正确的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程同步是指某些进程之间在逻辑上的相互制约关系"
+        },
+        {
+          "label": "B",
+          "text": "操作系统用PCB管理进程，用户进程可以从PCB中读出与本身运行状况有关的信息"
+        },
+        {
+          "label": "C",
+          "text": "操作系统的一个重要概念是进程，因此不同进程所执行的代码也一定不同"
+        },
+        {
+          "label": "D",
+          "text": "为了避免发生进程死锁，各进程只能逐个申请资源"
+        }
+      ],
+      "correctAnswer": [
+        "进程同步是指某些进程之间在逻辑上的相互制约关系"
+      ],
+      "selectedAnswer": [
+        "进程同步是指某些进程之间在逻辑上的相互制约关系"
+      ],
+      "images": []
+    },
+    {
+      "id": 83,
+      "type": "单选",
+      "title": "83. (单选题) 可变分区管理中，首次适应分配算法可将空闲区表中的空闲区栏目按（ ）顺序排列。",
+      "options": [
+        {
+          "label": "A",
+          "text": "长度递增"
+        },
+        {
+          "label": "B",
+          "text": "长度递减"
+        },
+        {
+          "label": "C",
+          "text": "地址递减"
+        },
+        {
+          "label": "D",
+          "text": "地址递增"
+        }
+      ],
+      "correctAnswer": [
+        "地址递增"
+      ],
+      "selectedAnswer": [
+        "地址递增"
+      ],
+      "images": []
+    },
+    {
+      "id": 84,
+      "type": "单选",
+      "title": "84. (单选题) 下述（ ）页面置换算法会产生 Belady现象。",
+      "options": [
+        {
+          "label": "A",
+          "text": "LRU算法"
+        },
+        {
+          "label": "B",
+          "text": "最佳置换算法"
+        },
+        {
+          "label": "C",
+          "text": "Clock算法"
+        },
+        {
+          "label": "D",
+          "text": "先进先出算法"
+        }
+      ],
+      "correctAnswer": [
+        "先进先出算法"
+      ],
+      "selectedAnswer": [
+        "先进先出算法"
+      ],
+      "images": []
+    },
+    {
+      "id": 85,
+      "type": "单选",
+      "title": "85. (单选题) LRU页面调度算法淘汰（ ）的页。",
+      "options": [
+        {
+          "label": "A",
+          "text": "最近最少使用"
+        },
+        {
+          "label": "B",
+          "text": "最近最久未使用"
+        },
+        {
+          "label": "C",
+          "text": "将来最久使用"
+        },
+        {
+          "label": "D",
+          "text": "最先进入内存"
+        }
+      ],
+      "correctAnswer": [
+        "最近最久未使用"
+      ],
+      "selectedAnswer": [
+        "最近最久未使用"
+      ],
+      "images": []
+    },
+    {
+      "id": 86,
+      "type": "单选",
+      "title": "86. (单选题) 某系统中有3个并发进程，都需要同类资源4个，试问该系统不会发生死锁的最少资源数是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": [
+        "10"
+      ],
+      "selectedAnswer": [
+        "10"
+      ],
+      "images": []
+    },
+    {
+      "id": 87,
+      "type": "单选",
+      "title": "87. (单选题) 最简单的文件目录是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "一级目录结构"
+        },
+        {
+          "label": "B",
+          "text": "多级目录结构"
+        },
+        {
+          "label": "C",
+          "text": "最末一个结点是文件"
+        },
+        {
+          "label": "D",
+          "text": "容易实现“按名存取”"
+        }
+      ],
+      "correctAnswer": [
+        "一级目录结构"
+      ],
+      "selectedAnswer": [
+        "一级目录结构"
+      ],
+      "images": []
+    },
+    {
+      "id": 88,
+      "type": "单选",
+      "title": "88. (单选题) SPOOLing 技术的主要作用是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "将独占设备转换为共享设备"
+        },
+        {
+          "label": "B",
+          "text": "加快磁盘存取速度"
+        },
+        {
+          "label": "C",
+          "text": "提高内存利用率"
+        },
+        {
+          "label": "D",
+          "text": "提高 CPU 利用率"
+        }
+      ],
+      "correctAnswer": [
+        "将独占设备转换为共享设备"
+      ],
+      "selectedAnswer": [
+        "将独占设备转换为共享设备"
+      ],
+      "images": []
+    },
+    {
+      "id": 89,
+      "type": "单选",
+      "title": "89. (单选题) 逻辑文件是由（ ）确定的文件组织形式（即文件结构）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "虚拟存储"
+        },
+        {
+          "label": "B",
+          "text": "外部设备"
+        },
+        {
+          "label": "C",
+          "text": "绝对地址空间"
+        },
+        {
+          "label": "D",
+          "text": "用户对信息处理要求"
+        }
+      ],
+      "correctAnswer": [
+        "用户对信息处理要求"
+      ],
+      "selectedAnswer": [
+        "用户对信息处理要求"
+      ],
+      "images": []
+    },
+    {
+      "id": 90,
+      "type": "单选",
+      "title": "90. (单选题) 对随机存取的文件只能在磁盘上组织成（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "链接文件"
+        },
+        {
+          "label": "B",
+          "text": "索引文件"
+        },
+        {
+          "label": "C",
+          "text": "有序文件"
+        },
+        {
+          "label": "D",
+          "text": "连续文件"
+        }
+      ],
+      "correctAnswer": [
+        "索引文件"
+      ],
+      "selectedAnswer": [
+        "连续文件"
+      ],
+      "images": []
+    },
+    {
+      "id": 91,
+      "type": "单选",
+      "title": "91. (单选题) 信号量 S 初始值为 2，当前值为 - 1，表明等待该信号量的进程数是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": [
+        "1"
+      ],
+      "selectedAnswer": [
+        "1"
+      ],
+      "images": []
+    },
+    {
+      "id": 92,
+      "type": "单选",
+      "title": "92. (单选题) 系统可把等待资源的进程组织成等待队列，这样的等待队列有（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "1个"
+        },
+        {
+          "label": "B",
+          "text": "0个"
+        },
+        {
+          "label": "C",
+          "text": "两个"
+        },
+        {
+          "label": "D",
+          "text": "1个或多个"
+        }
+      ],
+      "correctAnswer": [
+        "1个或多个"
+      ],
+      "selectedAnswer": [
+        "1个或多个"
+      ],
+      "images": []
+    },
+    {
+      "id": 93,
+      "type": "单选",
+      "title": "93. (单选题) 分时操作系统通常采用（ ）策略为用户服务。",
+      "options": [
+        {
+          "label": "A",
+          "text": "短作业优先"
+        },
+        {
+          "label": "B",
+          "text": "时间片轮转"
+        },
+        {
+          "label": "C",
+          "text": "可靠性和灵活性"
+        },
+        {
+          "label": "D",
+          "text": "时间片加权分配"
+        }
+      ],
+      "correctAnswer": [
+        "时间片轮转"
+      ],
+      "selectedAnswer": [
+        "时间片轮转"
+      ],
+      "images": []
+    },
+    {
+      "id": 94,
+      "type": "单选",
+      "title": "94. (单选题) 设有n个进程共用一个相同的程序段（临界区），如果每次最多允许m个进程（m≤n）同时进入临界区，则信号量的初值应为（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "m"
+        },
+        {
+          "label": "B",
+          "text": "N"
+        },
+        {
+          "label": "C",
+          "text": "m-n"
+        },
+        {
+          "label": "D",
+          "text": "-m"
+        }
+      ],
+      "correctAnswer": [
+        "m"
+      ],
+      "selectedAnswer": [
+        "m"
+      ],
+      "images": []
+    },
+    {
+      "id": 95,
+      "type": "单选",
+      "title": "95. (单选题) （ ）要保证系统有较高的吞吐能力。",
+      "options": [
+        {
+          "label": "A",
+          "text": "批处理系统"
+        },
+        {
+          "label": "B",
+          "text": "网络操作系统"
+        },
+        {
+          "label": "C",
+          "text": "分时系统"
+        },
+        {
+          "label": "D",
+          "text": "分布式操作系统"
+        }
+      ],
+      "correctAnswer": [
+        "批处理系统"
+      ],
+      "selectedAnswer": [
+        "批处理系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 96,
+      "type": "单选",
+      "title": "96. (单选题) 设备独立性是指（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "设备驱动程序与硬件无关"
+        },
+        {
+          "label": "B",
+          "text": "设备控制器可以兼容多种设备"
+        },
+        {
+          "label": "C",
+          "text": "用户程序与物理设备无关"
+        },
+        {
+          "label": "D",
+          "text": "操作系统可以管理所有设备"
+        }
+      ],
+      "correctAnswer": [
+        "用户程序与物理设备无关"
+      ],
+      "selectedAnswer": [
+        "用户程序与物理设备无关"
+      ],
+      "images": []
+    },
+    {
+      "id": 97,
+      "type": "单选",
+      "title": "97. (单选题) 由磁头进行读／写完成信息传送的时间是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "优化时间"
+        },
+        {
+          "label": "B",
+          "text": "查找时间"
+        },
+        {
+          "label": "C",
+          "text": "传输时间"
+        },
+        {
+          "label": "D",
+          "text": "等待时间"
+        }
+      ],
+      "correctAnswer": [
+        "传输时间"
+      ],
+      "selectedAnswer": [
+        "传输时间"
+      ],
+      "images": []
+    },
+    {
+      "id": 98,
+      "type": "单选",
+      "title": "98. (单选题) 采用时间片轮转调度算法是为了（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "多个终端用户能得到系统的及时响应"
+        },
+        {
+          "label": "B",
+          "text": "需CPU最短的进程先执行"
+        },
+        {
+          "label": "C",
+          "text": "先来先服务"
+        },
+        {
+          "label": "D",
+          "text": "优先级高的进程能得到及时调度"
+        }
+      ],
+      "correctAnswer": [
+        "多个终端用户能得到系统的及时响应"
+      ],
+      "selectedAnswer": [
+        "多个终端用户能得到系统的及时响应"
+      ],
+      "images": []
+    },
+    {
+      "id": 99,
+      "type": "单选",
+      "title": "99. (单选题) 动态分区内存分配算法不包括（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "最佳适应（BF）"
+        },
+        {
+          "label": "B",
+          "text": "首次适应（FF）"
+        },
+        {
+          "label": "C",
+          "text": "循环首次适应（NF）"
+        },
+        {
+          "label": "D",
+          "text": "时间片轮转（RR）"
+        }
+      ],
+      "correctAnswer": [
+        "时间片轮转（RR）"
+      ],
+      "selectedAnswer": [
+        "时间片轮转（RR）"
+      ],
+      "images": []
+    },
+    {
+      "id": 100,
+      "type": "单选",
+      "title": "100. (单选题) 为了进行进程协调，进程之间应当具有一定的联系，这种联系通常采用进程间交换数据的方式进行，这种方式称为（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程同步"
+        },
+        {
+          "label": "B",
+          "text": "进程通信"
+        },
+        {
+          "label": "C",
+          "text": "进程互斥"
+        },
+        {
+          "label": "D",
+          "text": "进程制约"
+        }
+      ],
+      "correctAnswer": [
+        "进程通信"
+      ],
+      "selectedAnswer": [
+        "进程通信"
+      ],
+      "images": []
+    },
+    {
+      "id": 101,
+      "type": "单选",
+      "title": "101. (单选题) 下面对进程的描述中，错误的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程是指令的集合"
+        },
+        {
+          "label": "B",
+          "text": "进程是动态的概念"
+        },
+        {
+          "label": "C",
+          "text": "进程是有生命周期的"
+        },
+        {
+          "label": "D",
+          "text": "进程执行需要处理机"
+        }
+      ],
+      "correctAnswer": [
+        "进程是指令的集合"
+      ],
+      "selectedAnswer": [
+        "进程是指令的集合"
+      ],
+      "images": []
+    },
+    {
+      "id": 102,
+      "type": "单选",
+      "title": "102. (单选题) 在固定分区分配中，每个分区的大小是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "可以不同但根据作业长度固定"
+        },
+        {
+          "label": "B",
+          "text": "可以不同但预先固定"
+        },
+        {
+          "label": "C",
+          "text": "随作业长度变化"
+        },
+        {
+          "label": "D",
+          "text": "相同"
+        }
+      ],
+      "correctAnswer": [
+        "可以不同但预先固定"
+      ],
+      "selectedAnswer": [
+        "可以不同但预先固定"
+      ],
+      "images": []
+    },
+    {
+      "id": 103,
+      "type": "单选",
+      "title": "103. (单选题) 分页存储管理中，页面的大小由（ ）决定。",
+      "options": [
+        {
+          "label": "A",
+          "text": "内存容量"
+        },
+        {
+          "label": "B",
+          "text": "用户程序"
+        },
+        {
+          "label": "C",
+          "text": "操作系统"
+        },
+        {
+          "label": "D",
+          "text": "编译器"
+        }
+      ],
+      "correctAnswer": [
+        "操作系统"
+      ],
+      "selectedAnswer": [
+        "操作系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 104,
+      "type": "单选",
+      "title": "104. (单选题) 进程的组成部分中，进程存在的唯一标志是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "数据集合"
+        },
+        {
+          "label": "B",
+          "text": "PCB"
+        },
+        {
+          "label": "C",
+          "text": "非共享程序"
+        },
+        {
+          "label": "D",
+          "text": "共享程序"
+        }
+      ],
+      "correctAnswer": [
+        "PCB"
+      ],
+      "selectedAnswer": [
+        "非共享程序",
+        "PCB"
+      ],
+      "images": []
+    },
+    {
+      "id": 105,
+      "type": "单选",
+      "title": "105. (单选题) 虚拟存储器实际容量受（ ）限制。",
+      "options": [
+        {
+          "label": "A",
+          "text": "计算机的地址结构"
+        },
+        {
+          "label": "B",
+          "text": "磁盘容量"
+        },
+        {
+          "label": "C",
+          "text": "物理内存的大小"
+        },
+        {
+          "label": "D",
+          "text": "数据存放的绝对地址"
+        }
+      ],
+      "correctAnswer": [
+        "计算机的地址结构"
+      ],
+      "selectedAnswer": [
+        "计算机的地址结构"
+      ],
+      "images": []
+    },
+    {
+      "id": 106,
+      "type": "单选",
+      "title": "106. (单选题) 操作系统处理缺页中断时，选择一种好的调度算法对内存和外存中的信息进行高效地调度，尽可能地避免（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "CPU空闲"
+        },
+        {
+          "label": "B",
+          "text": "抖动"
+        },
+        {
+          "label": "C",
+          "text": "多重中断"
+        },
+        {
+          "label": "D",
+          "text": "碎片"
+        }
+      ],
+      "correctAnswer": [
+        "抖动"
+      ],
+      "selectedAnswer": [
+        "抖动"
+      ],
+      "images": []
+    },
+    {
+      "id": 107,
+      "type": "单选",
+      "title": "107. (单选题) 存储管理主要管理的是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "外存存储器用户区"
+        },
+        {
+          "label": "B",
+          "text": "外存存储器系统区"
+        },
+        {
+          "label": "C",
+          "text": "内存储器系统区"
+        },
+        {
+          "label": "D",
+          "text": "内存储器用户区"
+        }
+      ],
+      "correctAnswer": [
+        "内存储器用户区"
+      ],
+      "selectedAnswer": [
+        "内存储器用户区"
+      ],
+      "images": []
+    },
+    {
+      "id": 108,
+      "type": "单选",
+      "title": "108. (单选题) 在多级目录结构中，要访问一个文件时，必须指出文件的（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "路径名"
+        },
+        {
+          "label": "B",
+          "text": "父目录"
+        },
+        {
+          "label": "C",
+          "text": "根目录"
+        },
+        {
+          "label": "D",
+          "text": "当前目录"
+        }
+      ],
+      "correctAnswer": [
+        "路径名"
+      ],
+      "selectedAnswer": [
+        "路径名"
+      ],
+      "images": []
+    },
+    {
+      "id": 109,
+      "type": "单选",
+      "title": "109. (单选题) （ ）存储管理兼顾了段式在逻辑上清晰和页式在存储管理上方便的优点。",
+      "options": [
+        {
+          "label": "A",
+          "text": "可变分区方式"
+        },
+        {
+          "label": "B",
+          "text": "分页"
+        },
+        {
+          "label": "C",
+          "text": "段页式"
+        },
+        {
+          "label": "D",
+          "text": "分段"
+        }
+      ],
+      "correctAnswer": [
+        "段页式"
+      ],
+      "selectedAnswer": [
+        "段页式"
+      ],
+      "images": []
+    },
+    {
+      "id": 110,
+      "type": "单选",
+      "title": "110. (单选题) 分配给进程占用处理机的时间到而强迫进程让出处理机，或有更高优先级的进程要运 行，迫使正在运行的进程让出处理机，则进程状态变化的情况为（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "执行态→阻塞态"
+        },
+        {
+          "label": "B",
+          "text": "就绪态→执行态"
+        },
+        {
+          "label": "C",
+          "text": "阻塞态→就绪态"
+        },
+        {
+          "label": "D",
+          "text": "执行态→就绪态"
+        }
+      ],
+      "correctAnswer": [
+        "执行态→就绪态"
+      ],
+      "selectedAnswer": [
+        "执行态→就绪态"
+      ],
+      "images": []
+    },
+    {
+      "id": 111,
+      "type": "单选",
+      "title": "111. (单选题) 银行家算法的主要作用是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "检测死锁"
+        },
+        {
+          "label": "B",
+          "text": "避免死锁"
+        },
+        {
+          "label": "C",
+          "text": "解除死锁"
+        },
+        {
+          "label": "D",
+          "text": "预防死锁"
+        }
+      ],
+      "correctAnswer": [
+        "避免死锁"
+      ],
+      "selectedAnswer": [
+        "避免死锁"
+      ],
+      "images": []
+    },
+    {
+      "id": 112,
+      "type": "单选",
+      "title": "112. (单选题) AND信号量集机制是为了（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "信号量的集中使用"
+        },
+        {
+          "label": "B",
+          "text": "解决结果的不可再现性问题"
+        },
+        {
+          "label": "C",
+          "text": "防止系统的不安全性"
+        },
+        {
+          "label": "D",
+          "text": "实现进程的相互制约"
+        }
+      ],
+      "correctAnswer": [
+        "防止系统的不安全性"
+      ],
+      "selectedAnswer": [
+        "防止系统的不安全性"
+      ],
+      "images": []
+    },
+    {
+      "id": 113,
+      "type": "单选",
+      "title": "113. (单选题) 在下列操作系统的各个功能组成部分中，（ ）不需要硬件支持。",
+      "options": [
+        {
+          "label": "A",
+          "text": "进程调度"
+        },
+        {
+          "label": "B",
+          "text": "中断系统"
+        },
+        {
+          "label": "C",
+          "text": "地址映射"
+        },
+        {
+          "label": "D",
+          "text": "时钟管理"
+        }
+      ],
+      "correctAnswer": [
+        "进程调度"
+      ],
+      "selectedAnswer": [
+        "进程调度"
+      ],
+      "images": []
+    },
+    {
+      "id": 114,
+      "type": "单选",
+      "title": "114. (单选题) LRU 置换算法的核心思想是（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "调出未来最久不用的页面"
+        },
+        {
+          "label": "B",
+          "text": "调出最近最久未访问的页面"
+        },
+        {
+          "label": "C",
+          "text": "调出最早装入的页面"
+        },
+        {
+          "label": "D",
+          "text": "调出使用次数最少的页面"
+        }
+      ],
+      "correctAnswer": [
+        "调出最近最久未访问的页面"
+      ],
+      "selectedAnswer": [
+        "调出最近最久未访问的页面"
+      ],
+      "images": []
+    },
+    {
+      "id": 115,
+      "type": "单选",
+      "title": "115. (单选题) 操作系统的基本功能不包括（ ）。",
+      "options": [
+        {
+          "label": "A",
+          "text": "数据库管理"
+        },
+        {
+          "label": "B",
+          "text": "存储管理"
+        },
+        {
+          "label": "C",
+          "text": "进程管理"
+        },
+        {
+          "label": "D",
+          "text": "文件管理"
+        }
+      ],
+      "correctAnswer": [
+        "数据库管理"
+      ],
+      "selectedAnswer": [
+        "数据库管理"
+      ],
+      "images": []
+    },
+    {
+      "id": 116,
+      "type": "单选",
+      "title": "116. (单选题) 抢占式的优先级调度算法在（ ）中很有用。",
+      "options": [
+        {
+          "label": "A",
+          "text": "实时系统"
+        },
+        {
+          "label": "B",
+          "text": "网络操作系统"
+        },
+        {
+          "label": "C",
+          "text": "批处理系统"
+        },
+        {
+          "label": "D",
+          "text": "分布式系统"
+        }
+      ],
+      "correctAnswer": [
+        "实时系统"
+      ],
+      "selectedAnswer": [
+        "实时系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 117,
+      "type": "填空",
+      "title": "117. (填空题) 实时系统的引入主要是为了满足 和 两个领域的要求。",
+      "options": [],
+      "correctAnswer": [
+        "实时控制 (2) 实时信息处理"
+      ],
+      "selectedAnswer": [
+        "实时控制",
+        "实时信息处理",
+        "实时控制 (2) 实时信息处理"
+      ],
+      "images": []
+    },
+    {
+      "id": 118,
+      "type": "填空",
+      "title": "118. (填空题) 计算机系统由 和 两大部分组成。",
+      "options": [],
+      "correctAnswer": [
+        "硬件子系统 (2) 软件子系统"
+      ],
+      "selectedAnswer": [
+        "硬件",
+        "软件",
+        "硬件 (2) 软件"
+      ],
+      "images": []
+    },
+    {
+      "id": 119,
+      "type": "填空",
+      "title": "119. (填空题) 若干就绪进程可能按一定次序排成队列，称 ；把等待不同资源的进程组织成不同的 。",
+      "options": [],
+      "correctAnswer": [
+        "就绪队列 (2) 阻塞队列"
+      ],
+      "selectedAnswer": [
+        "就绪队列",
+        "阻塞队列",
+        "就绪队列 (2) 阻塞队列"
+      ],
+      "images": []
+    },
+    {
+      "id": 120,
+      "type": "填空",
+      "title": "120. (填空题) 实时系统应具有的两个基本特征是 和 。",
+      "options": [],
+      "correctAnswer": [
+        "及时性 (2) 可靠性"
+      ],
+      "selectedAnswer": [
+        "及时性",
+        "可靠性",
+        "及时性 (2) 可靠性"
+      ],
+      "images": []
+    },
+    {
+      "id": 121,
+      "type": "填空",
+      "title": "121. (填空题) 对于采用移动磁头的磁盘要访问某特定的物理块时，所用时间一般包括3部分： 、 、 。",
+      "options": [],
+      "correctAnswer": [
+        "查找时间 (2) 等待时间 (3) 传输时间"
+      ],
+      "selectedAnswer": [
+        "寻道时间",
+        "旋转延迟时间",
+        "传输时间",
+        "寻道时间 (2) 旋转延迟时间 (3) 传输时间"
+      ],
+      "images": []
+    },
+    {
+      "id": 122,
+      "type": "填空",
+      "title": "122. (填空题) 把 称为文件的逻辑结构，或称逻辑文件。文件的物理结构是指文件 ，这与存储介质的性质有关。",
+      "options": [],
+      "correctAnswer": [
+        "用户概念中的文件 (2) 在外存上的存储组织形式"
+      ],
+      "selectedAnswer": [
+        "用户对数据的组织形式",
+        "在存储介质上的存放方式",
+        "用户对数据的组织形式 (2) 在存储介质上的存放方式"
+      ],
+      "images": []
+    },
+    {
+      "id": 123,
+      "type": "填空",
+      "title": "123. (填空题) 页式存储管理中，进行存储分配时，以 为单位进行分配，采用不连续的分配办法，作业信息可以按 分散在内存不连续的 中。",
+      "options": [],
+      "correctAnswer": [
+        "块 (2) 页 (3) 内存块"
+      ],
+      "selectedAnswer": [
+        "页",
+        "物理块",
+        "页 (2) 页 (3) 物理块"
+      ],
+      "images": []
+    },
+    {
+      "id": 124,
+      "type": "填空",
+      "title": "124. (填空题) 操作系统的基本功能包括 管理、 管理、 管理和 管理。除此以外，还为用户使用操作系统提供了用户接口。",
+      "options": [],
+      "correctAnswer": [
+        "处理机 (2) 存储器 (3) 设备 (4) 文件"
+      ],
+      "selectedAnswer": [
+        "处理机",
+        "存储器",
+        "设备",
+        "文件",
+        "处理机 (2) 存储器 (3) 设备 (4) 文件"
+      ],
+      "images": []
+    },
+    {
+      "id": 125,
+      "type": "填空",
+      "title": "125. (填空题) 对待死锁，一般应考虑死锁的预防、避免、检测和解除这4个问题。典型的银行家算法属于 ，破坏环路等待条件属于 ，而剥夺资源是 的基本方法。",
+      "options": [],
+      "correctAnswer": [
+        "避免死锁 (2) 预防死锁 (3) 解除死锁"
+      ],
+      "selectedAnswer": [
+        "避免死锁",
+        "预防死锁",
+        "解除死锁",
+        "避免死锁 (2) 预防死锁 (3) 解除死锁"
+      ],
+      "images": []
+    },
+    {
+      "id": 126,
+      "type": "填空",
+      "title": "126. (填空题) 关闭文件的主要工作是： ；若活动文件表目内容已被改过，则应先将表目内容写回外存上相应的表目中，以使文件目录保持最新状态。",
+      "options": [],
+      "correctAnswer": [
+        "将活动文件表中该文件的“当前使用用户数”减1，若为0，则撤销此表目"
+      ],
+      "selectedAnswer": [
+        "撤销该文件的系统打开文件表目"
+      ],
+      "images": []
+    },
+    {
+      "id": 127,
+      "type": "填空",
+      "title": "127. (填空题) 页面调度算法的选择是很重要的，如果选用了一个 的调度算法就会出现这样的现象，刚被淘汰的页面又立即要用，把它调入不久又被调出，调出不久又再次调入，如此反复，使调度时间非常频繁，以致大部分时间",
+      "options": [],
+      "correctAnswer": [
+        "不合适 (2) 抖动 (3) 颠簸"
+      ],
+      "selectedAnswer": [
+        "不合适",
+        "抖动",
+        "花在页面的换进换出上",
+        "不合适 (2) 抖动 (3) 花在页面的换进换出上"
+      ],
+      "images": []
+    },
+    {
+      "id": 128,
+      "type": "填空",
+      "title": "128. (填空题) 在分时和批处理系统结合的操作系统中引入“前台”和“后台”的概念，其目的是 。",
+      "options": [],
+      "correctAnswer": [
+        "为了提高CPU的利用率"
+      ],
+      "selectedAnswer": [
+        "提高CPU的利用率"
+      ],
+      "images": []
+    },
+    {
+      "id": 129,
+      "type": "填空",
+      "title": "129. (填空题) 线程是进程中可 的子任务，一个进程中可以有 线程，每个线程都有一个 的标识符。",
+      "options": [],
+      "correctAnswer": [
+        "独立执行 (2) 一个或多个 (3) 唯一"
+      ],
+      "selectedAnswer": [
+        "独立执行（或调度）",
+        "多个",
+        "唯一",
+        "独立执行（或调度） (2) 多个 (3) 唯一"
+      ],
+      "images": []
+    },
+    {
+      "id": 130,
+      "type": "填空",
+      "title": "130. (填空题) 死锁是指在系统中的多个 ，无限期等待永远也不会发生的条件。",
+      "options": [],
+      "correctAnswer": [
+        "进程"
+      ],
+      "selectedAnswer": [
+        "进程"
+      ],
+      "images": []
+    },
+    {
+      "id": 131,
+      "type": "填空",
+      "title": "131. (填空题) 死锁的产生有4个必要条件，在死锁的预防策略中，资源的有序分配策略可以破坏 条件。",
+      "options": [],
+      "correctAnswer": [
+        "环路等待"
+      ],
+      "selectedAnswer": [
+        "环路等待"
+      ],
+      "images": []
+    },
+    {
+      "id": 132,
+      "type": "填空",
+      "title": "132. (填空题) 进程的调度方式有两种，一种是 ，另一种是 。",
+      "options": [],
+      "correctAnswer": [
+        "剥夺式 (2) 非剥夺式"
+      ],
+      "selectedAnswer": [
+        "剥夺方式（或抢占式）",
+        "非剥夺方式（或非抢占式）",
+        "剥夺方式（或抢占式） (2) 非剥夺方式（或非抢占式）"
+      ],
+      "images": []
+    },
+    {
+      "id": 133,
+      "type": "填空",
+      "title": "133. (填空题) 为了保证系统信息的安全和防止偶发事故造成的系统“崩溃”，自然因素造成的数据丢失或某些不负责任的用户经常误删他人的文件，文件系统经常采用 和 的方法来保护文件。",
+      "options": [],
+      "correctAnswer": [
+        "建立副本 (2) 转储"
+      ],
+      "selectedAnswer": [
+        "建立副本",
+        "定时转储",
+        "建立副本 (2) 定时转储"
+      ],
+      "images": []
+    },
+    {
+      "id": 134,
+      "type": "填空",
+      "title": "134. (填空题) 进程控制块包含 、 、 、 四类信息。",
+      "options": [],
+      "correctAnswer": [
+        "进程标识符信息 (2) 处理机状态信息 (3) 进程控制信息 (4) 进程调度信息"
+      ],
+      "selectedAnswer": [
+        "进程标识符",
+        "处理机状态",
+        "进程调度信息",
+        "进程控制信息",
+        "进程标识符 (2) 处理机状态 (3) 进程调度信息 (4) 进程控制信息"
+      ],
+      "images": []
+    },
+    {
+      "id": 135,
+      "type": "填空",
+      "title": "135. (填空题) 按进程执行过程中不同时刻的不同状况定义3种基本状态为 、 、 。把相同状态的进程链接在一起构成 ，以便管理和调度。",
+      "options": [],
+      "correctAnswer": [
+        "就绪态 (2) 执行态 (3) 阻塞态 (4) 队列"
+      ],
+      "selectedAnswer": [
+        "执行态",
+        "就绪态",
+        "阻塞态",
+        "队列",
+        "执行态 (2) 就绪态 (3) 阻塞态 (4) 队列"
+      ],
+      "images": []
+    },
+    {
+      "id": 136,
+      "type": "填空",
+      "title": "136. (填空题) 进程的基本特征有 、 、独立性、异步性和结构特征。",
+      "options": [],
+      "correctAnswer": [
+        "动态性 (2) 并发性"
+      ],
+      "selectedAnswer": [
+        "动态性",
+        "并发性",
+        "动态性 (2) 并发性"
+      ],
+      "images": []
+    },
+    {
+      "id": 137,
+      "type": "填空",
+      "title": "137. (填空题) 进程主要由 、 、 三部分内容组成，其中 是进程存在的唯一标志。",
+      "options": [],
+      "correctAnswer": [
+        "程序段 (2) 数据段 (3) 进程控制块（PCB) (4) 进程控制块（PCB)"
+      ],
+      "selectedAnswer": [
+        "程序段",
+        "数据段",
+        "程序段 (2) 数据段 (3) PCB (4) PCB"
+      ],
+      "images": []
+    },
+    {
+      "id": 138,
+      "type": "填空",
+      "title": "138. (填空题) 在利用信号量实现进程互斥时，应将 置于 和 之间。",
+      "options": [],
+      "correctAnswer": [
+        "临界区 (2) P操作 (3) V操作"
+      ],
+      "selectedAnswer": [
+        "临界区",
+        "P操作",
+        "V操作",
+        "临界区 (2) P操作 (3) V操作"
+      ],
+      "images": []
+    },
+    {
+      "id": 139,
+      "type": "填空",
+      "title": "139. (填空题) 为了解决碎片问题，可采用一种方法，将内存中的所有作业进行移动，使原来分散的多个小分区拼接成一个大分区，这种方法称为 。",
+      "options": [],
+      "correctAnswer": [
+        "紧凑"
+      ],
+      "selectedAnswer": [
+        "紧凑（或拼接）"
+      ],
+      "images": []
+    },
+    {
+      "id": 140,
+      "type": "填空",
+      "title": "140. (填空题) 进程完成任务后，系统收回进程占用的 和取消 后就撤销了该进程。",
+      "options": [],
+      "correctAnswer": [
+        "资源 (2) 进程控制块（PCB)"
+      ],
+      "selectedAnswer": [
+        "资源",
+        "资源 (2) PCB"
+      ],
+      "images": []
+    },
+    {
+      "id": 141,
+      "type": "填空",
+      "title": "141. (填空题) 进程间的高级通信机制可归结为3大类，分别是 、 和 。",
+      "options": [],
+      "correctAnswer": [
+        "共享存储器系统 (2) 消息传递系统 (3) 管道通信"
+      ],
+      "selectedAnswer": [
+        "共享存储器系统",
+        "消息传递系统",
+        "管道通信系统",
+        "共享存储器系统 (2) 消息传递系统 (3) 管道通信系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 142,
+      "type": "填空",
+      "title": "142. (填空题) 银行家算法中，当一个进程提出的资源请求将导致系统从 状态进入 状态时，系统就拒绝它的资源请求。",
+      "options": [],
+      "correctAnswer": [
+        "安全 (2) 不安全"
+      ],
+      "selectedAnswer": [
+        "安全",
+        "不安全",
+        "安全 (2) 不安全"
+      ],
+      "images": []
+    },
+    {
+      "id": 143,
+      "type": "填空",
+      "title": "143. (填空题) 一个管程由3部分构成，分别是 、 和 。",
+      "options": [],
+      "correctAnswer": [
+        "局部于管程的共享变量说明 (2) 对该数据结构进行操作的一组过程 (3) 对局部于管程的数据设置初始值的语句"
+      ],
+      "selectedAnswer": [
+        "共享数据结构",
+        "一组过程",
+        "初始化代码",
+        "共享数据结构 (2) 一组过程 (3) 初始化代码"
+      ],
+      "images": []
+    },
+    {
+      "id": 144,
+      "type": "填空",
+      "title": "144. (填空题) 文件系统在创建每个文件时为其建立了一个文件目录，也称为文件说明或 。文件目录是为文件设置用于 的数据结构。",
+      "options": [],
+      "correctAnswer": [
+        "文件控制块（FCB) (2) 文件描述和文件控制"
+      ],
+      "selectedAnswer": [
+        "FCB（文件控制块）",
+        "检索",
+        "FCB（文件控制块） (2) 检索"
+      ],
+      "images": []
+    },
+    {
+      "id": 145,
+      "type": "填空",
+      "title": "145. (填空题) 覆盖技术的关键是提供正确的 。",
+      "options": [],
+      "correctAnswer": [
+        "覆盖结构"
+      ],
+      "selectedAnswer": [
+        "覆盖结构"
+      ],
+      "images": []
+    },
+    {
+      "id": 146,
+      "type": "填空",
+      "title": "146. (填空题) 可变分区中为提高内存利用率，采用 技术，但这样做花费处理机时间，增加系统开销。",
+      "options": [],
+      "correctAnswer": [
+        "紧凑"
+      ],
+      "selectedAnswer": [
+        "紧凑（或拼接/移动）"
+      ],
+      "images": []
+    },
+    {
+      "id": 147,
+      "type": "填空",
+      "title": "147. (填空题) 所谓虚拟存储器是指具有 功能和 功能，能 上对内存容量进行扩充的一种存储器系统。",
+      "options": [],
+      "correctAnswer": [
+        "请求调入 (2) 置换 (3) 逻辑"
+      ],
+      "selectedAnswer": [
+        "请求调入",
+        "置换",
+        "逻辑",
+        "请求调入 (2) 置换 (3) 逻辑"
+      ],
+      "images": []
+    },
+    {
+      "id": 148,
+      "type": "填空",
+      "title": "148. (填空题) 用户通过对文件的存取来完成对文件的各种操作， 是按照文件的逻辑地址顺序存取， 允许根据存取命令把读写指针移到欲读／写处来读／写。 是首先 按键",
+      "options": [],
+      "correctAnswer": [
+        "顺序存取 (2) 随机存取 (3) 按键存取"
+      ],
+      "selectedAnswer": [
+        "顺序存取",
+        "随机存取",
+        "按键存取",
+        "顺序存取 (2) 随机存取 (3) 按键存取"
+      ],
+      "images": []
+    },
+    {
+      "id": 149,
+      "type": "填空",
+      "title": "149. (填空题) 在分页虚拟存储管理方式中，常采用的页面置换算法有： ，淘汰不再使用或最远的将来才使用的页； ，选择淘汰在内存驻留时间最长的页； ，选择淘汰离当前时刻最近的一段",
+      "options": [],
+      "correctAnswer": [
+        "最佳置换算法 (2) 先进先出算法 (3) 最近最少使用算法"
+      ],
+      "selectedAnswer": [
+        "最佳置换算法（OPT）",
+        "先进先出算法（FIFO）",
+        "最近最久未使用算法（LRU）",
+        "最佳置换算法（OPT） (2) 先进先出算法（FIFO） (3) 最近最久未使用算法（LRU）"
+      ],
+      "images": []
+    },
+    {
+      "id": 150,
+      "type": "填空",
+      "title": "150. (填空题) 进程的基本特征有 、 、独立性、异步性和结构特征。",
+      "options": [],
+      "correctAnswer": [
+        "并发性 (2) 共享性"
+      ],
+      "selectedAnswer": [
+        "动态性",
+        "并发性",
+        "动态性 (2) 并发性"
+      ],
+      "images": []
+    },
+    {
+      "id": 151,
+      "type": "填空",
+      "title": "151. (填空题) 进程是一个 态概念，而程序是一个 态概念。",
+      "options": [],
+      "correctAnswer": [
+        "动 (2) 静"
+      ],
+      "selectedAnswer": [
+        "动",
+        "静",
+        "动 (2) 静"
+      ],
+      "images": []
+    },
+    {
+      "id": 152,
+      "type": "填空",
+      "title": "152. (填空题) 一个刚刚被创建的进程有时是不能立即得到处理机运行（当有进程在运行时），这时它处于 态。",
+      "options": [],
+      "correctAnswer": [
+        "就绪"
+      ],
+      "selectedAnswer": [
+        "就绪"
+      ],
+      "images": []
+    },
+    {
+      "id": 153,
+      "type": "填空",
+      "title": "153. (填空题) 文件管理系统是通过把它所管理的信息（程序和数据）组织成一个个 的方式实现其管理的。",
+      "options": [],
+      "correctAnswer": [
+        "文件"
+      ],
+      "selectedAnswer": [
+        "文件"
+      ],
+      "images": []
+    },
+    {
+      "id": 154,
+      "type": "填空",
+      "title": "154. (填空题) 目前常用 PCB 的组织形式有 和 两种。",
+      "options": [],
+      "correctAnswer": [
+        "链接方式 (2) 索引方式"
+      ],
+      "selectedAnswer": [
+        "链接方式",
+        "索引方式",
+        "链接方式 (2) 索引方式"
+      ],
+      "images": []
+    },
+    {
+      "id": 155,
+      "type": "填空",
+      "title": "155. (填空题) 打开文件的主要工作是： ； ；根据文件号查系统打开文件表，看文件是否已被打开，如果是，共享计数加1，否则，信息填入系统打开文件表空表项，共享计数置为1；在用户打",
+      "options": [],
+      "correctAnswer": [
+        "根据文件路径名查目录 (2) 根据打开方式 (3) 共享说明 (4) 用户身份检查访问合法性"
+      ],
+      "selectedAnswer": [
+        "检索文件目录",
+        "核对文件存取权限",
+        "在用户打开文件表中增加一表项",
+        "检索文件目录 (2) 核对文件存取权限 (3) 在用户打开文件表中增加一表项 (4)"
+      ],
+      "images": []
+    },
+    {
+      "id": 156,
+      "type": "填空",
+      "title": "156. (填空题) 进程调度程序按 从 中选择一个进程，从而使之占用处理机运行。",
+      "options": [],
+      "correctAnswer": [
+        "某种调度算法 (2) 就绪队列"
+      ],
+      "selectedAnswer": [
+        "一定的调度策略",
+        "就绪队列",
+        "一定的调度策略 (2) 就绪队列"
+      ],
+      "images": []
+    },
+    {
+      "id": 157,
+      "type": "填空",
+      "title": "157. (填空题) 文件管理系统是通过把它所管理的信息(程序和数据)组织成一个个 的方式实现其管理的。",
+      "options": [],
+      "correctAnswer": [
+        "文件"
+      ],
+      "selectedAnswer": [
+        "文件"
+      ],
+      "images": []
+    },
+    {
+      "id": 158,
+      "type": "填空",
+      "title": "158. (填空题) 如果一个操作系统兼有批处理、分时和实时操作系统三者或其中两者的功能，这样的操作系统称为 。",
+      "options": [],
+      "correctAnswer": [
+        "通用操作系统"
+      ],
+      "selectedAnswer": [
+        "通用操作系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 159,
+      "type": "填空",
+      "title": "159. (填空题) 计算机系统能及时处理过程控制数据并做出响应的操作系统称为 。",
+      "options": [],
+      "correctAnswer": [
+        "实时操作系统"
+      ],
+      "selectedAnswer": [
+        "实时操作系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 160,
+      "type": "填空",
+      "title": "160. (填空题) 目前常用PCB的组织形式有 和 两种。",
+      "options": [],
+      "correctAnswer": [
+        "链接形式 (2) 索引形式"
+      ],
+      "selectedAnswer": [
+        "链接方式",
+        "索引方式",
+        "链接方式 (2) 索引方式"
+      ],
+      "images": []
+    },
+    {
+      "id": 161,
+      "type": "填空",
+      "title": "161. (填空题) 段页式存储管理兼顾了 在逻辑上清晰和 存储管理上方便的优点。",
+      "options": [],
+      "correctAnswer": [
+        "段式 (2) 页式"
+      ],
+      "selectedAnswer": [
+        "段式",
+        "页式",
+        "段式 (2) 页式"
+      ],
+      "images": []
+    },
+    {
+      "id": 162,
+      "type": "填空",
+      "title": "162. (填空题) 摒弃请求和保持条件，可以采用 ；摒弃不剥夺条件采用 ；摒弃环路等待条件采用 。",
+      "options": [],
+      "correctAnswer": [
+        "资源原子分配法 (2) 剥夺方式 (3) 资源有序分配法"
+      ],
+      "selectedAnswer": [
+        "静态资源分配法",
+        "剥夺资源法",
+        "资源有序分配法",
+        "静态资源分配法 (2) 剥夺资源法 (3) 资源有序分配法"
+      ],
+      "images": []
+    },
+    {
+      "id": 163,
+      "type": "填空",
+      "title": "163. (填空题) 程序执行的局部性原理体现在 局部性和 局性两个方面。",
+      "options": [],
+      "correctAnswer": [
+        "时间 (2) 空间"
+      ],
+      "selectedAnswer": [
+        "时间",
+        "空间",
+        "时间 (2) 空间"
+      ],
+      "images": []
+    },
+    {
+      "id": 164,
+      "type": "填空",
+      "title": "164. (填空题) 允许若干个作业同时装入内存储器，使一个中央处理机轮流地执行各个作业，各作业可以同时使用各自所需的外围设备，提高资源利用率，但作业执行时用户不能直接干预的操作系统是 。",
+      "options": [],
+      "correctAnswer": [
+        "批处理操作系统"
+      ],
+      "selectedAnswer": [
+        "多道批处理系统"
+      ],
+      "images": []
+    },
+    {
+      "id": 165,
+      "type": "填空",
+      "title": "165. (填空题) 在UNIX系统中，所有的 都被看成是特殊文件，它们在使用形式上与普通文件相同，但它们使用是和 紧密相连的。",
+      "options": [],
+      "correctAnswer": [
+        "I/O设备 (2) 设备管理程序"
+      ],
+      "selectedAnswer": [
+        "I/O设备",
+        "设备驱动程序",
+        "I/O设备 (2) 设备驱动程序"
+      ],
+      "images": []
+    },
+    {
+      "id": 166,
+      "type": "填空",
+      "title": "166. (填空题) 系统要在内存中为该用户保存一些表目，“ ”放在内存，用于保存已打开文件的目录项。每个进程都有一个“ ”。",
+      "options": [],
+      "correctAnswer": [
+        "系统打开文件表 (2) 用户打开文件表"
+      ],
+      "selectedAnswer": [
+        "系统打开文件表",
+        "用户打开文件表",
+        "系统打开文件表 (2) 用户打开文件表"
+      ],
+      "images": []
+    },
+    {
+      "id": 167,
+      "type": "填空",
+      "title": "167. (填空题) 分时操作系统的主要特征有 、 、 和 。",
+      "options": [],
+      "correctAnswer": [
+        "多路性 (2) 独立性 (3) 及时性 (4) 交互性"
+      ],
+      "selectedAnswer": [
+        "多路性",
+        "交互性",
+        "独立性",
+        "及时性",
+        "多路性 (2) 交互性 (3) 独立性 (4) 及时性"
+      ],
+      "images": []
+    },
+    {
+      "id": 168,
+      "type": "填空",
+      "title": "168. (填空题) 在具有n个进程的系统中，允许m个进程（n≤m≤1)同时进入它们的临界区，其信号量s的值变化范围是 ，处于等待状态的进程数最多是 个。",
+      "options": [],
+      "correctAnswer": [
+        "-(n-m)≤s≤m (2) n-m"
+      ],
+      "selectedAnswer": [
+        "m到m-n",
+        "n-m",
+        "m到m-n (2) n-m"
+      ],
+      "images": []
+    },
+    {
+      "id": 169,
+      "type": "填空",
+      "title": "169. (填空题) 文件是 的信息集合，它有一个 作标识。",
+      "options": [],
+      "correctAnswer": [
+        "在逻辑上具有完整意义"
+      ],
+      "selectedAnswer": [
+        "具有符号名（或 一组相关）， 文件名"
+      ],
+      "images": []
+    },
+    {
+      "id": 170,
+      "type": "填空",
+      "title": "170. (填空题) 将作业地址空间中的逻辑地址转换为内存中物理地址的过程称为 。",
+      "options": [],
+      "correctAnswer": [
+        "地址转换"
+      ],
+      "selectedAnswer": [
+        "地址重定位（或地址映射）"
+      ],
+      "images": []
+    },
+    {
+      "id": 171,
+      "type": "填空",
+      "title": "171. (填空题) 顺序存储设备是严格依赖 进行定位和读／写的存储设备 是一种典型的顺序存储设备， 允许文件系统对应存储介质上的任意物理块。",
+      "options": [],
+      "correctAnswer": [
+        "信息的物理位置 (2) 磁带机 (3) 直接存取"
+      ],
+      "selectedAnswer": [
+        "物理位置",
+        "磁带",
+        "磁带（或 随机存储设备）",
+        "物理位置 (2) 磁带 (3) 磁带（或 随机存储设备）"
+      ],
+      "images": []
+    },
+    {
+      "id": 172,
+      "type": "填空",
+      "title": "172. (填空题) 无结构的流式文件是 集合， 是构成文件的基本单位。这种文件常常按 来读取所需信息，也可以用插入的 作为分界。",
+      "options": [],
+      "correctAnswer": [
+        "相关的有序字符 (2) 字符 (3) 长度 (4) 特殊字符"
+      ],
+      "selectedAnswer": [
+        "有序字符（或字符流）",
+        "字符",
+        "字节数（或长度）",
+        "特殊字符（或分隔符）",
+        "有序字符（或字符流） (2) 字符 (3) 字节数（或长度） (4) 特殊字符（或分隔符）"
+      ],
+      "images": []
+    },
+    {
+      "id": 173,
+      "type": "填空",
+      "title": "173. (填空题) 系统处于安全状态则 发生死锁，系统处于不安全状态则 发生死锁。",
+      "options": [],
+      "correctAnswer": [
+        "一定不会 (2) 有可能"
+      ],
+      "selectedAnswer": [
+        "不会",
+        "可能",
+        "不会 (2) 可能"
+      ],
+      "images": []
+    },
+    {
+      "id": 174,
+      "type": "填空",
+      "title": "174. (填空题) 临界资源是 。",
+      "options": [],
+      "correctAnswer": [
+        "一个时刻只允许一个进程访问的资源"
+      ],
+      "selectedAnswer": [
+        "一次仅允许一个进程使用的共享资源"
+      ],
+      "images": []
+    },
+    {
+      "id": 175,
+      "type": "填空",
+      "title": "175. (填空题) 在存储器管理中，页是信息的 单位，段是信息的 单位。页面大小由 确定，段的大小由 确定。",
+      "options": [],
+      "correctAnswer": [
+        "物理 (2) 逻辑 (3) 系统 (4) 用户作业本身"
+      ],
+      "selectedAnswer": [
+        "物理",
+        "逻辑",
+        "系统（或 硬件）",
+        "用户（或 程序）",
+        "物理 (2) 逻辑 (3) 系统（或 硬件） (4) 用户（或 程序）"
+      ],
+      "images": []
+    },
+    {
+      "id": 176,
+      "type": "填空",
+      "title": "176. (填空题) 页表的作用是 。",
+      "options": [],
+      "correctAnswer": [
+        "实现从页号到物理块号的映射"
+      ],
+      "selectedAnswer": [
+        "实现从页号到物理块号的地址映射"
+      ],
+      "images": []
+    },
+    {
+      "id": 177,
+      "type": "填空",
+      "title": "177. (填空题) 为了解决文件系统的不一致问题，一些计算机带有一个实用程序以检验文件系统的一致性。系统启动时，特别是崩溃之后重新启动，可以运行该程序。一致性检查分为两种： 和 。",
+      "options": [],
+      "correctAnswer": [
+        "块的一致性检查 (2) 文件的一致性检查"
+      ],
+      "selectedAnswer": [
+        "块的一致性检查",
+        "文件的一致性检查",
+        "块的一致性检查 (2) 文件的一致性检查"
+      ],
+      "images": []
+    },
+    {
+      "id": 178,
+      "type": "填空",
+      "title": "178. (填空题) 独占设备是指在一个作业的整个执行期间独自占用的设备，它一般采用 分配。",
+      "options": [],
+      "correctAnswer": [
+        "静态"
+      ],
+      "selectedAnswer": [
+        "静态"
+      ],
+      "images": []
+    },
+    {
+      "id": 179,
+      "type": "填空",
+      "title": "179. (填空题) 信号量的物理意义是：当前信号量的值大于零时，表示 ；当信号量值小于零时，其绝对值表示 。",
+      "options": [],
+      "correctAnswer": [
+        "可用资源的数目 (2) 因请求该资源而被阻塞的进程的数目"
+      ],
+      "selectedAnswer": [
+        "系统中可用资源的数目",
+        "阻塞队列中等待该资源的进程数",
+        "系统中可用资源的数目 (2) 阻塞队列中等待该资源的进程数"
+      ],
+      "images": []
+    },
+    {
+      "id": 180,
+      "type": "填空",
+      "title": "180. (填空题) 用户请求读文件信息应依次调用 、 、 。",
+      "options": [],
+      "correctAnswer": [
+        "打开文件 (2) 读文件 (3) 关闭文件"
+      ],
+      "selectedAnswer": [
+        "打开(open)",
+        "读(read)",
+        "关闭(close)",
+        "打开(open) (2) 读(read) (3) 关闭(close)"
+      ],
+      "images": []
+    },
+    {
+      "id": 181,
+      "type": "填空",
+      "title": "181. (填空题) 页式存储管理中以 为单位分配内存，作业信息按 分散在内存不连续的 中。",
+      "options": [],
+      "correctAnswer": [
+        "块 (2) 页 (3) 内存块"
+      ],
+      "selectedAnswer": [
+        "物理块",
+        "页",
+        "物理块 (2) 页 (3) 物理块"
+      ],
+      "images": []
+    },
+    {
+      "id": 182,
+      "type": "填空",
+      "title": "182. (填空题) 可变分区存储管理中内存预先 分区，作业装入内存时，在内存用户空闲区内划分出一块与 大小适合的连续区域装入。",
+      "options": [],
+      "correctAnswer": [
+        "不 (2) 作业"
+      ],
+      "selectedAnswer": [
+        "不分",
+        "作业",
+        "不分 (2) 作业"
+      ],
+      "images": []
+    },
+    {
+      "id": 183,
+      "type": "填空",
+      "title": "183. (填空题) 死锁产生的4个必要条件是 、 、 和 。",
+      "options": [],
+      "correctAnswer": [
+        "互斥 (2) 请求和保持 (3) 不剥夺 (4) 环路等待"
+      ],
+      "selectedAnswer": [
+        "互斥条件",
+        "请求和保持条件",
+        "不剥夺条件",
+        "环路等待条件",
+        "互斥条件 (2) 请求和保持条件 (3) 不剥夺条件 (4) 环路等待条件"
+      ],
+      "images": []
+    },
+    {
+      "id": 184,
+      "type": "填空",
+      "title": "184. (填空题) 计算机系统中，一次仅允许一个进程使用的资源，称为 。",
+      "options": [],
+      "correctAnswer": [
+        "临界资源"
+      ],
+      "selectedAnswer": [
+        "临界资源"
+      ],
+      "images": []
+    },
+    {
+      "id": 185,
+      "type": "填空",
+      "title": "185. (填空题) 网络操作系统的主要功能是实现各台计算机之间的 以及网络中各种资源的 。",
+      "options": [],
+      "correctAnswer": [
+        "通信 (2) 共享"
+      ],
+      "selectedAnswer": [
+        "通信",
+        "共享",
+        "通信 (2) 共享"
+      ],
+      "images": []
+    },
+    {
+      "id": 186,
+      "type": "填空",
+      "title": "186. (填空题) 进程调度算法常用的有 、 、 等几种。",
+      "options": [],
+      "correctAnswer": [
+        "先来先服务 (2) 短进程优先 (3) 时间片轮转调度算法"
+      ],
+      "selectedAnswer": [
+        "先来先服务(FCFS)",
+        "时间片轮转(RR)",
+        "优先权调度(或短作业优先法)",
+        "先来先服务(FCFS) (2) 时间片轮转(RR) (3) 优先权调度(或短作业优先法)"
+      ],
+      "images": []
+    },
+    {
+      "id": 187,
+      "type": "填空",
+      "title": "187. (填空题) 在 调度算法中，按照进程进入就绪队列的先后顺序来分配处理机。",
+      "options": [],
+      "correctAnswer": [
+        "先来先服务"
+      ],
+      "selectedAnswer": [
+        "先来先服务(FCFS)"
+      ],
+      "images": []
+    },
+    {
+      "id": 188,
+      "type": "填空",
+      "title": "188. (填空题) 在分页管理系统中，为实现地址转换设置了寄存器，其中存放的是 在内存中的起始地址。",
+      "options": [],
+      "correctAnswer": [
+        "页表"
+      ],
+      "selectedAnswer": [
+        "页表"
+      ],
+      "images": []
+    },
+    {
+      "id": 189,
+      "type": "填空",
+      "title": "189. (填空题) 把一个程序在某个数据集合上的一次执行称为一个 。",
+      "options": [],
+      "correctAnswer": [
+        "进程"
+      ],
+      "selectedAnswer": [
+        "进程"
+      ],
+      "images": []
+    },
+    {
+      "id": 190,
+      "type": "填空",
+      "title": "190. (简答题) 简述死锁的防止与死锁的避免的区别。",
+      "options": [],
+      "correctAnswer": [
+        "死锁的防止和死锁的避免是两种解决死锁问题的不同策略。死锁的防止是通过破坏至少一个死锁的必要条件实现，而死锁的避免是通过动态检测资源分配状态避免进入不安全状态。"
+      ],
+      "selectedAnswer": [
+        "死锁防止（Prevention）：是一种静态策略。它通过在进程申请资源时设置严格的限制条件，破坏死锁产生的四个必要条件（互斥、请求与保持、不剥夺、环路等待）中的一个或几个，以确保系统永远不会进入死锁状态。这种方法实现简单，但往往会导致资源利用率低和系统吞吐量下降。 (2) 死锁避免（Avoidance）：是一种动态策略。它不严格限制资源的申请，而是在资源分配过程中，通过算法（如银行家算法）动态地分析分配是否会导致系统进入不安全状态。如果会，则不予分配。这种方法允许更多的并发，资源利用率较高，但实现难度和系统开销较大。"
+      ],
+      "images": []
+    },
+    {
+      "id": 191,
+      "type": "填空",
+      "title": "191. (简答题) 在用户与操作系统之间存在哪几种类型的接口？它们的主要功能是什么？",
+      "options": [],
+      "correctAnswer": [
+        "操作系统为用户提供了两类接口：一类是操作命令接口或图形接口；另一类是系统调用接口。 （2）操作命令接口或图形接口是用户用来组织和控制作业的执行或管理计算系统的；系统调用接口是系统提供给编程人员的接口，编程人员通过系统调用来请求操作系统提供服务。"
+      ],
+      "selectedAnswer": [
+        "主要存在两种类型的接口： (1) 用户接口（User Interface）： 包括命令行接口（CLI）和图形用户接口（GUI）。 功能：提供给普通用户使用，用于控制程序的执行、管理文件和使用系统资源。 (2) 程序接口（Program Interface）： 即系统调用（System Call）。 功能：提供给程序员（或应用程序）在编程时使用，用于请求操作系统内核提供的服务（如读写文件、创建进程等）。"
+      ],
+      "images": []
+    },
+    {
+      "id": 192,
+      "type": "填空",
+      "title": "192. (简答题) 在什么情况下需要进行重定位？为什么要引入动态重定位？",
+      "options": [],
+      "correctAnswer": [
+        "由源程序经过编译、链接产生的装入模块一般总是从0开始编址的，其中的地址都是相对于起始地址的相对地址。在将装入模块装入内存时，分配到的内存空间起始地址通常不为0，因此指令和数据的实际物理地址与装入模块中的相对地址是不一致的。因此，为了使程序能够正确执行，必须将其中的相对地址转换成物理地址，即进行重定位。 （2）进程在运行过程中经常要在内存中移动位置（如对换、紧凑），引入动态重定位的目的就是为了满足进程的这种需要。"
+      ],
+      "selectedAnswer": [
+        "需要重定位的情况：当程序被装入内存时，其逻辑地址通常从0开始，而分配到的物理内存地址并非从0开始。为了能让CPU正确访问内存单元，必须将逻辑地址转换为物理地址，这一过程即为重定位。 (2) 引入动态重定位的原因： 允许程序在内存中移动（如为了紧凑碎片）。 不需要在装入时一次性完成地址变换，支持在运行期间动态分配内存。 支持虚拟存储器的实现，允许部分装入。"
+      ],
+      "images": []
+    },
+    {
+      "id": 193,
+      "type": "填空",
+      "title": "193. (简答题) 简述链接的主要类型。",
+      "options": [],
+      "correctAnswer": [
+        "静态链接。在程序运行之前，先将各目标模块及它们所需的库函数链接成一个完整的可执行程序，以后不再拆开。 （2）装入时动态链接。将用户程序编译后所得到的一组目标模块，在装入内存时，采用边装入边链接的链接方式。 （3）运行时动态链接。对某些目标模块的链接，推迟到程序执行时才进行。"
+      ],
+      "selectedAnswer": [
+        "静态链接：在程序运行之前，将各目标模块及所需的库函数链接成一个完整的装入模块，以后不再拆开。(2) 装入时动态链接：在将目标模块装入内存时，边装入边链接。 (3) 运行时动态链接：在程序执行过程中，当需要调用某个模块时，才对其进行链接。"
+      ],
+      "images": []
+    },
+    {
+      "id": 194,
+      "type": "填空",
+      "title": "194. (简答题) 某虚拟存储器的用户编程空间共32个页面，每页为1KB，内存为16KB。假定某时刻一用户页表中已调入内存的页面的页号和物理块号的对照表如下： 页号 物理块号 0 3 1 7 2 11 3 8 则逻辑地址0A5C(H)所对应的物理地址是什么？要求：写出主要计算过程。",
+      "options": [],
+      "correctAnswer": [
+        "逻辑地址0A5C转化为二进制为0000 1010 0101 1100，由于页面大小为1K=，因此页号为000010，即2号页，页号合法。从页表中找到对应的内存物理块号为11，即00 1011；与页内地址10 0101 1100拼接而形成物理地址0010 1110 0101 1100，即2E5C。"
+      ],
+      "selectedAnswer": [
+        "物理地址为：2E5C(H) 计算过程如下： 确定参数： 页面大小 = 1KB = 2 10 2 10 字节。说明逻辑地址的低10位为页内偏移量（W）。 逻辑地址 = 0A5C(H)。分解逻辑地址： 将十六进制 0A5C 转换为二进制：0000 1010 0101 1100。 页内偏移量 (W)：取低10位 10 0101 1100，即十六进制的 25C。 页号 (P)：取剩余高位 0000 10，即十进制的 2。查表映射： 查表可知，页号 2 对应的 物理块号 (B) 为 11（十进制）。计算物理地址： 物理块号 11 转换为二进制为 1011。 物理地址 = 物理块号拼接页内偏移量（或 B × 块大小 + W B×块大小+W ）。 拼接二进制：1011 (块号) + 10 0101 1100 (偏移量) = 10 1110 0101 1100。 转换为十六进制： 0010 -> 2 1110 -> E 0101 -> 5 1100 -> C 结果：2E5C(H)。"
+      ],
+      "images": [
+        "https://p.ananas.chaoxing.com/star3/origin/186af1e5043ba7ee8e01ad8038ab5c5a.png"
+      ]
+    },
+    {
+      "id": 195,
+      "type": "填空",
+      "title": "195. (简答题) 什么是多道程序设计技术？多道程序设计的优点是什么？",
+      "options": [],
+      "correctAnswer": [
+        "现代计算机系统一般都采用基于多道程序设计的技术。通常多道程序设计是指在主存中同时存放多道用户作业,使它们都处于执行的开始点和结束点之间。多道程序设计的特点如下： （1）多道。主存中有多道程序,它们在任一时刻必须处于就绪、运行、阻塞三种状态之一； （3）宏观上并行。从宏观上看,它们在同时执行； （4）微观上串行。从微观上看,它们在交替、穿插地执行。"
+      ],
+      "selectedAnswer": [
+        "定义：多道程序设计技术是指在内存中同时存放多道相互独立的程序，它们在管理程序的控制下相互穿插地运行，共享处理机和外设等系统资源。 (2) 优点： 资源利用率高：CPU和外设可并行工作。 系统吞吐量大：单位时间内完成的作业多。"
+      ],
+      "images": []
+    },
+    {
+      "id": 196,
+      "type": "填空",
+      "title": "196. (简答题) 简述操作系统内核及其功能。",
+      "options": [],
+      "correctAnswer": [
+        "内核是操作系统最核心的部分，它是一组程序模块，作为安全软件来提供支持进程并发执行的基本功能和基本操作。内核程序通常驻留在内核空间且运行于内核态，具有访问硬件设备和所有内存空间的权限，是仅有的能够执行特权指令的程序。内核的主要功能有资源抽象、资源分配、资源共享。"
+      ],
+      "selectedAnswer": [
+        "内核：是操作系统最基本、最核心的部分，通常常驻内存，运行在核心态，具有访问硬件及其它系统资源的最高权限。 (2) 主要功能： 中断处理：响应和处理各类中断。 时钟管理：提供系统时间、时间片轮转支持。进程管理：进程调度、切换、同步互斥。 存储器管理：地址映射、内存分配与回收。 原语操作：原子性的系统操作（如P、V操作）。"
+      ],
+      "images": []
+    },
+    {
+      "id": 197,
+      "type": "填空",
+      "title": "197. (简答题) 操作系统有哪几大特征？其最基本的特征是什么？",
+      "options": [],
+      "correctAnswer": [
+        "操作系统有四大特征，分别是并发性、共享性、虚拟性和异步性，最其最基本的特征是并发性和共享性"
+      ],
+      "selectedAnswer": [
+        "四大特征：并发性、共享性、虚拟性、异步性。(2) 最基本的特征：并发性 和 共享性。这两者互为存在条件，是操作系统其他特征的基础。"
+      ],
+      "images": []
+    },
+    {
+      "id": 198,
+      "type": "填空",
+      "title": "198. (简答题) 什么是计算机操作系统？",
+      "options": [],
+      "correctAnswer": [
+        "操作系统是计算机系统中的一种系统软件，它统一管理计算机系统的资源，控制程序的执行，是配置在计算机硬件上的第一层软件，是对硬件系统的首次扩充。"
+      ],
+      "selectedAnswer": [
+        "计算机操作系统是指管理和控制计算机硬件与软件资源、合理地组织计算机工作流程、方便用户使用计算机的系统软件。它是计算机系统的核心，是用户与计算机硬件之间的接口。"
+      ],
+      "images": []
+    },
+    {
+      "id": 199,
+      "type": "填空",
+      "title": "199. (简答题) 什么是进程控制块？它有什么作用？",
+      "options": [],
+      "correctAnswer": [
+        "进程控制块是一个记录进程属性信息的数据结构，是进程实体的一部分，是操作系统中最重要的数据结构。操作系统根据进程控制块来对并发执行的进程进行控制和管理，进程控制块是进程存在的唯一标志。"
+      ],
+      "selectedAnswer": [
+        "定义：进程控制块（PCB, Process Control Block）是操作系统中用于描述进程情况、控制进程运行的一律数据结构。(2) 作用： 它是进程存在的唯一标志。 记录了进程的标识、状态、优先级、寄存器现场、资源清单等信息，使操作系统能够对并发执行的进程进行管理和调度。"
+      ],
+      "images": []
+    },
+    {
+      "id": 200,
+      "type": "填空",
+      "title": "200. (简答题) 文件目录和目录文件各起什么作用？",
+      "options": [],
+      "correctAnswer": [
+        "文件目录用于对单个文件的控制，它记录文件的名字、文件长度、文件存放在外存上的物理地址，以及文件属性和文件建立时间、日期等信息。目录文件是全部文件目录组成的文件，用于整个文件系统的管理。"
+      ],
+      "selectedAnswer": [
+        "文件目录：是一种数据结构（通常由文件控制块FCB或目录项组成），用于实现“按名存取”。它的作用是建立文件名与文件物理地址及属性之间的映射关系，方便文件检索。 (2) 目录文件：是为了管理文件目录而设立的文件。即，将文件目录本身也看作一个文件（其内容是目录项的集合）存储在磁盘上，称为目录文件。"
+      ],
+      "images": []
+    },
+    {
+      "id": 201,
+      "type": "填空",
+      "title": "201. (简答题) 什么叫临界资源？",
+      "options": [],
+      "correctAnswer": [
+        "系统中某些资源一次只允许一个进程使用，称这样的资源为临界资源"
+      ],
+      "selectedAnswer": [
+        "临界资源是指在一段时间内只允许一个进程访问的资源。例如打印机、共享变量等。各进程必须互斥地访问这类资源。"
+      ],
+      "images": []
+    },
+    {
+      "id": 202,
+      "type": "填空",
+      "title": "202. (简答题) 利用信号量机制实现进程互斥时，对互斥信号量的wait()和signal()操作为什么要成对出现？",
+      "options": [],
+      "correctAnswer": [
+        "利用信号量机制实现进程互斥时，对互斥信号量mutex的wait()和signal()操作必须成对出现，缺少wait(mutex)将会导致系统混乱，不能保证对临界资源的互斥访问；而缺少signal(mutex)将会使临界资源永远不被释放，从而使因等待该资源而阻塞的进程不能被唤醒。"
+      ],
+      "selectedAnswer": [
+        "wait()（P操作）用于申请临界资源，执行后若成功则进入临界区（加锁）； (2) signal()（V操作）用于释放临界资源，退出临界区（解锁）。 (3) 如果只有 wait() 没有 signal()，资源被占用后永远无法释放，导致后续进程死锁；如果只有 signal() 没有 wait()，则起不到互斥保护作用。因此必须成对出现（通常在同一个进程中）以包围临界区代码，保证互斥。"
+      ],
+      "images": []
+    },
+    {
+      "id": 203,
+      "type": "填空",
+      "title": "203. (简答题) 什么是虚拟存储器",
+      "options": [],
+      "correctAnswer": [
+        "虚拟存储器是指具有请求调入功能和置换功能,能从逻辑上对内存容量加以扩充的一种存储器系统。其逻辑容量由内存容量和外存容量之和决定。"
+      ],
+      "selectedAnswer": [
+        "虚拟存储器是指具有请求调入功能和置换功能，能从逻辑上对内存容量加以扩充的一种存储器系统。它利用局部性原理，允许作业只装入部分程序和数据即可开始运行，其余部分留在外存，需要时再调入。其逻辑容量由计算机的地址结构决定，运行速度接近内存，成本接近外存。"
+      ],
+      "images": []
+    },
+    {
+      "id": 204,
+      "type": "填空",
+      "title": "204. (简答题) 为什么进程之间的通信必须借助于操作系统内核功能？",
+      "options": [],
+      "correctAnswer": [
+        "在操作系统中，进程是竞争和分配计算机系统资源的基本单位。每个进程都有自己的独立地址空间。为了保证多个进程能够彼此互不干扰地共享物理内存，OS利用硬件地址机制对进程的地址空间进行了严格的保护，限制每个进程只能访问自己的地址空间。因此，进程之间的通信必须借助于操作系统内核功能。"
+      ],
+      "selectedAnswer": [
+        "因为每个进程都有自己独立的地址空间。为了保证系统的安全性，操作系统禁止进程直接访问其他进程的内存空间。因此，进程间无法直接交换数据，必须通过操作系统内核提供的通信机制（如共享内存、消息队列、管道等），在内核空间进行数据的传输或中转。"
+      ],
+      "images": []
+    },
+    {
+      "id": 205,
+      "type": "填空",
+      "title": "205. (计算题) 若信号量的初值为 2，当前值为 -1，则表示有多少个等待进程？请分析。",
+      "options": [],
+      "correctAnswer": [
+        "信号量的初值表示系统中资源的数目，每次的P操作表示进程请求一个单位的资源，信号量进行减1操作，当信号量小于0时，表示资源已分配完毕，进程自我阻塞。如果信 号量小于0，那么信号量的绝对值表示当前阻塞队列中进程的个数。因此，当前值为-1，表示有 1个等待进程。"
+      ],
+      "selectedAnswer": [
+        "答：有 1 个等待进程。 分析： 根据信号量的物理含义： 当信号量值 S > 0 S>0 时，表示系统中当前可用的资源数量。当信号量值 S ≤ 0 S≤0 时，表示系统中资源已分配完毕， S S 的绝对值 ∣ S ∣ ∣S∣ 表示阻塞队列中正在等待该资源的进程数。本题中，当前值为 -1，小于 0，取其绝对值 ∣ − 1 ∣ = 1 ∣−1∣=1 ，因此表示有 1 个进程处于等待状态。"
+      ],
+      "images": []
+    },
+    {
+      "id": 206,
+      "type": "填空",
+      "title": "206. (计算题) 分页存储管理系统具有快表，内存访问时间为2μs，检索快表时间为0.5μs。若快表的命中率为80%，则有效访问时间是多少？",
+      "options": [],
+      "correctAnswer": [
+        "快表查询的有效时间：0.5μs 页表查询的有效时间：2μs 有效时间为：EAT =λ*a+(t+λ)(1–a)+t=0.8x0.5+(1-0.8)*(2+0.5)+2=2.9μs"
+      ],
+      "selectedAnswer": [
+        "解： 设内存访问时间为 t = 2 μ s t=2μs ，快表检索时间为 λ = 0.5 μ s λ=0.5μs ，命中率为 a = 80 % = 0.8 a=80%=0.8 。 有效访问时间 (EAT) 计算公式为： EAT=a×(λ+t)+(1−a)×(λ+t+t) 命中时：查快表(0.5) + 访问物理内存存取数据(2) = 2.5 μs未命中时：查快表(0.5) + 查内存页表(2) + 访问物理内存存取数据(2) = 4.5 μs EAT=0.8×2.5+0.2×4.5 EAT=2.0+0.9=2.9μs 答：有效访问时间是 2.9 μs。"
+      ],
+      "images": []
+    },
+    {
+      "id": 207,
+      "type": "填空",
+      "title": "207. (计算题) 有 m 个进程共享同一临界资源，若使用信号量机制实现对某个临界资源的互斥访问，请求出信号量的变化范围。",
+      "options": [],
+      "correctAnswer": [
+        "某个临界资源的信号量初值为1，其是信号量的最大值。m个进程分别对临界资源发出1次请求，信号量均要执行减1操作，因此，最多可允许m个进程同时申请，此时信号量的值是1-m，为最小值。因此，信号量值的范围是1-m至1。"
+      ],
+      "selectedAnswer": [
+        "解： 由于是互斥访问，信号量初值设为 1（表示资源可用）。最大值：当没有进程进入临界区且无等待进程时，信号量为初值 1。 最小值：当有 1 个进程进入临界区，且其余 m−1 个进程都在阻塞队列中等待时，信号量值最小。每当一个进程执行 P 操作（wait），信号量减 1。 第 1 个进程进入：1−1=0 后续 m−1 个进程等待： 0−(m−1)=1−m 由此可知最小值为 1 - m。 答：信号量的变化范围是 [1−m,1] 。"
+      ],
+      "images": []
+    },
+    {
+      "id": 208,
+      "type": "填空",
+      "title": "208. (计算题) 对于一个利用快表且页表存于内存的分页系统，假定CPU一次访问时间为1us，访问快表的时间可以忽略不记。如果85%的地址映射可直接通过快表完成，那么进程完成一次内存读写的平均有效时间是多少？",
+      "options": [],
+      "correctAnswer": [
+        "0.85´1μs+0.15´2μs=1.15μs"
+      ],
+      "selectedAnswer": [
+        "解： 设内存访问时间 t=1μs ，快表时间忽略不计，命中率 a=0.85 。 命中时：直接根据快表得到的物理地址访问内存数据，耗时 =t=1μs 。 未命中时：先访问内存中的页表，再访问内存数据，耗时 =2t=2μs 。 EAT=a×t+(1−a)×2t EAT=0.85×1+0.15×2 EAT=0.85+0.30=1.15μs 答：进程完成一次内存读写的平均有效时间是 1.15 μs。"
+      ],
+      "images": []
+    },
+    {
+      "id": 209,
+      "type": "填空",
+      "title": "209. (计算题) 对一个将页表存放在内存中的分页系统 ： （1）如果访问内存需要0.2µs，则有效访问时间为多少？ （2）如果加一快表，且假定在快表中找到页表项的概率高达90%，则有效访问时间又是多少（假定查快表须花费的时间为0）？",
+      "options": [],
+      "correctAnswer": [
+        "有效访问时间为2×0.2=0.4µs。 （2）有效访问时间为90%×0.2+（1-90%）×2×0.2=0.22µs。"
+      ],
+      "selectedAnswer": [
+        "解： 设内存访问时间 t = 0.2 μ s t=0.2μs 。 (1) 无快表情况： CPU 需要先访问内存中的页表获取物理地址（1次），再访问内存存取数据（1次），共 2 次内存访问。EAT=2×t=2×0.2=0.4μs(2) 有快表情况： 命中率 a=90%=0.9 ，查快表时间为 0。 命中时耗时： t=0.2μs未命中耗时（查页表+取数据）： 2t=0.4μsEAT=a×t+(1−a)×2t EAT=0.9×0.2+0.1×0.4 EAT=0.18+0.04=0.22μs 答：（1）有效访问时间为 0.4 μs；（2）有效访问时间为 0.22 μs。"
+      ],
+      "images": []
+    },
+    {
+      "id": 210,
+      "type": "填空",
+      "title": "210. (计算题) 已知某分页系统，内存容量为 64KB，页面大小为 1KB，对一个 4 页大的作业，其 0、1、2、3 页分别被分配到内存的 2、4、6、7 块中。将十进制的逻辑地址 1023、3500转换为物理地址。",
+      "options": [],
+      "correctAnswer": [
+        "对上述逻辑地址，可首先计算出它们的页号和页内地址（逻辑地址除以页面大小，得到的商为页号，余数为页内地址），然后通过页表将其转换成对应的物理地址。 ① 逻辑地址1023。 1023/1K =0，1023%1K=1023，因此页号为0，页内地址为1023，查页表找到对应的物理块号为2，故物理地址为2×1K+1023=3071。 ② 逻辑地址3500。 3500/1K =3，3500%1K=428，因此页号为3，页内地址为428，查页表找到对应的物理块号为7，故物理地址为7×1K+428=7596。"
+      ],
+      "selectedAnswer": [
+        "解： 页面大小 L=1KB=1024 字节。 物理地址计算公式：物理地址=物理块号×页面大小+页内偏移量 (1) 逻辑地址 1023： 页号P=1023/1024=0 页内偏移量 W=1023%1024=1023 查页表知：第 0 页对应物理块号 2。 物理地址 =2×1024+1023=2048+1023=3071(2) 逻辑地址 3500： 页号 P=3500/1024=3 （整除结果） 页内偏移量 W=3500%1024=428 （余数， 3500−3×1024=3500−3072=428 ） 查页表知：第 3 页对应物理块号 7。 物理地址 = =7×1024+428=7168+428=7596 答：逻辑地址 1023 对应的物理地址为 3071；逻辑地址 3500 对应的物理地址为 7596。"
+      ],
+      "images": []
+    },
+    {
+      "id": 211,
+      "type": "填空",
+      "title": "211. (其它) 请求分页系统中，设某进程共有9个页，分配给该进程的主存块数为5，进程运行时，实际访问页面的次序是0，1，2，3，4，5，0，2，1，8，5，2，7，6，0，1，2。试求： (1)FIFO页面调度算法，列出其页面淘汰次序和缺页中断次数，以及最后留驻主存的页号顺序。 (2)LRU页面调度算法，列出其页面淘汰次序和缺页中断次数，以及最后留驻主存的页号顺序。 (3)OPT页面调度算法，列出其页面淘汰次序和缺页中断次数，以及最后留驻主存的页号顺序。",
+      "options": [],
+      "correctAnswer": [
+        "FIFO页面调度算法，列出其页面淘汰次序和缺页中断次数，以及最后留驻主存的页号顺序。 因此，页面淘汰顺序为0、1、2、3、4、5、0、1、8，缺页中断次数为14次。最后留驻主存的页号顺序为7、6、0、1、2。 (2)LRU页面调度算法，列出其页面淘汰次序和缺页中断次数，以及最后留驻主存的页号顺序。 因此，页面淘汰顺序为0、1、3、4、0、1、8、5，缺页中断次数为13次。最后留驻主存的页号顺序为2、1、0、6、7。 (3) OPT页面调度算法，列出其页面淘汰次序和缺页中断次数，以及最后留驻主存的页号顺序 因此，页面淘汰顺序为4、3、8、5(或4、3、5、8)，缺页中断次数为9次。最后留驻主存的页号顺序为0、1、2、7、6(或0、1、2、6、7)"
+      ],
+      "selectedAnswer": [
+        "答： (1) FIFO（先进先出）页面调度算法 页面置换过程：0, 1, 2, 3, 4 进入内存，占满 5 个物理块。（缺页 5 次）访问 5：淘汰 0，内存为 {1, 2, 3, 4, 5}。（缺页 1 次，淘汰 0）访问 0：淘汰 1，内存为 {2, 3, 4, 5, 0}。（缺页 1 次，淘汰 1）访问 2：命中。访问 1：淘汰 2，内存为 {3, 4, 5, 0, 1}。（缺页 1 次，淘汰 2）访问 8：淘汰 3，内存为 {4, 5, 0, 1, 8}。（缺页 1 次，淘汰 3）访问 5：命中。访问 2：淘汰 4，内存为 {5, 0, 1, 8, 2}。（缺页 1 次，淘汰 4）访问 7：淘汰 5，内存为 {0, 1, 8, 2, 7}。（缺页 1 次，淘汰 5）访问 6：淘汰 0，内存为 {1, 8, 2, 7, 6}。（缺页 1 次，淘汰 0）访问 0：淘汰 1，内存为 {8, 2, 7, 6, 0}。（缺页 1 次，淘汰 1）访问 1：淘汰 8，内存为 {2, 7, 6, 0, 1}。（缺页 1 次，淘汰 8）访问 2：命中。页面淘汰次序：0, 1, 2, 3, 4, 5, 0, 1, 8缺页中断次数：5 (初始) + 9 (置换) = 14次最后留驻主存的页号顺序：2, 7, 6, 0, 1 （对应物理块的逻辑队列顺序）(2) LRU（最近最久未使用）页面调度算法 页面置换过程： 1.0, 1, 2, 3, 4 进入内存。（缺页 5 次） 2.访问 5：淘汰 0（最久未用），内存 {1, 2, 3, 4, 5}。（缺页 1 次，淘汰 0） 3.访问 0：淘汰 1，内存 {2, 3, 4, 5, 0}。（缺页 1 次，淘汰 1） 4.访问 2：命中，更新 2 为最新。 5.访问 1：淘汰 3，内存 {4, 5, 0, 2, 1}。（缺页 1 次，淘汰 3） 6.访问 8：淘汰 4，内存 {5, 0, 2, 1, 8}。（缺页 1 次，淘汰 4） 7.访问 5：命中。 8.访问 2：命中。 9.访问 7：淘汰 0，内存 {1, 8, 5, 2, 7}。（缺页 1 次，淘汰 0） 10.访问 6：淘汰 1，内存 {8, 5, 2, 7, 6}。（缺页 1 次，淘汰 1） 11.访问 0：淘汰 8，内存 {5, 2, 7, 6, 0}。（缺页 1 次，淘汰 8） 12.访问 1：淘汰 5，内存 {2, 7, 6, 0, 1}。（缺页 1 次，淘汰 5） 13.访问 2：命中。 页面淘汰次序：0, 1, 3, 4, 0, 1, 8, 5缺页中断次数：5 (初始) + 8 (置换) = 13次 最后留驻主存的页号顺序：7, 6, 0, 1, 2 （按最近使用顺序排列，2为最新）(3) OPT（最佳）页面调度算法 页面置换过程： 1.0, 1, 2, 3, 4 进入内存。（缺页 5 次） 2.访问 5：往后看，0,2,1会用到，3,4不再使用。淘汰 3，内存 {0, 1, 2, 5, 4}。（缺页 1 次，淘汰 3） 3.访问 0, 2, 1：均命中。 4.访问 8：往后看，5,2,7,6,0,1...，4不再使用。淘汰 4，内存 {0, 1, 2, 5, 8}。（缺页 1 次，淘汰 4） 5.访问 5, 2：均命中。 6.访问 7：往后看，6,0,1,2。5和8不再使用。淘汰 5，内存 {0, 1, 2, 7, 8}。（缺页 1 次，淘汰 5） 7.访问 6：往后看，0,1,2。8不再使用。淘汰 8，内存 {0, 1, 2, 7, 6}。（缺页 1 次，淘汰 8） 8.访问 0, 1, 2：均命中。 页面淘汰次序：3, 4, 5, 8 （注：若第1步淘汰4结果类似，均为不再访问的页） 缺页中断次数：5 (初始) + 4 (置换) = 9次 最后留驻主存的页号顺序：0, 1, 2, 7, 6"
+      ],
+      "images": [
+        "https://p.ananas.chaoxing.com/star3/origin/b0303a742f6d706534612381d0aee59a.png",
+        "https://p.ananas.chaoxing.com/star3/origin/dd109d1707b0a8dbad708b115b7f0071.png",
+        "https://p.ananas.chaoxing.com/star3/origin/d64be60a84a59ec6017bf09c2d83014e.png"
+      ]
+    },
+    {
+      "id": 212,
+      "type": "填空",
+      "title": "212. (其它) 有5个批处理作业（A，B，C，D，E）几乎同时到达一个计算中心，估计的运行时间分别为10，6，2，4，8分钟，他们的优先数分别为1，2，3，4，5（1为最低优先数）。对下面的各种调度算法，分别计算作业的平均周期时间。 （1）最高优先级优先 （2）短作业优先 （3）先来先服务",
+      "options": [],
+      "correctAnswer": [
+        "采用最高优先级优先调度算法，各进程开始运行的时间、完成时间以及周转时间如下表 进程 开始运行时间 完成时间 周转时间 A 20 30 30 B 14 20 20 C 12 14 14 D 8 12 12 E 0 8 8 平均周转时间为(30+20+14+12+8)/5=84/5=16.8分钟 （2）采用短作业优先调度算法，各进程开始运行的时间、完成时间以及周转时间如下表： 进程 开始运行时间 完成时间 周转时间 A 20 30 30 B 6 12 12 C 0 2 2 D 2 6 6 E 12 20 20 平均周转时间为(30+12+2+6+20)/5=70/5=14分钟 （3）采用先来先服务调度算法，各进程开始运行的时间、完成时间以及周转时间如下表： 进程 开始运行时间 完成时间 周转时间 A 0 10 10 B 10 16 16 C 16 18 18 D 18 22 22 E 22 30 30 平均周转时间为(10+16+18+22+30)/5=70/5=19.2分钟"
+      ],
+      "selectedAnswer": [
+        "答： 假设所有作业同时到达（到达时间为0），平均周期时间即为平均周转时间。 作业数据：A(10, 优先1), B(6, 优先2), C(2, 优先3), D(4, 优先4), E(8, 优先5)。优先级 5 最高。 (1) 最高优先级优先 (Priority Scheduling) 执行顺序：E(5) → D(4) → C(3) → B(2) → A(1) 周转时间计算： E: 8 分钟 D: 8 + 4 = 12 分钟C: 12 + 2 = 14 分钟 B: 14 + 6 = 20 分钟 A: 20 + 10 = 30 分钟 平均周期时间：(8 + 12 + 14 + 20 + 30) / 5 = 84 / 5 = 16.8 分钟 (2) 短作业优先 (SJF) 执行顺序（按运行时间递增）：C(2) → D(4) → B(6) → E(8) → A(10) 周转时间计算： C: 2 分钟 D: 2 + 4 = 6 分钟 B: 6 + 6 = 12 分钟 E: 12 + 8 = 20 分钟 A: 20 + 10 = 30 分钟 平均周期时间：(2 + 6 + 12 + 20 + 30) / 5 = 70 / 5 = 14 分钟 (3) 先来先服务 (FCFS) 执行顺序：A → B → C → D → E 周转时间计算： A: 10 分钟 B: 10 + 6 = 16 分钟 C: 16 + 2 = 18 分钟 D: 18 + 4 = 22 分钟 E: 22 + 8 = 30 分钟 平均周期时间：(10 + 16 + 18 + 22 + 30) / 5 = 96 / 5 = 19.2 分钟"
+      ],
+      "images": []
+    },
+    {
+      "id": 213,
+      "type": "填空",
+      "title": "213. (其它) 假设有 11 个进程先后提出磁盘 I/O 请求，当前磁头正在 110 号磁道处，并预向磁道序号增加的方向移动。请求队列的顺序为 30、145、120、78、82、140、20、42、165、55、65，分别用 FCFS 调度算法和 SCAN 调度算法完成上述请求，写出磁道访问顺序和每次磁头移动的距离，并计算平均移动磁道数。",
+      "options": [],
+      "correctAnswer": [
+        "FCFS调度算法：访问顺序为30、145、120、78、82、140、20、42、165、55、65； 移动距离为80、115、25、42、4、58、120、22、123、110、10； 平均移动磁道数为（80+115+25+42+4+58+120+22+123+110+10）/11=64.45。 （2）SCAN调度算法：访问顺序为120、140、145、165、82、78、65、55、42、30、20； 移动距离为10、20、5、20、83、4、13、10、13、12、10； 平均移动磁道数为（10+20+5+20+83+4+13+10+13+10+10）/11=18.18"
+      ],
+      "selectedAnswer": [
+        "FCFS (先来先服务) 调度算法 磁道访问顺序：30, 145, 120, 78, 82, 140, 20, 42, 165, 55, 65 每次磁头移动距离： 110 -> 30: |110-30| = 80 30 -> 145: |30-145| = 115 145 -> 120: |145-120| = 25 120 -> 78: |120-78| = 42 78 -> 82: |78-82| = 4 82 -> 140: |82-140| = 58 140 -> 20: |140-20| = 120 20 -> 42: |20-42| = 22 42 -> 165: |42-165| = 123 165 -> 55: |165-55| = 110 55 -> 65: |55-65| = 10 总移动磁道数：80 + 115 + 25 + 42 + 4 + 58 + 120 + 22 + 123 + 110 + 10 = 709 平均移动磁道数：709 / 11 ≈ 64.45 (2) SCAN (电梯/扫描) 调度算法 当前磁头在 110，向磁道增加方向移动。 请求队列排序：20, 30, 42, 55, 65, 78, 82, (110), 120, 140, 145, 165 磁道访问顺序： 向增加方向：120, 140, 145, 165转向减小方向：82, 78, 65, 55, 42, 30, 20 (注：顺序为 120, 140, 145, 165, 82, 78, 65, 55, 42, 30, 20)每次磁头移动距离： 110 -> 120: 10 120 -> 140: 20 140 -> 145: 5 145 -> 165: 20 165 -> 82: 83 82 -> 78: 4 78 -> 65: 13 65 -> 55: 10 55 -> 42: 13 42 -> 30: 12 30 -> 20: 10 总移动磁道数：(165 - 110) + (165 - 20) = 55 + 145 = 200 平均移动磁道数：200 / 11 ≈ 18.18"
+      ],
+      "images": []
+    },
+    {
+      "id": 214,
+      "type": "填空",
+      "title": "214. (其它) 某系统有A、B、C、D这4类资源供5个进程共享，进程对资源的需求和分配情况如下表所示。现在系统中A、B、C、D类资源分别还剩1、5、2、0个，请按银行家算法回答下列问题： 问：(1) 系统是否安全？（应说明理由） (2)如果现在进程P2提出需要(0，4，2，0)个资源的请求，系统能否满足它的请求？为什么？",
+      "options": [],
+      "correctAnswer": [
+        "由已知条件可得Need矩阵如下： 进程 分配矩阵 尚需矩阵(Need) 可用资源数向量(Avaiable) P1 0 0 1 2 0 0 0 0 1 5 2 0 P2 1 0 0 0 0 7 5 0 P3 1 3 5 4 1 0 0 2 P4 0 6 3 2 0 0 2 0 P5 0 0 1 4 0 6 4 2 从上述分析可知，存在一个安全序列P1 P3 P2 P4 P5，故当前系统是安全的 (2) 若进程P2请求(0,4,2,0)，可否立即分配？请分析说明。 Need2=(0,7,5,0)-(0,4,2,0)=(0,3,3,0) Allocation2=(1,0,0,0)+(0,4,2,0)=(1,4,2,0) Available=(1,5,2,0)-(0,4,2,0)=(1,1,0,0) 从上述分析可知，存在一个安全序列P1, P3, P2, P4, P5，故当前系统是安全的,因此系统能满足P2的请求。"
+      ],
+      "selectedAnswer": [
+        "答： 第一步：计算各进程的需求矩阵 Need 公式 Need=Max−Allocation P1: (0,0,1,2)−(0,0,1,2)=(0,0,0,0) P2: (1,7,5,0)−(1,0,0,0)=(0,7,5,0) P3: (2,3,5,6)−(1,3,5,4)=(1,0,0,2) P4: (0,6,5,2)−(0,6,3,2)=(0,0,2,0) P5: (0,6,5,6)−(0,0,1,4)=(0,6,4,2) 当前系统可用资源向量 Available = (1, 5, 2, 0) (1) 系统是否安全？ 答：系统是安全的。 理由与安全序列分析： 可以尝试找到一个安全序列： Check P1: Need P1 (0,0,0,0)≤Available(1,5,2,0) ，满足。P1 执行完成，释放资源。Available=(1,5,2,0)+(0,0,1,2)=(1,5,3,2)Check P4: Need P4 (0,0,2,0)≤Available(1,5,3,2) ，满足。P4 执行完成，释放资源。 Available=(1,5,3,2)+(0,6,3,2)=(1,11,6,4)Check P3: Need P3 (1,0,0,2)≤Available(1,11,6,4) ，满足。P3 执行完成，释放资源。Available=(1,11,6,4)+(1,3,5,4)=(2,14,11,8)Check P2: Need P2 (0,7,5,0)≤Available(2,14,11,8) ，满足。P2 执行完成，释放资源。 Available=(2,14,11,8)+(1,0,0,0)=(3,14,11,8)Check P5: Need P5 (0,6,4,2)≤Available(3,14,11,8) ，满足。P5 执行完成，释放资源。存在安全序列（例如：P1 -> P4 -> P3 -> P2 -> P5），因此系统处于安全状态。(2) 如果现在进程 P2 提出需要 (0, 4, 2, 0) 个资源的请求，系统能否满足它的请求？为什么？ 答：系统能满足它的请求。 分析过程： 设 P2 请求向量 Request 2 =(0,4,2,0) 检查请求是否合法：Request 2 (0,4,2,0)≤Need P2 (0,7,5,0) —— 成立。Request 2 (0,4,2,0)≤Available(1,5,2,0) —— 成立。试分配资源，修改系统状态： Available=(1,5,2,0)−(0,4,2,0)=(1,1,0,0)Allocation P2 =(1,0,0,0)+(0,4,2,0)=(1,4,2,0) Need P2 =(0,7,5,0)−(0,4,2,0)=(0,3,3,0)执行安全性算法（检查新状态是否安全）： 当前 Available=(1,1,0,0) 。P1: Need(0,0,0,0)≤Available(1,1,0,0) 。P1 执行，释放资源 (0,0,1,2) 。NewAvailable=(1,1,0,0)+(0,0,1,2)=(1,1,1,2) 。P3: Need(1,0,0,2)≤Available(1,1,1,2) 。P3 执行，释放资源 (1,3,5,4) 。NewAvailable=(1,1,1,2)+(1,3,5,4)=(2,4,6,6) 。P4: Need(0,0,2,0)≤Available(2,4,6,6) 。 P4 执行，释放资源 (0,6,3,2) 。 NewAvailable=(2,4,6,6)+(0,6,3,2)=(2,10,9,8) 。 P2: Need(0,3,3,0)≤Available(2,10,9,8) 。 P2 执行（此时使用试分配后的Need和Allocation）。 NewAvailable=(2,10,9,8)+(1,4,2,0)=(3,14,11,8) 。 P5: Need(0,6,4,2)≤Available(3,14,11,8) 。P5 执行。 结论： 试分配后，系统仍能找到一个安全序列（如 P1 -> P3 -> P4 -> P2 -> P5），系统处于安全状态，因此可以满足 P2 的请求。"
+      ],
+      "images": [
+        "https://p.ananas.chaoxing.com/star3/origin/5190fd66331d946912c93f6b65113145.png",
+        "https://p.ananas.chaoxing.com/star3/origin/fa51fec50e4ffdc811eab497ba7ca68c.png",
+        "https://p.ananas.chaoxing.com/star3/origin/3d88add5166d235f2fee932a7d123ae7.png"
+      ]
+    },
+    {
+      "id": 215,
+      "type": "填空",
+      "title": "215. (其它) 假设系统中有以下几个进程，每个进程的执行时间(单位：分钟)和优先数如下(优先数越小，其优先级越高)： 进程 执行时间 优先数 P1 8 3 P2 6 1 P3 2 5 P4 4 4 P5 5 2 如果在0时刻，各进程按P1、P2、P3、P4、P5 的顺序同时到达，忽略进程调度切换等辅助时间，对先来先服务调度算法和抢占式优先级调度算法，分别计算作业的平均周期时间。",
+      "options": [],
+      "correctAnswer": [
+        "先来先服务调度算法； 进程 开始运行时间 完成时间 周转时间 P1 0 8 8 P2 8 14 14 P3 14 16 16 P4 16 20 20 P5 20 25 25 平均周转时间：（8+14+16+20+25）/5=16.6(分钟) (2)抢占式优先级调度算法； 进程 开始运行时间 完成时间 周转时间 P1 11 19 19 P2 0 6 6 P3 23 25 25 P4 19 23 23 P5 6 11 11 平均周转时间：（ 19+6+25+23+11）/5=16.8(分钟)"
+      ],
+      "selectedAnswer": [
+        "先来先服务调度算法 (FCFS) 执行顺序：按照到达顺序执行，即 P1 → → P2 → → P3 → → P4 → → P5。 各进程周转时间计算： P1: 0 开始，运行 8 分钟，8 分钟结束。（周转时间 8） P2: 8 开始，运行 6 分钟，14 分钟结束。（周转时间 14） P3: 14 开始，运行 2 分钟，16 分钟结束。（周转时间 16） P4: 16 开始，运行 4 分钟，20 分钟结束。（周转时间 20） P5: 20 开始，运行 5 分钟，25 分钟结束。（周转时间 25） 平均周期时间： ( 8 + 14 + 16 + 20 + 25 ) / 5 = 83 / 5 = 16.6 (8+14+16+20+25)/5=83/5=16.6 分钟 (2) 抢占式优先级调度算法 分析：虽然是抢占式，但由于所有进程在 0 时刻同时到达，系统会直接选择优先级最高的进程运行。后续没有新进程到达，因此不会发生运行中途被抢占的情况，实际上等同于按优先级排序执行。 执行顺序（优先级高到低，优先数小代表优先级高）：P2(1) → → P5(2) → → P1(3) → → P4(4) → → P3(5)。 各进程周转时间计算： P2: 0 开始，运行 6 分钟，6 分钟结束。（周转时间 6） P5: 6 开始，运行 5 分钟，11 分钟结束。（周转时间 11） P1: 11 开始，运行 8 分钟，19 分钟结束。（周转时间 19） P4: 19 开始，运行 4 分钟，23 分钟结束。（周转时间 23） P3: 23 开始，运行 2 分钟，25 分钟结束。（周转时间 25） 平均周期时间： ( 6 + 11 + 19 + 23 + 25 ) / 5 = 84 / 5 = 16.8 (6+11+19+23+25)/5=84/5=16.8 分钟"
+      ],
+      "images": []
+    },
+    {
+      "id": 216,
+      "type": "填空",
+      "title": "216. (其它) 某磁盘共有 200 个磁道（编号 0-199），磁头当前位于 80 号磁道，且最近一次移动方向为磁道号增大的方向。当前磁盘请求队列（未按请求顺序排列）为：30、120、55、150、95、20、180、70、160、40（共 10 个请求）。 （1）采用先来先服务（FCFS）调度算法，写出磁头移动轨迹，计算磁头移动的总磁道数与平均寻道长度。 （2）采用最短寻道时间优先（SSTF）调度算法，写出磁头移动轨迹，计算磁头移动的总磁道数与平均寻道长度。 （3）采用扫描算法（SCAN，电梯调度）调度算法，沿磁道“增大”方向处理，写出磁头移动轨迹，计算磁头移动的总磁道数与平均寻道长度。",
+      "options": [],
+      "correctAnswer": [
+        "磁头移动轨迹80 → 30 → 120 → 55 → 150 → 95 → 20 → 180 → 70 → 160 → 40 总磁道数 = 50+90+65+95+55+75+160+110+90+120 = 910 平均寻道长度 = 910 ÷ 10 = 91 （2） 磁头移动轨迹80 → 70 → 55 → 40 → 30 → 20 → 95 → 120 → 150 → 160 → 180 总磁道数 = 10+15+15+10+10+75+25+30+10+20 = 220 平均寻道长度 = 220 ÷ 10 = 22 （3） 磁头移动轨迹80 → 95 → 120 → 150 → 160 → 180 → 70 → 55 → 40 → 30 → 20 总磁道数 = 15+25+30+10+20+110+15+15+10+10 = 260 平均寻道长度 = 260 ÷ 10 = 26"
+      ],
+      "selectedAnswer": [
+        "先来先服务（FCFS）调度算法 磁头移动轨迹（服务顺序）： 80 → 30 → 120 → 55 → 150 → 95 → 20 → 180 → 70 → 160 → 40 磁头移动总磁道数： ∣80−30∣+∣30−120∣+∣120−55∣+∣55−150∣+∣150−95∣+∣95−20∣+∣20−180∣+∣180−70∣+∣70−160∣+∣160−40∣ =50+90+65+95+55+75+160+110+90+120 =910 平均寻道长度： 910 / 10 = 91 910/10=91 (2) 最短寻道时间优先（SSTF）调度算法 分析：当前位置 80。请求队列排序后为：20, 30, 40, 55, 70, 95, 120, 150, 160, 180。 80 离 70 (距离10) 比 95 (距离15) 近 → 访问 70 70 离 55 (距离15) 比 95 (距离25) 近 → 访问 55 55 离 40 (距离15) 比 95 (距离40) 近 → 访问 40 40 离 30 (距离10) 比 95 (距离55) 近 → 访问 30 30 离 20 (距离10) 比 95 (距离65) 近 → 访问 20 20 离 95 (距离75) 最近 → → 访问 95 此后依次向右：120, 150, 160, 180 磁头移动轨迹（服务顺序）： 80 → 70 → 55 → 40 → 30 → 20 → 95 → 120 → 150 → 160 → 180 磁头移动总磁道数： ∣80−70∣+∣70−55∣+∣55−40∣+∣40−30∣+∣30−20∣+∣20−95∣+∣95−120∣+∣120−150∣+∣150−160∣+∣160−180∣ =10+15+15+10+10+75+25+30+10+20 =220 平均寻道长度： 220 / 10 = 22 220/10=22 (3) 扫描算法（SCAN）调度算法 分析：磁头从 80 开始向磁道号增大方向移动。 向右扫描，依次服务：95, 120, 150, 160, 180。到达最外端磁道 199（SCAN算法通常需移动到端点）。改变方向向左扫描，依次服务：70, 55, 40, 30, 20。磁头移动轨迹（服务顺序）： 80 → 95 → 120 → 150 → 160 → 180 → (199) → 70 → 55 → 40 → 30 → 20 磁头移动总磁道数： (199−80)+(199−20)=119+179=298 平均寻道长度：298/10=29.8"
+      ],
+      "images": []
+    },
+    {
+      "id": 217,
+      "type": "填空",
+      "title": "217. (其它) 假定要在一台处理机上执行图所示的作业，且假定这些作业在时刻0以1，2，3，4，5的顺序到达。请说明分别采用FCFS、RR(时间片为1)、SJF及非抢占式优先级调度算法时，这些作业的执行情况(优先级的高低顺序依次为1到5)。针对上述每种调度算法，给出平均周转时间。",
+      "options": [],
+      "correctAnswer": [
+        "作业执行顺序 FCFS:1->2->3->4->5 RR:1,2,3,4,5,1,3,5,1,5,1,5,1,5,1 SJF:2,4,3,5,1 非抢占式优先级：2,5,1,3,4 （1）采用先来先服务算法时，5个任务在系统中的执行顺序、完成时间及周转时间如下表所示。 作业号 开始执行时间 完成时间 周转时间 1 0 10 10 2 10 11 11 3 11 13 13 4 13 14 14 5 14 19 19 5个进程的平均周转时间为：(10+11+13+14+19)/5=13.4 （2）采用时间片轮转算法（时间片为1），5个任务在系统中的执行顺序、完成时间及周转时间如下表所示。 作业号 开始执行时间 完成时间 周转时间 1 10 0 19 2 1 1 2 3 2 2 7 4 1 3 4 5 5 4 14 5个作业的平均周转时间为：(19+2+7+4+14)/5=9.2 （3）采用短作业优先算法，5个任务在系统中的执行顺序、完成时间及周转时间如下表所示。 作业号 开始执行时间 完成时间 周转时间 1 9 19 19 2 0 1 1 3 2 4 4 4 1 2 2 5 4 9 9 5个作业的平均周转时间为：(19+1+4+2+9)/5=7 （4）采用非剥夺优先权算法调度作业，5个任务在系统中的执行顺序、完成时间及周转时间如下表所示。 作业号 开始执行时间 完成时间 周转时间 1 6 16 16 2 0 1 1 3 16 18 18 4 18 19 19 5 1 6 6 5个作业的平均周转时间为：(1+6+16+18+19)/5=12"
+      ],
+      "selectedAnswer": [
+        "答： 根据题意，所有作业在时刻 0 到达，到达顺序为 1、2、3、4、5。 作业信息如下： 作业 1：执行时间 10，优先级 3 作业 2：执行时间 1，优先级 1 作业 3：执行时间 2，优先级 3 作业 4：执行时间 1，优先级 4 作业 5：执行时间 5，优先级 2 (注：根据题干“优先级的高低顺序依次为1到5”，此处假设 1为最高优先级，5为最低优先级。若按数字越大优先级越高计算，结果会有所不同，但通常此类题目该表述意味着1>2>3>4>5。) (1) 先来先服务 (FCFS) 调度算法 执行顺序：按到达顺序执行，即 1 → 2 → 3 → 4 → 5 执行过程与周转时间： 作业 1：0 开始，运行 10，时刻 10 完成。（周转时间 = 10 - 0 = 10） 作业 2：10 开始，运行 1，时刻 11 完成。（周转时间 = 11 - 0 = 11） 作业 3：11 开始，运行 2，时刻 13 完成。（周转时间 = 13 - 0 = 13） 作业 4：13 开始，运行 1，时刻 14 完成。（周转时间 = 14 - 0 = 14） 作业 5：14 开始，运行 5，时刻 19 完成。（周转时间 = 19 - 0 = 19） 平均周转时间： T avg =(10+11+13+14+19)/5=67/5=13.4 (2) 时间片轮转 (RR) 调度算法 (时间片 q=1) 执行情况（按时间片轮转）： 0-1: 作业1 (剩9) 1-2: 作业2 (剩0) → 作业2完成 (时刻2) 2-3: 作业3 (剩1) 3-4: 作业4 (剩0) → 作业4完成 (时刻4) 4-5: 作业5 (剩4) 5-6: 作业1 (剩8) 6-7: 作业3 (剩0) → 作业3完成 (时刻7) 7-8: 作业5 (剩3) 8-9: 作业1 (剩7) 9-10: 作业5 (剩2) 10-11: 作业1 (剩6) 11-12: 作业5 (剩1) 12-13: 作业1 (剩5) 13-14: 作业5 (剩0) → 作业5完成 (时刻14) 14-19: 作业1 (依次执行完剩余5个时间片) → 作业1完成 (时刻19) 各作业周转时间： 作业 1：19 作业 2：2 作业 3：7 作业 4：4 作业 5：14 平均周转时间： T avg =(19+2+7+4+14)/5=46/5=9.2 (3) 短作业优先 (SJF) 调度算法 执行顺序：按执行时间由短到长排序（1, 4, 3, 5, 1）。其中作业2和4时间均为1，作业2先到达故先执行。 顺序为：2 → 4 → 3 → 5 → 1 执行过程与周转时间： 作业 2 (1)：0 开始，时刻 1 完成。（周转时间 1） 作业 4 (1)：1 开始，时刻 2 完成。（周转时间 2） 作业 3 (2)：2 开始，时刻 4 完成。（周转时间 4） 作业 5 (5)：4 开始，时刻 9 完成。（周转时间 9） 作业 1 (10)：9 开始，时刻 19 完成。（周转时间 19） 平均周转时间： T avg =(1+2+4+9+19)/5=35/5=7 (4) 非抢占式优先级调度算法 执行顺序：按优先级由高到低（1 → 2 → 3 → 4 → 5）。 优先级排序：作业2(1级) > 作业5(2级) > 作业1,3(3级) > 作业4(4级)。 作业1和3优先级相同，按FCFS原则，1先到达先执行。 顺序为：2 → 5 → 1 → 3 → 4执行过程与周转时间： 作业 2：0 开始，时刻 1 完成。（周转时间 1） 作业 5：1 开始，时刻 6 完成。（周转时间 6） 作业 1：6 开始，时刻 16 完成。（周转时间 16） 作业 3：16 开始，时刻 18 完成。（周转时间 18） 作业 4：18 开始，时刻 19 完成。（周转时间 19） 平均周转时间： T avg =(1+6+16+18+19)/5=60/5=12"
+      ],
+      "images": [
+        "https://p.ananas.chaoxing.com/star3/origin/4b060271a59f2c5fd48ba9117cb8f95e.png"
+      ]
+    },
+    {
+      "id": 218,
+      "type": "填空",
+      "title": "218. (其它) 磁盘请求服务队列中要访问的磁道分别为 38、6、37、100、14、124、65、67，磁头上次访问了 20 磁道，当前处于 30 磁道上，试采用 FCFS、SSTF（shortestseek time first，最短寻道时间优先）和 SCAN 调度算法，分别计算磁头移动的磁道数。",
+      "options": [],
+      "correctAnswer": [
+        "FCFS调度算法：磁头移动顺序为30、38、6、37、100、14、124、65、67；移动磁道数为8+32+31+63+86+110+59+2=391。 （2）SSTF调度算法：磁头移动顺序为30、37、38、14、6、65、67、100、124；移动磁道数为7+1+24+8+59+2+33+24=158。 （3）SCAN调度算法：磁头移动顺序为30、37、38、65、67、100、124、14、6；移动磁道数为7+1+27+2+33+24+110+8=212。"
+      ],
+      "selectedAnswer": [
+        "答： 磁头当前位于 30，上次访问 20，说明移动方向为磁道号增加（向外）的方向。 请求队列排序（辅助分析）：6, 14, 37, 38, 65, 67, 100, 124。 (1) FCFS (先来先服务) 调度算法 访问顺序：按照队列给出的顺序访问。 30 → 38 → 6 → 37 → 100 → 14 → 124 → 65 → 67 移动距离计算： ∣30−38∣+∣38−6∣+∣6−37∣+∣37−100∣+∣100−14∣+∣14−124∣+∣124−65∣+∣65−67∣ =8+32+31+63+86+110+59+2 = =391 (2) SSTF (最短寻道时间优先) 调度算法 访问顺序：每次选择距离当前磁头最近的请求。 当前 30，最近的是 37 (距离7)。当前 37，最近的是 38 (距离1)。当前 38，最近的是 14 (距离24)。（对比：14距24，65距27）。当前 14，最近的是 6 (距离8)。当前 6，最近的是 65 (距离59)。当前 65，最近的是 67 (距离2)。当前 67，最近的是 100 (距离33)。当前 100，最近的是 124 (距离24)。 轨迹：30 → 37 → 38 → 14 → 6 → 65 → 67 → 100 → 124移动距离计算： ∣30−37∣+∣37−38∣+∣38−14∣+∣14−6∣+∣6−65∣+∣65−67∣+∣67−100∣+∣100−124∣ =7+1+24+8+59+2+33+24 =158(3) SCAN (扫描/电梯) 调度算法 访问顺序：沿磁道增加方向服务完所有请求，再反向服务剩余请求。（因题目未给出磁盘边界最大值，通常按 LOOK 方式计算，即到达该方向最远端请求后立即折返）。 向增加方向：30 → 37 → 38 → 65 → 67 → 100 → 124折返向减少方向：124 → → 14 → → 6轨迹：30 → 37 → 38 → 65 → 67 → 100 → 124 → 14 → 6移动距离计算： (124−30)+(124−6) = 94 + 118 =94+118 =212"
+      ],
+      "images": []
+    },
+    {
+      "id": 219,
+      "type": "填空",
+      "title": "219. (其它) 已知某进程的页面访问序列为：1→2→3→4→1→2→5→1→2→3→4→5（共 12 次访问），系统为该进程分配3 个内存块（初始均为空）。请分别采用FIFO（先进先出）、LRU（最近最久未用）、OPT（最佳置换）三种页面置换算法，计算其缺页次数与缺页率。",
+      "options": [],
+      "correctAnswer": [
+        "FIFO（先进先出）算法 缺页次数：9 次 缺页率：9/12×100% = 75% 2）LRU（最近最久未用）算法 缺页次数：10 次 缺页率：10/12×100% ≈ 83.3% 3）OPT（最佳置换）算法 缺页次数：7 次 缺页率：7/12×100% ≈ 58.3%"
+      ],
+      "selectedAnswer": [
+        "答： 总访问次数为 12 次，物理块数为 3。 (1) FIFO（先进先出）页面置换算法 置换过程： 访问 1：缺页，装入 1。内存：{1}访问 2：缺页，装入 2。内存：{1, 2}访问 3：缺页，装入 3。内存：{1, 2, 3} (满)访问 4：缺页，淘汰 1，装入 4。内存：{4, 2, 3}访问 1：缺页，淘汰 2，装入 1。内存：{4, 1, 3}访问 2：缺页，淘汰 3，装入 2。内存：{4, 1, 2}访问 5：缺页，淘汰 4，装入 5。内存：{5, 1, 2}访问 1：命中。访问 2：命中。访问 3：缺页，淘汰 1（最早进入的），装入 3。内存：{5, 3, 2}访问 4：缺页，淘汰 2（最早进入的），装入 4。内存：{5, 3, 4}访问 5：命中。缺页次数：9 次 缺页率：9 / 12 = 75% (2) LRU（最近最久未用）页面置换算法 置换过程： 访问 1：缺页。内存：{1}访问 2：缺页。内存：{1, 2}访问 3：缺页。内存：{1, 2, 3} (满)访问 4：缺页，淘汰 1（最久未用）。内存：{2, 3, 4}访问 1：缺页，淘汰 2。内存：{3, 4, 1}访问 2：缺页，淘汰 3。内存：{4, 1, 2}访问 5：缺页，淘汰 4。内存：{1, 2, 5}访问 1：命中。（更新使用时间）访问 2：命中。（更新使用时间）访问 3：缺页，淘汰 5（最近依次是2, 1，故5最久未用）。内存：{1, 2, 3}访问 4：缺页，淘汰 1。内存：{2, 3, 4}访问 5：缺页，淘汰 2。内存：{3, 4, 5}缺页次数：10 次 缺页率：10 / 12 ≈ 83.3% (3) OPT（最佳置换）页面置换算法 置换过程： 访问 1：缺页。内存：{1}访问 2：缺页。内存：{1, 2}访问 3：缺页。内存：{1, 2, 3} (满)访问 4：缺页。未来访问顺序为 1, 2, 5...，其中 3 最晚被访问。淘汰 3，装入 4。内存：{1, 2, 4}访问 1：命中。访问 2：命中。访问 5：缺页。未来访问顺序 1, 2, 3, 4, 5。内存中 {1, 2, 4}，4 最晚被访问。淘汰 4，装入 5。内存：{1, 2, 5}访问 1：命中。访问 2：命中。访问 3：缺页。未来访问 4, 5。内存中 1 和 2 不再使用。淘汰 1（或 2），装入 3。内存：{3, 2, 5}访问 4：缺页。未来访问 5。内存中 2 和 3 不再使用。淘汰 2，装入 4。内存：{3, 4, 5}访问 5：命中。缺页次数：7 次 缺页率：7 / 12 ≈ 58.3%"
+      ],
+      "images": [
+        "https://p.ananas.chaoxing.com/star3/origin/0a858856e012ec027166aff402ff1527.png",
+        "https://p.ananas.chaoxing.com/star3/origin/e36a3e64dab098e8cbdef03e057139d8.png",
+        "https://p.ananas.chaoxing.com/star3/origin/ee1b43dc4df7da630afc7df959ff6881.png"
+      ]
+    },
+    {
+      "id": 220,
+      "type": "填空",
+      "title": "220. (其它) 某操作系统采用银行家算法避免死锁，系统中存在 3 类资源A、B、C，资源总数量分别为12、8、10。当前系统中有 4 个进程P0、P1、P2、P3，各进程对资源的最大需求、已分配资源情况如下表所示： （1）计算当前系统的可用资源向量（Available）和各进程的剩余需求向量（Need） （2）用银行家算法判断当前系统是否处于安全状态？若安全，请写出1个安全序列；若不安全，请说明理由。 （3）若进程P1提出资源请求 Request1=(1,0,1)，系统是否应该同意该请求？请按银行家算法完整判断流程分析。",
+      "options": [],
+      "correctAnswer": [
+        "Available = (12, 8, 10)-(10, 3, 6)= (2, 5, 4) P0：Need0=(8, 5, 3)-(2, 1, 1) = (6, 4, 2) P1：Need1=(4, 3, 3)-(3, 1, 2) = (1, 2, 1) P2：Need2=(10, 2, 3)-(4, 0, 2) = (6, 2, 1) P3：Need3=(3, 3, 3)-(1, 1,1) = (2, 2, 2) （2） 系统处于安全状态，安全序列为：P1->P3->P0->P2 (3) Need1=(1,2,1)-(1,0,1)=(0,2,0) Allocation1=(3,1,2)+(1,0,1)=(4,1,3) Available=(2,5,4)-(1,0,1)=(1,5,3) 更新后存在安全序列 P1→P3→P0→P2，所有进程均可完成，系统仍安全,系统同意该请求。"
+      ],
+      "selectedAnswer": [
+        "答： (1) 计算当前系统的可用资源向量（Available）和各进程的剩余需求向量（Need） 计算各资源已分配总量：Allocation(A) = 2 + 3 + 4 + 1 = 10Allocation(B) = 1 + 1 + 0 + 1 = 3Allocation(C) = 1 + 2 + 2 + 1 = 6总分配 Allocation_Total = (10, 3, 6)计算可用资源向量 Available：Available = 总资源数量 - 总分配数量Available = (12, 8, 10) - (10, 3, 6) = (2, 5, 4)计算各进程的剩余需求向量 Need：公式：Need = Max - AllocationNeed(P0) = (8, 5, 3) - (2, 1, 1) = (6, 4, 2)Need(P1) = (4, 3, 3) - (3, 1, 2) = (1, 2, 1)Need(P2) = (10, 2, 3) - (4, 0, 2) = (6, 2, 1)Need(P3) = (3, 3, 3) - (1, 1, 1) = (2, 2, 2)(2) 用银行家算法判断当前系统是否处于安全状态？若安全，请写出1个安全序列；若不安全，请说明理由。 答：系统处于安全状态。 安全性检查过程（Work = Available = (2, 5, 4)）： 检查 P1：Need(P1) = (1, 2, 1) ≤ Work (2, 5, 4)，满足条件。P1 执行完成，释放资源：Work = Work + Allocation(P1) = (2, 5, 4) + (3, 1, 2) = (5, 6, 6)检查 P3：Need(P3) = (2, 2, 2) ≤ Work (5, 6, 6)，满足条件。P3 执行完成，释放资源：Work = (5, 6, 6) + (1, 1, 1) = (6, 7, 7)检查 P0：Need(P0) = (6, 4, 2) ≤ ≤ Work (6, 7, 7)，满足条件。P0 执行完成，释放资源：Work = (6, 7, 7) + (2, 1, 1) = (8, 8, 8)检查 P2：Need(P2) = (6, 2, 1) ≤ Work (8, 8, 8)，满足条件。P2 执行完成，释放资源：Work = (8, 8, 8) + (4, 0, 2) = (12, 8, 10)所有进程均可完成，因此系统是安全的。 安全序列之一为：P1 → → P3 → → P0 → → P2 (注：P1 → → P3 → → P2 → → P0 也是正确的安全序列) (3) 若进程P1提出资源请求 Request1=(1,0,1)，系统是否应该同意该请求？请按银行家算法完整判断流程分析。 答：系统应该同意该请求。 分析流程如下： 检查请求合法性：Request1(1, 0, 1) ≤ Need(P1)(1, 2, 1) —— 满足。Request1(1, 0, 1) ≤ Available(2, 5, 4) —— 满足。试探性分配（修改系统状态）：Available = (2, 5, 4) - (1, 0, 1) = (1, 5, 3)Allocation(P1) = (3, 1, 2) + (1, 0, 1) = (4, 1, 3)Need(P1) = (1, 2, 1) - (1, 0, 1) = (0, 2, 0)执行安全性算法（检查新状态是否安全）：此时 Work = (1, 5, 3)，各进程 Need 为：P0(6,4,2), P1(0,2,0), P2(6,2,1), P3(2,2,2)。步骤 1：Need(P1) = (0, 2, 0) ≤ Work (1, 5, 3)，P1 可运行。Work = (1, 5, 3) + Allocation(P1)(4, 1, 3) = (5, 6, 6)步骤 2：Need(P3) = (2, 2, 2) ≤ Work (5, 6, 6)，P3 可运行。Work = (5, 6, 6) + Allocation(P3)(1, 1, 1) = (6, 7, 7)步骤 3：Need(P0) = (6, 4, 2) ≤ Work (6, 7, 7)，P0 可运行。Work = (6, 7, 7) + Allocation(P0)(2, 1, 1) = (8, 8, 8)步骤 4：Need(P2) = (6, 2, 1) ≤ Work (8, 8, 8)，P2 可运行。Work = (8, 8, 8) + Allocation(P2)(4, 0, 2) = (12, 8, 10)结论：试探性分配后，系统可以找到一个安全序列（如 P1 → → P3 → → P0 → → P2），因此系统处于安全状态，可以同意 P1 的请求。"
+      ],
+      "images": [
+        "https://p.ananas.chaoxing.com/star3/origin/e6b14764e6f25d11f3d6426d891f659d.png",
+        "https://p.ananas.chaoxing.com/star3/origin/1056e4879da0caa6b5603ed90d833696.png",
+        "https://p.ananas.chaoxing.com/star3/origin/15a55e7ce678df1e5f294e033a12e50c.png"
+      ]
+    },
+    {
+      "id": 221,
+      "type": "填空",
+      "title": "221. (其它) 假设某程序的页面访问序列为1、2、3、4、5、2、3、1、2、3、4、5、1、2、3、4且开始执行时主存中没有页面，分配给该程序的物理块数是3，使用采用FIFO算法和LRU算法，求出现缺页的次数及缺页率。",
+      "options": [],
+      "correctAnswer": [
+        "采用FIFO算法 缺页的次数为13，缺页率为13/16x100%=81.25% （2）采用LRU算法 缺页的次数为14，缺页率为14/16x100%=87.5%"
+      ],
+      "selectedAnswer": [
+        "答： 页面访问序列共 16 次，物理块数为 3。 (1) FIFO（先进先出）页面调度算法 FIFO 总是淘汰最早进入内存的页面。 置换过程如下： 访问 1：缺页，装入 1。内存：{1}访问 2：缺页，装入 2。内存：{1, 2}访问 3：缺页，装入 3。内存：{1, 2, 3} (填满)访问 4：缺页，淘汰 1，装入 4。内存：{2, 3, 4}访问 5：缺页，淘汰 2，装入 5。内存：{3, 4, 5}访问 2：缺页，淘汰 3，装入 2。内存：{4, 5, 2}访问 3：缺页，淘汰 4，装入 3。内存：{5, 2, 3}访问 1：缺页，淘汰 5，装入 1。内存：{2, 3, 1}访问 2：命中。内存：{2, 3, 1}访问 3：命中。内存：{2, 3, 1}访问 4：缺页，淘汰 2（当前最老），装入 4。内存：{3, 1, 4}访问 5：缺页，淘汰 3，装入 5。内存：{1, 4, 5}访问 1：命中。内存：{1, 4, 5}访问 2：缺页，淘汰 1（虽然刚访问过，但在FIFO队列中它是最老的），装入 2。内存：{4, 5, 2}访问 3：缺页，淘汰 4，装入 3。内存：{5, 2, 3}访问 4：缺页，淘汰 5，装入 4。内存：{2, 3, 4}缺页次数：13 次 缺页率：13 / 16 = 81.25% (2) LRU（最近最久未使用）页面调度算法 LRU 淘汰最近最长时间未被访问的页面。 置换过程如下： 访问 1：缺页。内存：{1}访问 2：缺页。内存：{1, 2}访问 3：缺页。内存：{1, 2, 3} (填满)访问 4：缺页，淘汰 1（最久未用）。内存：{2, 3, 4}访问 5：缺页，淘汰 2。内存：{3, 4, 5}访问 2：缺页，淘汰 3。内存：{4, 5, 2}访问 3：缺页，淘汰 4。内存：{5, 2, 3}访问 1：缺页，淘汰 5。内存：{2, 3, 1}访问 2：命中。内存：{3, 1, 2} (更新顺序，3变为最久未用)访问 3：命中。内存：{1, 2, 3} (更新顺序，1变为最久未用)访问 4：缺页，淘汰 1。内存：{2, 3, 4}访问 5：缺页，淘汰 2。内存：{3, 4, 5}访问 1：缺页，淘汰 3。内存：{4, 5, 1}访问 2：缺页，淘汰 4。内存：{5, 1, 2}访问 3：缺页，淘汰 5。内存：{1, 2, 3}访问 4：缺页，淘汰 1。内存：{2, 3, 4}缺页次数：14 次 缺页率：14 / 16 = 87.5%"
+      ],
+      "images": [
+        "https://p.ananas.chaoxing.com/star3/origin/414a6b5517d86958a39260d1d5b270dc.png",
+        "https://p.ananas.chaoxing.com/star3/origin/7d4bd66b8642ce6a438544178f10a05c.png"
+      ]
+    }
+]
