@@ -25,12 +25,23 @@
 
         <div class="flex-1 relative z-10">
           <div class="flex justify-between items-start mb-4">
-            <div class="w-12 h-12 rounded-2xl bg-white/50 text-brand-600 flex items-center justify-center shadow-sm backdrop-blur-sm">
-                <BookOpen :size="22" />
+            <div class="flex items-end gap-3">
+              <div class="w-12 h-12 rounded-2xl bg-white/50 text-brand-600 flex items-center justify-center shadow-sm backdrop-blur-sm">
+                  <BookOpen :size="22" />
+              </div>
+              <div class="px-3 py-1 bg-white/40 text-slate-500 text-xs rounded-lg font-mono font-bold border border-white/40">
+                  {{ new Date(bank.createdAt).toLocaleDateString() }}
+              </div>
             </div>
-            <div class="px-3 py-1 bg-white/40 text-slate-500 text-xs rounded-lg font-mono font-bold border border-white/40">
-                {{ new Date(bank.createdAt).toLocaleDateString() }}
-            </div>
+            <!-- 删除按钮在右上角 -->
+            <button
+              type="button"
+              @click.stop="emit('delete', bank.id)"
+              class="p-2 text-slate-400 hover:text-red-600 hover:bg-red-50/50 rounded-xl transition-all border border-transparent hover:border-red-200/50 active:scale-95"
+              :title="t('dashboard.btnDelete')"
+            >
+              <Trash2 :size="16" />
+            </button>
           </div>
 
           <h3 class="text-xl font-bold text-slate-800 line-clamp-2 mb-3 leading-snug group-hover:text-brand-700 transition-colors" :title="bank.name">
@@ -45,23 +56,27 @@
           </div>
         </div>
 
-        <div class="pt-5 mt-auto border-t border-white/40 flex items-center gap-3 relative z-10">
-          <button
-            @click="handleStartClick(bank)"
-            class="flex-1 flex items-center justify-center space-x-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white px-4 py-3 rounded-xl font-bold transition-all shadow-lg shadow-brand-500/20 hover:shadow-brand-500/40 active:scale-95"
-          >
-            <PlayCircle :size="20" />
-            <span>{{ t('dashboard.btnPractice') }}</span>
-          </button>
+        <div class="pt-5 mt-auto border-t border-white/40 space-y-3 relative z-10">
+          <!-- 按钮组 -->
+          <div class="flex items-center gap-2">
+            <button
+              @click="handleStartClick(bank)"
+              class="flex-1 flex items-center justify-center space-x-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white px-3 py-2.5 rounded-xl font-bold transition-all shadow-lg shadow-brand-500/20 hover:shadow-brand-500/40 active:scale-95 text-sm"
+            >
+              <PlayCircle :size="18" />
+              <span>{{ t('dashboard.btnPractice') }}</span>
+            </button>
+            
+            <button
+              @click="handleExamClick(bank)"
+              class="flex-1 flex items-center justify-center space-x-2 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 py-2.5 rounded-xl font-bold transition-all shadow-lg shadow-purple-500/20 hover:shadow-purple-500/40 active:scale-95 text-sm"
+            >
+              <FileText :size="18" />
+              <span>{{ t('dashboard.btnExam') }}</span>
+            </button>
+          </div>
           
-          <button
-            type="button"
-            @click.stop="emit('delete', bank.id)"
-            class="p-3 text-slate-400 hover:text-red-600 hover:bg-red-50/50 rounded-xl transition-all border border-transparent hover:border-red-200/50 active:scale-95"
-            :title="t('dashboard.btnDelete')"
-          >
-            <Trash2 :size="20" />
-          </button>
+
         </div>
       </div>
     </div>
@@ -149,7 +164,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { Trash2, PlayCircle, BookOpen, Layers, Filter, CheckSquare, Square, X } from 'lucide-vue-next'
+import { Trash2, PlayCircle, BookOpen, Layers, Filter, CheckSquare, Square, X, FileText } from 'lucide-vue-next'
 import type { QuestionBank, QuestionItem } from '../types/types'
 import { useLanguage } from '../composables/useLanguage'
 
@@ -169,6 +184,7 @@ const props = defineProps<Props>()
 const emit = defineEmits<{
   delete: [id: string]
   start: [id: string, filteredQuestions?: QuestionItem[]]
+  exam: [id: string]
 }>()
 
 const { t } = useLanguage()
@@ -287,5 +303,9 @@ const confirmStartFiltered = () => {
     emit('start', configBank.value.id, selectedQuestions)
     configBank.value = null
   }
+}
+
+const handleExamClick = (bank: QuestionBank) => {
+  emit('exam', bank.id)
 }
 </script>

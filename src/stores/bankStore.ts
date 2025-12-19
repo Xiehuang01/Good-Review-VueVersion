@@ -67,6 +67,64 @@ export function useBankStore() {
     filteredQuestions.value = undefined
   }
 
+  // 模拟考试题目生成
+  const generateExamQuestions = (bankId: string): QuestionItem[] => {
+    const bank = banks.value.find(b => b.id === bankId)
+    if (!bank) return []
+
+    const examQuestions: QuestionItem[] = []
+    
+    // 按题型分类
+    const questionsByType = new Map<string, QuestionItem[]>()
+    bank.questions.forEach(q => {
+      const type = q.type
+      if (!questionsByType.has(type)) {
+        questionsByType.set(type, [])
+      }
+      questionsByType.get(type)!.push(q)
+    })
+
+    // 随机抽取题目的辅助函数
+    const shuffleArray = <T>(array: T[]): T[] => {
+      const shuffled = [...array]
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+      }
+      return shuffled
+    }
+
+    // 定义题型顺序：选择题 -> 判断题 -> 填空题
+    const typeOrder = [
+      { types: ['选择', '单选', '多选'], count: 20 },
+      { types: ['判断'], count: 15 },
+      { types: ['填空', '简答'], count: 10 }
+    ]
+
+    // 按顺序抽取题目
+    typeOrder.forEach(({ types, count }) => {
+      // 找到匹配的题型
+      const matchingQuestions: QuestionItem[] = []
+      
+      questionsByType.forEach((questions, type) => {
+        const isMatchingType = types.some(t => type.includes(t) || type === t)
+        if (isMatchingType) {
+          matchingQuestions.push(...questions)
+        }
+      })
+
+      // 如果有匹配的题目，随机抽取指定数量
+      if (matchingQuestions.length > 0) {
+        const selectedCount = Math.min(count, matchingQuestions.length)
+        const selectedQuestions = shuffleArray(matchingQuestions).slice(0, selectedCount)
+        examQuestions.push(...selectedQuestions)
+      }
+    })
+
+    // 不打乱最终顺序，保持题型顺序
+    return examQuestions
+  }
+
   // 初始化（只在第一次调用时执行）
   if (banks.value.length === 0) {
     initializeBanks()
@@ -84,6 +142,7 @@ export function useBankStore() {
     addBank,
     removeBank,
     setFilteredQuestions,
-    clearFilteredQuestions
+    clearFilteredQuestions,
+    generateExamQuestions
   }
 }

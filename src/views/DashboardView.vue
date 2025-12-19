@@ -3,6 +3,7 @@
     :banks="bankStore.banks.value" 
     @delete="handleRequestDelete" 
     @start="handleStartQuiz" 
+    @exam="handleStartExam"
   />
 
   <!-- Delete Confirmation Modal -->
@@ -82,5 +83,22 @@ const handleStartQuiz = (id: string, selectedQuestions?: QuestionItem[]) => {
   
   // 跳转到答题页面
   router.push(`/quiz/${id}`)
+}
+
+const handleStartExam = (id: string) => {
+  // 生成模拟考试题目
+  const examQuestions = bankStore.generateExamQuestions(id)
+  
+  if (examQuestions.length === 0) {
+    // 如果没有题目，显示提示
+    alert('该题库暂无题目可用于模拟考试')
+    return
+  }
+  
+  // 设置考试题目到store
+  bankStore.setFilteredQuestions(examQuestions)
+  
+  // 跳转到模拟考试页面
+  router.push(`/exam/${id}`)
 }
 </script>

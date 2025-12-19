@@ -87,6 +87,15 @@
               >
                 <Languages :size="20" :stroke-width="2.5" />
               </button>
+
+              <!-- GitHub Button -->
+              <button
+                @click="showGithubModal = true"
+                class="p-2 rounded-xl hover:bg-white/40 text-slate-500 hover:text-slate-800 transition-all"
+                title="GitHub Repository"
+              >
+                <Github :size="20" :stroke-width="2.5" />
+              </button>
             </div>
           </div>
         </div>
@@ -97,13 +106,64 @@
         <router-view />
       </main>
     </div>
+
+    <!-- GitHub Star Modal -->
+    <Teleport to="body">
+      <div 
+        v-if="showGithubModal" 
+        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center bg-slate-900/40 backdrop-blur-md animate-fade-in p-4" 
+        @click="showGithubModal = false"
+      >
+        <div 
+          class="glass-panel-modal rounded-[2rem] shadow-2xl p-6 sm:p-8 max-w-md w-full transform transition-all scale-100 relative overflow-hidden"
+          @click.stop
+        >
+          <!-- Modal Header -->
+          <div class="flex items-start justify-between mb-4 relative z-10">
+            <div class="flex items-center gap-3 text-slate-800">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center shrink-0 text-white">
+                <Github :size="24" />
+              </div>
+              <h3 class="text-2xl font-bold leading-tight">给个 Star 吧！</h3>
+            </div>
+            <button @click="showGithubModal = false" class="p-2 rounded-full hover:bg-slate-100/50 text-slate-400 hover:text-slate-600 transition-colors">
+              <X :size="24" />
+            </button>
+          </div>
+
+          <p class="text-slate-600 mb-6 font-medium leading-relaxed relative z-10">
+            如果这个项目对你有帮助，请考虑在 GitHub 上给个 ⭐ Star！你的支持是我们持续改进的动力。
+          </p>
+
+          <!-- Buttons -->
+          <div class="flex gap-3 relative z-10">
+            <button 
+              @click="showGithubModal = false"
+              class="flex-1 px-4 py-3 rounded-xl text-slate-600 hover:bg-slate-100/50 font-bold transition-colors"
+            >
+              稍后再说
+            </button>
+            <a
+              href="https://github.com/Xiehuang01/Good-Review-VueVersion"
+              target="_blank"
+              rel="noopener noreferrer"
+              @click="showGithubModal = false"
+              class="flex-1 px-4 py-3 rounded-xl bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white font-bold shadow-lg transition-all flex items-center justify-center gap-2"
+            >
+              <Github :size="18" />
+              <span>去 Star</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { Layout, Import, BookMarked, Sparkles, Languages } from 'lucide-vue-next'
+import { Layout, Import, BookMarked, Sparkles, Languages, Github, X } from 'lucide-vue-next'
 import { provideLanguage } from './composables/useLanguage'
 import { useBankStore } from './stores/bankStore'
 
@@ -118,6 +178,9 @@ const route = useRoute()
 
 // 判断是否在答题页面（隐藏导航栏）
 const isQuizRoute = computed(() => route.name === 'Quiz')
+
+// GitHub弹窗状态
+const showGithubModal = ref(false)
 
 // 切换语言
 const toggleLanguage = () => {

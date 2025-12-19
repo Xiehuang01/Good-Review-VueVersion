@@ -42,6 +42,15 @@ const routes: Array<RouteRecordRaw> = [
     props: true
   },
   {
+    path: '/exam/:bankId',
+    name: 'Exam',
+    component: QuizView,
+    meta: {
+      title: '模拟考试'
+    },
+    props: route => ({ ...route.params, isExamMode: true })
+  },
+  {
     // 404 重定向到首页
     path: '/:pathMatch(.*)*',
     redirect: '/'

@@ -1,7 +1,25 @@
 <template>
   <div v-if="bank">
+    <!-- Exam Mode Header -->
+    <div v-if="isExamMode" class="max-w-4xl mx-auto mb-6">
+      <div class="glass-panel rounded-2xl p-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-purple-500 text-white flex items-center justify-center">
+            <FileText :size="20" />
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-800">模拟考试模式</h3>
+            <p class="text-sm text-slate-600">{{ filteredQuestions?.length || 0 }} 题随机抽取</p>
+          </div>
+        </div>
+        <div class="text-sm font-bold text-purple-600 bg-purple-100/50 px-3 py-1 rounded-lg">
+          EXAM
+        </div>
+      </div>
+    </div>
+
     <QuizPlayer 
-      :key="`${bank.id}-${filteredQuestions ? 'filtered' : 'all'}-${Date.now()}`"
+      :key="`${bank.id}-${isExamMode ? 'exam' : (filteredQuestions ? 'filtered' : 'all')}-${Date.now()}`"
       :bank="bank" 
       :initial-questions="filteredQuestions"
       @exit="handleExit" 
@@ -24,8 +42,17 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
+import { FileText } from 'lucide-vue-next'
 import QuizPlayer from '@/components/QuizPlayer.vue'
 import { useBankStore } from '../stores/bankStore'
+
+interface Props {
+  isExamMode?: boolean
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  isExamMode: false
+})
 
 const router = useRouter()
 const route = useRoute()
