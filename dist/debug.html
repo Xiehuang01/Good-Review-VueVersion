@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug - Good Review</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>Good Review - Debug Page</h1>
+    
+    <div class="info status">
+        <strong>Current URL:</strong> <span id="currentUrl"></span>
+    </div>
+    
+    <div class="info status">
+        <strong>Expected Base Path:</strong> /Good-Review-VueVersion/
+    </div>
+    
+    <h2>Resource Tests</h2>
+    <div id="cssTest" class="status">Testing CSS file...</div>
+    <div id="jsTest" class="status">Testing JS file...</div>
+    
+    <h2>File Structure Test</h2>
+    <div class="info status">
+        Files should be accessible at:
+        <ul>
+            <li><a href="/Good-Review-VueVersion/assets/index-BLJELaOl.css" target="_blank">CSS File</a></li>
+            <li><a href="/Good-Review-VueVersion/assets/index-pMmP_Uzn.js" target="_blank">JS File</a></li>
+            <li><a href="/Good-Review-VueVersion/assets/vendor-Dxnf9MRf.js" target="_blank">Vendor JS</a></li>
+            <li><a href="/Good-Review-VueVersion/test.html" target="_blank">Test Page</a></li>
+        </ul>
+    </div>
+    
+    <h2>Main App</h2>
+    <div class="info status">
+        <a href="/Good-Review-VueVersion/" target="_blank">Open Main Application</a>
+    </div>
+
+    <script>
+        document.getElementById('currentUrl').textContent = window.location.href;
+        
+        // Test CSS loading
+        fetch('/Good-Review-VueVersion/assets/index-BLJELaOl.css')
+            .then(response => {
+                const cssTest = document.getElementById('cssTest');
+                if (response.ok) {
+                    cssTest.textContent = '✅ CSS file loads successfully';
+                    cssTest.className = 'status success';
+                } else {
+                    cssTest.textContent = '❌ CSS file failed to load: ' + response.status;
+                    cssTest.className = 'status error';
+                }
+            })
+            .catch(error => {
+                const cssTest = document.getElementById('cssTest');
+                cssTest.textContent = '❌ CSS file error: ' + error.message;
+                cssTest.className = 'status error';
+            });
+            
+        // Test JS loading
+        fetch('/Good-Review-VueVersion/assets/index-pMmP_Uzn.js')
+            .then(response => {
+                const jsTest = document.getElementById('jsTest');
+                if (response.ok) {
+                    jsTest.textContent = '✅ JS file loads successfully';
+                    jsTest.className = 'status success';
+                } else {
+                    jsTest.textContent = '❌ JS file failed to load: ' + response.status;
+                    jsTest.className = 'status error';
+                }
+            })
+            .catch(error => {
+                const jsTest = document.getElementById('jsTest');
+                jsTest.textContent = '❌ JS file error: ' + error.message;
+                jsTest.className = 'status error';
+            });
+    </script>
+</body>
+</html>
