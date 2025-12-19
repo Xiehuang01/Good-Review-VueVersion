@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Good Review</title>
+    <link rel="icon" href="./dist/assets/image-removebg-preview.png">
+    
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+
+<style>
+  /* Custom scrollbar for webkit */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.6);
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent default window scroll */
+    margin: 0;
+  }
+  body {
+    -webkit-tap-highlight-color: transparent;
+    /* Richer background for glass effect */
+    background: #f0fdf4; 
+  }
+  
+  /* Glass effects are now defined in src/styles/style.css */
+
+</style>
+  <script type="module" crossorigin src="/Good-Review-VueVersion/assets/index-pMmP_Uzn.js"></script>
+  <link rel="modulepreload" crossorigin href="/Good-Review-VueVersion/assets/vendor-Dxnf9MRf.js">
+  <link rel="stylesheet" crossorigin href="/Good-Review-VueVersion/assets/index-BLJELaOl.css">
+</head>
+  <body class="text-slate-800 antialiased selection:bg-brand-200 selection:text-brand-900">
+    <div id="app"></div>
+</body>
+</html>
