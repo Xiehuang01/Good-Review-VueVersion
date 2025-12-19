@@ -1,20 +1,100 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Good Review - Vue 3 版本
 
-# Run and deploy your AI Studio app
+这是一个基于 Vue 3 的在线复习应用，用于导入和练习题库。
 
-This contains everything you need to run your app locally.
+## 技术栈
 
-View your app in AI Studio: https://ai.studio/apps/drive/1fXHmT4JYxQ6JLcJzXe8S5KuhjgoIuIX2
+- **Vue 3** - 使用组合式 API (Composition API)
+- **TypeScript** - 类型安全
+- **Vite** - 快速的构建工具
+- **Tailwind CSS v3** - 实用优先的CSS框架，使用PostCSS插件
+- **Lucide Vue Next** - 图标库
 
-## Run Locally
+## 项目结构
 
-**Prerequisites:**  Node.js
+```
+├── src/                    # 源码目录
+│   ├── components/            # Vue 组件
+│   │   ├── ScriptGuide.vue       # 脚本指南
+│   │   ├── Importer.vue          # 题库导入
+│   │   ├── BankDashboard.vue     # 题库管理
+│   │   └── QuizPlayer.vue        # 答题界面
+│   ├── views/                 # 路由视图组件
+│   │   ├── HomeView.vue          # 首页视图
+│   │   ├── ImportView.vue        # 导入视图
+│   │   ├── DashboardView.vue     # 题库视图
+│   │   └── QuizView.vue          # 答题视图
+│   ├── router/                # 路由配置
+│   │   └── index.ts              # 路由定义
+│   ├── stores/                # 状态管理
+│   │   └── bankStore.ts          # 题库状态管理
+│   ├── composables/           # Vue 组合式函数
+│   │   └── useLanguage.ts        # 语言切换
+│   ├── constants/             # 常量和配置
+│   │   ├── constants.ts          # 应用常量
+│   │   └── translations.ts       # 多语言翻译
+│   ├── types/                 # TypeScript 类型
+│   │   └── types.ts              # 类型定义
+│   ├── assets/                # 静态资源
+│   │   ├── data/                 # 默认题库数据
+│   │   └── script.js             # 用户脚本
+│   ├── styles/                # 样式文件
+│   │   └── style.css             # 全局样式
+│   ├── App.vue                # 根组件
+│   └── main.ts                # 应用入口
+├── public/                 # 公共资源目录
+├── index.html             # HTML 模板
+├── vite.config.ts         # Vite 配置
+├── tailwind.config.js     # Tailwind 配置
+└── tsconfig.json          # TypeScript 配置
+```
 
+## 开发
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+# 安装依赖
+pnpm install
+
+# 启动开发服务器
+pnpm dev
+
+# 构建生产版本
+pnpm build
+
+# 预览生产构建
+pnpm preview
+```
+
+## 功能特性
+
+- ✨ 美观的玻璃态 UI 设计
+- 🌐 中英文双语支持
+- 📚 题库导入和管理
+- 🎯 多种题型支持（单选、多选、判断、填空）
+- 📊 答题统计和错题重练
+- 💾 本地存储，数据持久化
+- 📱 响应式设计，支持移动端
+
+## 从 React 迁移到 Vue
+
+本项目已从 React 完全重构为 Vue 3：
+
+- React 组件 → Vue 单文件组件 (.vue)
+- React Hooks → Vue Composition API
+- React Context → Vue provide/inject
+- lucide-react → lucide-vue-next
+
+所有功能保持不变，但现在使用 Vue 3 的现代开发体验。
+
+## 访问应用
+
+开发服务器启动后，访问：http://localhost:3000/Good-review/
+
+## 故障排除
+
+如果遇到问题，请查看 [故障排除指南](./TROUBLESHOOTING.md)。
+
+常见问题：
+- Tailwind CDN 警告 → 清除浏览器缓存
+- 模块导入错误 → 重启开发服务器
+- 样式不生效 → 检查 Tailwind 配置

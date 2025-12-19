@@ -1,4 +1,4 @@
-const USERSCRIPT = // ==UserScript==
+const USERSCRIPT = `// ==UserScript==
 // @name         Chaoxing Work Scraper
 // @namespace    cx-work-scraper
 // @version      1.4.0
@@ -378,7 +378,6 @@ const USERSCRIPT = // ==UserScript==
   };
   const ready = () => { if (document.body) { ensureUI(); } else { const t = setInterval(()=>{ if (document.body){ clearInterval(t); ensureUI(); } }, 200); } };
   ready();
-})();
-
+})();`;
 
 export default USERSCRIPT;

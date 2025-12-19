@@ -1,8 +1,8 @@
-import { QuestionBank } from './types';
-import scriptContent from './script.js?raw';
-import PYTHON_BANK_QUESTIONS from './data/Python.json';
-import WEB_BANK_QUESTIONS from './data/web前端.json';
-import SYSTEM_BANK_QUESTIONS from './data/操作系统.json'
+import type { QuestionBank } from '../types/types';
+import scriptContent from '../assets/script.js?raw';
+import PYTHON_BANK_QUESTIONS from '../assets/data/Python.json';
+import WEB_BANK_QUESTIONS from '../assets/data/web前端.json';
+import SYSTEM_BANK_QUESTIONS from '../assets/data/操作系统.json'
 
 export const USERSCRIPT_CONTENT = `// ==UserScript==
 // @name         Chaoxing Work Scraper
