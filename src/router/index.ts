@@ -13,7 +13,7 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: HomeView,
     meta: {
-      title: '脚本指南'
+      title: 'Good—Review'
     }
   },
   {
