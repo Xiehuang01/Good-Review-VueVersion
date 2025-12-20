@@ -42,65 +42,66 @@
         'sticky top-4 z-50 mx-4 sm:mx-8 mt-4 rounded-2xl shadow-sm transition-all mb-4',
         backgroundImage ? 'glass-panel-strong' : 'glass-panel'
       ]">
-        <div class="px-4 sm:px-6">
-          <div class="flex justify-between items-center h-16">
+        <div class="px-3 sm:px-6">
+          <div class="flex justify-between items-center h-14 sm:h-16">
             
             <!-- Logo Area -->
             <router-link 
               to="/"
-              class="flex items-center cursor-pointer group select-none"
+              class="flex items-center cursor-pointer group select-none flex-shrink-0"
             >
               <div class="relative">
-                <div class="relative bg-gradient-to-br from-brand-400 to-brand-600 p-2 rounded-xl text-white mr-3 shadow-lg shadow-brand-200/50 group-hover:scale-110 transition-transform duration-300">
-                  <Sparkles :size="20" />
+                <div class="relative bg-gradient-to-br from-brand-400 to-brand-600 p-1.5 sm:p-2 rounded-xl text-white mr-2 sm:mr-3 shadow-lg shadow-brand-200/50 group-hover:scale-110 transition-transform duration-300">
+                  <Sparkles :size="18" />
                 </div>
               </div>
               <span :class="[
-                'font-black text-xl tracking-tight group-hover:text-emerald-500 transition-colors',
+                'font-black text-lg sm:text-xl tracking-tight group-hover:text-emerald-500 transition-colors',
                 backgroundImage ? 'text-white drop-shadow-lg' : 'text-slate-800/90'
               ]">
-                Good Review
+                <span class="hidden sm:inline">Good Review</span>
+                <span class="sm:hidden">GR</span>
               </span>
             </router-link>
             
             <!-- Nav Items -->
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-1 sm:gap-2 flex-shrink-0">
               <router-link 
                 to="/"
                 :class="[
-                  'px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5',
+                  'px-2 sm:px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5',
                   $route.name === 'Home' 
                     ? (backgroundImage ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/60 text-emerald-500 shadow-sm ring-1 ring-white/60')
                     : (backgroundImage ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
                 ]"
               >
-                <Layout :size="18" :stroke-width="2.5" />
-                <span class="hidden sm:inline">{{ t('app.nav.guide') }}</span>
+                <Layout :size="16" :stroke-width="2.5" />
+                <span class="hidden md:inline">{{ t('app.nav.guide') }}</span>
               </router-link>
               <router-link 
                 to="/import"
                 :class="[
-                  'px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5',
+                  'px-2 sm:px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5',
                   $route.name === 'Import' 
                     ? (backgroundImage ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/60 text-emerald-500 shadow-sm ring-1 ring-white/60')
                     : (backgroundImage ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
                 ]"
               >
-                <Import :size="18" :stroke-width="2.5" />
-                <span class="hidden sm:inline">{{ t('app.nav.import') }}</span>
+                <Import :size="16" :stroke-width="2.5" />
+                <span class="hidden md:inline">{{ t('app.nav.import') }}</span>
               </router-link>
               <router-link 
                 to="/dashboard"
                 :class="[
-                  'px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5',
+                  'px-2 sm:px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5 relative',
                   $route.name === 'Dashboard' 
                     ? (backgroundImage ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/60 text-emerald-500 shadow-sm ring-1 ring-white/60')
                     : (backgroundImage ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
                 ]"
               >
-                <BookMarked :size="18" :stroke-width="2.5" />
-                <span class="hidden sm:inline">{{ t('app.nav.banks') }}</span>
-                <span v-if="bankStore.banks.value.length > 0" class="flex h-2 w-2 sm:h-auto sm:w-auto ml-0.5">
+                <BookMarked :size="16" :stroke-width="2.5" />
+                <span class="hidden md:inline">{{ t('app.nav.banks') }}</span>
+                <span v-if="bankStore.banks.value.length > 0" class="absolute -top-1 -right-1 flex h-2 w-2 sm:h-auto sm:w-auto">
                   <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-500 sm:bg-brand-500 sm:text-white sm:px-1.5 sm:py-0.5 sm:text-[10px] sm:h-auto sm:w-auto justify-center items-center">
                     <span class="hidden sm:inline">{{ bankStore.banks.value.length }}</span>
                   </span>
@@ -108,30 +109,30 @@
               </router-link>
 
               <div :class="[
-                'w-px h-5 mx-1',
+                'w-px h-4 sm:h-5 mx-0.5 sm:mx-1',
                 backgroundImage ? 'bg-white/30' : 'bg-slate-300/50'
               ]" />
 
               <button
                 @click="toggleLanguage"
                 :class="[
-                  'p-2 rounded-xl hover:text-emerald-500 transition-all',
+                  'p-1.5 sm:p-2 rounded-xl hover:text-emerald-500 transition-all',
                   backgroundImage ? 'hover:bg-white/20 text-white/90 drop-shadow' : 'hover:bg-white/40 text-slate-500'
                 ]"
               >
-                <Languages :size="20" :stroke-width="2.5" />
+                <Languages :size="18" :stroke-width="2.5" />
               </button>
 
               <!-- GitHub Button -->
               <button
                 @click="showGithubModal = true"
                 :class="[
-                  'p-2 rounded-xl transition-all',
+                  'p-1.5 sm:p-2 rounded-xl transition-all',
                   backgroundImage ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-500 hover:text-slate-800'
                 ]"
                 title="GitHub Repository"
               >
-                <Github :size="20" :stroke-width="2.5" />
+                <Github :size="18" :stroke-width="2.5" />
               </button>
 
               <!-- Settings Button -->
@@ -139,12 +140,12 @@
                 <button
                   @click.stop="showSettingsDropdown = !showSettingsDropdown"
                   :class="[
-                    'p-2 rounded-xl transition-all',
+                    'p-1.5 sm:p-2 rounded-xl transition-all',
                     backgroundImage ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-500 hover:text-slate-800'
                   ]"
                   :title="t('app.settings.title')"
                 >
-                  <Settings :size="20" :stroke-width="2.5" />
+                  <Settings :size="18" :stroke-width="2.5" />
                 </button>
 
                 <!-- Settings Dropdown -->

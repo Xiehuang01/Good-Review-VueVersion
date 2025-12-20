@@ -105,13 +105,13 @@ export const DEFAULT_BANKS: QuestionBank[] = [
   },
   {
     id: 'default-system',
-    name: '湖工—单片机选择题',
+    name: '[赞助]湖工—单片机选择题',
     createdAt: 1765255903193,
     questions: DPJChooice_HG
   },
   {
     id: 'default-system',
-    name: '湖工—单片机判断题',
+    name: '[赞助]湖工—单片机判断题',
     createdAt: 1765255903193,
     questions: DPJAdjustment_HG
   },
