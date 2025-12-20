@@ -64,39 +64,39 @@
 /* Glass morphism effects */
 .glass-panel {
   background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
   border: 1px solid rgba(255, 255, 255, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
 }
 
 .glass-panel-light {
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 0.6));
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 0.6));
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .glass-panel-modal {
   background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 1.25));
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 1.25));
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .glass-card {
   background: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 0.75));
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 0.75));
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.05);
 }
 
 .glass-button {
   background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 0.5));
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 0.5));
   border: 1px solid rgba(255, 255, 255, 0.6);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
 }
@@ -104,8 +104,8 @@
 .glass-input {
   background: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 0.25));
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 0.25));
 }
 
 .glass-input:focus {
@@ -117,8 +117,8 @@
 /* Green accent glass effects */
 .glass-panel-green {
   background: rgba(236, 253, 245, 0.3);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
   border: 1px solid rgba(16, 185, 129, 0.2);
   box-shadow: 0 8px 32px 0 rgba(16, 185, 129, 0.1);
 }
@@ -126,8 +126,8 @@
 /* Yellow accent glass effects */
 .glass-panel-yellow {
   background: rgba(254, 252, 232, 0.4);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
   border: 1px solid rgba(245, 158, 11, 0.2);
   box-shadow: 0 8px 32px 0 rgba(245, 158, 11, 0.1);
 }
@@ -135,8 +135,8 @@
 /* Strong glass panel for custom backgrounds */
 .glass-panel-strong {
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 1.25));
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 1.25));
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
@@ -144,8 +144,8 @@
 /* Mobile optimized glass panel with stronger background */
 .glass-panel-mobile {
   background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 1.5));
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 1.5));
   border: 2px solid rgba(255, 255, 255, 0.8);
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
 }
@@ -153,8 +153,8 @@
 @media (max-width: 640px) {
   .glass-panel-mobile {
     background: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(calc(var(--glass-blur) * 1.875));
+    -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 1.875));
     border: 2px solid rgba(255, 255, 255, 0.9);
     box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.4);
   }
@@ -201,8 +201,8 @@
 .custom-bg-text .glass-panel,
 .custom-bg-text .glass-card {
   background: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(calc(var(--glass-blur) * 1.25)) !important;
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 1.25)) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
 }
@@ -251,6 +251,9 @@
   --accent-yellow-300: #fcd34d;
   --accent-amber-200: #fde68a;
   --accent-orange-200: #fed7aa;
+  
+  /* Dynamic glass blur value */
+  --glass-blur: 16px;
 }
 
 .bg-brand-50 { background-color: var(--brand-50); }
@@ -298,4 +301,60 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(148, 163, 184, 0.5);
+}
+
+/* Slider styling for blur intensity control */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-track {
+  background: #e2e8f0;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: linear-gradient(135deg, #10b981, #059669);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+  transform: scale(1.1);
+}
+
+.slider::-moz-range-track {
+  background: #e2e8f0;
+  height: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.slider::-moz-range-thumb {
+  background: linear-gradient(135deg, #10b981, #059669);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider::-moz-range-thumb:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+  transform: scale(1.1);
 }

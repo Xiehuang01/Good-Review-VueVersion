@@ -198,6 +198,28 @@
                       <Trash2 :size="18" />
                       <span class="text-sm font-medium">{{ t('app.settings.removeImage') }}</span>
                     </button>
+
+                    <!-- Glass Blur Intensity Control -->
+                    <div class="border-t border-slate-200 pt-3 mt-3">
+                      <h3 class="text-sm font-bold mb-3 text-slate-800">{{ t('app.settings.glassBlur') }}</h3>
+                      <div class="space-y-2">
+                        <div class="flex items-center justify-between text-xs text-slate-600">
+                          <span>{{ t('app.settings.blurLight') }}</span>
+                          <span>{{ t('app.settings.blurStrong') }}</span>
+                        </div>
+                        <input
+                          type="range"
+                          min="0"
+                          max="100"
+                          :value="glassBlurIntensity"
+                          @input="handleBlurChange"
+                          class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer slider"
+                        />
+                        <div class="text-xs text-slate-500 text-center">
+                          {{ t('app.settings.blurIntensity') }}: {{ glassBlurIntensity }}%
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -296,8 +318,19 @@ const showSettingsDropdown = ref(false)
 // 背景图片状态
 const backgroundImage = ref<string | null>(null)
 
+// 毛玻璃模糊程度状态 (0-100)
+const glassBlurIntensity = ref<number>(50)
+
 // 文件输入引用
 const fileInput = ref<HTMLInputElement | null>(null)
+
+// 计算模糊值
+const computedBlurValue = computed(() => {
+  // 将0-100的值映射到4px-40px的模糊范围
+  const minBlur = 4
+  const maxBlur = 40
+  return minBlur + (glassBlurIntensity.value / 100) * (maxBlur - minBlur)
+})
 
 // 切换语言
 const toggleLanguage = () => {
@@ -398,11 +431,22 @@ const handleImageUpload = async (event: Event) => {
     console.log('Background image uploaded and saved successfully')
   } catch (error) {
     console.error('Error processing image:', error)
-    alert(t('app.settings.processingError') + error.message)
+    alert(t('app.settings.processingError') + (error as Error).message)
   }
 }
 
-// 移除背景图片
+// 处理模糊度变化
+const handleBlurChange = (event: Event) => {
+  const target = event.target as HTMLInputElement
+  glassBlurIntensity.value = parseInt(target.value)
+  localStorage.setItem('glass-blur-intensity', target.value)
+  updateGlassBlur()
+}
+
+// 更新CSS变量
+const updateGlassBlur = () => {
+  document.documentElement.style.setProperty('--glass-blur', `${computedBlurValue.value}px`)
+}
 const removeBackgroundImage = () => {
   console.log('Removing background image...')
   backgroundImage.value = null
@@ -427,7 +471,7 @@ const handleClickOutside = (event: MouseEvent) => {
   }
 }
 
-// 组件挂载时加载保存的背景图片
+// 组件挂载时加载保存的背景图片和模糊设置
 onMounted(() => {
   console.log('Component mounted, checking localStorage...')
   const savedImage = localStorage.getItem('background-image')
@@ -441,6 +485,16 @@ onMounted(() => {
     console.log('No background image found in localStorage')
   }
   
+  // 加载保存的模糊设置
+  const savedBlur = localStorage.getItem('glass-blur-intensity')
+  if (savedBlur) {
+    glassBlurIntensity.value = parseInt(savedBlur)
+    console.log('Glass blur intensity loaded from localStorage:', savedBlur)
+  }
+  
+  // 初始化CSS变量
+  updateGlassBlur()
+  
   document.addEventListener('click', handleClickOutside)
   
   // 监听localStorage变化
@@ -451,6 +505,13 @@ onMounted(() => {
         backgroundImage.value = e.newValue
       } else {
         backgroundImage.value = null
+      }
+    }
+    if (e.key === 'glass-blur-intensity') {
+      console.log('localStorage glass-blur-intensity changed:', e.newValue)
+      if (e.newValue) {
+        glassBlurIntensity.value = parseInt(e.newValue)
+        updateGlassBlur()
       }
     }
   })
