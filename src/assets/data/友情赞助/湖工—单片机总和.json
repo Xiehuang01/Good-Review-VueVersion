@@ -1,0 +1,6526 @@
+{
+  "source": "https://湖工——单片机/mooc-ans/mooc2/work/view?courseId=254889195&classId=126547621&cpi=357258622&workId=46823966&answerId=54778527&enc=03b850eda5505d68faace8acad0f4dac123",
+  "ts": 1766138539123,
+  "items": [
+  {
+    "id": 1,
+    "type": "单选",
+    "title": "1. (单选题) 8051单片机的CPU字长是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4位"
+      },
+      {
+        "label": "B",
+        "text": "8位"
+      },
+      {
+        "label": "C",
+        "text": "16位"
+      },
+      {
+        "label": "D",
+        "text": "32位"
+      }
+    ],
+    "correctAnswer": [
+      "8位"
+    ],
+    "selectedAnswer": [
+      "8位"
+    ],
+    "images": []
+  },
+  {
+    "id": 2,
+    "type": "单选",
+    "title": "2. (单选题) 89S51单片机有( )个并行I/O口。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": [
+      "4"
+    ],
+    "selectedAnswer": [
+      "4"
+    ],
+    "images": []
+  },
+  {
+    "id": 3,
+    "type": "单选",
+    "title": "3. (单选题) MCS-51系列单片机采用的存储结构是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "普林斯顿结构"
+      },
+      {
+        "label": "B",
+        "text": "哈佛结构"
+      },
+      {
+        "label": "C",
+        "text": "冯·诺依曼结构"
+      },
+      {
+        "label": "D",
+        "text": "混合结构"
+      }
+    ],
+    "correctAnswer": [
+      "哈佛结构"
+    ],
+    "selectedAnswer": [
+      "哈佛结构"
+    ],
+    "images": []
+  },
+  {
+    "id": 4,
+    "type": "单选",
+    "title": "4. (单选题) 51单片机的CPU主要的组成部分为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "运算器、控制器"
+      },
+      {
+        "label": "B",
+        "text": "加法器、寄存器"
+      },
+      {
+        "label": "C",
+        "text": "运算器、加法器"
+      },
+      {
+        "label": "D",
+        "text": "运算器、译码器"
+      }
+    ],
+    "correctAnswer": [
+      "运算器、控制器"
+    ],
+    "selectedAnswer": [
+      "运算器、控制器"
+    ],
+    "images": []
+  },
+  {
+    "id": 5,
+    "type": "单选",
+    "title": "5. (单选题) 在8x51芯片里，( )引脚用于控制使用内部程序存储器还是外部程序存储器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "ALE"
+      },
+      {
+        "label": "B",
+        "text": "/EA"
+      },
+      {
+        "label": "C",
+        "text": "/PSEN"
+      },
+      {
+        "label": "D",
+        "text": "RST"
+      }
+    ],
+    "correctAnswer": [
+      "/EA"
+    ],
+    "selectedAnswer": [
+      "/EA"
+    ],
+    "images": []
+  },
+  {
+    "id": 6,
+    "type": "单选",
+    "title": "6. (单选题) 51单片机的ALE引脚的功能是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "输出高电平"
+      },
+      {
+        "label": "B",
+        "text": "输出频率为fosc/6的矩形脉冲"
+      },
+      {
+        "label": "C",
+        "text": "输出低电平"
+      },
+      {
+        "label": "D",
+        "text": "输出频率为fosc/2的矩形脉冲"
+      }
+    ],
+    "correctAnswer": [
+      "输出频率为fosc/6的矩形脉冲"
+    ],
+    "selectedAnswer": [
+      "输出频率为fosc/6的矩形脉冲"
+    ],
+    "images": []
+  },
+  {
+    "id": 7,
+    "type": "单选",
+    "title": "7. (单选题) 51单片机的PSEN引脚的功能是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "外部中断请求输入"
+      },
+      {
+        "label": "B",
+        "text": "访问外部程序存储器选通信号"
+      },
+      {
+        "label": "C",
+        "text": "访问外部数据存储器选通信号"
+      },
+      {
+        "label": "D",
+        "text": "中断允许总控制"
+      }
+    ],
+    "correctAnswer": [
+      "访问外部程序存储器选通信号"
+    ],
+    "selectedAnswer": [
+      "访问外部程序存储器选通信号"
+    ],
+    "images": []
+  },
+  {
+    "id": 8,
+    "type": "单选",
+    "title": "8. (单选题) 51单片机的RST引脚的功能是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "外部中断请求输入"
+      },
+      {
+        "label": "B",
+        "text": "访问外部程序存储器选通信号"
+      },
+      {
+        "label": "C",
+        "text": "访问外部数据存储器选通信号"
+      },
+      {
+        "label": "D",
+        "text": "复位信号输入"
+      }
+    ],
+    "correctAnswer": [
+      "复位信号输入"
+    ],
+    "selectedAnswer": [
+      "复位信号输入"
+    ],
+    "images": []
+  },
+  {
+    "id": 9,
+    "type": "单选",
+    "title": "9. (单选题) 8051单片机复位后，程序计数器(PC)的初始值为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0003H"
+      },
+      {
+        "label": "B",
+        "text": "0000H"
+      },
+      {
+        "label": "C",
+        "text": "000BH"
+      },
+      {
+        "label": "D",
+        "text": "0013H"
+      }
+    ],
+    "correctAnswer": [
+      "0000H"
+    ],
+    "selectedAnswer": [
+      "0000H"
+    ],
+    "images": []
+  },
+  {
+    "id": 10,
+    "type": "单选",
+    "title": "10. (单选题) 51单片机中，片内RAM的地址范围是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "00H-7FH"
+      },
+      {
+        "label": "B",
+        "text": "80H-FFH"
+      },
+      {
+        "label": "C",
+        "text": "0000H-0FFFH"
+      },
+      {
+        "label": "D",
+        "text": "1000H-1FFFH"
+      }
+    ],
+    "correctAnswer": [
+      "00H-7FH"
+    ],
+    "selectedAnswer": [
+      "00H-7FH"
+    ],
+    "images": []
+  },
+  {
+    "id": 11,
+    "type": "单选",
+    "title": "11. (单选题) 以下哪种应用场景最适合使用单片机进行设计？",
+    "options": [
+      {
+        "label": "A",
+        "text": "大型数据库服务器"
+      },
+      {
+        "label": "B",
+        "text": "嵌入式智能家居控制系统"
+      },
+      {
+        "label": "C",
+        "text": "虚拟现实游戏引擎"
+      },
+      {
+        "label": "D",
+        "text": "企业级网络路由器"
+      }
+    ],
+    "correctAnswer": [
+      "嵌入式智能家居控制系统"
+    ],
+    "selectedAnswer": [
+      "嵌入式智能家居控制系统"
+    ],
+    "images": []
+  },
+  {
+    "id": 12,
+    "type": "单选",
+    "title": "12. (单选题) 下列哪项描述不符合单片机的特点？",
+    "options": [
+      {
+        "label": "A",
+        "text": "集成度高"
+      },
+      {
+        "label": "B",
+        "text": "功耗高"
+      },
+      {
+        "label": "C",
+        "text": "灵活性强"
+      },
+      {
+        "label": "D",
+        "text": "可编程性强"
+      }
+    ],
+    "correctAnswer": [
+      "功耗高"
+    ],
+    "selectedAnswer": [
+      "功耗高"
+    ],
+    "images": []
+  },
+  {
+    "id": 13,
+    "type": "单选",
+    "title": "13. (单选题) 单片机的核心部件中，负责执行指令的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储器"
+      },
+      {
+        "label": "B",
+        "text": "中央处理器（CPU）"
+      },
+      {
+        "label": "C",
+        "text": "总线接口"
+      },
+      {
+        "label": "D",
+        "text": "定时器"
+      }
+    ],
+    "correctAnswer": [
+      "中央处理器（CPU）"
+    ],
+    "selectedAnswer": [
+      "中央处理器（CPU）"
+    ],
+    "images": []
+  },
+  {
+    "id": 14,
+    "type": "单选",
+    "title": "14. (单选题) 下列关于单片机程序存储器的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序存储器只能通过外部扩展获得。"
+      },
+      {
+        "label": "B",
+        "text": "程序存储器通常为只读存储器（ROM）或闪存（Flash）。"
+      },
+      {
+        "label": "C",
+        "text": "程序存储器用于临时存储运行时的数据。"
+      },
+      {
+        "label": "D",
+        "text": "程序存储器容量通常大于数据存储器。"
+      }
+    ],
+    "correctAnswer": [
+      "程序存储器通常为只读存储器（ROM）或闪存（Flash）。"
+    ],
+    "selectedAnswer": [
+      "程序存储器通常为只读存储器（ROM）或闪存（Flash）。"
+    ],
+    "images": []
+  },
+  {
+    "id": 15,
+    "type": "单选",
+    "title": "15. (单选题) 单片机的一个重要特点是其程序和数据存储器如何实现？",
+    "options": [
+      {
+        "label": "A",
+        "text": "共享同一地址空间"
+      },
+      {
+        "label": "B",
+        "text": "程序存储器和数据存储器相互独立，地址空间分开"
+      },
+      {
+        "label": "C",
+        "text": "数据存储器容量总是大于程序存储器"
+      },
+      {
+        "label": "D",
+        "text": "程序存储器仅在运行时加载"
+      }
+    ],
+    "correctAnswer": [
+      "程序存储器和数据存储器相互独立，地址空间分开"
+    ],
+    "selectedAnswer": [
+      "程序存储器和数据存储器相互独立，地址空间分开"
+    ],
+    "images": []
+  },
+  {
+    "id": 16,
+    "type": "单选",
+    "title": "16. (单选题) 单片机的“最小系统”通常包括哪些基本部分？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电源、晶振、复位电路、程序存储器"
+      },
+      {
+        "label": "B",
+        "text": "键盘、显示器、存储卡"
+      },
+      {
+        "label": "C",
+        "text": "蓝牙模块、Wi-Fi模块"
+      },
+      {
+        "label": "D",
+        "text": "传感器阵列、ADC模块"
+      }
+    ],
+    "correctAnswer": [
+      "电源、晶振、复位电路、程序存储器"
+    ],
+    "selectedAnswer": [
+      "电源、晶振、复位电路、程序存储器"
+    ],
+    "images": []
+  },
+  {
+    "id": 17,
+    "type": "单选",
+    "title": "17. (单选题) 单片机的晶振电路主要作用是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "为单片机提供稳定的时钟信号"
+      },
+      {
+        "label": "B",
+        "text": "为外部设备供电"
+      },
+      {
+        "label": "C",
+        "text": "调节单片机的温度"
+      },
+      {
+        "label": "D",
+        "text": "提高单片机的抗干扰性能"
+      }
+    ],
+    "correctAnswer": [
+      "为单片机提供稳定的时钟信号"
+    ],
+    "selectedAnswer": [
+      "为单片机提供稳定的时钟信号"
+    ],
+    "images": []
+  },
+  {
+    "id": 18,
+    "type": "单选",
+    "title": "18. (单选题) P0口作数据线和低8位地址线时( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "能作I/O口"
+      },
+      {
+        "label": "B",
+        "text": "应外接上拉电阻"
+      },
+      {
+        "label": "C",
+        "text": "应外接高电平"
+      },
+      {
+        "label": "D",
+        "text": "不能作I/O口"
+      }
+    ],
+    "correctAnswer": [
+      "不能作I/O口"
+    ],
+    "selectedAnswer": [
+      "不能作I/O口"
+    ],
+    "images": []
+  },
+  {
+    "id": 19,
+    "type": "单选",
+    "title": "19. (单选题) 当ALE信号有效时，表示( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "从ROM中读取数据"
+      },
+      {
+        "label": "B",
+        "text": "从P0口可靠地送出低8位地址"
+      },
+      {
+        "label": "C",
+        "text": "从P0口送出数据"
+      },
+      {
+        "label": "D",
+        "text": "从RAM中读取数据"
+      }
+    ],
+    "correctAnswer": [
+      "从P0口可靠地送出低8位地址"
+    ],
+    "selectedAnswer": [
+      "从P0口可靠地送出低8位地址"
+    ],
+    "images": []
+  },
+  {
+    "id": 20,
+    "type": "单选",
+    "title": "20. (单选题) 中断控制方式的优点是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高CPU的利用率"
+      },
+      {
+        "label": "B",
+        "text": "能在线进行故障处理"
+      },
+      {
+        "label": "C",
+        "text": "无须CPU干预"
+      },
+      {
+        "label": "D",
+        "text": "硬件连接简单"
+      }
+    ],
+    "correctAnswer": [
+      "提高CPU的利用率"
+    ],
+    "selectedAnswer": [
+      "提高CPU的利用率"
+    ],
+    "images": []
+  },
+  {
+    "id": 21,
+    "type": "单选",
+    "title": "21. (单选题) 1字节为( )位",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "32"
+      }
+    ],
+    "correctAnswer": [
+      "8"
+    ],
+    "selectedAnswer": [
+      "8"
+    ],
+    "images": []
+  },
+  {
+    "id": 22,
+    "type": "单选",
+    "title": "22. (单选题) 89C51单片机串行口SCON寄存器允许接收位为( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "TI"
+      },
+      {
+        "label": "B",
+        "text": "RI"
+      },
+      {
+        "label": "C",
+        "text": "REN"
+      },
+      {
+        "label": "D",
+        "text": "SM2"
+      }
+    ],
+    "correctAnswer": [
+      "REN"
+    ],
+    "selectedAnswer": [
+      "REN"
+    ],
+    "images": []
+  },
+  {
+    "id": 23,
+    "type": "单选",
+    "title": "23. (单选题) 串行口也可称作( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "寄存器"
+      },
+      {
+        "label": "B",
+        "text": "内部中断源"
+      },
+      {
+        "label": "C",
+        "text": "定时器"
+      },
+      {
+        "label": "D",
+        "text": "外部中断源"
+      }
+    ],
+    "correctAnswer": [
+      "内部中断源"
+    ],
+    "selectedAnswer": [
+      "内部中断源"
+    ],
+    "images": []
+  },
+  {
+    "id": 24,
+    "type": "单选",
+    "title": "24. (单选题) 80C51单片机的( )口的引脚具有单片机地址/数据总线口作用",
+    "options": [
+      {
+        "label": "A",
+        "text": "P0和P1"
+      },
+      {
+        "label": "B",
+        "text": "P1和P2"
+      },
+      {
+        "label": "C",
+        "text": "P2和P3"
+      },
+      {
+        "label": "D",
+        "text": "P0和P2"
+      }
+    ],
+    "correctAnswer": [
+      "P0和P2"
+    ],
+    "selectedAnswer": [
+      "P0和P2"
+    ],
+    "images": []
+  },
+  {
+    "id": 25,
+    "type": "单选",
+    "title": "25. (单选题) 程序状态字寄存器中反映进位(或借位)状态的标志位符号是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "CY"
+      },
+      {
+        "label": "B",
+        "text": "F0"
+      },
+      {
+        "label": "C",
+        "text": "OV"
+      },
+      {
+        "label": "D",
+        "text": "AC"
+      }
+    ],
+    "correctAnswer": [
+      "CY"
+    ],
+    "selectedAnswer": [
+      "CY"
+    ],
+    "images": []
+  },
+  {
+    "id": 26,
+    "type": "单选",
+    "title": "26. (单选题) 单片机中最基本的时间单位是什么( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "指令周期"
+      },
+      {
+        "label": "B",
+        "text": "状态时钟"
+      },
+      {
+        "label": "C",
+        "text": "震荡信号"
+      },
+      {
+        "label": "D",
+        "text": "机器周期"
+      }
+    ],
+    "correctAnswer": [
+      "机器周期"
+    ],
+    "selectedAnswer": [
+      "机器周期"
+    ],
+    "images": []
+  },
+  {
+    "id": 27,
+    "type": "单选",
+    "title": "27. (单选题) 在单片机中，程序存储器主要用于存放什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据"
+      },
+      {
+        "label": "B",
+        "text": "指令"
+      },
+      {
+        "label": "C",
+        "text": "状态信息"
+      },
+      {
+        "label": "D",
+        "text": "中断向量表"
+      }
+    ],
+    "correctAnswer": [
+      "指令"
+    ],
+    "selectedAnswer": [
+      "指令"
+    ],
+    "images": []
+  },
+  {
+    "id": 28,
+    "type": "单选",
+    "title": "28. (单选题) 单片机的数据存储器主要用于存放什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序代码"
+      },
+      {
+        "label": "B",
+        "text": "中间计算结果"
+      },
+      {
+        "label": "C",
+        "text": "固定参数"
+      },
+      {
+        "label": "D",
+        "text": "状态标志"
+      }
+    ],
+    "correctAnswer": [
+      "中间计算结果"
+    ],
+    "selectedAnswer": [
+      "中间计算结果"
+    ],
+    "images": []
+  },
+  {
+    "id": 29,
+    "type": "单选",
+    "title": "29. (单选题) 8051单片机的P3口通常用于什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址总线"
+      },
+      {
+        "label": "B",
+        "text": "数据总线"
+      },
+      {
+        "label": "C",
+        "text": "控制总线"
+      },
+      {
+        "label": "D",
+        "text": "专用I/O口"
+      }
+    ],
+    "correctAnswer": [
+      "控制总线"
+    ],
+    "selectedAnswer": [
+      "控制总线"
+    ],
+    "images": []
+  },
+  {
+    "id": 30,
+    "type": "单选",
+    "title": "30. (单选题) 单片机的I/O口在进行输入操作时，需要先做什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "置为高电平"
+      },
+      {
+        "label": "B",
+        "text": "置为低电平"
+      },
+      {
+        "label": "C",
+        "text": "置为输入模式"
+      },
+      {
+        "label": "D",
+        "text": "置为输出模式"
+      }
+    ],
+    "correctAnswer": [
+      "置为输入模式"
+    ],
+    "selectedAnswer": [
+      "置为输入模式"
+    ],
+    "images": []
+  },
+  {
+    "id": 31,
+    "type": "单选",
+    "title": "31. (单选题) 89S51单片机的程序存储器容量是多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "256字节"
+      },
+      {
+        "label": "B",
+        "text": "4K字节"
+      },
+      {
+        "label": "C",
+        "text": "8K字节"
+      },
+      {
+        "label": "D",
+        "text": "16K字节"
+      }
+    ],
+    "correctAnswer": [
+      "4K字节"
+    ],
+    "selectedAnswer": [
+      "4K字节"
+    ],
+    "images": []
+  },
+  {
+    "id": 32,
+    "type": "单选",
+    "title": "32. (单选题) 89S51单片机的P0口通常作为什么使用？",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址总线低8位"
+      },
+      {
+        "label": "B",
+        "text": "数据总线"
+      },
+      {
+        "label": "C",
+        "text": "控制总线"
+      },
+      {
+        "label": "D",
+        "text": "I/O口"
+      }
+    ],
+    "correctAnswer": [
+      "地址总线低8位"
+    ],
+    "selectedAnswer": [
+      "地址总线低8位"
+    ],
+    "images": []
+  },
+  {
+    "id": 33,
+    "type": "单选",
+    "title": "33. (单选题) 89S51单片机的P3口通常作为什么使用？",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址总线"
+      },
+      {
+        "label": "B",
+        "text": "数据总线"
+      },
+      {
+        "label": "C",
+        "text": "控制总线"
+      },
+      {
+        "label": "D",
+        "text": "I/O口"
+      }
+    ],
+    "correctAnswer": [
+      "控制总线"
+    ],
+    "selectedAnswer": [
+      "控制总线"
+    ],
+    "images": []
+  },
+  {
+    "id": 34,
+    "type": "单选",
+    "title": "34. (单选题) 89S51单片机的数据存储器寻址范围是多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "00H~FFH"
+      },
+      {
+        "label": "B",
+        "text": "00H~7FH"
+      },
+      {
+        "label": "C",
+        "text": "00H~8FH"
+      },
+      {
+        "label": "D",
+        "text": "00H~9FH"
+      }
+    ],
+    "correctAnswer": [
+      "00H~FFH"
+    ],
+    "selectedAnswer": [
+      "00H~FFH"
+    ],
+    "images": []
+  },
+  {
+    "id": 35,
+    "type": "单选",
+    "title": "35. (单选题) 89S51单片机的外部数据存储器最大容量是多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "64K字节"
+      },
+      {
+        "label": "B",
+        "text": "32K字节"
+      },
+      {
+        "label": "C",
+        "text": "16K字节"
+      },
+      {
+        "label": "D",
+        "text": "8K字节"
+      }
+    ],
+    "correctAnswer": [
+      "64K字节"
+    ],
+    "selectedAnswer": [
+      "64K字节"
+    ],
+    "images": []
+  },
+  {
+    "id": 36,
+    "type": "单选",
+    "title": "36. (单选题) 89S51单片机的P0口作为通用I/O口时，需要外接什么元件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电阻"
+      },
+      {
+        "label": "B",
+        "text": "电容"
+      },
+      {
+        "label": "C",
+        "text": "上拉电阻"
+      },
+      {
+        "label": "D",
+        "text": "二极管"
+      }
+    ],
+    "correctAnswer": [
+      "上拉电阻"
+    ],
+    "selectedAnswer": [
+      "上拉电阻"
+    ],
+    "images": []
+  },
+  {
+    "id": 37,
+    "type": "单选",
+    "title": "37. (单选题) 89S51单片机的P0口在作为I/O口使用时，其引脚电平状态如何确定？",
+    "options": [
+      {
+        "label": "A",
+        "text": "由内部寄存器的状态决定"
+      },
+      {
+        "label": "B",
+        "text": "由外部电路直接决定"
+      },
+      {
+        "label": "C",
+        "text": "由电源电压决定"
+      },
+      {
+        "label": "D",
+        "text": "由接地状态决定"
+      }
+    ],
+    "correctAnswer": [
+      "由内部寄存器的状态决定"
+    ],
+    "selectedAnswer": [
+      "由内部寄存器的状态决定"
+    ],
+    "images": []
+  },
+  {
+    "id": 38,
+    "type": "单选",
+    "title": "38. (单选题) 89S51单片机的P0口在作为I/O口使用时，其引脚的输入模式是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "推挽输出模式"
+      },
+      {
+        "label": "B",
+        "text": "开漏输出模式"
+      },
+      {
+        "label": "C",
+        "text": "三态输出模式"
+      },
+      {
+        "label": "D",
+        "text": "固定输出模式"
+      }
+    ],
+    "correctAnswer": [
+      "开漏输出模式"
+    ],
+    "selectedAnswer": [
+      "开漏输出模式"
+    ],
+    "images": []
+  },
+  {
+    "id": 39,
+    "type": "单选",
+    "title": "39. (单选题) 89S51单片机的P0口在作为地址/数据总线时，其功能是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅用于数据传输"
+      },
+      {
+        "label": "B",
+        "text": "仅用于地址传输"
+      },
+      {
+        "label": "C",
+        "text": "同时用于地址和数据传输"
+      },
+      {
+        "label": "D",
+        "text": "用于控制信号传输"
+      }
+    ],
+    "correctAnswer": [
+      "同时用于地址和数据传输"
+    ],
+    "selectedAnswer": [
+      "同时用于地址和数据传输"
+    ],
+    "images": []
+  },
+  {
+    "id": 40,
+    "type": "单选",
+    "title": "40. (单选题) 单片机的I/O端口通常用于什么功能？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据存储"
+      },
+      {
+        "label": "B",
+        "text": "程序执行"
+      },
+      {
+        "label": "C",
+        "text": "输入输出控制"
+      },
+      {
+        "label": "D",
+        "text": "时钟生成"
+      }
+    ],
+    "correctAnswer": [
+      "输入输出控制"
+    ],
+    "selectedAnswer": [
+      "输入输出控制"
+    ],
+    "images": []
+  },
+  {
+    "id": 41,
+    "type": "单选",
+    "title": "41. (单选题) 在单片机系统中，定时器的主要作用是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "控制程序执行顺序"
+      },
+      {
+        "label": "B",
+        "text": "产生中断请求"
+      },
+      {
+        "label": "C",
+        "text": "存储数据"
+      },
+      {
+        "label": "D",
+        "text": "提供电源管理"
+      }
+    ],
+    "correctAnswer": [
+      "产生中断请求"
+    ],
+    "selectedAnswer": [
+      "产生中断请求"
+    ],
+    "images": []
+  },
+  {
+    "id": 42,
+    "type": "单选",
+    "title": "42. (单选题) 在单片机编程中，哪个寄存器用于存放当前指令的地址？",
+    "options": [
+      {
+        "label": "A",
+        "text": "PC寄存器"
+      },
+      {
+        "label": "B",
+        "text": "SP寄存器"
+      },
+      {
+        "label": "C",
+        "text": "PSW寄存器"
+      },
+      {
+        "label": "D",
+        "text": "ACC寄存器"
+      }
+    ],
+    "correctAnswer": [
+      "PC寄存器"
+    ],
+    "selectedAnswer": [
+      "PC寄存器"
+    ],
+    "images": []
+  },
+  {
+    "id": 43,
+    "type": "单选",
+    "title": "43. (单选题) 在单片机编程中，哪个寄存器用于保存堆栈指针？",
+    "options": [
+      {
+        "label": "A",
+        "text": "DPTR"
+      },
+      {
+        "label": "B",
+        "text": "SP"
+      },
+      {
+        "label": "C",
+        "text": "PSW"
+      },
+      {
+        "label": "D",
+        "text": "ACC"
+      }
+    ],
+    "correctAnswer": [
+      "SP"
+    ],
+    "selectedAnswer": [
+      "SP"
+    ],
+    "images": []
+  },
+  {
+    "id": 44,
+    "type": "单选",
+    "title": "44. (单选题) 单片机的I/O端口通常采用哪种电平标准？",
+    "options": [
+      {
+        "label": "A",
+        "text": "TTL电平"
+      },
+      {
+        "label": "B",
+        "text": "CMOS电平"
+      },
+      {
+        "label": "C",
+        "text": "RS-232电平"
+      },
+      {
+        "label": "D",
+        "text": "USB电平"
+      }
+    ],
+    "correctAnswer": [
+      "TTL电平"
+    ],
+    "selectedAnswer": [
+      "TTL电平"
+    ],
+    "images": []
+  },
+  {
+    "id": 45,
+    "type": "单选",
+    "title": "45. (单选题) 在单片机编程中，哪个寄存器用于保存累加器的值？",
+    "options": [
+      {
+        "label": "A",
+        "text": "ACC"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "PSW"
+      },
+      {
+        "label": "D",
+        "text": "DPTR"
+      }
+    ],
+    "correctAnswer": [
+      "ACC"
+    ],
+    "selectedAnswer": [
+      "ACC"
+    ],
+    "images": []
+  },
+  {
+    "id": 46,
+    "type": "单选",
+    "title": "46. (单选题) 下列哪个描述最能体现单片机的核心优势？",
+    "options": [
+      {
+        "label": "A",
+        "text": "具有强大的图形处理能力。"
+      },
+      {
+        "label": "B",
+        "text": "体积小、功耗低、成本低，适合嵌入式应用场景。"
+      },
+      {
+        "label": "C",
+        "text": "运行速度快，适合高性能计算。"
+      },
+      {
+        "label": "D",
+        "text": "内置大量操作系统资源，适合通用计算机应用。"
+      }
+    ],
+    "correctAnswer": [
+      "体积小、功耗低、成本低，适合嵌入式应用场景。"
+    ],
+    "selectedAnswer": [
+      "体积小、功耗低、成本低，适合嵌入式应用场景。"
+    ],
+    "images": []
+  },
+  {
+    "id": 47,
+    "type": "单选",
+    "title": "47. (单选题) 下列哪项描述不符合单片机的特点?",
+    "options": [
+      {
+        "label": "A",
+        "text": "集成度高"
+      },
+      {
+        "label": "B",
+        "text": "功耗高"
+      },
+      {
+        "label": "C",
+        "text": "灵活性强"
+      },
+      {
+        "label": "D",
+        "text": "可编程性强"
+      }
+    ],
+    "correctAnswer": [
+      "功耗高"
+    ],
+    "selectedAnswer": [
+      "功耗高"
+    ],
+    "images": []
+  },
+  {
+    "id": 48,
+    "type": "单选",
+    "title": "48. (单选题) 下列关于单片机程序存储器的描述，正确的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序存储器只能通过外部扩展获得。"
+      },
+      {
+        "label": "B",
+        "text": "程序存储器通常为只读存储器(ROM)或闪存(Flash)。"
+      },
+      {
+        "label": "C",
+        "text": "程序存储器用于临时存储运行时的数据。"
+      },
+      {
+        "label": "D",
+        "text": "程序存储器容量通常大于数据存储器。"
+      }
+    ],
+    "correctAnswer": [
+      "程序存储器通常为只读存储器(ROM)或闪存(Flash)。"
+    ],
+    "selectedAnswer": [
+      "程序存储器通常为只读存储器(ROM)或闪存(Flash)。"
+    ],
+    "images": []
+  },
+  {
+    "id": 49,
+    "type": "单选",
+    "title": "49. (单选题) 单片机的核心部件中，负责执行指令的是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储器"
+      },
+      {
+        "label": "B",
+        "text": "中央处理器(CPU)"
+      },
+      {
+        "label": "C",
+        "text": "总线接口"
+      },
+      {
+        "label": "D",
+        "text": "定时器"
+      }
+    ],
+    "correctAnswer": [
+      "中央处理器(CPU)"
+    ],
+    "selectedAnswer": [
+      "中央处理器(CPU)"
+    ],
+    "images": []
+  },
+  {
+    "id": 50,
+    "type": "单选",
+    "title": "50. (单选题) 单片机的一个重要特点是其程序和数据存储器如何实现?",
+    "options": [
+      {
+        "label": "A",
+        "text": "共享同一地址空间"
+      },
+      {
+        "label": "B",
+        "text": "程序存储器和数据存储器相互独立，地址空间分开"
+      },
+      {
+        "label": "C",
+        "text": "数据存储器容量总是大于程序存储器"
+      },
+      {
+        "label": "D",
+        "text": "程序存储器仅在运行时加载"
+      }
+    ],
+    "correctAnswer": [
+      "程序存储器和数据存储器相互独立，地址空间分开"
+    ],
+    "selectedAnswer": [
+      "程序存储器和数据存储器相互独立，地址空间分开"
+    ],
+    "images": []
+  },
+  {
+    "id": 51,
+    "type": "单选",
+    "title": "51. (单选题) 51单片机片内程序存储器(ROM)的容量是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "128B"
+      },
+      {
+        "label": "B",
+        "text": "256B"
+      },
+      {
+        "label": "C",
+        "text": "4KB"
+      },
+      {
+        "label": "D",
+        "text": "64KB"
+      }
+    ],
+    "correctAnswer": [
+      "4KB"
+    ],
+    "selectedAnswer": [
+      "4KB"
+    ],
+    "images": []
+  },
+  {
+    "id": 52,
+    "type": "单选",
+    "title": "52. (单选题) 51单片机片内数据存储器中，高128个单元主要用于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "用户数据存储"
+      },
+      {
+        "label": "B",
+        "text": "特殊功能寄存器"
+      },
+      {
+        "label": "C",
+        "text": "程序计数器"
+      },
+      {
+        "label": "D",
+        "text": "中断向量表"
+      }
+    ],
+    "correctAnswer": [
+      "特殊功能寄存器"
+    ],
+    "selectedAnswer": [
+      "特殊功能寄存器"
+    ],
+    "images": []
+  },
+  {
+    "id": 53,
+    "type": "单选",
+    "title": "53. (单选题) 8051单片机中，唯一一个用户可使用的16位寄存器是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "PSW"
+      },
+      {
+        "label": "B",
+        "text": "ACC"
+      },
+      {
+        "label": "C",
+        "text": "SP"
+      },
+      {
+        "label": "D",
+        "text": "DPTR"
+      }
+    ],
+    "correctAnswer": [
+      "DPTR"
+    ],
+    "selectedAnswer": [
+      "DPTR"
+    ],
+    "images": []
+  },
+  {
+    "id": 54,
+    "type": "单选",
+    "title": "54. (单选题) 51单片机中既可位寻址又可字节寻址的单元是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "20H"
+      },
+      {
+        "label": "B",
+        "text": "30H"
+      },
+      {
+        "label": "C",
+        "text": "40H"
+      },
+      {
+        "label": "D",
+        "text": "50H"
+      }
+    ],
+    "correctAnswer": [
+      "20H"
+    ],
+    "selectedAnswer": [
+      "20H"
+    ],
+    "images": []
+  },
+  {
+    "id": 55,
+    "type": "单选",
+    "title": "55. (单选题) 51单片机中，用于控制定时器/计数器工作方式的寄存器是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "TMOD"
+      },
+      {
+        "label": "B",
+        "text": "TCON"
+      },
+      {
+        "label": "C",
+        "text": "SCON"
+      },
+      {
+        "label": "D",
+        "text": "PCON"
+      }
+    ],
+    "correctAnswer": [
+      "TMOD"
+    ],
+    "selectedAnswer": [
+      "TMOD"
+    ],
+    "images": []
+  },
+  {
+    "id": 56,
+    "type": "单选",
+    "title": "56. (单选题) 51单片机中，用于控制中断允许的寄存器是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "IE"
+      },
+      {
+        "label": "B",
+        "text": "IP"
+      },
+      {
+        "label": "C",
+        "text": "SCON"
+      },
+      {
+        "label": "D",
+        "text": "PCON"
+      }
+    ],
+    "correctAnswer": [
+      "IE"
+    ],
+    "selectedAnswer": [
+      "IE"
+    ],
+    "images": []
+  },
+  {
+    "id": 57,
+    "type": "单选",
+    "title": "57. (单选题) MCS-51单片机的P0口作为通用I/O口使用时，其输出级结构特点是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "内部集成上拉电阻"
+      },
+      {
+        "label": "B",
+        "text": "推挽输出"
+      },
+      {
+        "label": "C",
+        "text": "开漏输出，需外接上拉电阻"
+      },
+      {
+        "label": "D",
+        "text": "互补对称输出"
+      }
+    ],
+    "correctAnswer": [
+      "开漏输出，需外接上拉电阻"
+    ],
+    "selectedAnswer": [
+      "开漏输出，需外接上拉电阻"
+    ],
+    "images": []
+  },
+  {
+    "id": 58,
+    "type": "单选",
+    "title": "58. (单选题) MCS-51单片机的P3口与P1口的主要区别是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "P3口无第二功能"
+      },
+      {
+        "label": "B",
+        "text": "P3口增加了第二功能控制逻辑"
+      },
+      {
+        "label": "C",
+        "text": "P3口驱动能力更强"
+      },
+      {
+        "label": "D",
+        "text": "P3口仅能输入不能输出"
+      }
+    ],
+    "correctAnswer": [
+      "P3口增加了第二功能控制逻辑"
+    ],
+    "selectedAnswer": [
+      "P3口增加了第二功能控制逻辑"
+    ],
+    "images": []
+  },
+  {
+    "id": 59,
+    "type": "单选",
+    "title": "59. (单选题) MCS-51单片机的P1口作为输入口使用时，正确的操作是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接读取端口状态"
+      },
+      {
+        "label": "B",
+        "text": "先向端口锁存器写入1，使输出驱动器截止"
+      },
+      {
+        "label": "C",
+        "text": "将端口直接接地"
+      },
+      {
+        "label": "D",
+        "text": "使端口处于高阻态"
+      }
+    ],
+    "correctAnswer": [
+      "先向端口锁存器写入1，使输出驱动器截止"
+    ],
+    "selectedAnswer": [
+      "先向端口锁存器写入1，使输出驱动器截止"
+    ],
+    "images": []
+  },
+  {
+    "id": 60,
+    "type": "单选",
+    "title": "60. (单选题) MCS-51单片机的P2口在系统扩展中主要承担的功能是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "低8位地址/数据总线"
+      },
+      {
+        "label": "B",
+        "text": "高8位地址线"
+      },
+      {
+        "label": "C",
+        "text": "控制信号输出"
+      },
+      {
+        "label": "D",
+        "text": "中断请求输入"
+      }
+    ],
+    "correctAnswer": [
+      "高8位地址线"
+    ],
+    "selectedAnswer": [
+      "高8位地址线"
+    ],
+    "images": []
+  },
+  {
+    "id": 61,
+    "type": "单选",
+    "title": "61. (单选题) MCS-51单片机的复位信号是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "低电位"
+      },
+      {
+        "label": "B",
+        "text": "高电位"
+      },
+      {
+        "label": "C",
+        "text": "上升沿"
+      },
+      {
+        "label": "D",
+        "text": "下降沿"
+      }
+    ],
+    "correctAnswer": [
+      "高电位"
+    ],
+    "selectedAnswer": [
+      "高电位"
+    ],
+    "images": []
+  },
+  {
+    "id": 62,
+    "type": "单选",
+    "title": "62. (单选题) MCS-51单片机复位后，堆栈指针SP的初始值为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "00H"
+      },
+      {
+        "label": "B",
+        "text": "07H"
+      },
+      {
+        "label": "C",
+        "text": "08H"
+      },
+      {
+        "label": "D",
+        "text": "20H"
+      }
+    ],
+    "correctAnswer": [
+      "07H"
+    ],
+    "selectedAnswer": [
+      "07H"
+    ],
+    "images": []
+  },
+  {
+    "id": 63,
+    "type": "单选",
+    "title": "63. (单选题) MCS-51单片机常见的复位电路有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "上电复位电路和外部复位电路"
+      },
+      {
+        "label": "B",
+        "text": "电源监控复位和看门狗复位"
+      },
+      {
+        "label": "C",
+        "text": "硬件复位和软件复位"
+      },
+      {
+        "label": "D",
+        "text": "系统复位和局部复位"
+      }
+    ],
+    "correctAnswer": [
+      "上电复位电路和外部复位电路"
+    ],
+    "selectedAnswer": [
+      "上电复位电路和外部复位电路"
+    ],
+    "images": []
+  },
+  {
+    "id": 64,
+    "type": "单选",
+    "title": "64. (单选题) 单片机复位操作的三种方式是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "上电自动复位、按键电平复位、外部脉冲复位"
+      },
+      {
+        "label": "B",
+        "text": "上电复位、手动复位、外部中断复位"
+      },
+      {
+        "label": "C",
+        "text": "电源复位、看门狗复位、软件复位"
+      },
+      {
+        "label": "D",
+        "text": "硬件复位、软件复位、系统复位"
+      }
+    ],
+    "correctAnswer": [
+      "上电自动复位、按键电平复位、外部脉冲复位"
+    ],
+    "selectedAnswer": [
+      "上电自动复位、按键电平复位、外部脉冲复位"
+    ],
+    "images": []
+  },
+  {
+    "id": 65,
+    "type": "单选",
+    "title": "65. (单选题) 80C51单片机采用的制造工艺是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "HMOS"
+      },
+      {
+        "label": "B",
+        "text": "CHMOS"
+      },
+      {
+        "label": "C",
+        "text": "CMOS"
+      },
+      {
+        "label": "D",
+        "text": "TTL"
+      }
+    ],
+    "correctAnswer": [
+      "CHMOS"
+    ],
+    "selectedAnswer": [
+      "CHMOS"
+    ],
+    "images": []
+  },
+  {
+    "id": 66,
+    "type": "单选",
+    "title": "66. (单选题) 51单片机进入掉电模式时，( )仍然有效。",
+    "options": [
+      {
+        "label": "A",
+        "text": "外部中断"
+      },
+      {
+        "label": "B",
+        "text": "定时器"
+      },
+      {
+        "label": "C",
+        "text": "片内RAM数据"
+      },
+      {
+        "label": "D",
+        "text": "外部时钟"
+      }
+    ],
+    "correctAnswer": [
+      "片内RAM数据"
+    ],
+    "selectedAnswer": [
+      "片内RAM数据"
+    ],
+    "images": []
+  },
+  {
+    "id": 67,
+    "type": "单选",
+    "title": "67. (单选题) 51单片机通过设置( )寄存器中的位来选择低功耗模式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "IE"
+      },
+      {
+        "label": "B",
+        "text": "IP"
+      },
+      {
+        "label": "C",
+        "text": "SCON"
+      },
+      {
+        "label": "D",
+        "text": "PCON"
+      }
+    ],
+    "correctAnswer": [
+      "PCON"
+    ],
+    "selectedAnswer": [
+      "PCON"
+    ],
+    "images": []
+  },
+  {
+    "id": 68,
+    "type": "单选",
+    "title": "68. (单选题) 51单片机在空闲模式下，CPU状态是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "停止工作"
+      },
+      {
+        "label": "B",
+        "text": "暂停工作"
+      },
+      {
+        "label": "C",
+        "text": "正常工作"
+      },
+      {
+        "label": "D",
+        "text": "低功耗工作"
+      }
+    ],
+    "correctAnswer": [
+      "暂停工作"
+    ],
+    "selectedAnswer": [
+      "暂停工作"
+    ],
+    "images": []
+  },
+  {
+    "id": 69,
+    "type": "单选",
+    "title": "69. (单选题) 8051单片机默认的中断优先级从高到低依次为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "INT0 > T0 > INT1 > T1 > 串行口中断"
+      },
+      {
+        "label": "B",
+        "text": "T0 > INT0 > T1 > INT1 > 串行口中断"
+      },
+      {
+        "label": "C",
+        "text": "INT0 > INT1 > T0 > T1 > 串行口中断"
+      },
+      {
+        "label": "D",
+        "text": "串行口中断 > T1 > INT1 > T0 > INT0"
+      }
+    ],
+    "correctAnswer": [
+      "INT0 > T0 > INT1 > T1 > 串行口中断"
+    ],
+    "selectedAnswer": [
+      "INT0 > T0 > INT1 > T1 > 串行口中断"
+    ],
+    "images": []
+  },
+  {
+    "id": 70,
+    "type": "单选",
+    "title": "70. (单选题) 若所有中断源处于同一优先级且同时触发，CPU的响应顺序是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "按自然优先级顺序响应"
+      },
+      {
+        "label": "B",
+        "text": "随机响应"
+      },
+      {
+        "label": "C",
+        "text": "按中断向量地址从高到低响应"
+      },
+      {
+        "label": "D",
+        "text": "由IP寄存器决定"
+      }
+    ],
+    "correctAnswer": [
+      "按自然优先级顺序响应"
+    ],
+    "selectedAnswer": [
+      "按自然优先级顺序响应"
+    ],
+    "images": []
+  },
+  {
+    "id": 71,
+    "type": "单选",
+    "title": "71. (单选题) 8051单片机中，用于设置中断优先级的寄存器是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "TMOD"
+      },
+      {
+        "label": "B",
+        "text": "SCON"
+      },
+      {
+        "label": "C",
+        "text": "IP"
+      },
+      {
+        "label": "D",
+        "text": "PCON"
+      }
+    ],
+    "correctAnswer": [
+      "IP"
+    ],
+    "selectedAnswer": [
+      "IP"
+    ],
+    "images": []
+  },
+  {
+    "id": 72,
+    "type": "单选",
+    "title": "72. (单选题) 外部中断0(INT0)的中断服务程序入口地址是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0000H"
+      },
+      {
+        "label": "B",
+        "text": "0003H"
+      },
+      {
+        "label": "C",
+        "text": "000BH"
+      },
+      {
+        "label": "D",
+        "text": "0013H"
+      }
+    ],
+    "correctAnswer": [
+      "0003H"
+    ],
+    "selectedAnswer": [
+      "0003H"
+    ],
+    "images": []
+  },
+  {
+    "id": 73,
+    "type": "单选",
+    "title": "73. (单选题) 51单片机的定时器/计数器工作于模式1时，其最大计数值为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "255"
+      },
+      {
+        "label": "B",
+        "text": "65535"
+      },
+      {
+        "label": "C",
+        "text": "8191"
+      },
+      {
+        "label": "D",
+        "text": "1024"
+      }
+    ],
+    "correctAnswer": [
+      "65535"
+    ],
+    "selectedAnswer": [
+      "65535"
+    ],
+    "images": []
+  },
+  {
+    "id": 74,
+    "type": "单选",
+    "title": "74. (单选题) 51单片机的定时器/计数器工作于模式2时，是( )位的计数器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "32"
+      }
+    ],
+    "correctAnswer": [
+      "8"
+    ],
+    "selectedAnswer": [
+      "8"
+    ],
+    "images": []
+  },
+  {
+    "id": 75,
+    "type": "单选",
+    "title": "75. (单选题) 51单片机的定时器/计数器工作于模式0时，是( )位的计数器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "32"
+      }
+    ],
+    "correctAnswer": [
+      "13"
+    ],
+    "selectedAnswer": [
+      "13"
+    ],
+    "images": []
+  },
+  {
+    "id": 76,
+    "type": "单选",
+    "title": "76. (单选题) 51单片机定时器T0工作于定时方式1时，其定时时间为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "(2^13 - 计数初值) × 机器周期"
+      },
+      {
+        "label": "B",
+        "text": "(2^16 - 计数初值) × 机器周期"
+      },
+      {
+        "label": "C",
+        "text": "(2^8 - 计数初值) × 机器周期"
+      },
+      {
+        "label": "D",
+        "text": "(2^32 - 计数初值) × 机器周期"
+      }
+    ],
+    "correctAnswer": [
+      "(2^16 - 计数初值) × 机器周期"
+    ],
+    "selectedAnswer": [
+      "(2^16 - 计数初值) × 机器周期"
+    ],
+    "images": []
+  },
+  {
+    "id": 77,
+    "type": "单选",
+    "title": "77. (单选题) 41.51单片机串行口工作于方式0时，其功能是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "10位异步通信，波特率可变"
+      },
+      {
+        "label": "B",
+        "text": "9位异步通信，波特率固定"
+      },
+      {
+        "label": "C",
+        "text": "同步移位寄存器，用于扩展并行I/O口"
+      },
+      {
+        "label": "D",
+        "text": "8位同步通信，用于多机通信"
+      }
+    ],
+    "correctAnswer": [
+      "同步移位寄存器，用于扩展并行I/O口"
+    ],
+    "selectedAnswer": [
+      "同步移位寄存器，用于扩展并行I/O口"
+    ],
+    "images": []
+  },
+  {
+    "id": 78,
+    "type": "单选",
+    "title": "78. (单选题) 42.51单片机串行通信时，需要用到定时器T1来产生波特率的工作方式是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "方式0"
+      },
+      {
+        "label": "B",
+        "text": "方式1和方式3"
+      },
+      {
+        "label": "C",
+        "text": "方式2"
+      },
+      {
+        "label": "D",
+        "text": "方式1和方式2"
+      }
+    ],
+    "correctAnswer": [
+      "方式1和方式3"
+    ],
+    "selectedAnswer": [
+      "方式1和方式3"
+    ],
+    "images": []
+  },
+  {
+    "id": 79,
+    "type": "单选",
+    "title": "79. (单选题) 控制51单片机串行口工作方式的寄存器是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "TCON"
+      },
+      {
+        "label": "B",
+        "text": "PCON"
+      },
+      {
+        "label": "C",
+        "text": "SCON"
+      },
+      {
+        "label": "D",
+        "text": "TMOD"
+      }
+    ],
+    "correctAnswer": [
+      "SCON"
+    ],
+    "selectedAnswer": [
+      "SCON"
+    ],
+    "images": []
+  },
+  {
+    "id": 80,
+    "type": "单选",
+    "title": "80. (单选题) 51单片机进行串行通信时，待发送的数据应放入( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "SMOD"
+      },
+      {
+        "label": "B",
+        "text": "TCON"
+      },
+      {
+        "label": "C",
+        "text": "PCON"
+      },
+      {
+        "label": "D",
+        "text": "SBUF"
+      }
+    ],
+    "correctAnswer": [
+      "SBUF"
+    ],
+    "selectedAnswer": [
+      "SBUF"
+    ],
+    "images": []
+  },
+  {
+    "id": 81,
+    "type": "单选",
+    "title": "81. (单选题) T1中断允许控制位为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "ET0"
+      },
+      {
+        "label": "B",
+        "text": "ET1"
+      },
+      {
+        "label": "C",
+        "text": "ES"
+      },
+      {
+        "label": "D",
+        "text": "EX1"
+      }
+    ],
+    "correctAnswer": [
+      "ET1"
+    ],
+    "selectedAnswer": [
+      "ET1"
+    ],
+    "images": []
+  },
+  {
+    "id": 82,
+    "type": "单选",
+    "title": "82. (单选题) 串行口工作在方式0时，作同步移位寄存器使用，此时串行数据输入输出端为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RXD引脚"
+      },
+      {
+        "label": "B",
+        "text": "TXD引脚"
+      },
+      {
+        "label": "C",
+        "text": "T0引脚"
+      },
+      {
+        "label": "D",
+        "text": "T1引脚"
+      }
+    ],
+    "correctAnswer": [
+      "RXD引脚"
+    ],
+    "selectedAnswer": [
+      "RXD引脚"
+    ],
+    "images": []
+  },
+  {
+    "id": 83,
+    "type": "单选",
+    "title": "83. (单选题) 已知X的补码为10000010B，则X的真值是十进制( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "127"
+      },
+      {
+        "label": "B",
+        "text": "-127"
+      },
+      {
+        "label": "C",
+        "text": "126"
+      },
+      {
+        "label": "D",
+        "text": "-126"
+      }
+    ],
+    "correctAnswer": [
+      "-126"
+    ],
+    "selectedAnswer": [
+      "-126"
+    ],
+    "images": []
+  },
+  {
+    "id": 84,
+    "type": "单选",
+    "title": "84. (单选题) 利用串行方式( )，外接移位寄存器，能将串行接口扩展为并行输入、输出接口。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": [
+      "0"
+    ],
+    "selectedAnswer": [
+      "0"
+    ],
+    "images": []
+  },
+  {
+    "id": 85,
+    "type": "单选",
+    "title": "85. (单选题) 有一位共阴极LED显示器，要使它显示“5”，它的字段码为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "6DH"
+      },
+      {
+        "label": "B",
+        "text": "92H"
+      },
+      {
+        "label": "C",
+        "text": "FFH"
+      },
+      {
+        "label": "D",
+        "text": "00H"
+      }
+    ],
+    "correctAnswer": [
+      "6DH"
+    ],
+    "selectedAnswer": [
+      "6DH"
+    ],
+    "images": []
+  },
+  {
+    "id": 86,
+    "type": "单选",
+    "title": "86. (单选题) 多字节加法运算，在进行最低字节相减前，应先将CY( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "清0"
+      },
+      {
+        "label": "B",
+        "text": "置1"
+      },
+      {
+        "label": "C",
+        "text": "取反"
+      },
+      {
+        "label": "D",
+        "text": "送入A"
+      }
+    ],
+    "correctAnswer": [
+      "清0"
+    ],
+    "selectedAnswer": [
+      "清0"
+    ],
+    "images": []
+  },
+  {
+    "id": 87,
+    "type": "单选",
+    "title": "87. (单选题) 单片机的程序计数器PC是16位，其寻址范围为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "128 B"
+      },
+      {
+        "label": "B",
+        "text": "256 B"
+      },
+      {
+        "label": "C",
+        "text": "8 KB"
+      },
+      {
+        "label": "D",
+        "text": "64 KB"
+      }
+    ],
+    "correctAnswer": [
+      "64 KB"
+    ],
+    "selectedAnswer": [
+      "64 KB"
+    ],
+    "images": []
+  },
+  {
+    "id": 88,
+    "type": "单选",
+    "title": "88. (单选题) 堆栈指针的作用是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "指明栈底的位置"
+      },
+      {
+        "label": "B",
+        "text": "指明栈顶的位置"
+      },
+      {
+        "label": "C",
+        "text": "操作数地址"
+      },
+      {
+        "label": "D",
+        "text": "指令的地址"
+      }
+    ],
+    "correctAnswer": [
+      "指明栈顶的位置"
+    ],
+    "selectedAnswer": [
+      "指明栈顶的位置"
+    ],
+    "images": []
+  },
+  {
+    "id": 89,
+    "type": "单选",
+    "title": "89. (单选题) 指令MOV PSW， #00H对源操作数而言，属于( )方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接寻址"
+      },
+      {
+        "label": "B",
+        "text": "立即寻址"
+      },
+      {
+        "label": "C",
+        "text": "寄存器寻址"
+      },
+      {
+        "label": "D",
+        "text": "相对寻址"
+      }
+    ],
+    "correctAnswer": [
+      "立即寻址"
+    ],
+    "selectedAnswer": [
+      "立即寻址"
+    ],
+    "images": []
+  },
+  {
+    "id": 90,
+    "type": "单选",
+    "title": "90. (单选题) AT89S51单片机的串行中断入口地址为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0003H"
+      },
+      {
+        "label": "B",
+        "text": "0013H"
+      },
+      {
+        "label": "C",
+        "text": "0023H"
+      },
+      {
+        "label": "D",
+        "text": "0033H"
+      }
+    ],
+    "correctAnswer": [
+      "0023H"
+    ],
+    "selectedAnswer": [
+      "0023H"
+    ],
+    "images": []
+  },
+  {
+    "id": 91,
+    "type": "单选",
+    "title": "91. (单选题) 以下哪一条指令的写法是错误的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "MOV DPTR，#3F98H"
+      },
+      {
+        "label": "B",
+        "text": "MOV R0，#0FEH"
+      },
+      {
+        "label": "C",
+        "text": "MOV 50H，#0FC3DH"
+      },
+      {
+        "label": "D",
+        "text": "INC R0"
+      }
+    ],
+    "correctAnswer": [
+      "MOV 50H，#0FC3DH"
+    ],
+    "selectedAnswer": [
+      "MOV 50H，#0FC3DH"
+    ],
+    "images": []
+  },
+  {
+    "id": 92,
+    "type": "单选",
+    "title": "92. (单选题) AT89S5l单片机的堆栈区是设置在( )中。",
+    "options": [
+      {
+        "label": "A",
+        "text": "片内ROM区"
+      },
+      {
+        "label": "B",
+        "text": "片外ROM区"
+      },
+      {
+        "label": "C",
+        "text": "片内RAM区"
+      },
+      {
+        "label": "D",
+        "text": "片外RAM区"
+      }
+    ],
+    "correctAnswer": [
+      "片内RAM区"
+    ],
+    "selectedAnswer": [
+      "片内RAM区"
+    ],
+    "images": []
+  },
+  {
+    "id": 93,
+    "type": "单选",
+    "title": "93. (单选题) 以下哪一条是位操作指令( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "MOV P0，#0FFH"
+      },
+      {
+        "label": "B",
+        "text": "CLR P1.0"
+      },
+      {
+        "label": "C",
+        "text": "CPL A"
+      },
+      {
+        "label": "D",
+        "text": "POP PSW"
+      }
+    ],
+    "correctAnswer": [
+      "CLR P1.0"
+    ],
+    "selectedAnswer": [
+      "CLR P1.0"
+    ],
+    "images": []
+  },
+  {
+    "id": 94,
+    "type": "单选",
+    "title": "94. (单选题) 下列指令不是变址寻址方式的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "JMP @A+DPTR"
+      },
+      {
+        "label": "B",
+        "text": "MOVC A，@A+PC"
+      },
+      {
+        "label": "C",
+        "text": "MOVX A，@DPTR"
+      },
+      {
+        "label": "D",
+        "text": "MOVC A，@A+DPTR"
+      }
+    ],
+    "correctAnswer": [
+      "MOVX A，@DPTR"
+    ],
+    "selectedAnswer": [
+      "MOVX A，@DPTR"
+    ],
+    "images": []
+  },
+  {
+    "id": 95,
+    "type": "单选",
+    "title": "95. (单选题) 以下哪一条是位操作指令( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "MOV P1，#0FFH"
+      },
+      {
+        "label": "B",
+        "text": "MOV C，ACC.1"
+      },
+      {
+        "label": "C",
+        "text": "CPL A"
+      },
+      {
+        "label": "D",
+        "text": "POP PSW"
+      }
+    ],
+    "correctAnswer": [
+      "MOV C，ACC.1"
+    ],
+    "selectedAnswer": [
+      "MOV C，ACC.1"
+    ],
+    "images": []
+  },
+  {
+    "id": 96,
+    "type": "单选",
+    "title": "96. (单选题) 以下哪一条指令的写法是错误的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "MOV A，@A+DPTR"
+      },
+      {
+        "label": "B",
+        "text": "MOV R0，#FEH"
+      },
+      {
+        "label": "C",
+        "text": "CPL A"
+      },
+      {
+        "label": "D",
+        "text": "PUSH ACC"
+      }
+    ],
+    "correctAnswer": [
+      "MOV A，@A+DPTR"
+    ],
+    "selectedAnswer": [
+      "MOV A，@A+DPTR"
+    ],
+    "images": []
+  },
+  {
+    "id": 97,
+    "type": "单选",
+    "title": "97. (单选题) ( )属于单片机系统前向通道的器件。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A/D转换"
+      },
+      {
+        "label": "B",
+        "text": "D/A转换"
+      },
+      {
+        "label": "C",
+        "text": "LED数码管"
+      },
+      {
+        "label": "D",
+        "text": "继电器"
+      }
+    ],
+    "correctAnswer": [
+      "A/D转换"
+    ],
+    "selectedAnswer": [
+      "A/D转换"
+    ],
+    "images": []
+  },
+  {
+    "id": 98,
+    "type": "单选",
+    "title": "98. (单选题) T0 设置成计数方式时，外部引脚计数脉冲的最高频率应是晶振频率的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1/12"
+      },
+      {
+        "label": "B",
+        "text": "1/24"
+      },
+      {
+        "label": "C",
+        "text": "1/48"
+      },
+      {
+        "label": "D",
+        "text": "1/100"
+      }
+    ],
+    "correctAnswer": [
+      "1/24"
+    ],
+    "selectedAnswer": [
+      "1/24"
+    ],
+    "images": []
+  },
+  {
+    "id": 99,
+    "type": "单选",
+    "title": "99. (单选题) 外部中断 INT0 的触发方式控制位 IT0 置 1 后，其有效的中断触发信号是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高电平"
+      },
+      {
+        "label": "B",
+        "text": "低电平"
+      },
+      {
+        "label": "C",
+        "text": "上升沿"
+      },
+      {
+        "label": "D",
+        "text": "下降沿"
+      }
+    ],
+    "correctAnswer": [
+      "下降沿"
+    ],
+    "selectedAnswer": [
+      "下降沿"
+    ],
+    "images": []
+  },
+  {
+    "id": 100,
+    "type": "单选",
+    "title": "100. (单选题) 与定时工作方式 0 和 1 相比较，定时工作方式 2 不具备的特点是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "计数溢出后能自动恢复计数初值"
+      },
+      {
+        "label": "B",
+        "text": "增加计数器的位数"
+      },
+      {
+        "label": "C",
+        "text": "提高了定时的精度"
+      },
+      {
+        "label": "D",
+        "text": "适于循环定时和循环计数"
+      }
+    ],
+    "correctAnswer": [
+      "增加计数器的位数"
+    ],
+    "selectedAnswer": [
+      "增加计数器的位数"
+    ],
+    "images": []
+  },
+  {
+    "id": 101,
+    "type": "单选",
+    "title": "101. (单选题) 串行口工作方式1的波特率是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "固定的，为fosc/32"
+      },
+      {
+        "label": "B",
+        "text": "固定的，为fosc/16"
+      },
+      {
+        "label": "C",
+        "text": "可变的，通过定时器/计数器T1的溢出率设定"
+      },
+      {
+        "label": "D",
+        "text": "固定的，为fosc/64"
+      }
+    ],
+    "correctAnswer": [
+      "可变的，通过定时器/计数器T1的溢出率设定"
+    ],
+    "selectedAnswer": [
+      "可变的，通过定时器/计数器T1的溢出率设定"
+    ],
+    "images": []
+  },
+  {
+    "id": 102,
+    "type": "单选",
+    "title": "102. (单选题) 下列说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "立即寻址方式是被操作的数据本身在指令中，而不是它的地址在指令中"
+      },
+      {
+        "label": "B",
+        "text": "指令周期是执行半条指令的时间"
+      },
+      {
+        "label": "C",
+        "text": "指令中直接给出的操作数称为直接寻址"
+      },
+      {
+        "label": "D",
+        "text": "内部寄存器 可作为间接寄存器"
+      }
+    ],
+    "correctAnswer": [
+      "立即寻址方式是被操作的数据本身在指令中，而不是它的地址在指令中"
+    ],
+    "selectedAnswer": [
+      "立即寻址方式是被操作的数据本身在指令中，而不是它的地址在指令中"
+    ],
+    "images": []
+  },
+  {
+    "id": 103,
+    "type": "单选",
+    "title": "103. (单选题) 指令周期有三种，分别是单周期指令，双周期指令和( )指令。",
+    "options": [
+      {
+        "label": "A",
+        "text": "三周期"
+      },
+      {
+        "label": "B",
+        "text": "四周期"
+      },
+      {
+        "label": "C",
+        "text": "五周期"
+      },
+      {
+        "label": "D",
+        "text": "六周期"
+      }
+    ],
+    "correctAnswer": [
+      "四周期"
+    ],
+    "selectedAnswer": [
+      "四周期"
+    ],
+    "images": []
+  },
+  {
+    "id": 104,
+    "type": "单选",
+    "title": "104. (单选题) 下列关于AT89S51系统各中断源说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "各中断源发出的中断请求信号，都会标记在AT89S51系统中的IE寄存器中"
+      },
+      {
+        "label": "B",
+        "text": "各中断源发出的中断请求信号，都会标记在AT89S51系统中的TMOD寄存器中"
+      },
+      {
+        "label": "C",
+        "text": "各中断源发出的中断请求信号，都会标记在AT89S51系统中的IP寄存器中"
+      },
+      {
+        "label": "D",
+        "text": "各中断源发出的中断请求信号，都会标记在AT89S51系统中的TCON与SCON寄存器中"
+      }
+    ],
+    "correctAnswer": [
+      "各中断源发出的中断请求信号，都会标记在AT89S51系统中的TCON与SCON寄存器中"
+    ],
+    "selectedAnswer": [
+      "各中断源发出的中断请求信号，都会标记在AT89S51系统中的TCON与SCON寄存器中"
+    ],
+    "images": []
+  },
+  {
+    "id": 105,
+    "type": "单选",
+    "title": "105. (单选题) 下列说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "特殊功能寄存器SCON，与定时器/计数器的控制无关"
+      },
+      {
+        "label": "B",
+        "text": "特殊功能寄存器TCON，与定时器/计数器的控制无关"
+      },
+      {
+        "label": "C",
+        "text": "特殊功能寄存器IE，与定时器/计数器的控制无关"
+      },
+      {
+        "label": "D",
+        "text": "特殊功能寄存器TMOD，与定时器/计数器的控制无关"
+      }
+    ],
+    "correctAnswer": [
+      "特殊功能寄存器SCON，与定时器/计数器的控制无关"
+    ],
+    "selectedAnswer": [
+      "特殊功能寄存器SCON，与定时器/计数器的控制无关"
+    ],
+    "images": []
+  },
+  {
+    "id": 106,
+    "type": "单选",
+    "title": "106. (单选题) 控制串行口工作方式的寄存器是(   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "TCON"
+      },
+      {
+        "label": "B",
+        "text": "PCON"
+      },
+      {
+        "label": "C",
+        "text": "SCON"
+      },
+      {
+        "label": "D",
+        "text": "TMOD"
+      }
+    ],
+    "correctAnswer": [
+      "SCON"
+    ],
+    "selectedAnswer": [
+      "SCON"
+    ],
+    "images": []
+  },
+  {
+    "id": 107,
+    "type": "单选",
+    "title": "107. (单选题) 对程序存储器的读操作，只能使用( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "MOV指令"
+      },
+      {
+        "label": "B",
+        "text": "PUSH指令"
+      },
+      {
+        "label": "C",
+        "text": "MOVX指令"
+      },
+      {
+        "label": "D",
+        "text": "MOVC指令"
+      }
+    ],
+    "correctAnswer": [
+      "MOVC指令"
+    ],
+    "selectedAnswer": [
+      "MOVC指令"
+    ],
+    "images": []
+  },
+  {
+    "id": 108,
+    "type": "单选",
+    "title": "108. (单选题) 使用定时器T1时，有( )工作方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": [
+      "3"
+    ],
+    "selectedAnswer": [
+      "3"
+    ],
+    "images": []
+  },
+  {
+    "id": 109,
+    "type": "单选",
+    "title": "109. (单选题) 通过串行口发送或接收数据时，在程序中应使用( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "MOVC指令"
+      },
+      {
+        "label": "B",
+        "text": "MOVX指令"
+      },
+      {
+        "label": "C",
+        "text": "MOV指令"
+      },
+      {
+        "label": "D",
+        "text": "XCHD指令"
+      }
+    ],
+    "correctAnswer": [
+      "MOV指令"
+    ],
+    "selectedAnswer": [
+      "MOV指令"
+    ],
+    "images": []
+  },
+  {
+    "id": 110,
+    "type": "单选",
+    "title": "110. (单选题) AT89S51单片机可分为两个中断优先级别，各中断源的优先级别设定是( )寄存器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "IE"
+      },
+      {
+        "label": "B",
+        "text": "PCON"
+      },
+      {
+        "label": "C",
+        "text": "IP"
+      },
+      {
+        "label": "D",
+        "text": "SCON"
+      }
+    ],
+    "correctAnswer": [
+      "IP"
+    ],
+    "selectedAnswer": [
+      "IP"
+    ],
+    "images": []
+  },
+  {
+    "id": 111,
+    "type": "单选",
+    "title": "111. (单选题) 在80C51单片机中，设定方式时可以使T1停止计数的方式为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "方式0"
+      },
+      {
+        "label": "B",
+        "text": "方式1"
+      },
+      {
+        "label": "C",
+        "text": "方式2"
+      },
+      {
+        "label": "D",
+        "text": "方式3"
+      }
+    ],
+    "correctAnswer": [
+      "方式3"
+    ],
+    "selectedAnswer": [
+      "方式3"
+    ],
+    "images": []
+  },
+  {
+    "id": 112,
+    "type": "单选",
+    "title": "112. (单选题) DAC0832可以实现两路模拟信号的同步输出，这是利用了该芯片的( )特性。",
+    "options": [
+      {
+        "label": "A",
+        "text": "单极性"
+      },
+      {
+        "label": "B",
+        "text": "双极性"
+      },
+      {
+        "label": "C",
+        "text": "单缓冲"
+      },
+      {
+        "label": "D",
+        "text": "双缓冲"
+      }
+    ],
+    "correctAnswer": [
+      "双缓冲"
+    ],
+    "selectedAnswer": [
+      "双缓冲"
+    ],
+    "images": []
+  },
+  {
+    "id": 113,
+    "type": "单选",
+    "title": "113. (单选题) 指令JC 80H 的寻址方式是( ) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "相对寻址"
+      },
+      {
+        "label": "B",
+        "text": "立即寻址"
+      },
+      {
+        "label": "C",
+        "text": "直接寻址"
+      },
+      {
+        "label": "D",
+        "text": "变址寻址"
+      }
+    ],
+    "correctAnswer": [
+      "相对寻址"
+    ],
+    "selectedAnswer": [
+      "相对寻址"
+    ],
+    "images": []
+  },
+  {
+    "id": 114,
+    "type": "单选",
+    "title": "114. (单选题) 80C51单片机复位时，SP的状态为( ) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "00H"
+      },
+      {
+        "label": "B",
+        "text": "07H"
+      },
+      {
+        "label": "C",
+        "text": "08H"
+      },
+      {
+        "label": "D",
+        "text": "不确定"
+      }
+    ],
+    "correctAnswer": [
+      "07H"
+    ],
+    "selectedAnswer": [
+      "07H"
+    ],
+    "images": []
+  },
+  {
+    "id": 115,
+    "type": "单选",
+    "title": "115. (单选题) 在以下几个地址中，可以进行位寻址的单元是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "87H"
+      },
+      {
+        "label": "B",
+        "text": "88H"
+      },
+      {
+        "label": "C",
+        "text": "89H"
+      },
+      {
+        "label": "D",
+        "text": "8AH"
+      }
+    ],
+    "correctAnswer": [
+      "88H"
+    ],
+    "selectedAnswer": [
+      "88H"
+    ],
+    "images": []
+  },
+  {
+    "id": 116,
+    "type": "单选",
+    "title": "116. (单选题) 字符“A”的ASCII码是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0AH"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "0000 1010B"
+      },
+      {
+        "label": "D",
+        "text": "41H"
+      }
+    ],
+    "correctAnswer": [
+      "41H"
+    ],
+    "selectedAnswer": [
+      "41H"
+    ],
+    "images": []
+  },
+  {
+    "id": 117,
+    "type": "单选",
+    "title": "117. (单选题) 电子计算机系统中采用的计数制是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "十进制"
+      },
+      {
+        "label": "B",
+        "text": "二进制"
+      },
+      {
+        "label": "C",
+        "text": "八进制"
+      },
+      {
+        "label": "D",
+        "text": "十六进制"
+      }
+    ],
+    "correctAnswer": [
+      "二进制"
+    ],
+    "selectedAnswer": [
+      "二进制"
+    ],
+    "images": []
+  },
+  {
+    "id": 118,
+    "type": "单选",
+    "title": "118. (单选题) 一个带符号数的补码是 1111 1111B，该数为( ) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "-1"
+      },
+      {
+        "label": "B",
+        "text": "-127"
+      },
+      {
+        "label": "C",
+        "text": "-128"
+      },
+      {
+        "label": "D",
+        "text": "+1"
+      }
+    ],
+    "correctAnswer": [
+      "-1"
+    ],
+    "selectedAnswer": [
+      "-1"
+    ],
+    "images": []
+  },
+  {
+    "id": 119,
+    "type": "单选",
+    "title": "119. (单选题) 指令DJNZ Rn，rel 指的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "比较不等转移"
+      },
+      {
+        "label": "B",
+        "text": "减1不为0转移"
+      },
+      {
+        "label": "C",
+        "text": "散转移"
+      },
+      {
+        "label": "D",
+        "text": "长跳转"
+      }
+    ],
+    "correctAnswer": [
+      "减1不为0转移"
+    ],
+    "selectedAnswer": [
+      "减1不为0转移"
+    ],
+    "images": []
+  },
+  {
+    "id": 120,
+    "type": "单选",
+    "title": "120. (单选题) 以下的指令中，既有堆栈操作又影响中断触发器的指令是( ) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "ACALL"
+      },
+      {
+        "label": "B",
+        "text": "LCALL"
+      },
+      {
+        "label": "C",
+        "text": "RET"
+      },
+      {
+        "label": "D",
+        "text": "RETI"
+      }
+    ],
+    "correctAnswer": [
+      "RETI"
+    ],
+    "selectedAnswer": [
+      "RETI"
+    ],
+    "images": []
+  },
+  {
+    "id": 121,
+    "type": "单选",
+    "title": "121. (单选题) 在80C51单片机单片机中，控制外中断触发方式的寄存器是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "TCON"
+      },
+      {
+        "label": "B",
+        "text": "IE"
+      },
+      {
+        "label": "C",
+        "text": "IP"
+      },
+      {
+        "label": "D",
+        "text": "SCON"
+      }
+    ],
+    "correctAnswer": [
+      "TCON"
+    ],
+    "selectedAnswer": [
+      "TCON"
+    ],
+    "images": []
+  },
+  {
+    "id": 122,
+    "type": "单选",
+    "title": "122. (单选题) 80C51单片机复位时，P0~P3口锁存器的状态为( ) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "00H"
+      },
+      {
+        "label": "B",
+        "text": "80H"
+      },
+      {
+        "label": "C",
+        "text": "不确定"
+      },
+      {
+        "label": "D",
+        "text": "FFH"
+      }
+    ],
+    "correctAnswer": [
+      "FFH"
+    ],
+    "selectedAnswer": [
+      "FFH"
+    ],
+    "images": []
+  },
+  {
+    "id": 123,
+    "type": "单选",
+    "title": "123. (单选题) 在80C51汇编语言中，十六进制数据正确的书写格式是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "100lB"
+      },
+      {
+        "label": "B",
+        "text": "A8H"
+      },
+      {
+        "label": "C",
+        "text": "0A8H"
+      },
+      {
+        "label": "D",
+        "text": "'A8'"
+      }
+    ],
+    "correctAnswer": [
+      "0A8H"
+    ],
+    "selectedAnswer": [
+      "0A8H"
+    ],
+    "images": []
+  },
+  {
+    "id": 124,
+    "type": "单选",
+    "title": "124. (单选题) 在80C51单片机中，8位数据位可变波特率的双机通信应采用( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "方式0"
+      },
+      {
+        "label": "B",
+        "text": "方式1"
+      },
+      {
+        "label": "C",
+        "text": "方式2"
+      },
+      {
+        "label": "D",
+        "text": "方式3"
+      }
+    ],
+    "correctAnswer": [
+      "方式1"
+    ],
+    "selectedAnswer": [
+      "方式1"
+    ],
+    "images": []
+  },
+  {
+    "id": 125,
+    "type": "单选",
+    "title": "125. (单选题) 以下指令中，“不带进位循环左移”指的是 ( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RL A"
+      },
+      {
+        "label": "B",
+        "text": "RLC A"
+      },
+      {
+        "label": "C",
+        "text": "RR A"
+      },
+      {
+        "label": "D",
+        "text": "RRC A"
+      }
+    ],
+    "correctAnswer": [
+      "RL A"
+    ],
+    "selectedAnswer": [
+      "RL A"
+    ],
+    "images": []
+  },
+  {
+    "id": 127,
+    "type": "单选",
+    "title": "127. (单选题) 在80C51单片机的4个并口中，当由OC门驱动需要外接上拉电阻的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "P0口"
+      },
+      {
+        "label": "B",
+        "text": "P2口"
+      },
+      {
+        "label": "C",
+        "text": "P1口"
+      },
+      {
+        "label": "D",
+        "text": "P3口"
+      }
+    ],
+    "correctAnswer": [
+      "P0口"
+    ],
+    "selectedAnswer": [
+      "P0口"
+    ],
+    "images": []
+  },
+  {
+    "id": 128,
+    "type": "单选",
+    "title": "128. (单选题) 计算机中带符号数的运算最常采用的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "原码"
+      },
+      {
+        "label": "B",
+        "text": "反码"
+      },
+      {
+        "label": "C",
+        "text": "补码"
+      },
+      {
+        "label": "D",
+        "text": "BCD码"
+      }
+    ],
+    "correctAnswer": [
+      "补码"
+    ],
+    "selectedAnswer": [
+      "补码"
+    ],
+    "images": []
+  },
+  {
+    "id": 129,
+    "type": "单选",
+    "title": "129. (单选题) 对于子程序与主程序的参数传递，当要求较快的传递速度时宜采用的方式是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "内部存储器"
+      },
+      {
+        "label": "B",
+        "text": "外部存储器"
+      },
+      {
+        "label": "C",
+        "text": "寄存器"
+      },
+      {
+        "label": "D",
+        "text": "堆栈"
+      }
+    ],
+    "correctAnswer": [
+      "寄存器"
+    ],
+    "selectedAnswer": [
+      "寄存器"
+    ],
+    "images": []
+  },
+  {
+    "id": 130,
+    "type": "单选",
+    "title": "130. (单选题) 以下指令中，错误的指令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "INC A"
+      },
+      {
+        "label": "B",
+        "text": "DEC A"
+      },
+      {
+        "label": "C",
+        "text": "INC DPTR"
+      },
+      {
+        "label": "D",
+        "text": "DEC DPTR"
+      }
+    ],
+    "correctAnswer": [
+      "DEC DPTR"
+    ],
+    "selectedAnswer": [
+      "DEC DPTR"
+    ],
+    "images": []
+  },
+  {
+    "id": 131,
+    "type": "单选",
+    "title": "131. (单选题) 在80C51单片机中，不属于特殊功能寄存器范畴的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "PC"
+      },
+      {
+        "label": "B",
+        "text": "ACC"
+      },
+      {
+        "label": "C",
+        "text": "B"
+      },
+      {
+        "label": "D",
+        "text": "PSW"
+      }
+    ],
+    "correctAnswer": [
+      "PC"
+    ],
+    "selectedAnswer": [
+      "PC"
+    ],
+    "images": []
+  },
+  {
+    "id": 132,
+    "type": "单选",
+    "title": "132. (单选题) I/O设备经接口与单片机连接，不传输数据时对总线呈高阻，这是利用接口的( )功能。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据锁存"
+      },
+      {
+        "label": "B",
+        "text": "三态缓冲"
+      },
+      {
+        "label": "C",
+        "text": "时序协调"
+      },
+      {
+        "label": "D",
+        "text": "信号转换"
+      }
+    ],
+    "correctAnswer": [
+      "三态缓冲"
+    ],
+    "selectedAnswer": [
+      "三态缓冲"
+    ],
+    "images": []
+  },
+  {
+    "id": 133,
+    "type": "单选",
+    "title": "133. (单选题) 在80C51单片机应用系统中，对于较复杂的I/O设备的请求能及时响应，应采用( )传送。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无条件"
+      },
+      {
+        "label": "B",
+        "text": "状态查询"
+      },
+      {
+        "label": "C",
+        "text": "中断"
+      },
+      {
+        "label": "D",
+        "text": "DMA"
+      }
+    ],
+    "correctAnswer": [
+      "中断"
+    ],
+    "selectedAnswer": [
+      "中断"
+    ],
+    "images": []
+  },
+  {
+    "id": 134,
+    "type": "单选",
+    "title": "134. (单选题) 在80C51单片机中，要求计数值较大时应采用( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "方式0"
+      },
+      {
+        "label": "B",
+        "text": "方式1"
+      },
+      {
+        "label": "C",
+        "text": "方式2"
+      },
+      {
+        "label": "D",
+        "text": "方式3"
+      }
+    ],
+    "correctAnswer": [
+      "方式1"
+    ],
+    "selectedAnswer": [
+      "方式1"
+    ],
+    "images": []
+  },
+  {
+    "id": 135,
+    "type": "单选",
+    "title": "135. (单选题) 在80C51单片机中，具有自动重装的方式为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "方式0"
+      },
+      {
+        "label": "B",
+        "text": "方式1"
+      },
+      {
+        "label": "C",
+        "text": "方式2"
+      },
+      {
+        "label": "D",
+        "text": "方式3"
+      }
+    ],
+    "correctAnswer": [
+      "方式2"
+    ],
+    "selectedAnswer": [
+      "方式2"
+    ],
+    "images": []
+  },
+  {
+    "id": 136,
+    "type": "单选",
+    "title": "136. (单选题) 设80C51单片机晶振频率为12MHz，定时器作计数器使用时，其最高的输入计数频率应为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2MHz"
+      },
+      {
+        "label": "B",
+        "text": "1MHz"
+      },
+      {
+        "label": "C",
+        "text": "500KHz"
+      },
+      {
+        "label": "D",
+        "text": "250KHz"
+      }
+    ],
+    "correctAnswer": [
+      "500KHz"
+    ],
+    "selectedAnswer": [
+      "500KHz"
+    ],
+    "images": []
+  },
+  {
+    "id": 137,
+    "type": "单选",
+    "title": "137. (单选题) 已知1只共阴极LED显示器，其中a笔段为字形代码的最低位，若需显示数字1，它的字形代码应为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "06H"
+      },
+      {
+        "label": "B",
+        "text": "F9H"
+      },
+      {
+        "label": "C",
+        "text": "30H"
+      },
+      {
+        "label": "D",
+        "text": "CFH"
+      }
+    ],
+    "correctAnswer": [
+      "06H"
+    ],
+    "selectedAnswer": [
+      "06H"
+    ],
+    "images": []
+  },
+  {
+    "id": 138,
+    "type": "单选",
+    "title": "138. (单选题) 在生产过程中完成程序写入的只读存储器称为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "掩膜ROM"
+      },
+      {
+        "label": "B",
+        "text": "PROM"
+      },
+      {
+        "label": "C",
+        "text": "EPROM"
+      },
+      {
+        "label": "D",
+        "text": "E2PROM。"
+      }
+    ],
+    "correctAnswer": [
+      "掩膜ROM"
+    ],
+    "selectedAnswer": [
+      "掩膜ROM"
+    ],
+    "images": []
+  },
+  {
+    "id": 139,
+    "type": "单选",
+    "title": "139. (单选题) 8051单片机的CPU字长是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4位"
+      },
+      {
+        "label": "B",
+        "text": "8位"
+      },
+      {
+        "label": "C",
+        "text": "16位"
+      },
+      {
+        "label": "D",
+        "text": "32位"
+      }
+    ],
+    "correctAnswer": [
+      "8位"
+    ],
+    "selectedAnswer": [
+      "8位"
+    ],
+    "images": []
+  },
+  {
+    "id": 140,
+    "type": "单选",
+    "title": "140. (单选题) 若(CY)=1，P1.0为0，执行指令ANL C，P1.0后( ) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "P1.0为1"
+      },
+      {
+        "label": "B",
+        "text": "(CY)不变"
+      },
+      {
+        "label": "C",
+        "text": "(CY)=1"
+      },
+      {
+        "label": "D",
+        "text": "(CY)=0"
+      }
+    ],
+    "correctAnswer": [
+      "(CY)=0"
+    ],
+    "selectedAnswer": [
+      "(CY)=0"
+    ],
+    "images": []
+  },
+  {
+    "id": 141,
+    "type": "单选",
+    "title": "141. (单选题) 以下指令中，错误的指令是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "INC A"
+      },
+      {
+        "label": "B",
+        "text": "DEC A"
+      },
+      {
+        "label": "C",
+        "text": "INC DPTR"
+      },
+      {
+        "label": "D",
+        "text": "DEC DPTR"
+      }
+    ],
+    "correctAnswer": [
+      "DEC DPTR"
+    ],
+    "selectedAnswer": [
+      "DEC DPTR"
+    ],
+    "images": []
+  },
+  {
+    "id": 142,
+    "type": "单选",
+    "title": "142. (单选题) 在80C51单片机中，不属于特殊功能寄存器范畴的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "PC"
+      },
+      {
+        "label": "B",
+        "text": "ACC"
+      },
+      {
+        "label": "C",
+        "text": "B"
+      },
+      {
+        "label": "D",
+        "text": "PSW"
+      }
+    ],
+    "correctAnswer": [
+      "PC"
+    ],
+    "selectedAnswer": [
+      "PC"
+    ],
+    "images": []
+  },
+  {
+    "id": 143,
+    "type": "单选",
+    "title": "143. (单选题) 在80C51单片机应用系统中，对于较复杂的I/O设备的请求能及时响应，应采用( )传送。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无条件"
+      },
+      {
+        "label": "B",
+        "text": "状态查询"
+      },
+      {
+        "label": "C",
+        "text": "中断"
+      },
+      {
+        "label": "D",
+        "text": "DMA"
+      }
+    ],
+    "correctAnswer": [
+      "中断"
+    ],
+    "selectedAnswer": [
+      "中断"
+    ],
+    "images": []
+  },
+  {
+    "id": 144,
+    "type": "单选",
+    "title": "144. (单选题) 在80C51单片机中，具有自动重装的方式为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "方式0"
+      },
+      {
+        "label": "B",
+        "text": "方式1"
+      },
+      {
+        "label": "C",
+        "text": "方式2"
+      },
+      {
+        "label": "D",
+        "text": "方式3"
+      }
+    ],
+    "correctAnswer": [
+      "方式2"
+    ],
+    "selectedAnswer": [
+      "方式2"
+    ],
+    "images": []
+  },
+  {
+    "id": 145,
+    "type": "单选",
+    "title": "145. (单选题) 已知1只共阴极LED显示器，其中a笔段为字形代码的最低位，若需显示数字1，它的字形代码应为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "06H"
+      },
+      {
+        "label": "B",
+        "text": "F9H"
+      },
+      {
+        "label": "C",
+        "text": "30H"
+      },
+      {
+        "label": "D",
+        "text": "CFH"
+      }
+    ],
+    "correctAnswer": [
+      "06H"
+    ],
+    "selectedAnswer": [
+      "06H"
+    ],
+    "images": []
+  },
+  {
+    "id": 1,
+    "type": "判断",
+    "title": "1. (判断题) 80C51单片机是16位单片机。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 2,
+    "type": "判断",
+    "title": "2. (判断题) 80C51的程序存储器和数据存储器是统一编址的。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 3,
+    "type": "判断",
+    "title": "3. (判断题) 80C51属于MCS-51系列。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 4,
+    "type": "判断",
+    "title": "4. (判断题) 单片机与普通计算机的主要区别在于其将CPU、存储器和I/O接口集成在一块芯片上。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 5,
+    "type": "判断",
+    "title": "5. (判断题) 80C51的定时器/计数器T0和T1均为8位结构。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 6,
+    "type": "判断",
+    "title": "6. (判断题) 定时器/计数器T0的计数脉冲由P3.6引脚提供。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 7,
+    "type": "判断",
+    "title": "7. (判断题) 定时器/计数器T1的计数脉冲由P3.5引脚提供。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 8,
+    "type": "判断",
+    "title": "8. (判断题) 定时器/计数器在模式1下是13位结构。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 9,
+    "type": "判断",
+    "title": "9. (判断题) 80C51的EA引脚接高电平时，CPU只访问片内程序存储器。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 10,
+    "type": "判断",
+    "title": "10. (判断题) 80C51的ALE引脚用于锁存低8位地址。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 11,
+    "type": "判断",
+    "title": "11. (判断题) 80C51的RST引脚复位时需保持至少两个机器周期的高电平。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 12,
+    "type": "判断",
+    "title": "12. (判断题) 80C51的P0口是准双向口。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 13,
+    "type": "判断",
+    "title": "13. (判断题) 80C51内部RAM地址空间为00H-FFH。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 14,
+    "type": "判断",
+    "title": "14. (判断题) 特殊功能寄存器(SFR)位于内部RAM的80H-FFH地址空间。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 15,
+    "type": "判断",
+    "title": "15. (判断题) 80C51的片外程序存储器地址空间为48KB。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 16,
+    "type": "判断",
+    "title": "16. (判断题) 外部数据存储器地址空间为64KB。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 17,
+    "type": "判断",
+    "title": "17. (判断题) PSW寄存器不能用于存储程序运行状态信息。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 18,
+    "type": "判断",
+    "title": "18. (判断题) DPTR寄存器是8位数据指针寄存器。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 19,
+    "type": "判断",
+    "title": "19. (判断题) PC寄存器是16位程序计数器。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 20,
+    "type": "判断",
+    "title": "20. (判断题) SP寄存器是16位堆栈指针。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 21,
+    "type": "判断",
+    "title": "21. (判断题) 80C51的P0口是双向三态口。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 22,
+    "type": "判断",
+    "title": "22. (判断题) 80C51的P2口是准双向口。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 23,
+    "type": "判断",
+    "title": "23. (判断题) 80C51的P3口是双向三态口。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 24,
+    "type": "判断",
+    "title": "24. (判断题) 80C51的一个机器周期包含24个时钟周期。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 25,
+    "type": "判断",
+    "title": "25. (判断题) 80C51的指令周期是执行一条指令所需的时间。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 26,
+    "type": "判断",
+    "title": "26. (判断题) 80C51的时钟周期是振荡器频率的倒数。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 27,
+    "type": "判断",
+    "title": "27. (判断题) 80C51的ALE引脚输出频率是晶振频率的1/4。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 28,
+    "type": "判断",
+    "title": "28. (判断题) 80C51的复位方式有上电自动复位和按键手动复位。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 29,
+    "type": "判断",
+    "title": "29. (判断题) 80C51复位时，PC的初始值为0000H。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 30,
+    "type": "判断",
+    "title": "30. (判断题) 80C51复位时，SP的初始值为00H。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 31,
+    "type": "判断",
+    "title": "31. (判断题) 80C51复位时，PSW的初始值为08H。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 32,
+    "type": "判断",
+    "title": "32. (判断题) 80C51的低功耗方式包括空闲模式和掉电模式。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 33,
+    "type": "判断",
+    "title": "33. (判断题) 在空闲模式下，CPU和RAM停止工作。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 34,
+    "type": "判断",
+    "title": "34. (判断题) 在掉电模式下，CPU停止工作，RAM和定时器/计数器仍保持工作。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 35,
+    "type": "判断",
+    "title": "35. (判断题) 进入低功耗模式后，单片机对干扰不敏感。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 36,
+    "type": "判断",
+    "title": "36. (判断题) 80C51的指令系统共有7种寻址方式。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 37,
+    "type": "判断",
+    "title": "37. (判断题) MOV A , 50H，该指令源操作数是立即数寻址。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 38,
+    "type": "判断",
+    "title": "38. (判断题) MOV A ,@R0，该指令源操作数是相对寻址。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 39,
+    "type": "判断",
+    "title": "39. (判断题) MOVC A, #30H, 该指令源操作数是寄存器寻址。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 40,
+    "type": "判断",
+    "title": "40. (判断题) MOV R0, 3AH执行后，R0的内容为3AH。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 41,
+    "type": "判断",
+    "title": "41. (判断题) JC rel指令在跳转时，目标地址为当前地址减去偏移量rel。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 42,
+    "type": "判断",
+    "title": "42. (判断题) MUL AB指令执行后，高8位结果存储在B寄存器中。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 43,
+    "type": "判断",
+    "title": "43. (判断题) PUSH ACC指令的操作是(SP)+1→SP; (ACC)→(SP)。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 44,
+    "type": "判断",
+    "title": "44. (判断题) 汇编语言程序必须通过汇编器转换为机器语言才能被单片机执行。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 45,
+    "type": "判断",
+    "title": "45. (判断题) 伪指令(如ORG)用于控制汇编程序流程，生成机器码。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 46,
+    "type": "判断",
+    "title": "46. (判断题) RET指令用于从子程序返回，并自动弹出堆栈中的返回地址。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 47,
+    "type": "判断",
+    "title": "47. (判断题) 汇编语言程序中，注释以分号冒号开头。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 48,
+    "type": "判断",
+    "title": "48. (判断题) C51语言是专为8051系列单片机设计的高级语言。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 49,
+    "type": "判断",
+    "title": "49. (判断题) C51程序中的sfr关键字用于定义特殊功能寄存器。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 50,
+    "type": "判断",
+    "title": "50. (判断题) C51语言不支持位操作，不能直接对SFR的位进行赋值。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 51,
+    "type": "判断",
+    "title": "51. (判断题) 指令MUL AB执行前(A)=F0H，(B)=05H，执行后(A)=FH5，(B)=00H。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 52,
+    "type": "判断",
+    "title": "52. (判断题) 已知:DPTR=11FFH 执行INC DPTR后，结果:DPTR=1200H。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 53,
+    "type": "判断",
+    "title": "53. (判断题) 已知:A=11H B=04H，执行指令DIV AB后，其结果:A=04H，B=1 CY=OV=0。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 54,
+    "type": "判断",
+    "title": "54. (判断题) 已知:A=1FH，(30H)=83H，执行 ANL A，30H 后，结果:A=03H (30H)=83H P=0。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 55,
+    "type": "判断",
+    "title": "55. (判断题) 无条件转移指令LJMP addr16称长转移指令，允许转移的目标地址在128KB空间范围内。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 56,
+    "type": "判断",
+    "title": "56. (判断题) 在进行二——十进制运算时，必须用到DA A指令。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 57,
+    "type": "判断",
+    "title": "57. (判断题) CPU的时钟周期为振荡器频率的倒数。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 58,
+    "type": "判断",
+    "title": "58. (判断题) 80C51指令系统中，指令CJNE A，#data, rel的作用相当于SUBB A，#data与JNC rel的作用。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 59,
+    "type": "判断",
+    "title": "59. (判断题) 80C51指令系统中，指令JNB bit，rel是判位转移指令，即表示bit=1时跳转。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 60,
+    "type": "判断",
+    "title": "60. (判断题) 80C51单片机的PC与DPTR都在CPU片内，因此指令MOVC A，@A+PC与指令MOVC A，@A+DPTR执行时只在单片机内部操作，不涉及片外存储器。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 61,
+    "type": "判断",
+    "title": "61. (判断题) 80C51单片机中PUSH和POP指令只能保护现场，不能保护断点。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 62,
+    "type": "判断",
+    "title": "62. (判断题) 指令LCALL addr16能在64K字节范围内调用子程序。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 63,
+    "type": "判断",
+    "title": "63. (判断题) 设PC的内容为35H，若要把程序存贮器08FEH单元的数据传送至累加器A，则必须使用指令MOVC A，@A+PC。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 64,
+    "type": "判断",
+    "title": "64. (判断题) 指令MOV A，00H执行后A的内容一定为00H。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 65,
+    "type": "判断",
+    "title": "65. (判断题) 在80C51单片机内部结构中，TMOD为模式控制寄存器，主要用来控制定时器的启动与停止。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 66,
+    "type": "判断",
+    "title": "66. (判断题) 在80C51单片机内部结构中，TCON为控制寄存器，主要用来控制定时器的启动与停止。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 67,
+    "type": "判断",
+    "title": "67. (判断题) 80C51单片机的两个定时器均有两种工作方式，即定时和计数工作方式。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 68,
+    "type": "判断",
+    "title": "68. (判断题) 80C51单片机的TMOD模式控制寄存器不能进行位寻址，只能用字节传送指令设置定时器的工作方式及操作模式。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 69,
+    "type": "判断",
+    "title": "69. (判断题) 80C51单片机系统复位时，TMOD模式控制寄存器的低4位均为0。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 70,
+    "type": "判断",
+    "title": "70. (判断题) 80C51单片机5个中断源相应地在芯片上都有中断请求输入引脚。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 71,
+    "type": "判断",
+    "title": "71. (判断题) C51程序中的bit类型变量占用1个字节存储空间。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 72,
+    "type": "判断",
+    "title": "72. (判断题) 8051共有5个中断源，每个中断源对应一个中断向量地址。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 73,
+    "type": "判断",
+    "title": "73. (判断题) INTO的中断向量地址为000BH。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 74,
+    "type": "判断",
+    "title": "74. (判断题) 中断初始化时，对中断控制器的设置只能使用位操作指令。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 75,
+    "type": "判断",
+    "title": "75. (判断题) 8051单片机允许同级中断嵌套。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 76,
+    "type": "判断",
+    "title": "76. (判断题) 80C51的定时器/计数器T0和T1均为16位结构。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 77,
+    "type": "判断",
+    "title": "77. (判断题) 定时器/计数器T0的计数脉冲由P3.4引脚提供。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 78,
+    "type": "判断",
+    "title": "78. (判断题) 定时器/计数器T1的计数脉冲由P2.5引脚提供。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 79,
+    "type": "判断",
+    "title": "79. (判断题) 8051串行口方式1支持1个起始位、8个数据位和2个停止位。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 80,
+    "type": "判断",
+    "title": "80. (判断题) 串行通信的波特率由定时器/计数器1的计数值决定。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 81,
+    "type": "判断",
+    "title": "81. (判断题) 串行口接收数据时，数据从RXD引脚输出。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 82,
+    "type": "判断",
+    "title": "82. (判断题) 串行口发送数据时，数据从TXD引脚输出。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 83,
+    "type": "判断",
+    "title": "83. (判断题) 80C51的P0口可以直接驱动共阳极LED数码管，无需外接上拉电阻。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 84,
+    "type": "判断",
+    "title": "84. (判断题) 使用8155芯片扩展显示器接口时，其PA口通常用作位选口，PB口用作字形口。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 85,
+    "type": "判断",
+    "title": "85. (判断题) 动态扫描显示时，所有数码管的段码同时输出，通过位选信号轮流点亮。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 86,
+    "type": "判断",
+    "title": "86. (判断题) 80C51的串行口方式0可直接用于驱动LED点阵显示屏。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 87,
+    "type": "判断",
+    "title": "87. (判断题) 80C51的键盘接口必须使用外部中断引脚(如INT0、INT1)才能实现按键检测。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 88,
+    "type": "判断",
+    "title": "88. (判断题) 行列式键盘的消抖处理可通过软件延时或硬件RC电路实现。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 89,
+    "type": "判断",
+    "title": "89. (判断题) 80C51芯片的P1口不能直接用作独立式键盘的行线或列线。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 90,
+    "type": "判断",
+    "title": "90. (判断题) 键盘接口的“键抖动”现象会导致单片机多次误判按键动作。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 91,
+    "type": "判断",
+    "title": "91. (判断题) 80C51的P1口不是准双向口。",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 92,
+    "type": "判断",
+    "title": "92. (判断题) 若置80C51的定时器/计数器T1于定时模式，工作于方式2，则工作方式字为20H。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 93,
+    "type": "判断",
+    "title": "93. (判断题) 若置80C51的定时器/计数器T1于计数模式，工作于方式1，则工作方式字为50H。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 94,
+    "type": "判断",
+    "title": "94. (判断题) 当80C51的定时器T0计满数变为0后，溢出标志位(TCON的TF0)也变为0。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 95,
+    "type": "判断",
+    "title": "95. (判断题) 80C51外部中断0的入口地址是0003H。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 96,
+    "type": "判断",
+    "title": "96. (判断题) 80C51单片机允许5个中断源请求中断，都可以用软件来屏蔽，即利用中断允许寄存器IE来控制中断的允许和禁止。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 97,
+    "type": "判断",
+    "title": "97. (判断题) 判断指令是否正确:LCALL PROC ( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 98,
+    "type": "判断",
+    "title": "98. (判断题) 判断指令是否正确:MOVC A, @DPTR ( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "错"
+    ],
+    "selectedAnswer": [
+      "错"
+    ],
+    "images": []
+  },
+  {
+    "id": 99,
+    "type": "判断",
+    "title": "99. (判断题) 判断指令是否正确:MOVX A, @DPTR ( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  },
+  {
+    "id": 100,
+    "type": "判断",
+    "title": "100. (判断题) 在接口芯片中，通常都有一个片选端CS，作用是当CS为低电平时该芯片才能进行读写操作。( )",
+    "options": [
+      {
+        "label": "true",
+        "text": "对"
+      },
+      {
+        "label": "false",
+        "text": "错"
+      }
+    ],
+    "correctAnswer": [
+      "对"
+    ],
+    "selectedAnswer": [
+      "对"
+    ],
+    "images": []
+  }
+]
+}

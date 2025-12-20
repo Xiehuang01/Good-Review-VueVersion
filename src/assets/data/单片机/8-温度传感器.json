@@ -1,0 +1,729 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题, 2.8score)DS18B20传感器是一种什么类型的传感器?",
+      "options": [
+        {
+          "label": "A",
+          "text": "光电传感器"
+        },
+        {
+          "label": "B",
+          "text": "温度传感器"
+        },
+        {
+          "label": "C",
+          "text": "湿度传感器"
+        },
+        {
+          "label": "D",
+          "text": "压力传感器"
+        }
+      ],
+      "correctAnswer": [
+        "温度传感器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题, 2.8score)在51单片机读取DS18B20传感器数据时，以下哪个步骤通常不是必需的?",
+      "options": [
+        {
+          "label": "A",
+          "text": "发送复位脉冲"
+        },
+        {
+          "label": "B",
+          "text": "发送ROM命令"
+        },
+        {
+          "label": "C",
+          "text": "发送功能命令"
+        },
+        {
+          "label": "D",
+          "text": "发送数据校验码"
+        }
+      ],
+      "correctAnswer": [
+        "发送数据校验码"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题, 2.8score)DS18B20传感器的分辨率可以通过什么方式调整?",
+      "options": [
+        {
+          "label": "A",
+          "text": "改变供电电压"
+        },
+        {
+          "label": "B",
+          "text": "修改传感器的内部寄存器"
+        },
+        {
+          "label": "C",
+          "text": "更换传感器的型号"
+        },
+        {
+          "label": "D",
+          "text": "调整单片机的工作频率"
+        }
+      ],
+      "correctAnswer": [
+        "修改传感器的内部寄存器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题, 2.8score)以下哪个寄存器在DS18B20传感器中用于存储温度数据?",
+      "options": [
+        {
+          "label": "A",
+          "text": "暂存器(Scratchpad)"
+        },
+        {
+          "label": "B",
+          "text": "配置寄存器(Configuration Register)"
+        },
+        {
+          "label": "C",
+          "text": "辅助寄存器(Auxiliary Register)"
+        },
+        {
+          "label": "D",
+          "text": "ROM"
+        }
+      ],
+      "correctAnswer": [
+        "暂存器(Scratchpad)"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题, 2.8score)在51单片机与DS18B20传感器通信过程中，如果检测到传感器没有响应，可能的原因不包括以下哪一项?",
+      "options": [
+        {
+          "label": "A",
+          "text": "传感器损坏"
+        },
+        {
+          "label": "B",
+          "text": "通信线路故障"
+        },
+        {
+          "label": "C",
+          "text": "单片机工作频率过高"
+        },
+        {
+          "label": "D",
+          "text": "传感器供电电压过低"
+        }
+      ],
+      "correctAnswer": [
+        "单片机工作频率过高"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题, 2.8score)DS18B20传感器默认的测温精度是多少位?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9位"
+        },
+        {
+          "label": "B",
+          "text": "10位"
+        },
+        {
+          "label": "C",
+          "text": "11位"
+        },
+        {
+          "label": "D",
+          "text": "12位"
+        }
+      ],
+      "correctAnswer": [
+        "12位"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题, 2.8score)DS18B20的温度测量范围是?",
+      "options": [
+        {
+          "label": "A",
+          "text": "-50℃ ~ 150℃"
+        },
+        {
+          "label": "B",
+          "text": "-55℃ ~ 125℃"
+        },
+        {
+          "label": "C",
+          "text": "-40℃ ~ 100℃"
+        },
+        {
+          "label": "D",
+          "text": "-20℃ ~ 85℃"
+        }
+      ],
+      "correctAnswer": [
+        "-55℃ ~ 125℃"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题, 2.8score)在DS18B20中，用于设置最高报警值和最低报警值的寄存器是哪两个?",
+      "options": [
+        {
+          "label": "A",
+          "text": "TH和TL寄存器"
+        },
+        {
+          "label": "B",
+          "text": "温度寄存器和配置寄存器"
+        },
+        {
+          "label": "C",
+          "text": "CRC校验位和TH寄存器"
+        },
+        {
+          "label": "D",
+          "text": "配置寄存器和EEPROM"
+        }
+      ],
+      "correctAnswer": [
+        "TH和TL寄存器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题, 2.8score)DS18B20在寄生电源模式下，进行温度转换时，单总线需要提供什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "低电平"
+        },
+        {
+          "label": "B",
+          "text": "高电平"
+        },
+        {
+          "label": "C",
+          "text": "强上拉电平"
+        },
+        {
+          "label": "D",
+          "text": "不需要额外操作"
+        }
+      ],
+      "correctAnswer": [
+        "强上拉电平"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题, 2.8score)DS18B20通过哪个指令来启动温度转换?",
+      "options": [
+        {
+          "label": "A",
+          "text": "CONVERT T [44H]"
+        },
+        {
+          "label": "B",
+          "text": "READ SCRATCHPAD [BEH]"
+        },
+        {
+          "label": "C",
+          "text": "WRITE SCRATCHPAD [4EH]"
+        },
+        {
+          "label": "D",
+          "text": "COPY SCRATCHPAD [48H]"
+        }
+      ],
+      "correctAnswer": [
+        "CONVERT T [44H]"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题, 2.8score)DS18B20每个器件都有一个唯一的什么来区分?",
+      "options": [
+        {
+          "label": "A",
+          "text": "MAC地址"
+        },
+        {
+          "label": "B",
+          "text": "IP地址"
+        },
+        {
+          "label": "C",
+          "text": "序列号"
+        },
+        {
+          "label": "D",
+          "text": "UUID"
+        }
+      ],
+      "correctAnswer": [
+        "序列号"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题, 2.8score)DS18B20配置寄存器中，用于设置测温精度的位是哪两位?",
+      "options": [
+        {
+          "label": "A",
+          "text": "R0和R1"
+        },
+        {
+          "label": "B",
+          "text": "R2和R3"
+        },
+        {
+          "label": "C",
+          "text": "R4和R5"
+        },
+        {
+          "label": "D",
+          "text": "R6和R7"
+        }
+      ],
+      "correctAnswer": [
+        "R0和R1"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题, 2.8score)DS18B20的温度数据是以什么形式存储的?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ASCII码"
+        },
+        {
+          "label": "B",
+          "text": "二进制"
+        },
+        {
+          "label": "C",
+          "text": "十进制"
+        },
+        {
+          "label": "D",
+          "text": "十六进制"
+        }
+      ],
+      "correctAnswer": [
+        "二进制"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "填空",
+      "title": "14. (填空题, 2.8score)DS18B20是一种____接口的数字温度计。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 单总线"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "填空",
+      "title": "15. (填空题, 2.8score)DS18B20的供电范围是____V至____V。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 3"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "填空",
+      "title": "16. (填空题, 2.9score)DS18B20的存储器由一个暂存RAM和一个____组成。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 非易失性可电擦除EEPROM"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "填空",
+      "title": "17. (填空题, 2.9score)DS18B20的温度寄存器中，小数部分占____位，整数部分占____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 4"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "填空",
+      "title": "18. (填空题, 2.9score)在寄生电源模式下，进行温度转换时，单总线需要提供____电平。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 强上拉"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "填空",
+      "title": "19. (填空题, 2.9score)DS18B20的TH和TL寄存器用于设置温度的____报警值和____报警值。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 最高"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "填空",
+      "title": "20. (填空题, 2.9score)DS18B20访问过程包括初始化、____指令和____指令。",
+      "options": [],
+      "correctAnswer": [
+        "(1) ROM操作"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "填空",
+      "title": "21. (填空题, 2.9score)DS18B20的精度配置通过修改____寄存器的____位来实现。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 配置"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "填空",
+      "title": "22. (填空题, 2.9score)当DS18B20检测到温度超过预设的TH或TL值时，会置位一个____标识。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 报警"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "填空",
+      "title": "23. (填空题, 2.9score)DS18B20是一种单总线接口的数字温度计，能够提供____位精度的温度数值。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 9~12"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "填空",
+      "title": "24. (填空题, 2.9score)每个DS18B20都拥有一个全球唯一的____位序列号，在总线系统上连接多个DS18B20时，总线控制器可以依靠每个器件独有的序列号辨认总线上的器件及地址。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 64"
+      ],
+      "selectedAnswer": [
+        "(1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25. (判断题, 2.9score)DS18B20可以通过一根数据线同时传输数据和时钟信号。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26. (判断题, 2.9score)DS18B20的温度寄存器中存储的是直接可读的温度值。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27. (判断题, 2.9score)DS18B20在寄生电源模式下，所有操作都不需要外部电源。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28. (判断题, 2.9score)DS18B20的每个器件都有一个全球唯一的64位序列号。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "单选",
+      "title": "29. (判断题, 2.9score)DS18B20的配置寄存器中，所有位都可以被用户写入。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "单选",
+      "title": "30. (判断题, 2.9score)在多点总线系统中，可以使用SKIP ROM指令来访问所有DS18B20。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "单选",
+      "title": "31. (判断题, 2.9score)DS18B20的测温精度越高，所需的最大转换时间就越短。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "单选",
+      "title": "32. (判断题, 2.9score)DS18B20的CRC校验位用于校验64位ROM中的前56位编码。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "单选",
+      "title": "33. (判断题, 2.9score)DS18B20的温度寄存器中，S=1表示测得的是正温度值。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "单选",
+      "title": "34. (判断题, 2.9score)在DS18B20的报警搜索指令周期后，总线控制器不需要返回初始化阶段。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "单选",
+      "title": "35. (判断题, 2.9score)DS18B20传感器的数据线和电源线可以共用。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    }
+  ]

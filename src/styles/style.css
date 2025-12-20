@@ -33,12 +33,24 @@
   animation: blob 7s infinite;
 }
 
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+
+.animation-delay-1500 {
+  animation-delay: 1.5s;
+}
+
 .animation-delay-2000 {
   animation-delay: 2s;
 }
 
 .animation-delay-3000 {
   animation-delay: 3s;
+}
+
+.animation-delay-3500 {
+  animation-delay: 3.5s;
 }
 
 .animation-delay-4000 {
@@ -102,6 +114,95 @@
   box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
 }
 
+/* Green accent glass effects */
+.glass-panel-green {
+  background: rgba(236, 253, 245, 0.3);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(16, 185, 129, 0.1);
+}
+
+/* Yellow accent glass effects */
+.glass-panel-yellow {
+  background: rgba(254, 252, 232, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(245, 158, 11, 0.1);
+}
+
+/* Strong glass panel for custom backgrounds */
+.glass-panel-strong {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Enhanced text contrast for custom backgrounds */
+.custom-bg-text {
+  color: white !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.custom-bg-text h1,
+.custom-bg-text h2,
+.custom-bg-text h3,
+.custom-bg-text h4,
+.custom-bg-text h5,
+.custom-bg-text h6 {
+  color: white !important;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.95);
+  font-weight: 700;
+}
+
+.custom-bg-text p,
+.custom-bg-text span,
+.custom-bg-text div {
+  color: white !important;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.custom-bg-text .text-slate-500,
+.custom-bg-text .text-slate-600,
+.custom-bg-text .text-slate-700,
+.custom-bg-text .text-slate-800 {
+  color: rgba(255, 255, 255, 0.95) !important;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.custom-bg-text .text-slate-400 {
+  color: rgba(255, 255, 255, 0.85) !important;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* Enhanced glass panels for custom backgrounds */
+.custom-bg-text .glass-panel,
+.custom-bg-text .glass-card {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+/* HTML content styling in questions */
+.question-content {
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace !important;
+  background-color: rgba(16, 185, 129, 0.05) !important;
+  padding: 12px 16px !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(16, 185, 129, 0.2) !important;
+  color: #059669 !important;
+  font-weight: 600 !important;
+}
+
+.question-content:hover {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+}
+
 /* Brand colors */
 :root {
   --brand-50: #f0f9ff;
@@ -112,6 +213,25 @@
   --brand-500: #0ea5e9;
   --brand-600: #0284c7;
   --brand-700: #0369a1;
+  
+  /* Green accent colors for contrast */
+  --accent-emerald-50: #ecfdf5;
+  --accent-emerald-100: #d1fae5;
+  --accent-emerald-200: #a7f3d0;
+  --accent-emerald-300: #6ee7b7;
+  --accent-emerald-400: #34d399;
+  --accent-emerald-500: #10b981;
+  --accent-teal-200: #99f6e4;
+  --accent-lime-200: #d9f99d;
+  --accent-cyan-200: #a5f3fc;
+  
+  /* Yellow accent colors for warmth */
+  --accent-yellow-50: #fefce8;
+  --accent-yellow-100: #fef3c7;
+  --accent-yellow-200: #fde68a;
+  --accent-yellow-300: #fcd34d;
+  --accent-amber-200: #fde68a;
+  --accent-orange-200: #fed7aa;
 }
 
 .bg-brand-50 { background-color: var(--brand-50); }

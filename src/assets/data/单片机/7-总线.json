@@ -1,0 +1,443 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题, 5score)I2C总线是由哪家公司推出的?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Intel"
+        },
+        {
+          "label": "B",
+          "text": "Motorola"
+        },
+        {
+          "label": "C",
+          "text": "Philips"
+        },
+        {
+          "label": "D",
+          "text": "Texas Instruments"
+        }
+      ],
+      "correctAnswer": [
+        "Philips"
+      ],
+      "selectedAnswer": [
+        "Philips"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题, 5score)I2C总线传输数据时需要多少根双向信号线?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2根"
+        },
+        {
+          "label": "B",
+          "text": "3根"
+        },
+        {
+          "label": "C",
+          "text": "4根"
+        },
+        {
+          "label": "D",
+          "text": "5根"
+        }
+      ],
+      "correctAnswer": [
+        "2根"
+      ],
+      "selectedAnswer": [
+        "2根"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题, 5score)I2C总线的两根信号线分别是?",
+      "options": [
+        {
+          "label": "A",
+          "text": "SDA和SCL"
+        },
+        {
+          "label": "B",
+          "text": "SDI和SCO"
+        },
+        {
+          "label": "C",
+          "text": "SI和SO"
+        },
+        {
+          "label": "D",
+          "text": "SCK和SDI"
+        }
+      ],
+      "correctAnswer": [
+        "SDA和SCL"
+      ],
+      "selectedAnswer": [
+        "SDA和SCL"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题, 5score)RS485与RS232相比，增加了哪些能力?",
+      "options": [
+        {
+          "label": "A",
+          "text": "多点和双向通信"
+        },
+        {
+          "label": "B",
+          "text": "仅增加了传输速率"
+        },
+        {
+          "label": "C",
+          "text": "仅增加了抗干扰能力"
+        },
+        {
+          "label": "D",
+          "text": "仅增加了传输距离"
+        }
+      ],
+      "correctAnswer": [
+        "多点和双向通信"
+      ],
+      "selectedAnswer": [
+        "多点和双向通信"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题, 5score)51单片机使用RS485进行多机通信时，如何实现地址识别?",
+      "options": [
+        {
+          "label": "A",
+          "text": "通过数据帧中的地址字段"
+        },
+        {
+          "label": "B",
+          "text": "通过特定的通信协议"
+        },
+        {
+          "label": "C",
+          "text": "通过硬件连接实现"
+        },
+        {
+          "label": "D",
+          "text": "无法实现地址识别"
+        }
+      ],
+      "correctAnswer": [
+        "通过数据帧中的地址字段"
+      ],
+      "selectedAnswer": [
+        "通过特定的通信协议"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题, 5score)MAX485芯片是一种什么类型的接口芯片?",
+      "options": [
+        {
+          "label": "A",
+          "text": "模拟-数字转换器"
+        },
+        {
+          "label": "B",
+          "text": "数字-模拟转换器"
+        },
+        {
+          "label": "C",
+          "text": "RS-485接口芯片"
+        },
+        {
+          "label": "D",
+          "text": "SPI接口芯片"
+        }
+      ],
+      "correctAnswer": [
+        "RS-485接口芯片"
+      ],
+      "selectedAnswer": [
+        "RS-485接口芯片"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题, 5score)题目:51单片机通过MAX485进行通信时，通常需要配置哪些引脚?",
+      "options": [
+        {
+          "label": "A",
+          "text": "数据输入(DI)和数据输出(RO)"
+        },
+        {
+          "label": "B",
+          "text": "发送(DE)和接收(RE)控制引脚"
+        },
+        {
+          "label": "C",
+          "text": "电源(VCC)和地(GND)"
+        },
+        {
+          "label": "D",
+          "text": "以上都是"
+        }
+      ],
+      "correctAnswer": [
+        "以上都是"
+      ],
+      "selectedAnswer": [
+        "以上都是"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题, 5score)题目:在使用MAX485进行多机通信时，如何确保数据只被目标节点接收?",
+      "options": [
+        {
+          "label": "A",
+          "text": "通过发送特定的地址码"
+        },
+        {
+          "label": "B",
+          "text": "通过控制DE/RE引脚"
+        },
+        {
+          "label": "C",
+          "text": "通过检测线路上的电压差"
+        },
+        {
+          "label": "D",
+          "text": "通过设置MAX485的接收灵敏度"
+        }
+      ],
+      "correctAnswer": [
+        "通过发送特定的地址码"
+      ],
+      "selectedAnswer": [
+        "通过发送特定的地址码"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "填空",
+      "title": "9. (填空题, 5score)I2C总线是Philips公司推出的高性能____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 串行总线"
+      ],
+      "selectedAnswer": [
+        "(1) 串行总线"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "填空",
+      "title": "10. (填空题, 5score)使用I2C总线传输数据时只需要两根双向信号线，分别是数据线____和时钟线____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) SDA"
+      ],
+      "selectedAnswer": [
+        "(1) sda"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "填空",
+      "title": "11. (填空题, 5score)I2C总线的两根信号线均需通过上拉电阻接____电源。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 正"
+      ],
+      "selectedAnswer": [
+        "(1) 正"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "填空",
+      "title": "12. (填空题, 5score)RS485接口在总线上允许连接多达____个收发器。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 128"
+      ],
+      "selectedAnswer": [
+        "(1) 32"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "填空",
+      "title": "13. (填空题, 5score)RS232C接口在总线上只允许连接____个收发器，即单站能力",
+      "options": [],
+      "correctAnswer": [
+        "(1) 1"
+      ],
+      "selectedAnswer": [
+        "(1) 1"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "填空",
+      "title": "14. (填空题, 5score)数据传输可分为两种。( )传输是指同时传输多个位(通常是8位)，其特点是传输速度比较快，但连接两个系统之间的传输线必须有多条，不适合远距离传输。( )传输是每次只传输一位数据，它只需要两条传输线，因而比较适合长距离的通信。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 并行，串行"
+      ],
+      "selectedAnswer": [
+        "(1) 并行 串行"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "填空",
+      "title": "15. (填空题, 5score)( )总线是PHILIPS公司推出的包括总线裁决和高低速器件同步功能的高性能串行总线。",
+      "options": [],
+      "correctAnswer": [
+        "(1) I2C"
+      ],
+      "selectedAnswer": [
+        "(1) L2C"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. (判断题, 5score)I2C总线的数据线和时钟线都可以输出高电平和低电平。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. (判断题, 5score)I2C总线在多主机系统中，不需要总线仲裁机制。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. (判断题, 5score)RS485标准在RS232协议的基础上增加了多点、双向通信能力。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. (判断题, 5score)RS485接口的数据最高传输速率为100Mbps。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. (判断题, 5score)RS485接口的最大传输距离标准值为4000英尺，实际上可达3000米。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    }
+  ]

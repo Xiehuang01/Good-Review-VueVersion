@@ -1,0 +1,1197 @@
+ [
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题, 1.8score)液晶显示器的工作原理是利用液晶的哪种特性?",
+      "options": [
+        {
+          "label": "A",
+          "text": "导电性"
+        },
+        {
+          "label": "B",
+          "text": "磁性"
+        },
+        {
+          "label": "C",
+          "text": "分子排列变化"
+        },
+        {
+          "label": "D",
+          "text": "热敏性"
+        }
+      ],
+      "correctAnswer": [
+        "分子排列变化"
+      ],
+      "selectedAnswer": [
+        "分子排列变化"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题, 1.8score)液晶显示器按显示方式可分为哪几种?",
+      "options": [
+        {
+          "label": "A",
+          "text": "静态、动态和混合式"
+        },
+        {
+          "label": "B",
+          "text": "段式、字符式和点阵式"
+        },
+        {
+          "label": "C",
+          "text": "单色、双色和全彩色"
+        },
+        {
+          "label": "D",
+          "text": "有源和无源"
+        }
+      ],
+      "correctAnswer": [
+        "段式、字符式和点阵式"
+      ],
+      "selectedAnswer": [
+        "段式、字符式和点阵式"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题, 1.8score)点阵式液晶显示器中，64行128列的显示区域，每行对应的字节数是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "correctAnswer": [
+        "16"
+      ],
+      "selectedAnswer": [
+        "16"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题, 1.8score)在LCD显示中，哪个引脚用于液晶显示偏压调整?",
+      "options": [
+        {
+          "label": "A",
+          "text": "VSS"
+        },
+        {
+          "label": "B",
+          "text": "VDD"
+        },
+        {
+          "label": "C",
+          "text": "VL"
+        },
+        {
+          "label": "D",
+          "text": "RS"
+        }
+      ],
+      "correctAnswer": [
+        "VL"
+      ],
+      "selectedAnswer": [
+        "VL"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题, 1.8score)LCD1602液晶显示器的显示容量是多少个字符?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "64"
+        },
+        {
+          "label": "D",
+          "text": "128"
+        }
+      ],
+      "correctAnswer": [
+        "32"
+      ],
+      "selectedAnswer": [
+        "32"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题, 1.8score)LCD1602液晶显示器的芯片工作电压范围是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.0V~3.5V"
+        },
+        {
+          "label": "B",
+          "text": "4.5V~5.5V"
+        },
+        {
+          "label": "C",
+          "text": "5.0V~6.0V"
+        },
+        {
+          "label": "D",
+          "text": "7.0V~8.0V"
+        }
+      ],
+      "correctAnswer": [
+        "4.5V~5.5V"
+      ],
+      "selectedAnswer": [
+        "4.5V~5.5V"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题, 1.8score)LCD1602液晶显示器的DDRAM有多少个字节?",
+      "options": [
+        {
+          "label": "A",
+          "text": "64"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "128"
+        },
+        {
+          "label": "D",
+          "text": "160"
+        }
+      ],
+      "correctAnswer": [
+        "80"
+      ],
+      "selectedAnswer": [
+        "80"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题, 1.8score)LCD1602液晶显示器的CGROM内部存储了多少个不同的点阵字符图形?",
+      "options": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "128"
+        },
+        {
+          "label": "C",
+          "text": "160"
+        },
+        {
+          "label": "D",
+          "text": "256"
+        }
+      ],
+      "correctAnswer": [
+        "160"
+      ],
+      "selectedAnswer": [
+        "128"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题, 1.8score)在LCD1602液晶显示器中，哪个指令用于清屏?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0x01H"
+        },
+        {
+          "label": "B",
+          "text": "0x02H"
+        },
+        {
+          "label": "C",
+          "text": "0x03H"
+        },
+        {
+          "label": "D",
+          "text": "0x04H"
+        }
+      ],
+      "correctAnswer": [
+        "0x01H"
+      ],
+      "selectedAnswer": [
+        "0x01H"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题, 1.8score)LCD1602液晶显示器的显示开关控制指令中，哪个位控制显示的开与关?",
+      "options": [
+        {
+          "label": "A",
+          "text": "D"
+        },
+        {
+          "label": "B",
+          "text": "C"
+        },
+        {
+          "label": "C",
+          "text": "B"
+        },
+        {
+          "label": "D",
+          "text": "A"
+        }
+      ],
+      "correctAnswer": [
+        "D"
+      ],
+      "selectedAnswer": [
+        "D"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题, 1.8score)在51单片机系统中，若使用字符型LCD显示屏，通常显示多少列和多少行的字符?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8列×2行"
+        },
+        {
+          "label": "B",
+          "text": "16列×1行"
+        },
+        {
+          "label": "C",
+          "text": "16列×2行"
+        },
+        {
+          "label": "D",
+          "text": "32列×4行"
+        }
+      ],
+      "correctAnswer": [
+        "16列×2行"
+      ],
+      "selectedAnswer": [
+        "16列×2行"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题, 1.8score)LCD显示屏的对比度通常由哪个参数调节?",
+      "options": [
+        {
+          "label": "A",
+          "text": "亮度"
+        },
+        {
+          "label": "B",
+          "text": "对比度电位器"
+        },
+        {
+          "label": "C",
+          "text": "刷新率"
+        },
+        {
+          "label": "D",
+          "text": "分辨率"
+        }
+      ],
+      "correctAnswer": [
+        "对比度电位器"
+      ],
+      "selectedAnswer": [
+        "对比度电位器"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题, 1.8score)51单片机向LCD显示屏发送指令和数据时，通常使用哪个控制信号来区分?",
+      "options": [
+        {
+          "label": "A",
+          "text": "RS"
+        },
+        {
+          "label": "B",
+          "text": "R/W"
+        },
+        {
+          "label": "C",
+          "text": "E"
+        },
+        {
+          "label": "D",
+          "text": "D/C"
+        }
+      ],
+      "correctAnswer": [
+        "RS"
+      ],
+      "selectedAnswer": [
+        "RS"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14. (单选题, 1.8score)在51单片机系统中，若LCD显示屏显示异常，可能的原因不包括?",
+      "options": [
+        {
+          "label": "A",
+          "text": "接线错误"
+        },
+        {
+          "label": "B",
+          "text": "程序错误"
+        },
+        {
+          "label": "C",
+          "text": "显示屏损坏"
+        },
+        {
+          "label": "D",
+          "text": "单片机型号不匹配"
+        }
+      ],
+      "correctAnswer": [
+        "单片机型号不匹配"
+      ],
+      "selectedAnswer": [
+        "单片机型号不匹配"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15. (单选题, 1.8score)在51单片机系统中，若LCD显示屏显示乱码，可能的原因是?",
+      "options": [
+        {
+          "label": "A",
+          "text": "指令集不匹配"
+        },
+        {
+          "label": "B",
+          "text": "数据传输错误"
+        },
+        {
+          "label": "C",
+          "text": "显示屏未初始化"
+        },
+        {
+          "label": "D",
+          "text": "以上都可能"
+        }
+      ],
+      "correctAnswer": [
+        "以上都可能"
+      ],
+      "selectedAnswer": [
+        "以上都可能"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "填空",
+      "title": "16. (填空题, 1.8score)ADC0808的分辨率为____位，同样的参考电压下，位数越高采样数据的精度____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 8"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "填空",
+      "title": "17. (填空题, 1.8score)ADC0808的转换时间取决于提供给芯片的____频率。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 时钟"
+      ],
+      "selectedAnswer": [
+        "(1) 时钟"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "填空",
+      "title": "18. (填空题, 1.8score)ADC0808的模拟输入通道数为____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 8"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "填空",
+      "title": "19. (填空题, 1.8score)ADC0808的启动转换控制方式为____式(正脉冲)。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 脉冲"
+      ],
+      "selectedAnswer": [
+        "(1) 脉冲"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "填空",
+      "title": "20. (填空题, 1.8score)ADC0808的三态输出锁存器在OE为____电平时输出转换后的数据。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 高"
+      ],
+      "selectedAnswer": [
+        "(1) 高"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "填空",
+      "title": "21. (填空题, 1.8score)DAC0832的分辨率为____位，转换时间为____ms。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 8"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "填空",
+      "title": "22. (填空题, 1.8score)DAC0832的供电电源范围为____V~____V。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 5"
+      ],
+      "selectedAnswer": [
+        "(1) 5"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "填空",
+      "title": "23. (填空题, 1.8score)DAC0832的参考电压输入端VREF的范围为____V~____V。",
+      "options": [],
+      "correctAnswer": [
+        "(1) -10"
+      ],
+      "selectedAnswer": [
+        "(1) -10"
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "填空",
+      "title": "24. (填空题, 1.8score)DAC0832的模拟电流输出端IOUT1和IOUT2的关系是IOUT1 + IOUT2 = ____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 常数"
+      ],
+      "selectedAnswer": [
+        "(1) 常数"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "填空",
+      "title": "25. (填空题, 1.8score)ADC0808的地址锁存允许信号ALE是____电平有效。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 高"
+      ],
+      "selectedAnswer": [
+        "(1) 高"
+      ],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "填空",
+      "title": "26. (填空题, 1.8score)ADC0808的EOC信号在A/D转换过程中为____电平。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 低"
+      ],
+      "selectedAnswer": [
+        "(1) 低"
+      ],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "填空",
+      "title": "27. (填空题, 1.8score)DAC0832的内部结构中，第一级锁存器被称为____寄存器。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 输入"
+      ],
+      "selectedAnswer": [
+        "(1) 输入"
+      ],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "填空",
+      "title": "28. (填空题, 1.8score)DAC0832的VCC引脚是用于____电压。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 芯片供电"
+      ],
+      "selectedAnswer": [
+        "(1) 电源"
+      ],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "填空",
+      "title": "29. (填空题, 1.8score)ADC0808是采样分辨率为____、以逐次逼近原理进行____的CMOS器件，",
+      "options": [],
+      "correctAnswer": [
+        "(1) 8位"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "填空",
+      "title": "30. (填空题, 1.8score)DAC0832是双列直插式____位D/A转换器，它能够将输入的____转换成模拟量。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 8位"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "单选",
+      "title": "31. (判断题, 1.8score)液晶显示器的工作原理是利用液晶分子在电场作用下排列变化的特性。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "单选",
+      "title": "32. (判断题, 1.8score)液晶显示器只能用于显示静态图像。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "单选",
+      "title": "33. (判断题, 1.8score)点阵式液晶显示器中，64行128列的显示区域，每行对应的字节数是8。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "单选",
+      "title": "34. (判断题, 1.8score)LCD1602液晶显示器的显示容量为16个字符。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "单选",
+      "title": "35. (判断题, 1.8score)LCD1602液晶显示器的芯片工作电压范围是3.0V~3.5V。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "单选",
+      "title": "36. (判断题, 1.8score)LCD1602液晶显示器的DDRAM有128个字节。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "单选",
+      "title": "37. (判断题, 1.8score)LCD1602液晶显示器的CGROM内部存储了256个不同的点阵字符图形。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "单选",
+      "title": "38. (判断题, 1.8score)在LCD1602液晶显示器中，0x01H指令用于清屏。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "单选",
+      "title": "39. (判断题, 1.8score)LCD1602液晶显示器的显示开关控制指令中，D=1表示关闭显示功能。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "单选",
+      "title": "40. (判断题, 1.8score)LCD1602液晶显示器的显示开关控制指令中，B=1表示光标不闪烁。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "单选",
+      "title": "41. (判断题, 1.8score)51单片机驱动LCD显示屏时，必须使用并行接口。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "单选",
+      "title": "42. (判断题, 1.8score)LCD显示屏的对比度越高，显示的字符越清晰。参考",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "单选",
+      "title": "43. (判断题, 1.8score)在51单片机系统中，LCD显示屏的初始化通常是通过发送一系列指令完成的。参考",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "单选",
+      "title": "44. (判断题, 1.8score)51单片机驱动LCD显示屏时，数据线和控制线可以混用。参考",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "单选",
+      "title": "45. (判断题, 1.8score)在51单片机系统中，若LCD显示屏未初始化，则无法正常显示内容。参考",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "单选",
+      "title": "46. (判断题, 1.9score)LCD1602的D0-D7引脚用于接收来自51单片机的数据和控制信号。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "单选",
+      "title": "47. (判断题, 1.9score)LCD1602的RS引脚用于控制读写操作。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "单选",
+      "title": "48. (判断题, 1.9score)LCD1602的RW引脚用于区分指令和数据。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "单选",
+      "title": "49. (判断题, 1.9score)LCD1602的E引脚用于使能数据读写操作。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "单选",
+      "title": "50. (判断题, 1.9score)LCD1602只能显示数字字符，不能显示字母或其他符号。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "单选",
+      "title": "51. (判断题, 1.9score)在51单片机程序中，向LCD1602发送数据前不需要先发送指令。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "单选",
+      "title": "52. (判断题, 1.9score)LCD1602的对比度可以通过软件调节。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "单选",
+      "title": "53. (判断题, 1.9score)LCD1602的显示缓冲区可以存储多行字符数据。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "单选",
+      "title": "54. (判断题, 1.9score)LCD1602的电源引脚包括VDD和VSS。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "单选",
+      "title": "55. (判断题, 1.9score)LCD1602不支持字符滚动显示。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    }
+  ]

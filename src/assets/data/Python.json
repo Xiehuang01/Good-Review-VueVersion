@@ -3379,10 +3379,10 @@
       "title": "117. (填空题, 1.0 points) 假设有一个列表a，现要求从列表a中每3个元素取1个，并且将取到的元素组成新的列表b。请设计命令。（算术运算符和赋值运算符前后不要有空格）______",
       "options": [],
       "correctAnswer": [
-        "b=a[::3];b=a[::3];b=a[::3];b=a[::3];b=[a[i] for i in range(0, len(a), 3)]"
+        "b=a[::3]"
       ],
       "selectedAnswer": [
-        "b=a[::3];b=a[::3];b=a[::3];b=a[::3];b=[a[i] for i in range(0, len(a), 3)]"
+        "b=a[::3]"
       ],
       "images": []
     },

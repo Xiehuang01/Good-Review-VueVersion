@@ -1,0 +1,1722 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题, 1.2score)C51语言是以下哪种语言的扩展?",
+      "options": [
+        {
+          "label": "A",
+          "text": "汇编语言"
+        },
+        {
+          "label": "B",
+          "text": "C语言"
+        },
+        {
+          "label": "C",
+          "text": "Python"
+        },
+        {
+          "label": "D",
+          "text": "Java"
+        }
+      ],
+      "correctAnswer": [
+        "C语言"
+      ],
+      "selectedAnswer": [
+        "C语言"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题, 1.3score)C51语言中，哪个关键字用于表示存储类型为自动变量?",
+      "options": [
+        {
+          "label": "A",
+          "text": "auto"
+        },
+        {
+          "label": "B",
+          "text": "static"
+        },
+        {
+          "label": "C",
+          "text": "extern"
+        },
+        {
+          "label": "D",
+          "text": "register"
+        }
+      ],
+      "correctAnswer": [
+        "auto"
+      ],
+      "selectedAnswer": [
+        "auto"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题, 1.3score)在C51语言中，以下哪个标识符是非法的?",
+      "options": [
+        {
+          "label": "A",
+          "text": "myVariable"
+        },
+        {
+          "label": "B",
+          "text": "2names"
+        },
+        {
+          "label": "C",
+          "text": "_temp"
+        },
+        {
+          "label": "D",
+          "text": "int"
+        }
+      ],
+      "correctAnswer": [
+        "2names"
+      ],
+      "selectedAnswer": [
+        "2names"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题, 1.3score)C51语言中，以下哪个关键字用于定义枚举类型?",
+      "options": [
+        {
+          "label": "A",
+          "text": "struct"
+        },
+        {
+          "label": "B",
+          "text": "union"
+        },
+        {
+          "label": "C",
+          "text": "enum"
+        },
+        {
+          "label": "D",
+          "text": "typedef"
+        }
+      ],
+      "correctAnswer": [
+        "enum"
+      ],
+      "selectedAnswer": [
+        "enum"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个无类型数据?",
+      "options": [
+        {
+          "label": "A",
+          "text": "void"
+        },
+        {
+          "label": "B",
+          "text": "int"
+        },
+        {
+          "label": "C",
+          "text": "char"
+        },
+        {
+          "label": "D",
+          "text": "float"
+        }
+      ],
+      "correctAnswer": [
+        "void"
+      ],
+      "selectedAnswer": [
+        "void"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个单精度浮点数?",
+      "options": [
+        {
+          "label": "A",
+          "text": "float"
+        },
+        {
+          "label": "B",
+          "text": "double"
+        },
+        {
+          "label": "C",
+          "text": "long"
+        },
+        {
+          "label": "D",
+          "text": "int"
+        }
+      ],
+      "correctAnswer": [
+        "float"
+      ],
+      "selectedAnswer": [
+        "float"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个无符号数据?",
+      "options": [
+        {
+          "label": "A",
+          "text": "unsigned"
+        },
+        {
+          "label": "B",
+          "text": "signed"
+        },
+        {
+          "label": "C",
+          "text": "char"
+        },
+        {
+          "label": "D",
+          "text": "int"
+        }
+      ],
+      "correctAnswer": [
+        "unsigned"
+      ],
+      "selectedAnswer": [
+        "unsigned"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个静态变量?",
+      "options": [
+        {
+          "label": "A",
+          "text": "auto"
+        },
+        {
+          "label": "B",
+          "text": "static"
+        },
+        {
+          "label": "C",
+          "text": "extern"
+        },
+        {
+          "label": "D",
+          "text": "register"
+        }
+      ],
+      "correctAnswer": [
+        "static"
+      ],
+      "selectedAnswer": [
+        "static"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个全局变量?",
+      "options": [
+        {
+          "label": "A",
+          "text": "auto"
+        },
+        {
+          "label": "B",
+          "text": "static"
+        },
+        {
+          "label": "C",
+          "text": "extern"
+        },
+        {
+          "label": "D",
+          "text": "register"
+        }
+      ],
+      "correctAnswer": [
+        "extern"
+      ],
+      "selectedAnswer": [
+        "extern"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个寄存器变量?",
+      "options": [
+        {
+          "label": "A",
+          "text": "auto"
+        },
+        {
+          "label": "B",
+          "text": "static"
+        },
+        {
+          "label": "C",
+          "text": "extern"
+        },
+        {
+          "label": "D",
+          "text": "register"
+        }
+      ],
+      "correctAnswer": [
+        "register"
+      ],
+      "selectedAnswer": [
+        "register"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个位变量?",
+      "options": [
+        {
+          "label": "A",
+          "text": "bit"
+        },
+        {
+          "label": "B",
+          "text": "byte"
+        },
+        {
+          "label": "C",
+          "text": "sbit"
+        },
+        {
+          "label": "D",
+          "text": "int"
+        }
+      ],
+      "correctAnswer": [
+        "bit"
+      ],
+      "selectedAnswer": [
+        "bit"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个特殊功能寄存器?",
+      "options": [
+        {
+          "label": "A",
+          "text": "sfr"
+        },
+        {
+          "label": "B",
+          "text": "sbit"
+        },
+        {
+          "label": "C",
+          "text": "bit"
+        },
+        {
+          "label": "D",
+          "text": "reg"
+        }
+      ],
+      "correctAnswer": [
+        "sfr"
+      ],
+      "selectedAnswer": [
+        "sfr"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个16位特殊功能寄存器?",
+      "options": [
+        {
+          "label": "A",
+          "text": "sfr"
+        },
+        {
+          "label": "B",
+          "text": "sfr16"
+        },
+        {
+          "label": "C",
+          "text": "bit"
+        },
+        {
+          "label": "D",
+          "text": "sbit"
+        }
+      ],
+      "correctAnswer": [
+        "sfr16"
+      ],
+      "selectedAnswer": [
+        "sfr16"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个绝对地址定位的变量?",
+      "options": [
+        {
+          "label": "A",
+          "text": "at_"
+        },
+        {
+          "label": "B",
+          "text": "_at_"
+        },
+        {
+          "label": "C",
+          "text": "@at"
+        },
+        {
+          "label": "D",
+          "text": "at"
+        }
+      ],
+      "correctAnswer": [
+        "_at_"
+      ],
+      "selectedAnswer": [
+        "_at_"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个代码存储在程序存储器中的函数?",
+      "options": [
+        {
+          "label": "A",
+          "text": "code"
+        },
+        {
+          "label": "B",
+          "text": "data"
+        },
+        {
+          "label": "C",
+          "text": "text"
+        },
+        {
+          "label": "D",
+          "text": "prog"
+        }
+      ],
+      "correctAnswer": [
+        "code"
+      ],
+      "selectedAnswer": [
+        "code"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个使用页式间接寻址的外部数据存储器?",
+      "options": [
+        {
+          "label": "A",
+          "text": "pdata"
+        },
+        {
+          "label": "B",
+          "text": "xdata"
+        },
+        {
+          "label": "C",
+          "text": "code"
+        },
+        {
+          "label": "D",
+          "text": "data"
+        }
+      ],
+      "correctAnswer": [
+        "pdata"
+      ],
+      "selectedAnswer": [
+        "pdata"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个使用直接寻址的内部数据存储器?",
+      "options": [
+        {
+          "label": "A",
+          "text": "data"
+        },
+        {
+          "label": "B",
+          "text": "bdata"
+        },
+        {
+          "label": "C",
+          "text": "idata"
+        },
+        {
+          "label": "D",
+          "text": "pdata"
+        }
+      ],
+      "correctAnswer": [
+        "bdata"
+      ],
+      "selectedAnswer": [
+        "data"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个使用间接寻址的内部数据存储器?",
+      "options": [
+        {
+          "label": "A",
+          "text": "data"
+        },
+        {
+          "label": "B",
+          "text": "bdata"
+        },
+        {
+          "label": "C",
+          "text": "idata"
+        },
+        {
+          "label": "D",
+          "text": "pdata"
+        }
+      ],
+      "correctAnswer": [
+        "idata"
+      ],
+      "selectedAnswer": [
+        "idata"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. (单选题, 1.3score)C51语言中，哪个关键字用于定义一个使用间接寻址的外部数据存储器?",
+      "options": [
+        {
+          "label": "A",
+          "text": "pdata"
+        },
+        {
+          "label": "B",
+          "text": "xdata"
+        },
+        {
+          "label": "C",
+          "text": "code"
+        },
+        {
+          "label": "D",
+          "text": "data"
+        }
+      ],
+      "correctAnswer": [
+        "xdata"
+      ],
+      "selectedAnswer": [
+        "xdata"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. (单选题, 1.3score)下列哪个不是C语言中的基本数据类型?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "int"
+        },
+        {
+          "label": "B",
+          "text": "char"
+        },
+        {
+          "label": "C",
+          "text": "float"
+        },
+        {
+          "label": "D",
+          "text": "void"
+        }
+      ],
+      "correctAnswer": [
+        "void"
+      ],
+      "selectedAnswer": [
+        "void"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "单选",
+      "title": "21. (单选题, 1.3score)在51单片机C语言编程中，哪个函数是程序执行的入口点?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "main()"
+        },
+        {
+          "label": "B",
+          "text": "start()"
+        },
+        {
+          "label": "C",
+          "text": "init()"
+        },
+        {
+          "label": "D",
+          "text": "setup()"
+        }
+      ],
+      "correctAnswer": [
+        "main()"
+      ],
+      "selectedAnswer": [
+        "main()"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "单选",
+      "title": "22. (单选题, 1.3score)下列哪个语句在C语言中用于输出数据到控制台(在单片机中通常是串口)?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "printf()"
+        },
+        {
+          "label": "B",
+          "text": "scanf()"
+        },
+        {
+          "label": "C",
+          "text": "getchar()"
+        },
+        {
+          "label": "D",
+          "text": "putchar()"
+        }
+      ],
+      "correctAnswer": [
+        "printf()"
+      ],
+      "selectedAnswer": [
+        "printf()"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "单选",
+      "title": "23. (单选题, 1.3score)在C语言中，使用哪个关键字可以实现条件判断?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "if"
+        },
+        {
+          "label": "B",
+          "text": "else"
+        },
+        {
+          "label": "C",
+          "text": "switch"
+        },
+        {
+          "label": "D",
+          "text": "以上都是"
+        }
+      ],
+      "correctAnswer": [
+        "以上都是"
+      ],
+      "selectedAnswer": [
+        "以上都是"
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "单选",
+      "title": "24. (单选题, 1.3score)在51单片机C语言编程中，哪个寄存器通常用于存储累加器的值?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "ACC"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "DPTR"
+        },
+        {
+          "label": "D",
+          "text": "PSW"
+        }
+      ],
+      "correctAnswer": [
+        "ACC"
+      ],
+      "selectedAnswer": [
+        "ACC"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25. (单选题, 1.3score)下列哪个循环语句在C语言中用于重复执行一段代码直到满足特定条件?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "for"
+        },
+        {
+          "label": "B",
+          "text": "while"
+        },
+        {
+          "label": "C",
+          "text": "do-while"
+        },
+        {
+          "label": "D",
+          "text": "以上都是"
+        }
+      ],
+      "correctAnswer": [
+        "以上都是"
+      ],
+      "selectedAnswer": [
+        "以上都是"
+      ],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26. (单选题, 1.3score)在C语言中，数组的下标是从哪个数字开始的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "-1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "根据编译器而定"
+        }
+      ],
+      "correctAnswer": [
+        "0"
+      ],
+      "selectedAnswer": [
+        "0"
+      ],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27. (单选题, 1.3score)在51单片机C语言编程中，如何定义一个指向整数的指针?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "int *ptr;"
+        },
+        {
+          "label": "B",
+          "text": "int ptr*;"
+        },
+        {
+          "label": "C",
+          "text": "*int ptr;"
+        },
+        {
+          "label": "D",
+          "text": "ptr int*;"
+        }
+      ],
+      "correctAnswer": [
+        "int *ptr;"
+      ],
+      "selectedAnswer": [
+        "int *ptr;"
+      ],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28. (单选题, 1.3score)下列哪个函数在C语言中用于接收用户输入的字符串?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "gets()"
+        },
+        {
+          "label": "B",
+          "text": "gets_s()"
+        },
+        {
+          "label": "C",
+          "text": "scanf(\"%s\", ...)"
+        },
+        {
+          "label": "D",
+          "text": "gets_char()"
+        }
+      ],
+      "correctAnswer": [
+        "scanf(\"%s\", ...)"
+      ],
+      "selectedAnswer": [
+        "gets()"
+      ],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "填空",
+      "title": "29. (填空题, 1.3score)C51语言中，标识符的第一个字符必须是字母或者____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 下划线"
+      ],
+      "selectedAnswer": [
+        "(1) 下划线"
+      ],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "填空",
+      "title": "30. (填空题, 1.3score)C51的标识符区分____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 大小写"
+      ],
+      "selectedAnswer": [
+        "(1) 大小写"
+      ],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "填空",
+      "title": "31. (填空题, 1.3score)用户自定义的标识符不能与系统保留的____相同。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 关键字"
+      ],
+      "selectedAnswer": [
+        "(1) 关键字"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "填空",
+      "title": "32. (填空题, 1.3score)C51语言中，unsigned char类型的变量占用______个字节。*答案",
+      "options": [],
+      "correctAnswer": [
+        "(1) 1"
+      ],
+      "selectedAnswer": [
+        "(1) 1"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "填空",
+      "title": "33. (填空题, 1.3score)C51语言中，signed int类型的变量占用____字节。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 2"
+      ],
+      "selectedAnswer": [
+        "(1) 2"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "填空",
+      "title": "34. (填空题, 1.3score)C51语言中，float类型的变量占用____字节。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 4"
+      ],
+      "selectedAnswer": [
+        "(1) 4"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "填空",
+      "title": "35. (填空题, 1.3score)C51语言中，bit类型的变量取值范围是____或1。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 0"
+      ],
+      "selectedAnswer": [
+        "(1) 0"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "填空",
+      "title": "36. (填空题, 1.3score)C51语言中，sfr类型的变量占用____字节。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 1"
+      ],
+      "selectedAnswer": [
+        "(1) 1"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "填空",
+      "title": "37. (填空题, 1.3score)C51语言中，sfr16类型的变量占用____字节。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 2"
+      ],
+      "selectedAnswer": [
+        "(1) 16"
+      ],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "填空",
+      "title": "38. (填空题, 1.3score)C51语言中，sbit类型的变量取值范围是____或1。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 0"
+      ],
+      "selectedAnswer": [
+        "(1) 0"
+      ],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "填空",
+      "title": "39. (填空题, 1.3score)C51语言中，整型常量若采用十六进制表示，数据应以____开头。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 0x"
+      ],
+      "selectedAnswer": [
+        "(1) 0x"
+      ],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "填空",
+      "title": "40. (填空题, 1.3score)C51语言中，浮点型常量指数形式表示为:[±]数字[.数字]e[±]____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 数字"
+      ],
+      "selectedAnswer": [
+        "(1) 数字"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "填空",
+      "title": "41. (填空题, 1.3score)C51语言中，字符型常量表示为单个字符放在____内。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 单引号"
+      ],
+      "selectedAnswer": [
+        "(1) 单引号"
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "填空",
+      "title": "42. (填空题, 1.3score)C51语言中，字符串型常量表示为字符放在____内。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 双引号"
+      ],
+      "selectedAnswer": [
+        "(1) 双引号"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "填空",
+      "title": "43. (填空题, 1.3score)C51语言中，位标量类型的常量值是一个____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 二进制"
+      ],
+      "selectedAnswer": [
+        "(1) 0或。1"
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "填空",
+      "title": "44. (填空题, 1.3score)C51语言中，自动变量的存储空间是____分配的。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 动态"
+      ],
+      "selectedAnswer": [
+        "(1) 动态"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "填空",
+      "title": "45. (填空题, 1.3score)C51语言中，全局变量一般定义在所有函数的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 外部"
+      ],
+      "selectedAnswer": [
+        "(1) 外部"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "填空",
+      "title": "46. (填空题, 1.3score)C51语言中，寄存器变量以关键字____标识。",
+      "options": [],
+      "correctAnswer": [
+        "(1) register"
+      ],
+      "selectedAnswer": [
+        "(1) register"
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "填空",
+      "title": "47. (填空题, 1.3score)C51语言中，small存储模式将函数参数和局部变量都放置在____中。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 片内RAM"
+      ],
+      "selectedAnswer": [
+        "(1) 内部ram"
+      ],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "填空",
+      "title": "48. (填空题, 1.3score)C51语言中，large存储模式将参数和局部变量放在片外RAM中，默认的存储类型是____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) XDATA"
+      ],
+      "selectedAnswer": [
+        "(1) xdata"
+      ],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "填空",
+      "title": "49. (填空题, 1.3score)21.C51语言中，标识符由（ ）、（ ）和（ ）组成，一个标识符最多可支持32个字符。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 字母（a～z，A～Z） ，数字（0～9），下划线“_”"
+      ],
+      "selectedAnswer": [
+        "(1) 字母"
+      ],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "填空",
+      "title": "50. (填空题, 1.3score)C51语言中，逻辑运算符是执行逻辑运算时的操作符号，包括（ ）、（ ）、（ ），逻辑运算的最终结果为真（值为1）或假（值为0）。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 与（AND）"
+      ],
+      "selectedAnswer": [
+        "(1) 逻辑与"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "单选",
+      "title": "51. (判断题, 1.3score)在51单片机C语言编程中，可以直接使用汇编语言指令。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "单选",
+      "title": "52. (判断题, 1.3score)C语言中的变量名可以是任意长度的字符串。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "单选",
+      "title": "53. (判断题, 1.3score)在51单片机C语言编程中，不需要包含头文件就可以直接使用标准输入输出函数。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "单选",
+      "title": "54. (判断题, 1.3score)C语言中的数组可以在运行时动态分配内存。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "单选",
+      "title": "55. (判断题, 1.3score)在C语言中，可以使用指针直接访问和修改内存中的任意位置。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 56,
+      "type": "单选",
+      "title": "56. (判断题, 1.3score)在51单片机C语言编程中，可以使用位操作直接访问和修改特定寄存器的位。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 57,
+      "type": "单选",
+      "title": "57. (判断题, 1.3score)C语言中的字符串是以空字符('\\0')结尾的字符数组。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 58,
+      "type": "单选",
+      "title": "58. (判断题, 1.3score)在51单片机C语言编程中，不能定义全局变量。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 59,
+      "type": "单选",
+      "title": "59. (判断题, 1.3score)C语言中的函数可以返回多个值。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 60,
+      "type": "单选",
+      "title": "60. (判断题, 1.3score)在C语言中，可以使用条件运算符(?:)实现简单的条件判断。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 61,
+      "type": "单选",
+      "title": "61. (判断题, 1.3score)题目:C51语言是汇编语言的一种变种。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 62,
+      "type": "单选",
+      "title": "62. (判断题, 1.3score)题目:C51程序的开发周期比汇编语言短，可读性更强。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 63,
+      "type": "单选",
+      "title": "63. (判断题, 1.3score)题目:C51语言程序由多个函数组成，但主函数名必须是`main()`。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 64,
+      "type": "单选",
+      "title": "64. (判断题, 1.3score)题目:C51程序中的函数必须预先定义或声明后才能被调用。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 65,
+      "type": "单选",
+      "title": "65. (判断题, 1.3score)题目:C51语言的标识符只能由字母和数字组成。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 66,
+      "type": "单选",
+      "title": "66. (判断题, 1.3score)题目:C51语言的关键字`interrupt`用于定义中断服务程序。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 67,
+      "type": "单选",
+      "title": "67. (判断题, 1.3score)题目:在C51中，`bit`数据类型只能定义一个位变量，且不能定义位指针或位数组。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 68,
+      "type": "单选",
+      "title": "68. (判断题, 1.3score)题目:`sfr`数据类型用于定义一个特殊功能寄存器，其变量取值范围为0x00~0xFF。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 69,
+      "type": "单选",
+      "title": "69. (判断题, 1.3score)题目:在C51中，全局变量和静态变量的作用域是相同的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 70,
+      "type": "单选",
+      "title": "70. (判断题, 1.3score)题目:在C51中，自动变量的存储空间在函数或复合语句执行完毕后会被立即释放。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 71,
+      "type": "单选",
+      "title": "71. (判断题, 1.3score)题目:使用`_at_`关键字可以对`code`类型的变量进行绝对地址定位。-参考",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 72,
+      "type": "单选",
+      "title": "72. (判断题, 1.3score)题目:在C51中，未初始化的全局变量会被系统自动清零。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 73,
+      "type": "单选",
+      "title": "73. (判断题, 1.3score)题目:C51中的递增运算符`++`只有后置形式。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 74,
+      "type": "单选",
+      "title": "74. (判断题, 1.3score)题目:在C51中，`switch`语句的`case`标签后的`break`语句是可选的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 75,
+      "type": "单选",
+      "title": "75. (判断题, 1.3score)题目:C51中的数组只能是一维的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 76,
+      "type": "单选",
+      "title": "76. (判断题, 1.3score)题目:在C51中，指针变量不能直接指向数组元素。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 77,
+      "type": "单选",
+      "title": "77. (判断题, 1.3score)题目:C51语言中的`#define`命令只能用于定义常数。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    }
+  ]

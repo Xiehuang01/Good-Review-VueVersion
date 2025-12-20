@@ -1,0 +1,2092 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题, 1.1score)MCS-51单片机的输出口P0是什么类型的I/O口?",
+      "options": [
+        {
+          "label": "A",
+          "text": "准双向口"
+        },
+        {
+          "label": "B",
+          "text": "双向三态口"
+        },
+        {
+          "label": "C",
+          "text": "只读口"
+        },
+        {
+          "label": "D",
+          "text": "只写口"
+        }
+      ],
+      "correctAnswer": [
+        "双向三态口"
+      ],
+      "selectedAnswer": [
+        "双向三态口"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题, 1.1score)P1口作为输入口使用时，需要先将其锁存器置为多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": [
+        "1"
+      ],
+      "selectedAnswer": [
+        "1"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题, 1.1score)P2口可以和P0口一起用作外部存储器的什么总线?",
+      "options": [
+        {
+          "label": "A",
+          "text": "数据总线"
+        },
+        {
+          "label": "B",
+          "text": "地址总线"
+        },
+        {
+          "label": "C",
+          "text": "控制总线"
+        },
+        {
+          "label": "D",
+          "text": "电源总线"
+        }
+      ],
+      "correctAnswer": [
+        "地址总线"
+      ],
+      "selectedAnswer": [
+        "地址总线"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题, 1.1score)P3口的第二功能中，P3.0被用作什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "串行输入口(RXD)"
+        },
+        {
+          "label": "B",
+          "text": "串行输出口(TXD)"
+        },
+        {
+          "label": "C",
+          "text": "外部中断0(INT0)"
+        },
+        {
+          "label": "D",
+          "text": "定时/计数器0的外部输入口(T0)"
+        }
+      ],
+      "correctAnswer": [
+        "串行输入口(RXD)"
+      ],
+      "selectedAnswer": [
+        "串行输入口(RXD)"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题, 1.1score)新型51系列单片机中，P4口的地址是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0xE8"
+        },
+        {
+          "label": "B",
+          "text": "0xA0"
+        },
+        {
+          "label": "C",
+          "text": "0xB0"
+        },
+        {
+          "label": "D",
+          "text": "0x80"
+        }
+      ],
+      "correctAnswer": [
+        "0xE8"
+      ],
+      "selectedAnswer": [
+        "0xE8"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题, 1.1score)以下哪个助记符对应8位P1口?",
+      "options": [
+        {
+          "label": "A",
+          "text": "P0"
+        },
+        {
+          "label": "B",
+          "text": "P1"
+        },
+        {
+          "label": "C",
+          "text": "P2"
+        },
+        {
+          "label": "D",
+          "text": "P3"
+        }
+      ],
+      "correctAnswer": [
+        "P1"
+      ],
+      "selectedAnswer": [
+        "P1"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题, 1.1score)红色发光二极管的导通电压是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.7~2.5V"
+        },
+        {
+          "label": "B",
+          "text": "2.0~2.4V"
+        },
+        {
+          "label": "C",
+          "text": "1.9~2.4V"
+        },
+        {
+          "label": "D",
+          "text": "3.0~3.8V"
+        }
+      ],
+      "correctAnswer": [
+        "1.7~2.5V"
+      ],
+      "selectedAnswer": [
+        "1.7~2.5V"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题, 1.1score)7段数码管中，如果要显示数字0，共阴极数码管的驱动信号应该是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0x3f"
+        },
+        {
+          "label": "B",
+          "text": "0x06"
+        },
+        {
+          "label": "C",
+          "text": "0x5b"
+        },
+        {
+          "label": "D",
+          "text": "0xc0"
+        }
+      ],
+      "correctAnswer": [
+        "0x3f"
+      ],
+      "selectedAnswer": [
+        "0x3f"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题, 1.1score)7段数码管中，如果要显示数字8，共阳极数码管的驱动信号应该是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0x80"
+        },
+        {
+          "label": "B",
+          "text": "0x06"
+        },
+        {
+          "label": "C",
+          "text": "0x5b"
+        },
+        {
+          "label": "D",
+          "text": "0xc0"
+        }
+      ],
+      "correctAnswer": [
+        "0x80"
+      ],
+      "selectedAnswer": [
+        "0x80"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题, 1.1score)按钮开关的特点是具有什么功能?",
+      "options": [
+        {
+          "label": "A",
+          "text": "自动恢复(回弹)"
+        },
+        {
+          "label": "B",
+          "text": "保持功能"
+        },
+        {
+          "label": "C",
+          "text": "无动作"
+        },
+        {
+          "label": "D",
+          "text": "单次动作"
+        }
+      ],
+      "correctAnswer": [
+        "自动恢复(回弹)"
+      ],
+      "selectedAnswer": [
+        "自动恢复(回弹)"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题, 1.1score)闸刀开关的特点是具有什么功能?",
+      "options": [
+        {
+          "label": "A",
+          "text": "自动恢复(回弹)"
+        },
+        {
+          "label": "B",
+          "text": "保持功能"
+        },
+        {
+          "label": "C",
+          "text": "无动作"
+        },
+        {
+          "label": "D",
+          "text": "单次动作"
+        }
+      ],
+      "correctAnswer": [
+        "保持功能"
+      ],
+      "selectedAnswer": [
+        "自动恢复(回弹)"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题, 1.1score)在设计数字电路时，输入端不能含有什么状态?",
+      "options": [
+        {
+          "label": "A",
+          "text": "确定状态"
+        },
+        {
+          "label": "B",
+          "text": "不确定状态"
+        },
+        {
+          "label": "C",
+          "text": "高电平状态"
+        },
+        {
+          "label": "D",
+          "text": "低电平状态"
+        }
+      ],
+      "correctAnswer": [
+        "不确定状态"
+      ],
+      "selectedAnswer": [
+        "不确定状态"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题, 1.1score)按钮开关的输入电路设计中，需要连接一个电阻再接到哪里?",
+      "options": [
+        {
+          "label": "A",
+          "text": "VCC"
+        },
+        {
+          "label": "B",
+          "text": "GND"
+        },
+        {
+          "label": "C",
+          "text": "VCC或GND"
+        },
+        {
+          "label": "D",
+          "text": "悬空"
+        }
+      ],
+      "correctAnswer": [
+        "VCC或GND"
+      ],
+      "selectedAnswer": [
+        "VCC或GND"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14. (单选题, 1.1score)按钮开关的输入电路设计中，按下按钮开关时，输入引脚变为什么电平?",
+      "options": [
+        {
+          "label": "A",
+          "text": "高电平"
+        },
+        {
+          "label": "B",
+          "text": "低电平"
+        },
+        {
+          "label": "C",
+          "text": "悬空"
+        },
+        {
+          "label": "D",
+          "text": "不变"
+        }
+      ],
+      "correctAnswer": [
+        "低电平"
+      ],
+      "selectedAnswer": [
+        "低电平"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15. (单选题, 1.1score)按钮开关的输入电路设计中，放开按钮开关时，输入引脚恢复为什么电平?",
+      "options": [
+        {
+          "label": "A",
+          "text": "高电平"
+        },
+        {
+          "label": "B",
+          "text": "低电平"
+        },
+        {
+          "label": "C",
+          "text": "悬空"
+        },
+        {
+          "label": "D",
+          "text": "不变"
+        }
+      ],
+      "correctAnswer": [
+        "高电平"
+      ],
+      "selectedAnswer": [
+        "高电平"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. (单选题, 1.1score)按钮开关在操作时，信号的高低电平切换会产生什么现象?",
+      "options": [
+        {
+          "label": "A",
+          "text": "稳定状态"
+        },
+        {
+          "label": "B",
+          "text": "不确定状态"
+        },
+        {
+          "label": "C",
+          "text": "抖动现象"
+        },
+        {
+          "label": "D",
+          "text": "无变化"
+        }
+      ],
+      "correctAnswer": [
+        "抖动现象"
+      ],
+      "selectedAnswer": [
+        "抖动现象"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. (单选题, 1.1score)硬件防抖动电路中，常用的一种方法是使用什么元件来设计?",
+      "options": [
+        {
+          "label": "A",
+          "text": "RC元件"
+        },
+        {
+          "label": "B",
+          "text": "二极管"
+        },
+        {
+          "label": "C",
+          "text": "三极管"
+        },
+        {
+          "label": "D",
+          "text": "集成电路"
+        }
+      ],
+      "correctAnswer": [
+        "RC元件"
+      ],
+      "selectedAnswer": [
+        "RC元件"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. (单选题, 1.1score)软件防抖动通常采用什么方法来实现?",
+      "options": [
+        {
+          "label": "A",
+          "text": "计数法"
+        },
+        {
+          "label": "B",
+          "text": "延时法"
+        },
+        {
+          "label": "C",
+          "text": "滤波法"
+        },
+        {
+          "label": "D",
+          "text": "互锁法"
+        }
+      ],
+      "correctAnswer": [
+        "延时法"
+      ],
+      "selectedAnswer": [
+        "延时法"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. (单选题, 1.1score)在51单片机中，若要实现按键控制LED灯的亮灭，需要使用什么函数来避免抖动?",
+      "options": [
+        {
+          "label": "A",
+          "text": "debouncer()"
+        },
+        {
+          "label": "B",
+          "text": "delay()"
+        },
+        {
+          "label": "C",
+          "text": "interrupt()"
+        },
+        {
+          "label": "D",
+          "text": "timer()"
+        }
+      ],
+      "correctAnswer": [
+        "debouncer()"
+      ],
+      "selectedAnswer": [
+        "delay()"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. (单选题, 1.1score)P0口作为I/O口使用时，由于其内部没有上拉电阻，因而需要外接什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "下拉电阻"
+        },
+        {
+          "label": "B",
+          "text": "上拉电阻"
+        },
+        {
+          "label": "C",
+          "text": "滤波电容"
+        },
+        {
+          "label": "D",
+          "text": "稳压二极管"
+        }
+      ],
+      "correctAnswer": [
+        "上拉电阻"
+      ],
+      "selectedAnswer": [
+        "上拉电阻"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "单选",
+      "title": "21. (单选题, 1.1score)P1口作为输出口时，若要输出高电平，锁存器应置为多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": [
+        "1"
+      ],
+      "selectedAnswer": [
+        "1"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "单选",
+      "title": "22. (单选题, 1.1score)P2口除了用作输入/输出口，还可以和P0口一起用作什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "数据总线"
+        },
+        {
+          "label": "B",
+          "text": "地址总线"
+        },
+        {
+          "label": "C",
+          "text": "控制总线"
+        },
+        {
+          "label": "D",
+          "text": "电源总线"
+        }
+      ],
+      "correctAnswer": [
+        "地址总线"
+      ],
+      "selectedAnswer": [
+        "地址总线"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "单选",
+      "title": "23. (单选题, 1.1score)P3口的第二功能中，P3.1被用作什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "串行输入口(RXD)"
+        },
+        {
+          "label": "B",
+          "text": "串行输出口(TXD)"
+        },
+        {
+          "label": "C",
+          "text": "外部中断0(INT0)"
+        },
+        {
+          "label": "D",
+          "text": "定时/计数器1的外部输入口(T1)"
+        }
+      ],
+      "correctAnswer": [
+        "串行输出口(TXD)"
+      ],
+      "selectedAnswer": [
+        "串行输出口(TXD)"
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "单选",
+      "title": "24. (单选题, 1.1score)新型51系列单片机中，P4口有多少位?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4位"
+        },
+        {
+          "label": "B",
+          "text": "8位"
+        },
+        {
+          "label": "C",
+          "text": "16位"
+        },
+        {
+          "label": "D",
+          "text": "32位"
+        }
+      ],
+      "correctAnswer": [
+        "4位"
+      ],
+      "selectedAnswer": [
+        "8位"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25. (单选题, 1.1score)绿色发光二极管的导通电压是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.7~2.5V"
+        },
+        {
+          "label": "B",
+          "text": "2.0~2.4V"
+        },
+        {
+          "label": "C",
+          "text": "1.9~2.4V"
+        },
+        {
+          "label": "D",
+          "text": "3.0~3.8V"
+        }
+      ],
+      "correctAnswer": [
+        "2.0~2.4V"
+      ],
+      "selectedAnswer": [
+        "2.0~2.4V"
+      ],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26. (单选题, 1.1score)7段数码管中，如果要显示数字2，共阴极数码管的驱动信号应该是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0x3f"
+        },
+        {
+          "label": "B",
+          "text": "0x06"
+        },
+        {
+          "label": "C",
+          "text": "0x5b"
+        },
+        {
+          "label": "D",
+          "text": "0xa4"
+        }
+      ],
+      "correctAnswer": [
+        "0x5b"
+      ],
+      "selectedAnswer": [
+        "0x5b"
+      ],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27. (单选题, 1.1score)按钮开关的输入电路设计中，若要产生一个正脉冲，开关应该与电阻相接后接到哪里?",
+      "options": [
+        {
+          "label": "A",
+          "text": "VCC"
+        },
+        {
+          "label": "B",
+          "text": "GND"
+        },
+        {
+          "label": "C",
+          "text": "VCC或GND"
+        },
+        {
+          "label": "D",
+          "text": "悬空"
+        }
+      ],
+      "correctAnswer": [
+        "VCC"
+      ],
+      "selectedAnswer": [
+        "VCC"
+      ],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28. (单选题, 1.1score)在设计数字电路时，输入端不可留空，否则除了会产生不确定的状态外，还可能感染什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "噪声"
+        },
+        {
+          "label": "B",
+          "text": "信号"
+        },
+        {
+          "label": "C",
+          "text": "电流"
+        },
+        {
+          "label": "D",
+          "text": "电压"
+        }
+      ],
+      "correctAnswer": [
+        "噪声"
+      ],
+      "selectedAnswer": [
+        "噪声"
+      ],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "单选",
+      "title": "29. (单选题, 1.1score)硬件防抖动电路中，除了使用RC元件，还可以使用什么电路组成一个防抖动电路?",
+      "options": [
+        {
+          "label": "A",
+          "text": "互锁电路"
+        },
+        {
+          "label": "B",
+          "text": "滤波电路"
+        },
+        {
+          "label": "C",
+          "text": "稳压电路"
+        },
+        {
+          "label": "D",
+          "text": "放大电路"
+        }
+      ],
+      "correctAnswer": [
+        "互锁电路"
+      ],
+      "selectedAnswer": [
+        "互锁电路"
+      ],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "单选",
+      "title": "30. (单选题, 1.1score)51单片机的I/O口，默认情况下是哪种状态?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "高电平输出"
+        },
+        {
+          "label": "B",
+          "text": "低电平输出"
+        },
+        {
+          "label": "C",
+          "text": "高阻态输入"
+        },
+        {
+          "label": "D",
+          "text": "弱上拉/下拉状态"
+        }
+      ],
+      "correctAnswer": [
+        "高阻态输入"
+      ],
+      "selectedAnswer": [
+        "弱上拉/下拉状态"
+      ],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "单选",
+      "title": "31. (单选题, 1.1score)51单片机的P0口在作为地址/数据总线时，是哪种类型的输出?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "开漏输出"
+        },
+        {
+          "label": "B",
+          "text": "推挽输出"
+        },
+        {
+          "label": "C",
+          "text": "三态输出"
+        },
+        {
+          "label": "D",
+          "text": "双向输入/输出"
+        }
+      ],
+      "correctAnswer": [
+        "推挽输出"
+      ],
+      "selectedAnswer": [
+        "三态输出"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "单选",
+      "title": "32. (单选题, 1.1score)当51单片机的P1口被配置为输入时，其内部的上拉电阻会如何?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "启用"
+        },
+        {
+          "label": "B",
+          "text": "禁用"
+        },
+        {
+          "label": "C",
+          "text": "不确定"
+        },
+        {
+          "label": "D",
+          "text": "由用户软件控制"
+        }
+      ],
+      "correctAnswer": [
+        "禁用"
+      ],
+      "selectedAnswer": [
+        "启用"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "单选",
+      "title": "33. (单选题, 1.1score)51单片机的哪个I/O口具有内部上拉电阻，可以直接驱动LED?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "P0"
+        },
+        {
+          "label": "B",
+          "text": "P1"
+        },
+        {
+          "label": "C",
+          "text": "P2"
+        },
+        {
+          "label": "D",
+          "text": "P3"
+        }
+      ],
+      "correctAnswer": [
+        "P1"
+      ],
+      "selectedAnswer": [
+        "P0"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "单选",
+      "title": "34. (单选题, 1.1score)使用51单片机的I/O口控制LED时，要使LED发光，通常应将I/O口设置为?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "高电平"
+        },
+        {
+          "label": "B",
+          "text": "低电平"
+        },
+        {
+          "label": "C",
+          "text": "开漏输出"
+        },
+        {
+          "label": "D",
+          "text": "高阻态"
+        }
+      ],
+      "correctAnswer": [
+        "低电平"
+      ],
+      "selectedAnswer": [
+        "低电平"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "单选",
+      "title": "35. (单选题, 1.1score)51单片机的P3口具有哪些特殊功能?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "定时/计数器输入"
+        },
+        {
+          "label": "B",
+          "text": "串行通信"
+        },
+        {
+          "label": "C",
+          "text": "外部中断"
+        },
+        {
+          "label": "D",
+          "text": "以上都是"
+        }
+      ],
+      "correctAnswer": [
+        "以上都是"
+      ],
+      "selectedAnswer": [
+        "以上都是"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "单选",
+      "title": "36. (单选题, 1.1score)在使用51单片机驱动共阳极数码管时，要显示数字“3”，对应的段选信号应该是怎样的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "全亮"
+        },
+        {
+          "label": "B",
+          "text": "a, b, c, d, g段亮"
+        },
+        {
+          "label": "C",
+          "text": "a, b, c, d, e段亮"
+        },
+        {
+          "label": "D",
+          "text": "b, c, d, g段亮"
+        }
+      ],
+      "correctAnswer": [
+        "a, b, c, d, g段亮"
+      ],
+      "selectedAnswer": [
+        "a, b, c, d, g段亮"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "单选",
+      "title": "37. (单选题, 1.1score)当使用51单片机的I/O口读取开关状态时，应将I/O口配置为?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "输出模式"
+        },
+        {
+          "label": "B",
+          "text": "输入模式"
+        },
+        {
+          "label": "C",
+          "text": "开漏输出"
+        },
+        {
+          "label": "D",
+          "text": "高阻态输入"
+        }
+      ],
+      "correctAnswer": [
+        "输入模式"
+      ],
+      "selectedAnswer": [
+        "输入模式"
+      ],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "单选",
+      "title": "38. (单选题, 1.1score)51单片机的I/O口输出电流能力大约为多少mA?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": [
+        "10"
+      ],
+      "selectedAnswer": [
+        "5"
+      ],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "单选",
+      "title": "39. (单选题, 1.1score)在51单片机中，如果要实现一个8位的LED点阵显示，至少需要多少个I/O口?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "correctAnswer": [
+        "16"
+      ],
+      "selectedAnswer": [
+        "16"
+      ],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "填空",
+      "title": "40. (填空题, 1.1score)MCS-51单片机的输出口P1、P2和P3是____类型的I/O口。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 准双向口"
+      ],
+      "selectedAnswer": [
+        "(1) 准双向"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "填空",
+      "title": "41. (填空题, 1.1score)P0口作为I/O口使用时，由于其内部没有____电阻，因而需要外接上拉电阻。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 上拉"
+      ],
+      "selectedAnswer": [
+        "(1) 上拉"
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "填空",
+      "title": "42. (填空题, 1.1score)P2口不仅可以用作输入/输出口，也可以和P0口一起用作外部存储器的____总线。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 地址"
+      ],
+      "selectedAnswer": [
+        "(1) 地址"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "填空",
+      "title": "43. (填空题, 1.1score)P3口的第二功能中，P3.2被用作____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 外部中断0(INT0)"
+      ],
+      "selectedAnswer": [
+        "(1) int0"
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "填空",
+      "title": "44. (填空题, 1.1score)新型51系列单片机中，P4口的助记符是____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) P4"
+      ],
+      "selectedAnswer": [
+        "(1) p4"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "填空",
+      "title": "45. (填空题, 1.1score)红色发光二极管的导通电压约为____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 1.7V"
+      ],
+      "selectedAnswer": [
+        "(1) 1.8V~2.2V"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "填空",
+      "title": "46. (填空题, 1.1score)7段数码管中，如果要显示数字0，共阳极数码管的驱动信号应该是0x____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) C0"
+      ],
+      "selectedAnswer": [
+        "(1) c0"
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "填空",
+      "title": "47. (填空题, 1.1score)按钮开关的特点是具有自动恢复(______)功能。*答案",
+      "options": [],
+      "correctAnswer": [
+        "(1) 回弹"
+      ],
+      "selectedAnswer": [
+        "(1) 复位"
+      ],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "填空",
+      "title": "48. (填空题, 1.1score)闸刀开关具有____功能，将开关拨动到ON时，内部的开关接通形成通路。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 保持"
+      ],
+      "selectedAnswer": [
+        "(1) 通断"
+      ],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "填空",
+      "title": "49. (填空题, 1.1score)设计数字电路或含有微控制器的输入电路时，输入端不能含有不确定的状态，即输入端不可____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 留空"
+      ],
+      "selectedAnswer": [
+        "(1) 悬空"
+      ],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "填空",
+      "title": "50. (填空题, 1.1score)按钮开关的输入电路设计中，按下按钮开关时，输入引脚变为____电平。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 低"
+      ],
+      "selectedAnswer": [
+        "(1) 低"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "填空",
+      "title": "51. (填空题, 1.1score)硬件防抖动电路中，常用的一种方法是使用RC元件来设计一个____电路。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 防抖动"
+      ],
+      "selectedAnswer": [
+        "(1) 滤波"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "填空",
+      "title": "52. (填空题, 1.1score)软件防抖动通常采用____法来实现。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 延时"
+      ],
+      "selectedAnswer": [
+        "(1) 延时消抖"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "填空",
+      "title": "53. (填空题, 1.1score)P0口一个引脚的内部结构中，多路开关MUX与____相连接时，P0口作为普通的I/O口使用。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 数据输出锁存器"
+      ],
+      "selectedAnswer": [
+        "(1) p0口"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "填空",
+      "title": "54. (填空题, 1.1score)P1口为8位____口，这8位均可单独定义为输入或输出口。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 准双向"
+      ],
+      "selectedAnswer": [
+        "(1) 准双向"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "填空",
+      "title": "55. (填空题, 1.1score)P3口的第一功能和P1口一样，既可作为输入/输出端口，又能够进行____操作和位操作。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 字节"
+      ],
+      "selectedAnswer": [
+        "(1) 字节"
+      ],
+      "images": []
+    },
+    {
+      "id": 56,
+      "type": "填空",
+      "title": "56. (填空题, 1.1score)7段数码管中，如果要显示数字8，共阴极数码管的驱动信号应该是0x____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 7F"
+      ],
+      "selectedAnswer": [
+        "(1) FF"
+      ],
+      "images": []
+    },
+    {
+      "id": 57,
+      "type": "填空",
+      "title": "57. (填空题, 1.1score)在设计数字电路时，输入端不可留空，否则除了会产生不确定的状态外，还可能感染噪声，使电路产生____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 误动作"
+      ],
+      "selectedAnswer": [
+        "(1) 误动作"
+      ],
+      "images": []
+    },
+    {
+      "id": 58,
+      "type": "填空",
+      "title": "58. (填空题, 1.1score)硬件防抖动电路中，除了使用RC元件，还可以使用____电路组成一个防抖动电路。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 互锁"
+      ],
+      "selectedAnswer": [
+        "(1) 双稳态"
+      ],
+      "images": []
+    },
+    {
+      "id": 59,
+      "type": "填空",
+      "title": "59. (填空题, 1.1score)软件防抖动通常采用延时函数，只要避开按键按下时产生抖动的____，即可达到防抖动的目的。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 20ms"
+      ],
+      "selectedAnswer": [
+        "(1) 时间段"
+      ],
+      "images": []
+    },
+    {
+      "id": 60,
+      "type": "单选",
+      "title": "60. (判断题, 1.1score)51单片机的I/O口都具有内部上拉电阻，可以直接驱动LED。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 61,
+      "type": "单选",
+      "title": "61. (判断题, 1.1score)51单片机的P0口在作为数据总线时，需要外接上拉电阻。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 62,
+      "type": "单选",
+      "title": "62. (判断题, 1.1score)51单片机的P3口具有多个复用功能，可以作为外部中断、串行通信等。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 63,
+      "type": "单选",
+      "title": "63. (判断题, 1.1score)在使用51单片机驱动LED时，LED的阳极应连接到I/O口的低电平输出端。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 64,
+      "type": "单选",
+      "title": "64. (判断题, 1.1score)51单片机的I/O口在读取外部开关状态时，应配置为输入模式，并且需要内部上拉电阻。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 65,
+      "type": "单选",
+      "title": "65. (判断题, 1.1score)51单片机的P2口通常用于地址总线，因此在驱动LED时不如P0和P1口灵活。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 66,
+      "type": "单选",
+      "title": "66. (判断题, 1.1score)在使用51单片机驱动共阴极数码管时，要显示数字，应将对应的段选信号置为高电平。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 67,
+      "type": "单选",
+      "title": "67. (判断题, 1.1score)51单片机的I/O口输出能力有限，如果需要驱动大电流负载，应使用外部驱动电路。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 68,
+      "type": "单选",
+      "title": "68. (判断题, 1.1score)51单片机的I/O口可以直接驱动多个LED同时发光，而不需要任何限流措施。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 69,
+      "type": "单选",
+      "title": "69. (判断题, 1.2score)在使用51单片机实现按键扫描时，通常需要将按键的一端连接到I/O口，另一端接地或电源。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 70,
+      "type": "单选",
+      "title": "70. (判断题, 1.2score)P0口是双向三态口，P1、P2、P3口是准双向口。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 71,
+      "type": "单选",
+      "title": "71. (判断题, 1.2score)P0口作为I/O口使用时，需要外接上拉电阻。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 72,
+      "type": "单选",
+      "title": "72. (判断题, 1.2score)P1口作为输入口时，需要先对其置1。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 73,
+      "type": "单选",
+      "title": "73. (判断题, 1.2score)P2口只能用作输入/输出口，不能用作地址总线。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 74,
+      "type": "单选",
+      "title": "74. (判断题, 1.2score)P3口只有第一功能，没有第二功能。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 75,
+      "type": "单选",
+      "title": "75. (判断题, 1.2score)新型51单片机没有P4口。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 76,
+      "type": "单选",
+      "title": "76. (判断题, 1.2score)用单片机的I/O口驱动发光二极管时，流过LED的电流必须达到10mA。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 77,
+      "type": "单选",
+      "title": "77. (判断题, 1.2score)在驱动多个LED时，可以直接将LED并联到单片机的I/O口。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 78,
+      "type": "单选",
+      "title": "78. (判断题, 1.2score)7段LED数码管只能显示数字，不能显示字母。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 79,
+      "type": "单选",
+      "title": "79. (判断题, 1.2score)在驱动共阳极7段数码管时，若要在数码管上显示数字0，应给数码管的驱动信号为0x3f。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 80,
+      "type": "单选",
+      "title": "80. (判断题, 1.2score)按钮开关和闸刀开关都是电平触发型的开关。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 81,
+      "type": "单选",
+      "title": "81. (判断题, 1.2score)在输入电路中，输入端可以留空，不会产生不确定状态。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 82,
+      "type": "单选",
+      "title": "82. (判断题, 1.2score)在按钮开关的输入电路设计中，不需要连接电阻。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 83,
+      "type": "单选",
+      "title": "83. (判断题, 1.2score)抖动现象只会在按钮开关中出现，闸刀开关不会出现抖动。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 84,
+      "type": "单选",
+      "title": "84. (判断题, 1.2score)硬件防抖动电路会增加硬件设计的成本与复杂度。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 85,
+      "type": "单选",
+      "title": "85. (判断题, 1.2score)软件防抖动是通过增加延时来避开按键按下时的抖动时间段。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 86,
+      "type": "单选",
+      "title": "86. (判断题, 1.2score)在编程实现按钮切换式控制时，不需要进行防抖动处理。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 87,
+      "type": "单选",
+      "title": "87. (判断题, 1.2score)P0口和P2口在作为地址总线使用时，P0口输出地址的低8位，P2口输出地址的高8位。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 88,
+      "type": "单选",
+      "title": "88. (判断题, 1.2score)在使用C语言编程时，不需要对新型51单片机的P4口进行特殊声明。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 89,
+      "type": "单选",
+      "title": "89. (判断题, 1.2score)51单片机的I/O口只能用于输出功能。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    }
+  ]

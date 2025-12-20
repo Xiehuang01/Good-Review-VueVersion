@@ -1,0 +1,3918 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1. (单选题, 0.6score)51单片机的中断源中，外部中断有几个?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1个"
+        },
+        {
+          "label": "B",
+          "text": "2个"
+        },
+        {
+          "label": "C",
+          "text": "3个"
+        },
+        {
+          "label": "D",
+          "text": "4个"
+        }
+      ],
+      "correctAnswer": [
+        "2个"
+      ],
+      "selectedAnswer": [
+        "2个"
+      ],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2. (单选题, 0.6score)51单片机的中断源中，定时器/计数器中断有几个?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1个"
+        },
+        {
+          "label": "B",
+          "text": "2个"
+        },
+        {
+          "label": "C",
+          "text": "3个"
+        },
+        {
+          "label": "D",
+          "text": "4个"
+        }
+      ],
+      "correctAnswer": [
+        "2个"
+      ],
+      "selectedAnswer": [
+        "2个"
+      ],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3. (单选题, 0.6score)51单片机的中断控制系统中，IE寄存器的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制中断的优先级"
+        },
+        {
+          "label": "B",
+          "text": "控制中断的开关"
+        },
+        {
+          "label": "C",
+          "text": "设置中断的触发方式"
+        },
+        {
+          "label": "D",
+          "text": "存储中断的返回地址"
+        }
+      ],
+      "correctAnswer": [
+        "控制中断的开关"
+      ],
+      "selectedAnswer": [
+        "控制中断的开关"
+      ],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4. (单选题, 0.6score)51单片机的中断控制系统中，IP寄存器的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制中断的开关"
+        },
+        {
+          "label": "B",
+          "text": "控制中断的优先级"
+        },
+        {
+          "label": "C",
+          "text": "设置中断的触发方式"
+        },
+        {
+          "label": "D",
+          "text": "存储中断的返回地址"
+        }
+      ],
+      "correctAnswer": [
+        "控制中断的优先级"
+      ],
+      "selectedAnswer": [
+        "控制中断的优先级"
+      ],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5. (单选题, 0.6score)51单片机的中断向量地址中，系统复位(Reset)的中断向量地址是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0000H"
+        },
+        {
+          "label": "B",
+          "text": "0003H"
+        },
+        {
+          "label": "C",
+          "text": "000BH"
+        },
+        {
+          "label": "D",
+          "text": "0013H"
+        }
+      ],
+      "correctAnswer": [
+        "0000H"
+      ],
+      "selectedAnswer": [
+        "0000H"
+      ],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6. (单选题, 0.6score)51单片机的中断向量地址中，第一个外部中断INT0的中断向量地址是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0000H"
+        },
+        {
+          "label": "B",
+          "text": "0003H"
+        },
+        {
+          "label": "C",
+          "text": "000BH"
+        },
+        {
+          "label": "D",
+          "text": "0013H"
+        }
+      ],
+      "correctAnswer": [
+        "0003H"
+      ],
+      "selectedAnswer": [
+        "0003H"
+      ],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7. (单选题, 0.6score)51单片机的TCON寄存器中，IT0的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制外部中断0的触发方式"
+        },
+        {
+          "label": "B",
+          "text": "控制外部中断1的触发方式"
+        },
+        {
+          "label": "C",
+          "text": "控制定时器0的启动/停止"
+        },
+        {
+          "label": "D",
+          "text": "控制定时器1的启动/停止"
+        }
+      ],
+      "correctAnswer": [
+        "控制外部中断0的触发方式"
+      ],
+      "selectedAnswer": [
+        "控制外部中断0的触发方式"
+      ],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8. (单选题, 0.6score)51单片机的TCON寄存器中，TR0的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制外部中断0的触发方式"
+        },
+        {
+          "label": "B",
+          "text": "控制外部中断1的触发方式"
+        },
+        {
+          "label": "C",
+          "text": "控制定时器0的启动/停止"
+        },
+        {
+          "label": "D",
+          "text": "控制定时器1的启动/停止"
+        }
+      ],
+      "correctAnswer": [
+        "控制定时器0的启动/停止"
+      ],
+      "selectedAnswer": [
+        "控制定时器0的启动/停止"
+      ],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9. (单选题, 0.6score)51单片机的中断优先级寄存器IP中，PX0的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "设置外部中断0的优先级"
+        },
+        {
+          "label": "B",
+          "text": "设置外部中断1的优先级"
+        },
+        {
+          "label": "C",
+          "text": "设置定时器0的优先级"
+        },
+        {
+          "label": "D",
+          "text": "设置定时器1的优先级"
+        }
+      ],
+      "correctAnswer": [
+        "设置外部中断0的优先级"
+      ],
+      "selectedAnswer": [
+        "设置外部中断0的优先级"
+      ],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10. (单选题, 0.6score)51单片机的中断优先级寄存器IP中，PT1的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "设置外部中断0的优先级"
+        },
+        {
+          "label": "B",
+          "text": "设置外部中断1的优先级"
+        },
+        {
+          "label": "C",
+          "text": "设置定时器0的优先级"
+        },
+        {
+          "label": "D",
+          "text": "设置定时器1的优先级"
+        }
+      ],
+      "correctAnswer": [
+        "设置定时器1的优先级"
+      ],
+      "selectedAnswer": [
+        "设置定时器1的优先级"
+      ],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. (单选题, 0.6score)51单片机的定时器/计数器中，定时器0和定时器1都是多少位的?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "13位"
+        },
+        {
+          "label": "C",
+          "text": "16位"
+        },
+        {
+          "label": "D",
+          "text": "32位"
+        }
+      ],
+      "correctAnswer": [
+        "16位"
+      ],
+      "selectedAnswer": [
+        "16位"
+      ],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. (单选题, 0.6score)51单片机的定时器/计数器中，工作模式0(Mode 0)的计数位数是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "13位"
+        },
+        {
+          "label": "C",
+          "text": "16位"
+        },
+        {
+          "label": "D",
+          "text": "32位"
+        }
+      ],
+      "correctAnswer": [
+        "13位"
+      ],
+      "selectedAnswer": [
+        "13位"
+      ],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. (单选题, 0.6score)51单片机的定时器/计数器中，工作模式1(Mode 1)的计数位数是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "13位"
+        },
+        {
+          "label": "C",
+          "text": "16位"
+        },
+        {
+          "label": "D",
+          "text": "32位"
+        }
+      ],
+      "correctAnswer": [
+        "16位"
+      ],
+      "selectedAnswer": [
+        "16位"
+      ],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14. (单选题, 0.6score)51单片机的定时器/计数器中，工作模式2(Mode 2)的计数位数是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "13位"
+        },
+        {
+          "label": "C",
+          "text": "16位"
+        },
+        {
+          "label": "D",
+          "text": "32位"
+        }
+      ],
+      "correctAnswer": [
+        "8位"
+      ],
+      "selectedAnswer": [
+        "8位"
+      ],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15. (单选题, 0.6score)51单片机的定时器/计数器中，工作模式3(Mode 3)的计数位数是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "13位"
+        },
+        {
+          "label": "C",
+          "text": "16位"
+        },
+        {
+          "label": "D",
+          "text": "32位"
+        }
+      ],
+      "correctAnswer": [
+        "8位"
+      ],
+      "selectedAnswer": [
+        "8位"
+      ],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. (单选题, 0.6score)51单片机的串行口中断中，RI代表什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "发送中断标志位"
+        },
+        {
+          "label": "B",
+          "text": "接收中断标志位"
+        },
+        {
+          "label": "C",
+          "text": "外部中断0标志位"
+        },
+        {
+          "label": "D",
+          "text": "定时器0中断标志位"
+        }
+      ],
+      "correctAnswer": [
+        "接收中断标志位"
+      ],
+      "selectedAnswer": [
+        "接收中断标志位"
+      ],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. (单选题, 0.6score)51单片机的串行口中断中，TI代表什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "发送中断标志位"
+        },
+        {
+          "label": "B",
+          "text": "接收中断标志位"
+        },
+        {
+          "label": "C",
+          "text": "外部中断0标志位"
+        },
+        {
+          "label": "D",
+          "text": "定时器0中断标志位"
+        }
+      ],
+      "correctAnswer": [
+        "发送中断标志位"
+      ],
+      "selectedAnswer": [
+        "发送中断标志位"
+      ],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. (单选题, 0.6score)51单片机的串行口工作模式中，Mode0的比特率是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "OSC/12"
+        },
+        {
+          "label": "B",
+          "text": "OSC/32"
+        },
+        {
+          "label": "C",
+          "text": "OSC/64"
+        },
+        {
+          "label": "D",
+          "text": "可变比特率"
+        }
+      ],
+      "correctAnswer": [
+        "OSC/12"
+      ],
+      "selectedAnswer": [
+        "OSC/12"
+      ],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. (单选题, 0.6score)51单片机的串行口工作模式中，Mode1的比特率是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "OSC/12"
+        },
+        {
+          "label": "B",
+          "text": "OSC/32"
+        },
+        {
+          "label": "C",
+          "text": "OSC/64"
+        },
+        {
+          "label": "D",
+          "text": "可变比特率"
+        }
+      ],
+      "correctAnswer": [
+        "可变比特率"
+      ],
+      "selectedAnswer": [
+        "可变比特率"
+      ],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. (单选题, 0.6score)51单片机的串行口工作模式中，SMOD=1，Mode2的比特率是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "OSC/12"
+        },
+        {
+          "label": "B",
+          "text": "OSC/32"
+        },
+        {
+          "label": "C",
+          "text": "OSC/64"
+        },
+        {
+          "label": "D",
+          "text": "可变比特率"
+        }
+      ],
+      "correctAnswer": [
+        "OSC/32"
+      ],
+      "selectedAnswer": [
+        "OSC/32"
+      ],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "单选",
+      "title": "21. (单选题, 0.6score)51单片机的串行口工作模式中，Mode3的比特率是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "OSC/12"
+        },
+        {
+          "label": "B",
+          "text": "OSC/32"
+        },
+        {
+          "label": "C",
+          "text": "OSC/64"
+        },
+        {
+          "label": "D",
+          "text": "可变比特率"
+        }
+      ],
+      "correctAnswer": [
+        "可变比特率"
+      ],
+      "selectedAnswer": [
+        "可变比特率"
+      ],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "单选",
+      "title": "22. (单选题, 0.6score)51单片机的串行口控制寄存器SCON中，SM0和SM1的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制串行口的波特率"
+        },
+        {
+          "label": "B",
+          "text": "控制串行口的工作模式"
+        },
+        {
+          "label": "C",
+          "text": "控制串行口的奇偶校验位"
+        },
+        {
+          "label": "D",
+          "text": "控制串行口的发送和接收"
+        }
+      ],
+      "correctAnswer": [
+        "控制串行口的工作模式"
+      ],
+      "selectedAnswer": [
+        "控制串行口的工作模式"
+      ],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "单选",
+      "title": "23. (单选题, 0.6score)51单片机的串行口控制寄存器SCON中，REN的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制串行口的波特率"
+        },
+        {
+          "label": "B",
+          "text": "允许或禁止串行接收"
+        },
+        {
+          "label": "C",
+          "text": "控制串行口的奇偶校验位"
+        },
+        {
+          "label": "D",
+          "text": "控制串行口的发送和接收"
+        }
+      ],
+      "correctAnswer": [
+        "允许或禁止串行接收"
+      ],
+      "selectedAnswer": [
+        "允许或禁止串行接收"
+      ],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "单选",
+      "title": "24. (单选题, 0.6score)51单片机的串行口控制寄存器SCON中，TB8的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制串行口的波特率"
+        },
+        {
+          "label": "B",
+          "text": "控制串行口的工作模式"
+        },
+        {
+          "label": "C",
+          "text": "Mode2或Mode3模式传送数据时的第9个传送位"
+        },
+        {
+          "label": "D",
+          "text": "控制串行口的发送和接收"
+        }
+      ],
+      "correctAnswer": [
+        "Mode2或Mode3模式传送数据时的第9个传送位"
+      ],
+      "selectedAnswer": [
+        "Mode2或Mode3模式传送数据时的第9个传送位"
+      ],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25. (单选题, 0.6score)51单片机的串行口控制寄存器SCON中，TI和RI的作用是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "控制串行口的波特率"
+        },
+        {
+          "label": "B",
+          "text": "控制串行口的工作模式"
+        },
+        {
+          "label": "C",
+          "text": "发送中断标志位和接收中断标志位"
+        },
+        {
+          "label": "D",
+          "text": "控制串行口的发送和接收"
+        }
+      ],
+      "correctAnswer": [
+        "发送中断标志位和接收中断标志位"
+      ],
+      "selectedAnswer": [
+        "发送中断标志位和接收中断标志位"
+      ],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26. (单选题, 0.6score)51单片机的定时器/计数器的计数终点值是多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位模式最大计数值为255"
+        },
+        {
+          "label": "B",
+          "text": "13位模式最大计数值为8191"
+        },
+        {
+          "label": "C",
+          "text": "16位模式最大计数值为65536"
+        },
+        {
+          "label": "D",
+          "text": "所有模式最大计数值都是256"
+        }
+      ],
+      "correctAnswer": [
+        "16位模式最大计数值为65536"
+      ],
+      "selectedAnswer": [
+        "13位模式最大计数值为8191"
+      ],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27. (单选题, 0.6score)51单片机的定时器/计数器在工作模式2(Mode 2)下，THx用于存放什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "定时器的当前计数值"
+        },
+        {
+          "label": "B",
+          "text": "定时器的溢出中断请求标志位"
+        },
+        {
+          "label": "C",
+          "text": "定时器的启动/停止控制位"
+        },
+        {
+          "label": "D",
+          "text": "定时器的计数初值"
+        }
+      ],
+      "correctAnswer": [
+        "定时器的计数初值"
+      ],
+      "selectedAnswer": [
+        "定时器的计数初值"
+      ],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28. (单选题, 0.6score)51单片机的串行口在Mode1模式下，每帧数据有多少位?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "9位"
+        },
+        {
+          "label": "C",
+          "text": "10位"
+        },
+        {
+          "label": "D",
+          "text": "11位"
+        }
+      ],
+      "correctAnswer": [
+        "10位"
+      ],
+      "selectedAnswer": [
+        "10位"
+      ],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "单选",
+      "title": "29. (单选题, 0.6score)51单片机的串行口在Mode2模式下，每帧数据有多少位?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "9位"
+        },
+        {
+          "label": "C",
+          "text": "10位"
+        },
+        {
+          "label": "D",
+          "text": "11位"
+        }
+      ],
+      "correctAnswer": [
+        "11位"
+      ],
+      "selectedAnswer": [
+        "11位"
+      ],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "单选",
+      "title": "30. (单选题, 0.6score)51单片机的串行口在Mode3模式下，每帧数据有多少位?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位"
+        },
+        {
+          "label": "B",
+          "text": "9位"
+        },
+        {
+          "label": "C",
+          "text": "10位"
+        },
+        {
+          "label": "D",
+          "text": "11位"
+        }
+      ],
+      "correctAnswer": [
+        "11位"
+      ],
+      "selectedAnswer": [
+        "11位"
+      ],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "单选",
+      "title": "31. (单选题, 0.6score)51单片机的串行口在Mode1模式下，数据传输从什么位开始?",
+      "options": [
+        {
+          "label": "A",
+          "text": "起始位"
+        },
+        {
+          "label": "B",
+          "text": "数据位"
+        },
+        {
+          "label": "C",
+          "text": "奇偶校验位"
+        },
+        {
+          "label": "D",
+          "text": "停止位"
+        }
+      ],
+      "correctAnswer": [
+        "起始位"
+      ],
+      "selectedAnswer": [
+        "起始位"
+      ],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "单选",
+      "title": "32. (单选题, 0.6score)51单片机的串行口在Mode1模式下，停止位是什么电平?",
+      "options": [
+        {
+          "label": "A",
+          "text": "低电平"
+        },
+        {
+          "label": "B",
+          "text": "高电平"
+        },
+        {
+          "label": "C",
+          "text": "浮动电平"
+        },
+        {
+          "label": "D",
+          "text": "随机电平"
+        }
+      ],
+      "correctAnswer": [
+        "高电平"
+      ],
+      "selectedAnswer": [
+        "高电平"
+      ],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "单选",
+      "title": "33. (单选题, 0.6score)51单片机的串行口在Mode2模式下，比特率可设定为OSC/32或OSC/64，SMOD位为0时，比特率为多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "OSC/32"
+        },
+        {
+          "label": "B",
+          "text": "OSC/64"
+        },
+        {
+          "label": "C",
+          "text": "OSC/128"
+        },
+        {
+          "label": "D",
+          "text": "OSC/256"
+        }
+      ],
+      "correctAnswer": [
+        "OSC/64"
+      ],
+      "selectedAnswer": [
+        "OSC/64"
+      ],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "单选",
+      "title": "34. (单选题, 0.6score)51单片机的串行口在Mode1或Mode3模式下，比特率可由哪个定时器控制?",
+      "options": [
+        {
+          "label": "A",
+          "text": "定时器0"
+        },
+        {
+          "label": "B",
+          "text": "定时器1"
+        },
+        {
+          "label": "C",
+          "text": "定时器2"
+        },
+        {
+          "label": "D",
+          "text": "定时器3"
+        }
+      ],
+      "correctAnswer": [
+        "定时器1"
+      ],
+      "selectedAnswer": [
+        "定时器1"
+      ],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "单选",
+      "title": "35. (单选题, 0.6score)51单片机的串行口在进行多处理器通信时，每个从处理器都需要分配一个什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "地址编码"
+        },
+        {
+          "label": "B",
+          "text": "奇偶校验位"
+        },
+        {
+          "label": "C",
+          "text": "波特率"
+        },
+        {
+          "label": "D",
+          "text": "停止位"
+        }
+      ],
+      "correctAnswer": [
+        "地址编码"
+      ],
+      "selectedAnswer": [
+        "地址编码"
+      ],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "单选",
+      "title": "36. (单选题, 0.6score)51单片机的串行口在进行多处理器通信时，地址字节的第9位为1表示什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "数据字节"
+        },
+        {
+          "label": "B",
+          "text": "地址字节"
+        },
+        {
+          "label": "C",
+          "text": "奇偶校验位"
+        },
+        {
+          "label": "D",
+          "text": "停止位"
+        }
+      ],
+      "correctAnswer": [
+        "地址字节"
+      ],
+      "selectedAnswer": [
+        "数据字节"
+      ],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "单选",
+      "title": "37. (单选题, 0.6score)51单片机的串行口在进行多处理器通信时，数据字节的第9位为0表示什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "数据字节"
+        },
+        {
+          "label": "B",
+          "text": "地址字节"
+        },
+        {
+          "label": "C",
+          "text": "奇偶校验位"
+        },
+        {
+          "label": "D",
+          "text": "停止位"
+        }
+      ],
+      "correctAnswer": [
+        "数据字节"
+      ],
+      "selectedAnswer": [
+        "数据字节"
+      ],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "单选",
+      "title": "38. (单选题, 0.6score)51单片机的串行口在Mode1模式下，每帧数据的格式是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1起始位 + 8数据位 + 1停止位"
+        },
+        {
+          "label": "B",
+          "text": "1起始位 + 8数据位 + 1奇偶校验位 + 1停止位"
+        },
+        {
+          "label": "C",
+          "text": "1起始位 + 9数据位 + 1停止位"
+        },
+        {
+          "label": "D",
+          "text": "1起始位 + 9数据位 + 1奇偶校验位 + 1停止位"
+        }
+      ],
+      "correctAnswer": [
+        "1起始位 + 8数据位 + 1停止位"
+      ],
+      "selectedAnswer": [
+        "1起始位 + 8数据位 + 1停止位"
+      ],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "单选",
+      "title": "39. (单选题, 0.6score)51单片机的串行口在Mode2模式下，每帧数据的格式是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1起始位 + 8数据位 + 1停止位"
+        },
+        {
+          "label": "B",
+          "text": "1起始位 + 8数据位 + 1奇偶校验位 + 1停止位"
+        },
+        {
+          "label": "C",
+          "text": "1起始位 + 9数据位 + 1停止位"
+        },
+        {
+          "label": "D",
+          "text": "1起始位 + 9数据位 + 1奇偶校验位 + 1停止位"
+        }
+      ],
+      "correctAnswer": [
+        "1起始位 + 9数据位 + 1奇偶校验位 + 1停止位"
+      ],
+      "selectedAnswer": [
+        "1起始位 + 9数据位 + 1停止位"
+      ],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "单选",
+      "title": "40. (单选题, 0.6score)51单片机的串行口在Mode3模式下，每帧数据的格式是什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1起始位 + 8数据位 + 1停止位"
+        },
+        {
+          "label": "B",
+          "text": "1起始位 + 8数据位 + 1奇偶校验位 + 1停止位"
+        },
+        {
+          "label": "C",
+          "text": "1起始位 + 9数据位 + 1停止位"
+        },
+        {
+          "label": "D",
+          "text": "1起始位 + 9数据位 + 1奇偶校验位 + 1停止位"
+        }
+      ],
+      "correctAnswer": [
+        "1起始位 + 9数据位 + 1奇偶校验位 + 1停止位"
+      ],
+      "selectedAnswer": [
+        "1起始位 + 9数据位 + 1停止位"
+      ],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "单选",
+      "title": "41. (单选题, 0.6score)51单片机的串行口在进行全双工通信时，需要几条传输线?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1条"
+        },
+        {
+          "label": "B",
+          "text": "2条"
+        },
+        {
+          "label": "C",
+          "text": "3条"
+        },
+        {
+          "label": "D",
+          "text": "4条"
+        }
+      ],
+      "correctAnswer": [
+        "2条"
+      ],
+      "selectedAnswer": [
+        "2条"
+      ],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "单选",
+      "title": "42. (单选题, 0.6score)51单片机的串行口在进行单工通信时，信号能否改变传输方向?",
+      "options": [
+        {
+          "label": "A",
+          "text": "能"
+        },
+        {
+          "label": "B",
+          "text": "不能"
+        },
+        {
+          "label": "C",
+          "text": "有时能"
+        },
+        {
+          "label": "D",
+          "text": "随机"
+        }
+      ],
+      "correctAnswer": [
+        "不能"
+      ],
+      "selectedAnswer": [
+        "不能"
+      ],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "单选",
+      "title": "43. (单选题, 0.6score)51单片机的串行口在进行半双工通信时，信号能否改变传输方向?",
+      "options": [
+        {
+          "label": "A",
+          "text": "能"
+        },
+        {
+          "label": "B",
+          "text": "不能"
+        },
+        {
+          "label": "C",
+          "text": "有时能"
+        },
+        {
+          "label": "D",
+          "text": "随机"
+        }
+      ],
+      "correctAnswer": [
+        "有时能"
+      ],
+      "selectedAnswer": [
+        "能"
+      ],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "单选",
+      "title": "44. (单选题, 0.6score)51单片机的串行口在进行全双工通信时，信号能否同时双向传输?",
+      "options": [
+        {
+          "label": "A",
+          "text": "能"
+        },
+        {
+          "label": "B",
+          "text": "不能"
+        },
+        {
+          "label": "C",
+          "text": "有时能"
+        },
+        {
+          "label": "D",
+          "text": "随机"
+        }
+      ],
+      "correctAnswer": [
+        "能"
+      ],
+      "selectedAnswer": [
+        "能"
+      ],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "单选",
+      "title": "45. (单选题, 0.6score)51单片机的串行口在Mode1模式下，比特率可由哪个定时器控制?",
+      "options": [
+        {
+          "label": "A",
+          "text": "定时器0"
+        },
+        {
+          "label": "B",
+          "text": "定时器1"
+        },
+        {
+          "label": "C",
+          "text": "定时器2"
+        },
+        {
+          "label": "D",
+          "text": "定时器3"
+        }
+      ],
+      "correctAnswer": [
+        "定时器1"
+      ],
+      "selectedAnswer": [
+        "定时器1"
+      ],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "单选",
+      "title": "46. (单选题, 0.6score)在51单片机中，外部中断0的中断请求信号是从哪个引脚引入的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "INT0"
+        },
+        {
+          "label": "B",
+          "text": "INT1"
+        },
+        {
+          "label": "C",
+          "text": "P3.2"
+        },
+        {
+          "label": "D",
+          "text": "P3.3"
+        }
+      ],
+      "correctAnswer": [
+        "INT0"
+      ],
+      "selectedAnswer": [
+        "P3.2"
+      ],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "单选",
+      "title": "47. (单选题, 0.6score)51单片机中，中断服务程序的入口地址是由什么确定的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "用户自定义"
+        },
+        {
+          "label": "B",
+          "text": "中断向量表"
+        },
+        {
+          "label": "C",
+          "text": "程序计数器PC"
+        },
+        {
+          "label": "D",
+          "text": "堆栈指针SP"
+        }
+      ],
+      "correctAnswer": [
+        "中断向量表"
+      ],
+      "selectedAnswer": [
+        "中断向量表"
+      ],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "单选",
+      "title": "48. (单选题, 0.6score)要使51单片机的外部中断0有效，应设置哪个寄存器?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TCON"
+        },
+        {
+          "label": "B",
+          "text": "TMOD"
+        },
+        {
+          "label": "C",
+          "text": "IE"
+        },
+        {
+          "label": "D",
+          "text": "IP"
+        }
+      ],
+      "correctAnswer": [
+        "IE"
+      ],
+      "selectedAnswer": [
+        "IE"
+      ],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "单选",
+      "title": "49. (单选题, 0.6score)在51单片机中，中断优先级由高到低排序，下列哪个中断优先级最高?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "外部中断0"
+        },
+        {
+          "label": "B",
+          "text": "定时器0中断"
+        },
+        {
+          "label": "C",
+          "text": "外部中断1"
+        },
+        {
+          "label": "D",
+          "text": "串行中断"
+        }
+      ],
+      "correctAnswer": [
+        "外部中断0"
+      ],
+      "selectedAnswer": [
+        "外部中断0"
+      ],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "单选",
+      "title": "50. (单选题, 0.6score)51单片机响应中断后，首先会做什么?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "执行中断服务程序"
+        },
+        {
+          "label": "B",
+          "text": "保护现场"
+        },
+        {
+          "label": "C",
+          "text": "清除中断标志"
+        },
+        {
+          "label": "D",
+          "text": "自动转向中断向量地址"
+        }
+      ],
+      "correctAnswer": [
+        "自动转向中断向量地址"
+      ],
+      "selectedAnswer": [
+        "自动转向中断向量地址"
+      ],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "单选",
+      "title": "51. (单选题, 0.6score)在51单片机中，要禁止所有中断，应如何设置IE寄存器?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "IE = 0x00"
+        },
+        {
+          "label": "B",
+          "text": "IE = 0xFF"
+        },
+        {
+          "label": "C",
+          "text": "IE.EA = 0"
+        },
+        {
+          "label": "D",
+          "text": "IE.7 = 0"
+        }
+      ],
+      "correctAnswer": [
+        "IE = 0x00"
+      ],
+      "selectedAnswer": [
+        "IE.7 = 0"
+      ],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "单选",
+      "title": "52. (单选题, 0.6score)51单片机中，中断允许寄存器IE的EA位的作用是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "使能外部中断0"
+        },
+        {
+          "label": "B",
+          "text": "使能外部中断1"
+        },
+        {
+          "label": "C",
+          "text": "全局中断允许"
+        },
+        {
+          "label": "D",
+          "text": "使能定时器中断"
+        }
+      ],
+      "correctAnswer": [
+        "全局中断允许"
+      ],
+      "selectedAnswer": [
+        "全局中断允许"
+      ],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "单选",
+      "title": "53. (单选题, 0.6score)51单片机响应中断的条件不包括?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "中断源有中断请求"
+        },
+        {
+          "label": "B",
+          "text": "CPU正在执行中断服务程序"
+        },
+        {
+          "label": "C",
+          "text": "该中断被允许"
+        },
+        {
+          "label": "D",
+          "text": "CPU开中断"
+        }
+      ],
+      "correctAnswer": [
+        "CPU正在执行中断服务程序"
+      ],
+      "selectedAnswer": [
+        "CPU正在执行中断服务程序"
+      ],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "单选",
+      "title": "54. (单选题, 0.6score)51单片机中，外部中断触发方式可通过哪个寄存器设置?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TCON"
+        },
+        {
+          "label": "B",
+          "text": "TMOD"
+        },
+        {
+          "label": "C",
+          "text": "IE"
+        },
+        {
+          "label": "D",
+          "text": "SCON"
+        }
+      ],
+      "correctAnswer": [
+        "TCON"
+      ],
+      "selectedAnswer": [
+        "TCON"
+      ],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "单选",
+      "title": "55. (单选题, 0.6score)在51单片机中，中断返回指令是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "RET"
+        },
+        {
+          "label": "B",
+          "text": "RETI"
+        },
+        {
+          "label": "C",
+          "text": "IRET"
+        },
+        {
+          "label": "D",
+          "text": "RETX"
+        }
+      ],
+      "correctAnswer": [
+        "RETI"
+      ],
+      "selectedAnswer": [
+        "RETI"
+      ],
+      "images": []
+    },
+    {
+      "id": 56,
+      "type": "单选",
+      "title": "56. (单选题, 0.6score)51单片机中，定时器/计数器的工作模式有几种?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": [
+        "4"
+      ],
+      "selectedAnswer": [
+        "4"
+      ],
+      "images": []
+    },
+    {
+      "id": 57,
+      "type": "单选",
+      "title": "57. (单选题, 0.6score)51单片机定时器/计数器初值计算公式是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "65536 - 定时值"
+        },
+        {
+          "label": "B",
+          "text": "定时值 - 65536"
+        },
+        {
+          "label": "C",
+          "text": "定时值(直接赋值)"
+        },
+        {
+          "label": "D",
+          "text": "与工作模式有关，无固定公式"
+        }
+      ],
+      "correctAnswer": [
+        "与工作模式有关，无固定公式"
+      ],
+      "selectedAnswer": [
+        "65536 - 定时值"
+      ],
+      "images": []
+    },
+    {
+      "id": 58,
+      "type": "单选",
+      "title": "58. (单选题, 0.6score)51单片机中，定时器/计数器0的工作模式控制寄存器是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TCON"
+        },
+        {
+          "label": "B",
+          "text": "TMOD"
+        },
+        {
+          "label": "C",
+          "text": "IE"
+        },
+        {
+          "label": "D",
+          "text": "SCON"
+        }
+      ],
+      "correctAnswer": [
+        "TMOD"
+      ],
+      "selectedAnswer": [
+        "TMOD"
+      ],
+      "images": []
+    },
+    {
+      "id": 59,
+      "type": "单选",
+      "title": "59. (单选题, 0.6score)51单片机定时器/计数器在模式2下是哪种工作方式?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位自动重装载模式"
+        },
+        {
+          "label": "B",
+          "text": "16位定时器/计数器模式"
+        },
+        {
+          "label": "C",
+          "text": "可编程的8位计数器模式"
+        },
+        {
+          "label": "D",
+          "text": "2个8位定时器/计数器级联成16位定时器/计数器模式"
+        }
+      ],
+      "correctAnswer": [
+        "8位自动重装载模式"
+      ],
+      "selectedAnswer": [
+        "8位自动重装载模式"
+      ],
+      "images": []
+    },
+    {
+      "id": 60,
+      "type": "单选",
+      "title": "60. (单选题, 0.6score)51单片机中，定时器/计数器0溢出后，哪个控制位会被置1?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TF0"
+        },
+        {
+          "label": "B",
+          "text": "TF1"
+        },
+        {
+          "label": "C",
+          "text": "TR0"
+        },
+        {
+          "label": "D",
+          "text": "TR1"
+        }
+      ],
+      "correctAnswer": [
+        "TF0"
+      ],
+      "selectedAnswer": [
+        "TF0"
+      ],
+      "images": []
+    },
+    {
+      "id": 61,
+      "type": "单选",
+      "title": "61. (单选题, 0.6score)要使51单片机的定时器/计数器0开始工作，应如何设置TR0位?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TR0 = 0"
+        },
+        {
+          "label": "B",
+          "text": "TR1 = 1"
+        },
+        {
+          "label": "C",
+          "text": "TCON.TR0 = 0"
+        },
+        {
+          "label": "D",
+          "text": "TCON.TR0 = 1"
+        }
+      ],
+      "correctAnswer": [
+        "TCON.TR0 = 1"
+      ],
+      "selectedAnswer": [
+        "TCON.TR0 = 1"
+      ],
+      "images": []
+    },
+    {
+      "id": 62,
+      "type": "单选",
+      "title": "62. (单选题, 0.6score)51单片机中，定时器/计数器初值加载到哪个寄存器?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "THx和TLx(x=0,1)"
+        },
+        {
+          "label": "B",
+          "text": "TMOD"
+        },
+        {
+          "label": "C",
+          "text": "TCON"
+        },
+        {
+          "label": "D",
+          "text": "IE"
+        }
+      ],
+      "correctAnswer": [
+        "THx和TLx(x=0,1)"
+      ],
+      "selectedAnswer": [
+        "THx和TLx(x=0,1)"
+      ],
+      "images": []
+    },
+    {
+      "id": 63,
+      "type": "单选",
+      "title": "63. (单选题, 0.6score)51单片机定时器/计数器在模式1下，计数范围是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "0-255"
+        },
+        {
+          "label": "B",
+          "text": "0-65535"
+        },
+        {
+          "label": "C",
+          "text": "由初值决定"
+        },
+        {
+          "label": "D",
+          "text": "与晶振频率有关"
+        }
+      ],
+      "correctAnswer": [
+        "0-65535"
+      ],
+      "selectedAnswer": [
+        "0-65535"
+      ],
+      "images": []
+    },
+    {
+      "id": 64,
+      "type": "单选",
+      "title": "64. (单选题, 0.6score)51单片机中，如果定时器/计数器工作在模式3，且TH0和TL0用作定时器，则它们组成的是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "8位定时器"
+        },
+        {
+          "label": "B",
+          "text": "16位定时器"
+        },
+        {
+          "label": "C",
+          "text": "两个独立的8位定时器"
+        },
+        {
+          "label": "D",
+          "text": "8位自动重装载定时器"
+        }
+      ],
+      "correctAnswer": [
+        "两个独立的8位定时器"
+      ],
+      "selectedAnswer": [
+        "两个独立的8位定时器"
+      ],
+      "images": []
+    },
+    {
+      "id": 65,
+      "type": "单选",
+      "title": "65. (单选题, 0.6score)在51单片机中，要清除定时器/计数器0的溢出标志TF0，应如何操作?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TF0 = 0"
+        },
+        {
+          "label": "B",
+          "text": "TCON.TF0 = 0"
+        },
+        {
+          "label": "C",
+          "text": "写1到TF0"
+        },
+        {
+          "label": "D",
+          "text": "无法直接清除，需通过软件逻辑处理"
+        }
+      ],
+      "correctAnswer": [
+        "TCON.TF0 = 0"
+      ],
+      "selectedAnswer": [
+        "TCON.TF0 = 0"
+      ],
+      "images": []
+    },
+    {
+      "id": 66,
+      "type": "单选",
+      "title": "66. (单选题, 0.6score)51单片机中，串行通信的控制寄存器是?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TCON"
+        },
+        {
+          "label": "B",
+          "text": "TMOD"
+        },
+        {
+          "label": "C",
+          "text": "IE"
+        },
+        {
+          "label": "D",
+          "text": "SCON"
+        }
+      ],
+      "correctAnswer": [
+        "SCON"
+      ],
+      "selectedAnswer": [
+        "SCON"
+      ],
+      "images": []
+    },
+    {
+      "id": 67,
+      "type": "单选",
+      "title": "67. (单选题, 0.6score)51单片机串行通信的波特率由什么决定?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "定时器/计数器初值"
+        },
+        {
+          "label": "B",
+          "text": "晶振频率"
+        },
+        {
+          "label": "C",
+          "text": "SCON寄存器"
+        },
+        {
+          "label": "D",
+          "text": "定时器/计数器初值 和晶振频率"
+        }
+      ],
+      "correctAnswer": [
+        "定时器/计数器初值 和晶振频率"
+      ],
+      "selectedAnswer": [
+        "定时器/计数器初值 和晶振频率"
+      ],
+      "images": []
+    },
+    {
+      "id": 68,
+      "type": "单选",
+      "title": "68. (单选题, 0.6score)51单片机串行通信中，数据发送和接收是通过哪个引脚完成的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "RXD"
+        },
+        {
+          "label": "B",
+          "text": "TXD"
+        },
+        {
+          "label": "C",
+          "text": "P3.1和P3.0"
+        },
+        {
+          "label": "D",
+          "text": "P3.1和P3.2(发送和接收互换)"
+        }
+      ],
+      "correctAnswer": [
+        "P3.1和P3.0"
+      ],
+      "selectedAnswer": [
+        "P3.1和P3.0"
+      ],
+      "images": []
+    },
+    {
+      "id": 69,
+      "type": "单选",
+      "title": "69. (单选题, 0.6score)在51单片机串行通信中，哪种模式用于多机通信?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "模式0"
+        },
+        {
+          "label": "B",
+          "text": "模式1"
+        },
+        {
+          "label": "C",
+          "text": "模式2"
+        },
+        {
+          "label": "D",
+          "text": "模式2和模式3"
+        }
+      ],
+      "correctAnswer": [
+        "模式2和模式3"
+      ],
+      "selectedAnswer": [
+        "模式2和模式3"
+      ],
+      "images": []
+    },
+    {
+      "id": 70,
+      "type": "单选",
+      "title": "70. (单选题, 0.6score)51单片机串行通信中，要设置8位数据位、可变波特率，应使用哪种模式?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "模式0"
+        },
+        {
+          "label": "B",
+          "text": "模式1"
+        },
+        {
+          "label": "C",
+          "text": "模式2"
+        },
+        {
+          "label": "D",
+          "text": "模式3(需配合定时器设置波特率)"
+        }
+      ],
+      "correctAnswer": [
+        "模式1"
+      ],
+      "selectedAnswer": [
+        "模式3(需配合定时器设置波特率)"
+      ],
+      "images": []
+    },
+    {
+      "id": 71,
+      "type": "单选",
+      "title": "71. (单选题, 0.6score)要使51单片机的串行口开始工作，应如何设置SCON寄存器?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "SCON = 0x00"
+        },
+        {
+          "label": "B",
+          "text": "SCON = 0x50(或其他适当的值)"
+        },
+        {
+          "label": "C",
+          "text": "SCON.SM0 = 1"
+        },
+        {
+          "label": "D",
+          "text": "SCON.SM1 = 1"
+        }
+      ],
+      "correctAnswer": [
+        "SCON = 0x50(或其他适当的值)"
+      ],
+      "selectedAnswer": [
+        "SCON = 0x50(或其他适当的值)"
+      ],
+      "images": []
+    },
+    {
+      "id": 72,
+      "type": "单选",
+      "title": "72. (单选题, 0.6score)51单片机串行通信中，停止位是通过哪个寄存器设置的?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TCON"
+        },
+        {
+          "label": "B",
+          "text": "TMOD"
+        },
+        {
+          "label": "C",
+          "text": "IE"
+        },
+        {
+          "label": "D",
+          "text": "SCON(通过SM0和SM1间接设置)"
+        }
+      ],
+      "correctAnswer": [
+        "SCON(通过SM0和SM1间接设置)"
+      ],
+      "selectedAnswer": [
+        "SCON(通过SM0和SM1间接设置)"
+      ],
+      "images": []
+    },
+    {
+      "id": 73,
+      "type": "单选",
+      "title": "73. (单选题, 0.6score)在51单片机串行通信中，要实现连续发送数据，应在发送完一个数据后做什么?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "等待RI置1"
+        },
+        {
+          "label": "B",
+          "text": "清除TI标志"
+        },
+        {
+          "label": "C",
+          "text": "直接发送下一个数据"
+        },
+        {
+          "label": "D",
+          "text": "检查TI和RI标志"
+        }
+      ],
+      "correctAnswer": [
+        "清除TI标志"
+      ],
+      "selectedAnswer": [
+        "清除TI标志"
+      ],
+      "images": []
+    },
+    {
+      "id": 74,
+      "type": "单选",
+      "title": "74. (单选题, 0.6score)51单片机串行通信中，如果接收缓冲区有数据，哪个标志位会被置1?( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "TF0"
+        },
+        {
+          "label": "B",
+          "text": "TF1"
+        },
+        {
+          "label": "C",
+          "text": "RI"
+        },
+        {
+          "label": "D",
+          "text": "TI"
+        }
+      ],
+      "correctAnswer": [
+        "RI"
+      ],
+      "selectedAnswer": [
+        "RI"
+      ],
+      "images": []
+    },
+    {
+      "id": 75,
+      "type": "填空",
+      "title": "75. (填空题, 0.6score)51单片机的中断源中，外部中断有INT0和____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) INT1"
+      ],
+      "selectedAnswer": [
+        "(1) int1"
+      ],
+      "images": []
+    },
+    {
+      "id": 76,
+      "type": "填空",
+      "title": "76. (填空题, 0.6score)51单片机的中断源中，定时器/计数器中断有T0和____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) T1"
+      ],
+      "selectedAnswer": [
+        "(1) T1"
+      ],
+      "images": []
+    },
+    {
+      "id": 77,
+      "type": "填空",
+      "title": "77. (填空题, 0.6score)51单片机的中断控制系统中，IE寄存器控制着各个中断源的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 开关"
+      ],
+      "selectedAnswer": [
+        "(1) 中断允许"
+      ],
+      "images": []
+    },
+    {
+      "id": 78,
+      "type": "填空",
+      "title": "78. (填空题, 0.6score)51单片机的中断控制系统中，IP寄存器用于设定各中断的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 优先级"
+      ],
+      "selectedAnswer": [
+        "(1) 优先级"
+      ],
+      "images": []
+    },
+    {
+      "id": 79,
+      "type": "填空",
+      "title": "79. (填空题, 0.6score)51单片机的中断向量地址中，串行口中断RI/TI的中断向量地址是____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 0023H"
+      ],
+      "selectedAnswer": [
+        "(1) 0023H"
+      ],
+      "images": []
+    },
+    {
+      "id": 80,
+      "type": "填空",
+      "title": "80. (填空题, 0.6score)51单片机的TCON寄存器中，IT0用于控制外部中断0的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 触发方式"
+      ],
+      "selectedAnswer": [
+        "(1) 触发方式"
+      ],
+      "images": []
+    },
+    {
+      "id": 81,
+      "type": "填空",
+      "title": "81. (填空题, 0.6score)51单片机的TCON寄存器中，TR0用于控制定时器0的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 启动/停止"
+      ],
+      "selectedAnswer": [
+        "(1) 启动与停止"
+      ],
+      "images": []
+    },
+    {
+      "id": 82,
+      "type": "填空",
+      "title": "82. (填空题, 0.6score)51单片机的中断优先级寄存器IP中，PX0用于设置外部中断0的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 优先级"
+      ],
+      "selectedAnswer": [
+        "(1) 中断优先级"
+      ],
+      "images": []
+    },
+    {
+      "id": 83,
+      "type": "填空",
+      "title": "83. (填空题, 0.6score)51单片机的中断优先级寄存器IP中，PT1用于设置定时器1的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 优先级"
+      ],
+      "selectedAnswer": [
+        "(1) 中断优先级"
+      ],
+      "images": []
+    },
+    {
+      "id": 84,
+      "type": "填空",
+      "title": "84. (填空题, 0.6score)51单片机的定时器/计数器中，工作模式0(Mode 0)的计数位数是____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 13"
+      ],
+      "selectedAnswer": [
+        "(1) 13"
+      ],
+      "images": []
+    },
+    {
+      "id": 85,
+      "type": "填空",
+      "title": "85. (填空题, 0.6score)51单片机的定时器/计数器中，工作模式1(Mode 1)的计数位数是____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 16"
+      ],
+      "selectedAnswer": [
+        "(1) 16"
+      ],
+      "images": []
+    },
+    {
+      "id": 86,
+      "type": "填空",
+      "title": "86. (填空题, 0.6score)51单片机的定时器/计数器中，工作模式2(Mode 2)的计数位数是____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 8"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 87,
+      "type": "填空",
+      "title": "87. (填空题, 0.6score)51单片机的定时器/计数器中，工作模式3(Mode 3)的计数位数是____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 8"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 88,
+      "type": "填空",
+      "title": "88. (填空题, 0.6score)51单片机的串行口中断中，RI代表____中断标志位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 接收"
+      ],
+      "selectedAnswer": [
+        "(1) 接收"
+      ],
+      "images": []
+    },
+    {
+      "id": 89,
+      "type": "填空",
+      "title": "89. (填空题, 0.6score)51单片机的串行口中断中，TI代表____中断标志位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 发送"
+      ],
+      "selectedAnswer": [
+        "(1) 发送"
+      ],
+      "images": []
+    },
+    {
+      "id": 90,
+      "type": "填空",
+      "title": "90. (填空题, 0.6score)51单片机的串行口工作模式中，Mode0的比特率是____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) OSC/12"
+      ],
+      "selectedAnswer": [
+        "(1) 12"
+      ],
+      "images": []
+    },
+    {
+      "id": 91,
+      "type": "填空",
+      "title": "91. (填空题, 0.6score)51单片机的串行口工作模式中，Mode1的比特率是____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 可变比特率"
+      ],
+      "selectedAnswer": [
+        "(1) 8"
+      ],
+      "images": []
+    },
+    {
+      "id": 92,
+      "type": "填空",
+      "title": "92. (填空题, 0.6score)51单片机的串行口工作模式中，Mode2的比特率是____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) OSC/32或OSC/64"
+      ],
+      "selectedAnswer": [
+        "(1) f/32"
+      ],
+      "images": []
+    },
+    {
+      "id": 93,
+      "type": "填空",
+      "title": "93. (填空题, 0.6score)51单片机的串行口工作模式中，Mode3的比特率是____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 可变比特率"
+      ],
+      "selectedAnswer": [
+        "(1) 5"
+      ],
+      "images": []
+    },
+    {
+      "id": 94,
+      "type": "填空",
+      "title": "94. (填空题, 0.6score)51单片机的串行口控制寄存器SCON中，SM0和SM1用于设置串口的工作____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 模式"
+      ],
+      "selectedAnswer": [
+        "(1) 模式"
+      ],
+      "images": []
+    },
+    {
+      "id": 95,
+      "type": "填空",
+      "title": "95. (填空题, 0.6score)51单片机的串行口控制寄存器SCON中，REN用于允许或禁止串行____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 接收"
+      ],
+      "selectedAnswer": [
+        "(1) 接收"
+      ],
+      "images": []
+    },
+    {
+      "id": 96,
+      "type": "填空",
+      "title": "96. (填空题, 0.6score)51单片机的串行口控制寄存器SCON中，TB8是Mode2或Mode3模式传送数据时的第____个传送位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 9"
+      ],
+      "selectedAnswer": [
+        "(1) 9"
+      ],
+      "images": []
+    },
+    {
+      "id": 97,
+      "type": "填空",
+      "title": "97. (填空题, 0.6score)51单片机的串行口控制寄存器SCON中，TI和RI是发送中断标志位和____中断标志位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 接收"
+      ],
+      "selectedAnswer": [
+        "(1) 接收"
+      ],
+      "images": []
+    },
+    {
+      "id": 98,
+      "type": "填空",
+      "title": "98. (填空题, 0.6score)51单片机的定时器/计数器的计数终点值是固定的，8位模式最大计数值为____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 256"
+      ],
+      "selectedAnswer": [
+        "(1) 256"
+      ],
+      "images": []
+    },
+    {
+      "id": 99,
+      "type": "填空",
+      "title": "99. (填空题, 0.6score)51单片机的定时器/计数器在工作模式2(Mode 2)下，THx用于存放定时器的____。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 计数初值"
+      ],
+      "selectedAnswer": [
+        "(1) 初值"
+      ],
+      "images": []
+    },
+    {
+      "id": 100,
+      "type": "填空",
+      "title": "100. (填空题, 0.6score)51单片机的定时器/计数器在工作模式3(Mode 3)下，TL0和TH0分别用于两个____的计数。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 定时器"
+      ],
+      "selectedAnswer": [
+        "(1) 8位定时器"
+      ],
+      "images": []
+    },
+    {
+      "id": 101,
+      "type": "填空",
+      "title": "101. (填空题, 0.6score)51单片机的串行口在Mode1模式下，每帧数据有____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 10"
+      ],
+      "selectedAnswer": [
+        "(1) 10"
+      ],
+      "images": []
+    },
+    {
+      "id": 102,
+      "type": "填空",
+      "title": "102. (填空题, 0.6score)51单片机的串行口在Mode2模式下，每帧数据由1个起始位、8个数据位、1个奇偶校验位以及1个停止位构成，共____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 11"
+      ],
+      "selectedAnswer": [
+        "(1) 11"
+      ],
+      "images": []
+    },
+    {
+      "id": 103,
+      "type": "填空",
+      "title": "103. (填空题, 0.6score)51单片机的串行口在Mode3模式下，每帧数据由1个起始位、8个数据位、1个奇偶校验位以及1个停止位构成，共____位。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 11"
+      ],
+      "selectedAnswer": [
+        "(1) 11"
+      ],
+      "images": []
+    },
+    {
+      "id": 104,
+      "type": "填空",
+      "title": "104. (填空题, 0.6score)51单片机的串行口在进行全双工通信时，需要____条传输线。",
+      "options": [],
+      "correctAnswer": [
+        "(1) 2"
+      ],
+      "selectedAnswer": [
+        "(1) 2"
+      ],
+      "images": []
+    },
+    {
+      "id": 105,
+      "type": "填空",
+      "title": "105. (填空题, 0.6score)51单片机提供了3种类型的中断源，共包括5个中断服务，中断控制系统中涉及的3种中断即( )、( )和( )",
+      "options": [],
+      "correctAnswer": [
+        "(1) 外部中断，定时器/计数器中断，串口中断UART"
+      ],
+      "selectedAnswer": [
+        "(1) 外部中断 定时器 串行口中断"
+      ],
+      "images": []
+    },
+    {
+      "id": 106,
+      "type": "填空",
+      "title": "106. (填空题, 0.6score)中断控制系统中的( )是中断启用寄存器，它控制着各个中断源的开关。( )是中断优先级寄存器。除了这两个寄存器之外，中断还有一个常用的( )，该寄存器可以设置中断的启动方式。",
+      "options": [],
+      "correctAnswer": [
+        "(1) IE寄存器，IP寄存器，中断控制寄存器TCON"
+      ],
+      "selectedAnswer": [
+        "(1) IE，IP,TCON"
+      ],
+      "images": []
+    },
+    {
+      "id": 107,
+      "type": "填空",
+      "title": "107. (填空题, 0.6score)定时/计数器是一种计数装置，该装置作为( )使用时，对内部时钟脉冲进行计数;若作为( )使用，则是对外部脉冲计数。定时或计数达到终点时将会产生中断。",
+      "options": [],
+      "correctAnswer": [
+        "(1) (1)定时器，计数器"
+      ],
+      "selectedAnswer": [
+        "(1) 定时器，计数器"
+      ],
+      "images": []
+    },
+    {
+      "id": 108,
+      "type": "填空",
+      "title": "108. (简答题, 0.7score)判断题:外部中断INT0和INT1都是通过引脚电平变化来触发的。",
+      "options": [],
+      "correctAnswer": [
+        "错误)"
+      ],
+      "selectedAnswer": [
+        "错误"
+      ],
+      "images": []
+    },
+    {
+      "id": 109,
+      "type": "单选",
+      "title": "109. (判断题, 0.6score)51单片机中，外部中断0和外部中断1的中断请求信号都可以触发中断服务程序。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 110,
+      "type": "单选",
+      "title": "110. (判断题, 0.6score)在51单片机中，只要中断源有请求，CPU就会立即响应中断。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 111,
+      "type": "单选",
+      "title": "111. (判断题, 0.6score)51单片机中，中断服务程序执行完毕后，会自动清除中断标志位。(对于某些中断，如外部中断和定时器中断，这是正确的，但串行中断等可能需要手动清除。然而，此题旨在考察一般概念，故可视为正确。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 112,
+      "type": "单选",
+      "title": "112. (判断题, 0.6score)51单片机中，可以通过设置IP寄存器来改变中断的优先级。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 113,
+      "type": "单选",
+      "title": "113. (判断题, 0.6score)在51单片机中，中断允许寄存器IE的EA位为0时，所有中断都被禁止。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 114,
+      "type": "单选",
+      "title": "114. (判断题, 0.6score)51单片机中，外部中断触发方式(边沿触发或电平触发)是由硬件自动识别的，无需软件设置。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 115,
+      "type": "单选",
+      "title": "115. (判断题, 0.6score)51单片机响应中断后，会先保护现场，再执行中断服务程序。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 116,
+      "type": "单选",
+      "title": "116. (判断题, 0.6score)51单片机中，中断服务程序的返回指令是RET。(这是不准确的，应为RETI，用于中断服务程序以恢复中断前的状态。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 117,
+      "type": "单选",
+      "title": "117. (判断题, 0.6score)51单片机中，定时器/计数器中断和串行中断都属于内部中断。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 118,
+      "type": "单选",
+      "title": "118. (判断题, 0.6score)在51单片机中，可以通过设置TCON寄存器来使能或禁止外部中断。(TCON寄存器包含外部中断的使能位，但使能全局中断的是IE寄存器。然而，此题可能意在考察TCON与外部中断的关系，故可视为部分正确，但严格来说应更精确地指出是TCON中的IT0/IT1位设置触发方式，而不是使能中断。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 119,
+      "type": "单选",
+      "title": "119. (判断题, 0.6score)51单片机中，定时器/计数器的工作模式可以由TMOD寄存器设置。( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 120,
+      "type": "单选",
+      "title": "120. (判断题, 0.6score)51单片机定时器/计数器在模式1下，THx和TLx(x=0,1)会组成一个16位的定时器/计数器。 ( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 121,
+      "type": "单选",
+      "title": "121. (判断题, 0.6score)51单片机中，定时器/计数器的初值就是其计数起始值。 ( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 122,
+      "type": "单选",
+      "title": "122. (判断题, 0.6score)在51单片机中，要启动定时器/计数器，只需将TRx(x=0,1)位设置为1即可。 (对于没有预分频器的模式，这是正确的。但在有预分频器的模式下，可能还需要配置其他寄存器。然而，此题主要考察基本启动方式，故可视为正确。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 123,
+      "type": "单选",
+      "title": "123. (判断题, 0.6score)51单片机定时器/计数器在计数溢出后，相应的TFx(x=0,1)标志位会自动置1，并且需要软件手动清除。 ( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 124,
+      "type": "单选",
+      "title": "124. (判断题, 0.6score)51单片机中，定时器/计数器的计数频率与单片机的晶振频率直接相关。 (这是不准确的，计数频率还与定时器的预分频器和初值有关。但考虑到此题可能意在考察晶振频率对定时器的影响，且在实际应用中晶振频率是基础，故可视为部分正确，但严格来说应更精确地描述。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 125,
+      "type": "单选",
+      "title": "125. (判断题, 0.6score)在51单片机中，定时器/计数器的模式3是一个特殊的16位自动重装载模式，通常用于产生精确的定时或计数。 (对于定时器/计数器0而言，这是正确的，但定时器/计数器1在模式3下是8位定时器/计数器级联成16位定时器/计数器的方式，与0不同。然而，此题可能主要考察定时器/计数器0的模式3，故可视为正确。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 126,
+      "type": "单选",
+      "title": "126. (判断题, 0.6score)51单片机中，定时器/计数器的初值加载是通过直接写入THx和TLx(x=0,1)寄存器完成的。 ( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 127,
+      "type": "单选",
+      "title": "127. (判断题, 0.6score)在51单片机中，如果定时器/计数器工作在模式1且作为定时器使用，则THx和TLx(x=0,1)会组成一个16位的定时器。 (这是准确的，但需要注意模式1下THx和TLx是作为两个独立的8位计数器还是级联成16位计数器取决于具体的应用和设置。然而，在此题的上下文中，我们可以理解为它是指级联成16位定时器的情况。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 128,
+      "type": "单选",
+      "title": "128. (判断题, 0.6score)51单片机中，可以通过设置TMOD寄存器来改变定时器/计数器的计数范围。 (TMOD寄存器设置的是定时器/计数器的工作模式，而不是直接设置计数范围。计数范围由工作模式、初值和晶振频率共同决定。但考虑到此题可能意在考察TMOD对定时器/计数器工作方式的影响，且工作模式的改变会间接影响计数范围，故可视为部分正确，但严格来说应更精确地描述。)(简化版判断:不完全准确，但可视为与TMOD有关，因TMOD决定了工作模式，进而影响计数范围。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 129,
+      "type": "单选",
+      "title": "129. (判断题, 0.6score)51单片机中，串行通信的波特率可以通过设置TMOD和定时器的初值来调整。 (波特率与晶振频率、定时器初值以及SCON寄存器中的相关位(如SM0、SM1和REN等，但主要是定时器和晶振)有关。TMOD主要设置串行口的工作模式，不直接设置波特率。然而，考虑到此题可能意在考察波特率的可调整性，并且定时器与波特率设置紧密相关，故可视为部分正确，但严格来说应更精确地描述。)(简化版判断:不完全准确，但可视为与TMOD间接相关，因TMOD设置工作模式，可能影响波特率的计算方式。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 130,
+      "type": "单选",
+      "title": "130. (判断题, 0.6score)51单片机串行通信中，数据发送和接收是通过RXD和TXD引脚完成的，其中RXD用于发送数据，TXD用于接收数据。 (这是不准确的，RXD是接收数据引脚，TXD是发送数据引脚。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 131,
+      "type": "单选",
+      "title": "131. (判断题, 0.6score)在51单片机串行通信中，SCON寄存器用于控制串行口的工作模式和状态。 ( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 132,
+      "type": "单选",
+      "title": "132. (判断题, 0.6score)51单片机串行通信中，RI和TI标志位分别表示接收和发送中断请求。 (这是不准确的，RI表示接收中断标志，即接收缓冲区有数据可读;TI表示发送中断标志，即数据已发送完毕。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 133,
+      "type": "单选",
+      "title": "133. (判断题, 0.6score)51单片机中，串行通信的起始位和停止位是通过SCON寄存器设置的。 (起始位和停止位是串行通信协议的一部分，在51单片机中，起始位由硬件自动产生，停止位是通过设置SCON寄存器中的SM0和SM1位(以及可能的REN位)来间接确定的(主要是确定工作模式，从而确定停止位的数量)，但并非直接设置停止位本身。然而，考虑到此题可能意在考察SCON寄存器对串行通信配置的影响，且停止位确实与工作模式相关，故可视为部分正确，但严格来说应更精确地描述。)(简化版判断:不完全准确，但可视为与SCON有关，因SCON设置工作模式，进而影响停止位。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 134,
+      "type": "单选",
+      "title": "134. (判断题, 0.6score)在51单片机串行通信中，要实现连续发送数据，只需在发送完一个数据后直接发送下一个数据即可。 (这是不准确的，发送完一个数据后，应等待TI标志位被硬件置1(表示数据已发送完毕)，然后才能发送下一个数据。在某些情况下，可能还需要手动清除TI标志位(尽管在某些51单片机中，TI标志位在发送下一个数据时会自动清除)。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 135,
+      "type": "单选",
+      "title": "135. (判断题, 0.6score)51单片机串行通信中，如果接收缓冲区有数据可读，RI标志位会被硬件置1。 ( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 136,
+      "type": "单选",
+      "title": "136. (判断题, 0.6score)在51单片机串行通信中，可以通过设置SCON寄存器的SM2位来实现多机通信。 (在多机通信中，SM2位确实起着重要作用，但实现多机通信还需要其他设置和协议配合。然而，考虑到此题可能主要考察SM2位在多机通信中的作用，故可视为正确。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 137,
+      "type": "单选",
+      "title": "137. (判断题, 0.6score)51单片机中，串行通信的波特率与单片机的晶振频率成反比。 (这是不准确的，波特率与晶振频率、定时器初值以及可能的工作模式(通过SCON和TMOD寄存器设置)都有关。不能简单地说波特率与晶振频率成反比。)( )",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 138,
+      "type": "单选",
+      "title": "138. (判断题, 0.6score)51单片机串行通信中，发送和接收的数据都是通过串行口缓冲区进行传输的。 (这是准确的，发送和接收的数据确实是通过串行口缓冲区(或称为UART缓冲区)进行传输的。在发送时，数据被写入缓冲区，然后由UART硬件负责将数据一位一位地发送出去;在接收时，UART硬件负责将接收到的数据一位一位地存入缓冲区，然后由软件读取。)( )根据提供的PPT内容，以下是围绕51单片机的中断、定时计数器和串口设计的30道判断题及其参考答案:",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 139,
+      "type": "单选",
+      "title": "139. (判断题, 0.6score)判断题:中断是CPU在处理正常程序时，暂时停止当前程序去执行另一个更紧急的任务。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 140,
+      "type": "单选",
+      "title": "140. (判断题, 0.6score)判断题:51单片机提供了4种类型的中断源。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 141,
+      "type": "单选",
+      "title": "141. (判断题, 0.6score)判断题:IE寄存器是中断优先级寄存器。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 142,
+      "type": "单选",
+      "title": "142. (判断题, 0.6score)判断题:当多个中断同时发生时，CPU会按照中断优先级的高低顺序来响应。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 143,
+      "type": "单选",
+      "title": "143. (判断题, 0.6score)判断题:TCON寄存器用于设置定时器的启动方式。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 144,
+      "type": "单选",
+      "title": "144. (判断题, 0.6score)判断题:在C语言中，中断子程序可以通过函数调用的方式执行。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 145,
+      "type": "单选",
+      "title": "145. (判断题, 0.6score)判断题:51单片机的定时器/计数器只能用作定时器，不能用作计数器。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 146,
+      "type": "单选",
+      "title": "146. (判断题, 0.6score)判断题:定时器/计数器的工作模式0是一个13位的定时器/计数器。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 147,
+      "type": "单选",
+      "title": "147. (判断题, 0.6score)判断题:定时器/计数器的计数初值越大，定时时间越长。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 148,
+      "type": "单选",
+      "title": "148. (判断题, 0.6score)判断题:GATE位为1时，定时器只能通过软件启动。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 149,
+      "type": "单选",
+      "title": "149. (判断题, 0.6score)判断题:在查询方式下，主程序需要不断检查定时器的标志位来确定是否超时。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 150,
+      "type": "单选",
+      "title": "150. (判断题, 0.6score)判断题:中断方式下，定时器溢出时会自动跳转到中断子程序处理。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 151,
+      "type": "单选",
+      "title": "151. (判断题, 0.6score)判断题:串口通信只支持单工通信模式。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 152,
+      "type": "单选",
+      "title": "152. (判断题, 0.6score)判断题:51单片机的串口波特率只能通过定时器来控制。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 153,
+      "type": "单选",
+      "title": "153. (判断题, 0.6score)判断题:串口工作模式1下，每帧数据包含1个起始位、8个数据位和1个停止位。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 154,
+      "type": "单选",
+      "title": "154. (判断题, 0.6score)判断题:在Mode2工作模式下，串口通信不需要设置SMOD位。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 155,
+      "type": "单选",
+      "title": "155. (判断题, 0.6score)判断题:RI和TI中断标志位在中断处理完成后会自动清零。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 156,
+      "type": "单选",
+      "title": "156. (判断题, 0.6score)判断题:51单片机的串口只能用于与其他单片机通信。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 157,
+      "type": "单选",
+      "title": "157. (判断题, 0.7score)判断题:74LS164是一个并行输入串行输出的移位寄存器。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 158,
+      "type": "单选",
+      "title": "158. (判断题, 0.7score)判断题:74LS165可以在没有时钟信号的情况下输出数据。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 159,
+      "type": "单选",
+      "title": "159. (判断题, 0.7score)判断题:在Mode0工作模式下，串口通信的比特率固定为1Mbps。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    },
+    {
+      "id": 160,
+      "type": "单选",
+      "title": "160. (判断题, 0.7score)判断题:定时器/计数器中断的优先级可以高于外部中断。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 161,
+      "type": "单选",
+      "title": "161. (判断题, 0.7score)判断题:在串口通信中，发送和接收数据必须使用相同的工作模式。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 162,
+      "type": "单选",
+      "title": "162. (判断题, 0.7score)判断题:在串口通信中，发送和接收数据使用的是同一个缓冲寄存器SBUF。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 163,
+      "type": "单选",
+      "title": "163. (判断题, 0.7score)判断题:51单片机的串口支持多机通信模式。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 164,
+      "type": "单选",
+      "title": "164. (判断题, 0.7score)判断题:在查询方式下，定时器溢出后需要手动清除溢出标志位。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "对"
+      ],
+      "selectedAnswer": [
+        "对"
+      ],
+      "images": []
+    },
+    {
+      "id": 165,
+      "type": "单选",
+      "title": "165. (判断题, 0.7score)判断题:外部中断INT0和INT1的中断向量是相同的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "correctAnswer": [
+        "错"
+      ],
+      "selectedAnswer": [
+        "错"
+      ],
+      "images": []
+    }
+  ]

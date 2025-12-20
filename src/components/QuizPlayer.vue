@@ -186,7 +186,7 @@
               <span class="block mb-2 font-bold opacity-70 text-sm uppercase tracking-wider">{{ t('quiz.correctAnswer') }}</span>
               <div class="w-full bg-white/50 rounded-2xl border border-white/50 p-4 text-lg font-bold shadow-sm overflow-x-auto">
                 <div v-for="(ans, idx) in question.correctAnswer" :key="idx" class="mb-2 last:mb-0">
-                    <div v-if="isHtml(ans)" v-html="ans" />
+                    <div v-if="isHtml(ans)" :class="['font-mono bg-emerald-50 text-emerald-700 p-2 rounded border border-emerald-200']">{{ ans }}</div>
                     <pre v-else class="whitespace-pre-wrap font-mono">{{ ans }}</pre>
                 </div>
               </div>
@@ -319,12 +319,24 @@ const checkAnswer = (q: QuestionItem, userAns: string[]) => {
 }
 
 const renderTitle = (title: string) => {
-  const isHtmlContent = /<[a-z][\s\S]*>/i.test(title) || title.includes('&lt;') || title.includes('&nbsp;')
-  if (isHtmlContent) {
+  // 检查是否包含HTML标签
+  const hasHtmlTags = title.includes('<') && title.includes('>')
+  
+  if (hasHtmlTags) {
+    // 处理JSON转义的引号，但保持HTML标签作为文本显示
+    let processedTitle = title
+      .replace(/\\"/g, '"')  // JSON转义的双引号
+      .replace(/\\'/g, "'")  // JSON转义的单引号
+    
+    console.log('Original title:', title)
+    console.log('Processed title (as text):', processedTitle)
+    
+    // 使用textContent而不是innerHTML，这样HTML标签会作为文本显示
     return h('div', {
-      class: 'text-xl md:text-3xl font-bold text-slate-800 leading-relaxed drop-shadow-sm select-text',
-      innerHTML: title
-    })
+      class: 'text-xl md:text-3xl font-bold text-slate-800 leading-relaxed drop-shadow-sm select-text question-content'
+    }, [
+      h('span', {}, processedTitle)
+    ])
   }
   
   const looksLikeJs = /function\s+\w+\s*\(|[{;}]/.test(title)

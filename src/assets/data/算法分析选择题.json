@@ -1,0 +1,722 @@
+[
+        {
+            "id": 1,
+            "type": "单选",
+            "title": "1. 算法的基本特性不包括以下哪一项_____。",
+            "options": [
+                {"label": "A", "text": "有穷性"},
+                {"label": "B", "text": "确定性"},
+                {"label": "C", "text": "并行性"},
+                {"label": "D", "text": "输入 / 输出"}
+            ],
+            "correctAnswer": ["并行性"],
+            "selectedAnswer": ["并行性"]
+        },
+        {
+            "id": 2,
+            "type": "单选",
+            "title": "2. 关于贪心算法，下列说法正确的是_____。",
+            "options": [
+                {"label": "A", "text": "总能得到全局最优解"},
+                {"label": "B", "text": "适用于所有优化问题"},
+                {"label": "C", "text": "通常时间复杂度较低"},
+                {"label": "D", "text": "不需要考虑子问题结构"}
+            ],
+            "correctAnswer": ["通常时间复杂度较低"],
+            "selectedAnswer": ["通常时间复杂度较低"]
+        },
+        {
+            "id": 3,
+            "type": "单选",
+            "title": "3. 递归算法的递归出口主要用于_____。",
+            "options": [
+                {"label": "A", "text": "增加问题规模"},
+                {"label": "B", "text": "防止无限递归"},
+                {"label": "C", "text": "提高算法效率"},
+                {"label": "D", "text": "减少内存使用"}
+            ],
+            "correctAnswer": ["防止无限递归"],
+            "selectedAnswer": ["防止无限递归"]
+        },
+        {
+            "id": 4,
+            "type": "单选",
+            "title": "4. 下列哪个问题属于 P 类问题_____。",
+            "options": [
+                {"label": "A", "text": "旅行商问题"},
+                {"label": "B", "text": "图的着色问题"},
+                {"label": "C", "text": "排序问题"},
+                {"label": "D", "text": "哈密尔顿回路问题"}
+            ],
+            "correctAnswer": ["排序问题"],
+            "selectedAnswer": ["排序问题"]
+        },
+        {
+            "id": 5,
+            "type": "单选",
+            "title": "5. 回溯法采用的搜索策略是_____。",
+            "options": [
+                {"label": "A", "text": "广度优先"},
+                {"label": "B", "text": "深度优先"},
+                {"label": "C", "text": "动态规划"},
+                {"label": "D", "text": "分治策略"}
+            ],
+            "correctAnswer": ["深度优先"],
+            "selectedAnswer": ["深度优先"]
+        },
+        {
+            "id": 6,
+            "type": "单选",
+            "title": "6. 动态规划算法的基本特征不包括_____。",
+            "options": [
+                {"label": "A", "text": "最优子结构"},
+                {"label": "B", "text": "重叠子问题"},
+                {"label": "C", "text": "贪心选择性质"},
+                {"label": "D", "text": "自底向上求解"}
+            ],
+            "correctAnswer": ["贪心选择性质"],
+            "selectedAnswer": ["贪心选择性质"]
+        },
+        {
+            "id": 7,
+            "type": "单选",
+            "title": "7. 优先队列常用于以下哪种算法 ()",
+            "options": [
+                {"label": "A", "text": "回溯法"},
+                {"label": "B", "text": "分支限界法"},
+                {"label": "C", "text": "分治法"},
+                {"label": "D", "text": "蛮力法"}
+            ],
+            "correctAnswer": ["分支限界法"],
+            "selectedAnswer": ["分支限界法"]
+        },
+        {
+            "id": 8,
+            "type": "单选",
+            "title": "8. 关于 NP 类问题，下列说法错误的是_____。",
+            "options": [
+                {"label": "A", "text": "所有 P 类问题都是 NP 类问题"},
+                {"label": "B", "text": "能在多项式时间内验证一个解"},
+                {"label": "C", "text": "所有 NP 类问题都能在多项式时间内求解"},
+                {"label": "D", "text": "旅行商问题是 NP 类问题"}
+            ],
+            "correctAnswer": ["所有 NP 类问题都能在多项式时间内求解"],
+            "selectedAnswer": ["所有 NP 类问题都能在多项式时间内求解"]
+        },
+        {
+            "id": 9,
+            "type": "单选",
+            "title": "9. 下列哪种算法不适合求解旅行商问题_____。",
+            "options": [
+                {"label": "A", "text": "动态规划"},
+                {"label": "B", "text": "回溯法"},
+                {"label": "C", "text": "贪心法"},
+                {"label": "D", "text": "分治法"}
+            ],
+            "correctAnswer": ["分治法"],
+            "selectedAnswer": ["分治法"]
+        },
+        {
+            "id": 10,
+            "type": "单选",
+            "title": "10. 算法的时间复杂度主要衡量的是_____。",
+            "options": [
+                {"label": "A", "text": "算法执行所需实际时间"},
+                {"label": "B", "text": "算法中基本操作的执行次数"},
+                {"label": "C", "text": "算法代码的长度"},
+                {"label": "D", "text": "算法输入规模的变化率"}
+            ],
+            "correctAnswer": ["算法中基本操作的执行次数"],
+            "selectedAnswer": ["算法中基本操作的执行次数"]
+        },
+        {
+            "id": 11,
+            "type": "单选",
+            "title": "11. 下列哪种数据结构最适合实现优先队列_____。",
+            "options": [
+                {"label": "A", "text": "数组"},
+                {"label": "B", "text": "链表"},
+                {"label": "C", "text": "堆"},
+                {"label": "D", "text": "栈"}
+            ],
+            "correctAnswer": ["堆"],
+            "selectedAnswer": ["堆"]
+        },
+        {
+            "id": 12,
+            "type": "单选",
+            "title": "12. 关于分治算法，下列说法错误的是_____。",
+            "options": [
+                {"label": "A", "text": "将问题分解为若干子问题"},
+                {"label": "B", "text": "子问题之间相互重叠"},
+                {"label": "C", "text": "合并子问题的解"},
+                {"label": "D", "text": "递归求解子问题"}
+            ],
+            "correctAnswer": ["子问题之间相互重叠"],
+            "selectedAnswer": ["子问题之间相互重叠"]
+        },
+        {
+            "id": 13,
+            "type": "单选",
+            "title": "13. 回溯法中 “剪枝” 操作的主要目的是_____。",
+            "options": [
+                {"label": "A", "text": "增加解的数量"},
+                {"label": "B", "text": "减少搜索空间"},
+                {"label": "C", "text": "提高算法可读性"},
+                {"label": "D", "text": "避免递归调用"}
+            ],
+            "correctAnswer": ["减少搜索空间"],
+            "selectedAnswer": ["减少搜索空间"]
+        },
+        {
+            "id": 14,
+            "type": "单选",
+            "title": "14. 下列哪个算法适用于求解最长公共子序列问题_____。",
+            "options": [
+                {"label": "A", "text": "贪心算法"},
+                {"label": "B", "text": "动态规划"},
+                {"label": "C", "text": "分治算法"},
+                {"label": "D", "text": "回溯法"}
+            ],
+            "correctAnswer": ["动态规划"],
+            "selectedAnswer": ["动态规划"]
+        },
+        {
+            "id": 15,
+            "type": "单选",
+            "title": "15. 关于算法的空间复杂度，下列说法正确的是_____。",
+            "options": [
+                {"label": "A", "text": "指算法执行所需时间"},
+                {"label": "B", "text": "指算法中输入数据的大小"},
+                {"label": "C", "text": "指算法所需额外内存空间"},
+                {"label": "D", "text": "与时间复杂度总是相同"}
+            ],
+            "correctAnswer": ["指算法所需额外内存空间"],
+            "selectedAnswer": ["指算法所需额外内存空间"]
+        },
+        {
+            "id": 16,
+            "type": "单选",
+            "title": "16. 递归算法的时间复杂度通常_____。",
+            "options": [
+                {"label": "A", "text": "低于非递归算法"},
+                {"label": "B", "text": "高于非递归算法"},
+                {"label": "C", "text": "与非递归算法相同"},
+                {"label": "D", "text": "与递归深度无关"}
+            ],
+            "correctAnswer": ["高于非递归算法"],
+            "selectedAnswer": ["高于非递归算法"]
+        },
+        {
+            "id": 17,
+            "type": "单选",
+            "title": "17. 关于贪心算法和动态规划，错误的是_____。",
+            "options": [
+                {"label": "A", "text": "贪心算法不回溯"},
+                {"label": "B", "text": "动态规划记录子问题解"},
+                {"label": "C", "text": "贪心算法适用于所有最优化问题"},
+                {"label": "D", "text": "动态规划适用于重叠子问题"}
+            ],
+            "correctAnswer": ["贪心算法适用于所有最优化问题"],
+            "selectedAnswer": ["贪心算法适用于所有最优化问题"]
+        },
+        {
+            "id": 18,
+            "type": "单选",
+            "title": "18. 下列哪个问题适合用分治法解决_____。",
+            "options": [
+                {"label": "A", "text": "斐波那契数列"},
+                {"label": "B", "text": "归并排序"},
+                {"label": "C", "text": "最长递增子序列"},
+                {"label": "D", "text": "网络流问题"}
+            ],
+            "correctAnswer": ["归并排序"],
+            "selectedAnswer": ["归并排序"]
+        },
+        {
+            "id": 19,
+            "type": "单选",
+            "title": "19. 关于 P 和 NP 问题，正确的是_____。",
+            "options": [
+                {"label": "A", "text": "P = NP"},
+                {"label": "B", "text": "P ⊆ NP"},
+                {"label": "C", "text": "NP ⊆ P"},
+                {"label": "D", "text": "P 与 NP 无关"}
+            ],
+            "correctAnswer": ["P ⊆ NP"],
+            "selectedAnswer": ["P ⊆ NP"]
+        },
+        {
+            "id": 20,
+            "type": "单选",
+            "title": "20. 递归算法的主要缺点不包括_____。",
+            "options": [
+                {"label": "A", "text": "栈溢出风险"},
+                {"label": "B", "text": "重复计算"},
+                {"label": "C", "text": "代码复杂"},
+                {"label": "D", "text": "空间复杂度低"}
+            ],
+            "correctAnswer": ["空间复杂度低"],
+            "selectedAnswer": ["空间复杂度低"]
+        },
+        {
+            "id": 21,
+            "type": "单选",
+            "title": "21. 关于 NP 难问题，正确的是_____。",
+            "options": [
+                {"label": "A", "text": "所有 NP 难问题都是 NP 类问题"},
+                {"label": "B", "text": "所有 NP 问题都是 NP 难问题"},
+                {"label": "C", "text": "旅行商问题是 NP 难问题"},
+                {"label": "D", "text": "NP 难问题不能在多项式时间内验证解"}
+            ],
+            "correctAnswer": ["旅行商问题是 NP 难问题"],
+            "selectedAnswer": ["旅行商问题是 NP 难问题"]
+        },
+        {
+            "id": 22,
+            "type": "单选",
+            "title": "22. 关于递归与迭代，错误的是_____。",
+            "options": [
+                {"label": "A", "text": "递归代码更简洁"},
+                {"label": "B", "text": "迭代总比递归快"},
+                {"label": "C", "text": "递归可能栈溢出"},
+                {"label": "D", "text": "迭代通常空间效率更高"}
+            ],
+            "correctAnswer": ["迭代总比递归快"],
+            "selectedAnswer": ["迭代总比递归快"]
+        },
+        {
+            "id": 23,
+            "type": "单选",
+            "title": "23. 关于算法正确性，正确的是_____。",
+            "options": [
+                {"label": "A", "text": "时间复杂度低则正确"},
+                {"label": "B", "text": "需通过数学证明或测试验证"},
+                {"label": "C", "text": "空间复杂度高则正确"},
+                {"label": "D", "text": "递归算法总是正确"}
+            ],
+            "correctAnswer": ["需通过数学证明或测试验证"],
+            "selectedAnswer": ["需通过数学证明或测试验证"]
+        },
+        {
+            "id": 24,
+            "type": "单选",
+            "title": "24. 关于算法效率，正确的是_____。",
+            "options": [
+                {"label": "A", "text": "时间复杂度是实际运行时间"},
+                {"label": "B", "text": "空间复杂度是程序代码大小"},
+                {"label": "C", "text": "大 O 表示法描述渐近上界"},
+                {"label": "D", "text": "最好情况复杂度最重要"}
+            ],
+            "correctAnswer": ["大 O 表示法描述渐近上界"],
+            "selectedAnswer": ["大 O 表示法描述渐近上界"]
+        },
+        {
+            "id": 25,
+            "type": "单选",
+            "title": "25. 设向量 a = (u, v)，b = (-v, u)，则 a 与 b 的点积 a∙b 为_____。",
+            "options": [
+                {"label": "A", "text": "0"},
+                {"label": "B", "text": "u² + v²"},
+                {"label": "C", "text": "u² - v²"},
+                {"label": "D", "text": "-2uv"}
+            ],
+            "correctAnswer": ["0"],
+            "selectedAnswer": ["0"]
+        },
+        {
+            "id": 26,
+            "type": "单选",
+            "title": "26. 若一个问题要求找出满足条件的一个解，且该解可以在多项式时间内验证，则该问题属于_____。",
+            "options": [
+                {"label": "A", "text": "P 类问题"},
+                {"label": "B", "text": "NP 类问题"},
+                {"label": "C", "text": "NP 难问题"},
+                {"label": "D", "text": "不可判定问题"}
+            ],
+            "correctAnswer": ["NP 类问题"],
+            "selectedAnswer": ["NP 类问题"]
+        },
+        {
+            "id": 27,
+            "type": "单选",
+            "title": "27. 对于给定的图 G 和正整数 k，判断 G 是否有一个大小不超过 k 的顶点覆盖。这是_____问题。",
+            "options": [
+                {"label": "A", "text": "顶点覆盖问题"},
+                {"label": "B", "text": "独立集问题"},
+                {"label": "C", "text": "哈密尔顿回路问题"},
+                {"label": "D", "text": "子集和问题"}
+            ],
+            "correctAnswer": ["顶点覆盖问题"],
+            "selectedAnswer": ["顶点覆盖问题"]
+        },
+        {
+            "id": 28,
+            "type": "单选",
+            "title": "28. 若两个向量 a 和 b 的方向相同，则 a∙b 的值为_____。",
+            "options": [
+                {"label": "A", "text": "0"},
+                {"label": "B", "text": "|a|・|b|"},
+                {"label": "C", "text": "-|a|・|b|"},
+                {"label": "D", "text": "|a| + |b|"}
+            ],
+            "correctAnswer": ["|a|・|b|"],
+            "selectedAnswer": ["|a|・|b|"]
+        },
+        {
+            "id": 29,
+            "type": "单选",
+            "title": "29. 若一个问题要求回答 “是” 或 “否”，并且可以在多项式时间内求解，则该问题属于_____。",
+            "options": [
+                {"label": "A", "text": "P 类问题"},
+                {"label": "B", "text": "NP 类问题"},
+                {"label": "C", "text": "NP 完全问题"},
+                {"label": "D", "text": "判定性问题"}
+            ],
+            "correctAnswer": ["P 类问题"],
+            "selectedAnswer": ["P 类问题"]
+        },
+        {
+            "id": 30,
+            "type": "单选",
+            "title": "30. 对于给定的无向图 G=(V,E) 和正整数 k，判断是否存在一个顶点集合 S ⊆ V，|S| ≥ k，使得 S 中任意两个顶点都不相邻。这是_____问题。",
+            "options": [
+                {"label": "A", "text": "顶点覆盖问题"},
+                {"label": "B", "text": "独立集问题"},
+                {"label": "C", "text": "团问题"},
+                {"label": "D", "text": "着色问题"}
+            ],
+            "correctAnswer": ["独立集问题"],
+            "selectedAnswer": ["独立集问题"]
+        },
+        {
+            "id": 31,
+            "type": "判断",
+            "title": "1. 堆排序是一种稳定的排序算法。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 32,
+            "type": "判断",
+            "title": "2. 算法的空间复杂度是算法执行所需内存空间的精确值。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 33,
+            "type": "判断",
+            "title": "3. 递归实现的斐波那契数列计算（无记忆化）时间复杂度为 O (2ⁿ)。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 34,
+            "type": "判断",
+            "title": "4. 如果 P=NP，则所有 NP 问题都可以在多项式时间内求解。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 35,
+            "type": "判断",
+            "title": "5. 贪心算法在求解最短路径问题（Dijkstra 算法）时总是得到最优解。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 36,
+            "type": "判断",
+            "title": "6. 动态规划法一定需要自底向上地计算子问题。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 37,
+            "type": "判断",
+            "title": "7. 分支限界法通常使用广度优先或最小成本优先策略搜索解空间树。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 38,
+            "type": "判断",
+            "title": "8. 所有 NP 完全问题都是 NP 类问题",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 39,
+            "type": "判断",
+            "title": "9. 归并排序的时间复杂度为 O (n log n)，且是稳定排序。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 40,
+            "type": "判断",
+            "title": "10. 动态规划法适用于具有最优子结构但不具有重叠子问题的问题。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 41,
+            "type": "判断",
+            "title": "11. 算法的时间复杂度越低，执行效率越高。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 42,
+            "type": "判断",
+            "title": "12. 分支限界法通常采用广度优先策略搜索解空间。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 43,
+            "type": "判断",
+            "title": "13. 设向量 a=(x,y)，b=(-y,x)，则 a 与 b 垂直。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 44,
+            "type": "判断",
+            "title": "14. 动态规划法要求各子问题相互独立。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 45,
+            "type": "判断",
+            "title": "15. 回溯法主要以广度优先的方式搜索解空间树。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 46,
+            "type": "判断",
+            "title": "16. 用分支限界法求解旅行商问题可以保证得到最优解。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 47,
+            "type": "判断",
+            "title": "17. 蛮力法适用于求解大规模 NP 难问题。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 48,
+            "type": "判断",
+            "title": "18. 动态规划法中，边界条件用于初始化最小子问题的解。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 49,
+            "type": "判断",
+            "title": "19. 前缀表达式中不需要括号来指定运算顺序。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 50,
+            "type": "判断",
+            "title": "20. 矩阵连乘问题存在重叠子问题，适合用动态规划求解。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 51,
+            "type": "判断",
+            "title": "21. 希尔排序是一种稳定排序算法。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 52,
+            "type": "判断",
+            "title": "22. 算法的时间复杂度与输入数据的分布无关。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 53,
+            "type": "判断",
+            "title": "23. 尾递归可以被编译器优化为迭代形式。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 54,
+            "type": "判断",
+            "title": "24. 所有可以在多项式时间内验证解的问题都是 NP 问题。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 55,
+            "type": "判断",
+            "title": "25. 汉诺塔问题不是 NP 类问题。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 56,
+            "type": "判断",
+            "title": "26. 两个向量的点积为零，则它们一定垂直。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 57,
+            "type": "判断",
+            "title": "27. 在二叉堆中查找最大元素的时间复杂度为常数级。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 58,
+            "type": "判断",
+            "title": "28. 动态规划求解斐波那契数列时，若不存储子问题结果，时间复杂度为指数级。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        },
+        {
+            "id": 59,
+            "type": "判断",
+            "title": "29. 图的着色问题是 P 类问题。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["错误"],
+            "selectedAnswer": ["错误"]
+        },
+        {
+            "id": 60,
+            "type": "判断",
+            "title": "30. 在平衡二叉搜索树中进行插入操作的时间复杂度为对数级。",
+            "options": [
+                {"label": "A", "text": "正确"},
+                {"label": "B", "text": "错误"}
+            ],
+            "correctAnswer": ["正确"],
+            "selectedAnswer": ["正确"]
+        }
+    ]

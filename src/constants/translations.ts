@@ -15,6 +15,18 @@ export const translations = {
         guide: "Guide",
         import: "Import",
         banks: "Banks"
+      },
+      settings: {
+        title: "Settings",
+        background: "Background Settings",
+        resetBackground: "Reset Background",
+        uploadImage: "Upload Background Image",
+        uploadImageDesc: "Support images under 10MB",
+        removeImage: "Remove Background Image",
+        fileSizeError: "Image file size cannot exceed 10MB",
+        fileTypeError: "Please select an image file",
+        imageTooLarge: "Image is too large even after compression. Please select a smaller image.",
+        processingError: "Failed to process image: "
       }
     },
     guide: {
@@ -107,6 +119,18 @@ export const translations = {
         guide: "指南",
         import: "导入",
         banks: "题库"
+      },
+      settings: {
+        title: "设置",
+        background: "背景设置",
+        resetBackground: "重置背景色",
+        uploadImage: "上传背景图片",
+        uploadImageDesc: "支持10MB以下图片",
+        removeImage: "移除背景图片",
+        fileSizeError: "图片文件大小不能超过10MB",
+        fileTypeError: "请选择图片文件",
+        imageTooLarge: "图片太大，即使压缩后仍无法保存。请选择更小的图片。",
+        processingError: "处理图片失败："
       }
     },
     guide: {
