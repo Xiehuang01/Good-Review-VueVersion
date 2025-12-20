@@ -152,24 +152,18 @@
                 <div 
                   v-if="showSettingsDropdown"
                   :class="[
-                    'absolute right-0 top-full mt-2 w-64 rounded-2xl shadow-lg border overflow-hidden animate-fade-in z-[60]',
-                    backgroundImage ? 'glass-panel-strong border-white/30' : 'glass-panel border-white/20'
+                    'absolute right-0 top-full mt-2 w-64 sm:w-64 w-72 rounded-2xl shadow-2xl border overflow-hidden animate-fade-in z-[60]',
+                    backgroundImage ? 'glass-panel-mobile border-white/40' : 'glass-panel-mobile border-white/30'
                   ]"
                   @click.stop
                 >
                   <div class="p-4 space-y-3">
-                    <h3 :class="[
-                      'text-sm font-bold mb-3',
-                      backgroundImage ? 'text-white drop-shadow' : 'text-slate-700'
-                    ]">{{ t('app.settings.background') }}</h3>
+                    <h3 class="text-sm font-bold mb-3 text-slate-800">{{ t('app.settings.background') }}</h3>
                     
                     <!-- Reset Background -->
                     <button
                       @click="resetBackground"
-                      :class="[
-                        'w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left',
-                        backgroundImage ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-600 hover:text-slate-800'
-                      ]"
+                      class="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left hover:bg-slate-100 text-slate-700 hover:text-slate-900"
                     >
                       <RotateCcw :size="18" />
                       <span class="text-sm font-medium">{{ t('app.settings.resetBackground') }}</span>
@@ -185,18 +179,12 @@
                         class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                       />
                       <button
-                        :class="[
-                          'w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left',
-                          backgroundImage ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-600 hover:text-slate-800'
-                        ]"
+                        class="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left hover:bg-slate-100 text-slate-700 hover:text-slate-900"
                       >
                         <ImageIcon :size="18" />
                         <div class="flex-1">
                           <div class="text-sm font-medium">{{ t('app.settings.uploadImage') }}</div>
-                          <div :class="[
-                            'text-xs',
-                            backgroundImage ? 'text-white/70' : 'text-slate-500'
-                          ]">{{ t('app.settings.uploadImageDesc') }}</div>
+                          <div class="text-xs text-slate-500">{{ t('app.settings.uploadImageDesc') }}</div>
                         </div>
                       </button>
                     </div>
@@ -205,7 +193,7 @@
                     <button
                       v-if="backgroundImage"
                       @click="removeBackgroundImage"
-                      class="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-white/20 text-white/90 hover:text-white transition-all text-left drop-shadow"
+                      class="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-100 text-slate-700 hover:text-slate-900 transition-all text-left"
                     >
                       <Trash2 :size="18" />
                       <span class="text-sm font-medium">{{ t('app.settings.removeImage') }}</span>

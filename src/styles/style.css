@@ -141,6 +141,25 @@
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Mobile optimized glass panel with stronger background */
+.glass-panel-mobile {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 640px) {
+  .glass-panel-mobile {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
 /* Enhanced text contrast for custom backgrounds */
 .custom-bg-text {
   color: white !important;
