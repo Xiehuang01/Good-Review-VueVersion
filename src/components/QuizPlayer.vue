@@ -100,9 +100,19 @@
     <div class="glass-panel rounded-[2.5rem] p-6 md:p-10 flex-1 flex flex-col relative overflow-hidden transition-all duration-300">
       
       <div class="mb-8 relative z-10">
-        <span class="inline-block bg-white/50 text-brand-700 text-xs font-extrabold px-3 py-1 rounded-lg uppercase tracking-wider mb-4 border border-white/50 shadow-sm backdrop-blur-md">
-          {{ isJudgment ? "判断" : question.type }}
-        </span>
+        <div class="flex items-start justify-between gap-4 mb-4">
+          <span class="inline-block bg-white/50 text-brand-700 text-xs font-extrabold px-3 py-1 rounded-lg uppercase tracking-wider border border-white/50 shadow-sm backdrop-blur-md">
+            {{ isJudgment ? "判断" : question.type }}
+          </span>
+          <button
+            @click="copyQuestion"
+            class="flex items-center gap-2 px-3 py-1.5 bg-white/50 hover:bg-white/70 text-slate-600 hover:text-slate-800 rounded-lg text-xs font-medium border border-white/50 shadow-sm backdrop-blur-md transition-all"
+            :title="copyButtonText"
+          >
+            <Copy :size="14" />
+            <span class="hidden sm:inline">{{ copyButtonText }}</span>
+          </button>
+        </div>
         <component :is="renderTitle(question.title)" />
         <div v-if="question.images && question.images.length > 0" class="mt-6 flex gap-4 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-brand-200">
           <img 
@@ -255,7 +265,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, h } from 'vue'
-import { ArrowLeft, CheckCircle, XCircle, ChevronLeft, ChevronRight, Eye, EyeOff, RotateCcw, LayoutDashboard, Trophy, CheckSquare, X } from 'lucide-vue-next'
+import { ArrowLeft, CheckCircle, XCircle, ChevronLeft, ChevronRight, Eye, EyeOff, RotateCcw, LayoutDashboard, Trophy, CheckSquare, X, Copy } from 'lucide-vue-next'
 import type { QuestionBank, QuestionItem } from '../types/types'
 import { useLanguage } from '../composables/useLanguage'
 
@@ -280,6 +290,7 @@ const revealed = ref<Record<number, boolean>>({})
 const isFinished = ref(false)
 const showImageModal = ref(false)
 const selectedImage = ref('')
+const copyButtonText = ref('复制题目')
 
 // Computed
 const total = computed(() => questions.value.length)
@@ -536,6 +547,60 @@ const openImageModal = (imageUrl: string) => {
 const closeImageModal = () => {
   showImageModal.value = false
   selectedImage.value = ''
+}
+
+const copyQuestion = async () => {
+  if (!question.value) return
+  
+  // 构建要复制的文本
+  let textToCopy = `${question.value.title}\n\n`
+  
+  // 添加选项
+  if (question.value.options && question.value.options.length > 0) {
+    textToCopy += '选项：\n'
+    question.value.options.forEach(option => {
+      textToCopy += `${option.label}. ${option.text}\n`
+    })
+  }
+  
+  // 添加正确答案
+  if (question.value.correctAnswer && question.value.correctAnswer.length > 0) {
+    textToCopy += `\n正确答案：${question.value.correctAnswer.join(', ')}`
+  }
+  
+  try {
+    // 复制到剪贴板
+    await navigator.clipboard.writeText(textToCopy)
+    
+    // 显示成功反馈
+    copyButtonText.value = '已复制!'
+    setTimeout(() => {
+      copyButtonText.value = '复制题目'
+    }, 2000)
+    
+  } catch (error) {
+    console.error('复制失败:', error)
+    // 降级方案：使用传统的复制方法
+    try {
+      const textArea = document.createElement('textarea')
+      textArea.value = textToCopy
+      document.body.appendChild(textArea)
+      textArea.select()
+      document.execCommand('copy')
+      document.body.removeChild(textArea)
+      
+      copyButtonText.value = '已复制!'
+      setTimeout(() => {
+        copyButtonText.value = '复制题目'
+      }, 2000)
+    } catch (fallbackError) {
+      console.error('降级复制也失败:', fallbackError)
+      copyButtonText.value = '复制失败'
+      setTimeout(() => {
+        copyButtonText.value = '复制题目'
+      }, 2000)
+    }
+  }
 }
 
 const handleSelect = (val: string) => {
