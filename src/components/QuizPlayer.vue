@@ -108,9 +108,10 @@
           <img 
             v-for="(img, i) in question.images" 
             :key="i" 
-            :src="img" 
+            :src="getImageUrl(img)" 
             alt="Question attachment" 
-            class="max-h-64 rounded-2xl border-4 border-white/50 shadow-lg hover:scale-105 transition-transform" 
+            class="max-h-64 rounded-2xl border-4 border-white/50 shadow-lg hover:scale-105 transition-transform cursor-pointer" 
+            @click="openImageModal(getImageUrl(img))"
           />
         </div>
       </div>
@@ -224,11 +225,37 @@
       </div>
     </div>
   </div>
+
+  <!-- Image Modal -->
+  <Teleport to="body">
+    <div 
+      v-if="showImageModal" 
+      class="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 backdrop-blur-sm animate-fade-in p-4" 
+      @click="closeImageModal"
+    >
+      <div 
+        class="relative max-w-[90vw] max-h-[90vh] overflow-hidden rounded-2xl shadow-2xl"
+        @click.stop
+      >
+        <img 
+          :src="selectedImage" 
+          alt="Enlarged image" 
+          class="w-full h-full object-contain"
+        />
+        <button
+          @click="closeImageModal"
+          class="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors"
+        >
+          <X :size="20" />
+        </button>
+      </div>
+    </div>
+  </Teleport>
 </template>
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, h } from 'vue'
-import { ArrowLeft, CheckCircle, XCircle, ChevronLeft, ChevronRight, Eye, EyeOff, RotateCcw, LayoutDashboard, Trophy, CheckSquare } from 'lucide-vue-next'
+import { ArrowLeft, CheckCircle, XCircle, ChevronLeft, ChevronRight, Eye, EyeOff, RotateCcw, LayoutDashboard, Trophy, CheckSquare, X } from 'lucide-vue-next'
 import type { QuestionBank, QuestionItem } from '../types/types'
 import { useLanguage } from '../composables/useLanguage'
 
@@ -251,6 +278,8 @@ const currentIdx = ref(0)
 const userAnswers = ref<Record<number, string[]>>({})
 const revealed = ref<Record<number, boolean>>({})
 const isFinished = ref(false)
+const showImageModal = ref(false)
+const selectedImage = ref('')
 
 // Computed
 const total = computed(() => questions.value.length)
@@ -475,6 +504,40 @@ const getOptionText = (opt: any) => {
   return opt.text
 }
 
+const getImageUrl = (imagePath: string) => {
+  console.log('Original image path:', imagePath)
+  
+  // 如果是完整的URL（http/https），直接返回
+  if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+    console.log('Returning URL as-is:', imagePath)
+    return imagePath
+  }
+  
+  // 对于本地图片，需要添加base路径
+  const baseUrl = '/Good-Review-VueVersion/'
+  let finalUrl = imagePath
+  
+  // 如果路径不是以base开头，添加base路径
+  if (!imagePath.startsWith(baseUrl)) {
+    // 移除开头的斜杠（如果有的话）
+    const cleanPath = imagePath.startsWith('/') ? imagePath.slice(1) : imagePath
+    finalUrl = baseUrl + cleanPath
+  }
+  
+  console.log('Final image URL:', finalUrl)
+  return finalUrl
+}
+
+const openImageModal = (imageUrl: string) => {
+  selectedImage.value = imageUrl
+  showImageModal.value = true
+}
+
+const closeImageModal = () => {
+  showImageModal.value = false
+  selectedImage.value = ''
+}
+
 const handleSelect = (val: string) => {
   if (revealed.value[currentIdx.value]) return
 
@@ -549,6 +612,13 @@ const handleKey = (e: KeyboardEvent) => {
   if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
     return
   }
+  
+  // ESC键关闭图片模态框
+  if (e.key === 'Escape' && showImageModal.value) {
+    closeImageModal()
+    return
+  }
+  
   if (!isFinished.value) {
     if (e.key === 'ArrowRight') nextQuestion()
     if (e.key === 'ArrowLeft') prevQuestion()

@@ -3393,13 +3393,13 @@
       "options": [],
       "correctAnswer": [
         "names",
-        "len(name.split());len(name.split(\" \"))"
+        "len(name.split());"
       ],
       "selectedAnswer": [
         "names",
-        "len(name.split());len(name.split(\" \"))"
+        "len(name.split());"
       ],
-      "images": []
+      "images": ["/images/python118.png"]
     },
     {
       "id": 119,
@@ -3435,10 +3435,10 @@
       "title": "121. (填空题, 1.0 points) 写出判断整数x能否同时被3和5整除的Python 语言表达式。（算术运算符、比较运算符和赋值运算符前后不要有空格）______",
       "options": [],
       "correctAnswer": [
-        "x%3==0 and x%5==0;x%3==x%5==0;0==x%3 and 0==x%5;x%5=0 and x%3==0;0==x%5 and 0==x%3;x%5==x%3==0"
+        "x%3==0 and x%5==0;"
       ],
       "selectedAnswer": [
-        "x%3==0 and x%5==0;x%3==x%5==0;0==x%3 and 0==x%5;x%5=0 and x%3==0;0==x%5 and 0==x%3;x%5==x%3==0"
+        "x%3==0 and x%5==0;"
       ],
       "images": []
     },
