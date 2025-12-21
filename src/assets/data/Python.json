@@ -2872,10 +2872,10 @@
         }
       ],
       "correctAnswer": [
-        "arr1 = np.array(0, 1, 2, 3, 4)"
+        "arr4 = np.array(0, 1, 2, 3, 4)"
       ],
       "selectedAnswer": [
-        "arr1 = np.array(0, 1, 2, 3, 4)"
+        "arr4 = np.array(0, 1, 2, 3, 4)"
       ],
       "images": []
     },
