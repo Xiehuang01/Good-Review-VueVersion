@@ -1,0 +1,1406 @@
+[
+    {
+      "id": 1,
+      "type": "单选",
+      "title": "1、单片机与微型计算机的区别是：（ ）",
+      "options": [
+        { "label": "A", "text": "单片机的体积小，微型计算机的体积大" },
+        { "label": "B", "text": "单片机功能全，微型计算机功能不全" },
+        { "label": "C", "text": "单片机是将计算机各功能模块集成一块芯片上，微型计算机是将计算机的各功能模块放在不同的板上" },
+        { "label": "D", "text": "单片机价格低，微型计算机价格高" }
+      ],
+      "correctAnswer": [
+        "单片机是将计算机各功能模块集成一块芯片上，微型计算机是将计算机的各功能模块放在不同的板上"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 2,
+      "type": "单选",
+      "title": "2、单片机的内部结构包括（ ）",
+      "options": [
+        { "label": "A", "text": "存储器、CPU、控制器" },
+        { "label": "B", "text": "CPU 、存储器、 I/O接口、定时/计数器" },
+        { "label": "C", "text": "CPU、显示器、I/O接口、定时/计数器" },
+        { "label": "D", "text": "CPU、打印机、存储器、 I/O接口" }
+      ],
+      "correctAnswer": [
+        "CPU 、存储器、 I/O接口、定时/计数器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 3,
+      "type": "单选",
+      "title": "3、STC程序下载软件是（ ）",
+      "options": [
+        { "label": "A", "text": "编程序软件" },
+        { "label": "B", "text": "将生成的HEX文件设置 好串口后，下载到STC单片机中" },
+        { "label": "C", "text": "是一种仿真软件" },
+        { "label": "D", "text": "是字模提取软件h" }
+      ],
+      "correctAnswer": [
+        "将生成的HEX文件设置 好串口后，下载到STC单片机中"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 4,
+      "type": "单选",
+      "title": "4、MCS-51单片机的主流产品型号是（ ）",
+      "options": [
+        { "label": "A", "text": "STC12" },
+        { "label": "B", "text": "STC90" },
+        { "label": "C", "text": "STC89" },
+        { "label": "D", "text": "STC60" }
+      ],
+      "correctAnswer": [
+        "STC89"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 5,
+      "type": "单选",
+      "title": "5、当TR1=1时 ，定时器（ ）",
+      "options": [
+        { "label": "A", "text": "停止工作" },
+        { "label": "B", "text": "开始工作" },
+        { "label": "C", "text": "准备工作" },
+        { "label": "D", "text": "准备停止工作" }
+      ],
+      "correctAnswer": [
+        "开始工作"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 6,
+      "type": "单选",
+      "title": "6、ET0=1,时，TF0的中断工作( )",
+      "options": [
+        { "label": "A", "text": "启用" },
+        { "label": "B", "text": "停止" },
+        { "label": "C", "text": "中断" },
+        { "label": "D", "text": "以上都对" }
+      ],
+      "correctAnswer": [
+        "启用"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 7,
+      "type": "单选",
+      "title": "7、C语言与C51的区别是（ ）",
+      "options": [
+        { "label": "A", "text": "库函数不同、数据类型有区别、变量存储模式不同、头文件不同" },
+        { "label": "B", "text": "控制语句不同、语言不同、环境不同" },
+        { "label": "C", "text": "语法不同、变量存储模式不同、头文件不同" },
+        { "label": "D", "text": "大小不同、库函数不同、数据类型有区别" }
+      ],
+      "correctAnswer": [
+        "库函数不同、数据类型有区别、变量存储模式不同、头文件不同"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 8,
+      "type": "单选",
+      "title": "8、要在数1个码管中显示数字4，它的代码是（ ）",
+      "options": [
+        { "label": "A", "text": "0x92" },
+        { "label": "B", "text": "0xc0" },
+        { "label": "C", "text": "0x90" },
+        { "label": "D", "text": "0x99" }
+      ],
+      "correctAnswer": [
+        "0x99"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 9,
+      "type": "单选",
+      "title": "9、STC89C52RC，有40个引脚，它的I/O口有（ ）",
+      "options": [
+        { "label": "A", "text": "1个" },
+        { "label": "B", "text": "2个" },
+        { "label": "C", "text": "3个" },
+        { "label": "D", "text": "4个" }
+      ],
+      "correctAnswer": [
+        "4个"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 10,
+      "type": "单选",
+      "title": "10、把十进制数23换算成二进制数 为（ ）",
+      "options": [
+        { "label": "A", "text": "00100111" },
+        { "label": "B", "text": "00110110" },
+        { "label": "C", "text": "00010111" },
+        { "label": "D", "text": "00011111" }
+      ],
+      "correctAnswer": [
+        "00010111"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 11,
+      "type": "单选",
+      "title": "11. 单片机内部数据之所以用二进制形式表示，主要是（ ）。",
+      "options": [
+        { "label": "A", "text": "为了编程方便" },
+        { "label": "B", "text": "受器件的物理性能限制" },
+        { "label": "C", "text": "为了通用性" },
+        { "label": "D", "text": "为了提高运算速度" }
+      ],
+      "correctAnswer": [
+        "受器件的物理性能限制"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 12,
+      "type": "单选",
+      "title": "12. 在家用电器中使用单片机应属于微计算机的（ ）。",
+      "options": [
+        { "label": "A", "text": "辅助设计应用" },
+        { "label": "B", "text": "测量、控制应用" },
+        { "label": "C", "text": "数值计算应用" },
+        { "label": "D", "text": "数据处理应用" }
+      ],
+      "correctAnswer": [
+        "测量、控制应用"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 13,
+      "type": "单选",
+      "title": "13. 判断下列哪一种说法是正确的（ ）。",
+      "options": [
+        { "label": "A", "text": "PC是一个可寻址的寄存器" },
+        { "label": "B", "text": "特殊功能寄存器SP内存放的是堆栈栈顶单元的内容" },
+        { "label": "C", "text": "单片机的主频越高，其运算速度越快" },
+        { "label": "D", "text": "AT89S51单片机中的一个机器周期为1µs" }
+      ],
+      "correctAnswer": [
+        "单片机的主频越高，其运算速度越快"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 14,
+      "type": "单选",
+      "title": "14．在AT89S51的中断请求源中，需要外加电路实现中断撤销的是（ ）。",
+      "options": [
+        { "label": "A", "text": "电平方式的外部中断请求" },
+        { "label": "B", "text": "跳沿方式的外部中断请求" },
+        { "label": "C", "text": "外部串行中断" },
+        { "label": "D", "text": "定时中断" }
+      ],
+      "correctAnswer": [
+        "电平方式的外部中断请求"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 15,
+      "type": "单选",
+      "title": "15．中断查询确认后，在下列各种AT89S51单片机运行情况下，能立即进行响应的是（ ）。",
+      "options": [
+        { "label": "A", "text": "当前正在进行高优先级中断处理" },
+        { "label": "B", "text": "当前正在执行RETI指令" },
+        { "label": "C", "text": "当前指令是MOV A，R3" },
+        { "label": "D", "text": "当前指令是DIV指令，且正处于取指令的机器周期" }
+      ],
+      "correctAnswer": [
+        "当前指令是MOV A，R3"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 16,
+      "type": "单选",
+      "title": "16. 定时器T0、T1工作于方式1时，其计数器为（ ）位。",
+      "options": [
+        { "label": "A", "text": "8位" },
+        { "label": "B", "text": "16位" },
+        { "label": "C", "text": "14位" },
+        { "label": "D", "text": "13位" }
+      ],
+      "correctAnswer": [
+        "16位"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 17,
+      "type": "单选",
+      "title": "17. 定时器T0、T1的GATEx=1时，其计数器是否计数的条件（ ）。",
+      "options": [
+        { "label": "A", "text": "仅取决于TRx状态" },
+        { "label": "B", "text": "仅取决于GATE位状态" },
+        { "label": "C", "text": "是由TRx和两个条件来共同控制" },
+        { "label": "D", "text": "仅取决于的状态" }
+      ],
+      "correctAnswer": [
+        "是由TRx和两个条件来共同控制"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 18,
+      "type": "单选",
+      "title": "18. 控制串行口工作方式的寄存器是（ ）。",
+      "options": [
+        { "label": "A", "text": "TCON" },
+        { "label": "B", "text": "PCON" },
+        { "label": "C", "text": "TMOD" },
+        { "label": "D", "text": "SCON" }
+      ],
+      "correctAnswer": [
+        "SCON"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 19,
+      "type": "单选",
+      "title": "19. DAC0832芯片的分辨率是（ ）位。",
+      "options": [
+        { "label": "A", "text": "4位" },
+        { "label": "B", "text": "8位" },
+        { "label": "C", "text": "12位" },
+        { "label": "D", "text": "16位" }
+      ],
+      "correctAnswer": [
+        "8位"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 20,
+      "type": "单选",
+      "title": "20. 51单片机中的程序计数器PC是（ ）位。",
+      "options": [
+        { "label": "A", "text": "8位" },
+        { "label": "B", "text": "12位" },
+        { "label": "C", "text": "16位" },
+        { "label": "D", "text": "32位" }
+      ],
+      "correctAnswer": [
+        "16位"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 21,
+      "type": "单选",
+      "title": "21. 使用单片机作为开发平台，程序编译通过后，生成目标文件是（ ）。",
+      "options": [
+        { "label": "A", "text": "HEX文件" },
+        { "label": "B", "text": "EXE文件" },
+        { "label": "C", "text": "COM文件" },
+        { "label": "D", "text": "TXT文件" }
+      ],
+      "correctAnswer": [
+        "HEX文件"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 22,
+      "type": "单选",
+      "title": "22. 8051单片机P0口有多少个I/O引脚（ ）。",
+      "options": [
+        { "label": "A", "text": "4个" },
+        { "label": "B", "text": "8个" },
+        { "label": "C", "text": "16个" },
+        { "label": "D", "text": "32个" }
+      ],
+      "correctAnswer": [
+        "8个"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 23,
+      "type": "单选",
+      "title": "23. 单片机能直接识别的语言是（ ）。",
+      "options": [
+        { "label": "A", "text": "汇编语言" },
+        { "label": "B", "text": "自然语言" },
+        { "label": "C", "text": "机器语言" },
+        { "label": "D", "text": "C语言" }
+      ],
+      "correctAnswer": [
+        "机器语言"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 24,
+      "type": "单选",
+      "title": "24. 单片机的复位引脚是（ ）。",
+      "options": [
+        { "label": "A", "text": "EA" },
+        { "label": "B", "text": "XTAL1" },
+        { "label": "C", "text": "XTAL2" },
+        { "label": "D", "text": "RST" }
+      ],
+      "correctAnswer": [
+        "RST"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 25,
+      "type": "单选",
+      "title": "25．下列芯片中属于单片机的芯片是（ ）。",
+      "options": [
+        { "label": "A", "text": "AT89C52" },
+        { "label": "B", "text": "DAC0832" },
+        { "label": "C", "text": "8086" },
+        { "label": "D", "text": "80286" }
+      ],
+      "correctAnswer": [
+        "AT89C52"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 26,
+      "type": "单选",
+      "title": "26．8051 单片机有（ ）个中断源。",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "3" }
+      ],
+      "correctAnswer": [
+        "5"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 27,
+      "type": "单选",
+      "title": "27．单片机8051的XTAL1和XTAL2引脚是（ ）引脚。",
+      "options": [
+        { "label": "A", "text": "外接晶振" },
+        { "label": "B", "text": "外接串行口" },
+        { "label": "C", "text": "外接中断" },
+        { "label": "D", "text": "外接定时器" }
+      ],
+      "correctAnswer": [
+        "外接晶振"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 28,
+      "type": "单选",
+      "title": "28．使用单片机开发系统Keil调试程序时，对源程序进行编译的目的是（ ）。",
+      "options": [
+        { "label": "A", "text": "将目标程序转换成源程序" },
+        { "label": "B", "text": "将源程序转换成目标程序" },
+        { "label": "C", "text": "将C语言转换成汇编语言" },
+        { "label": "D", "text": "将低级语言转换成高级语言" }
+      ],
+      "correctAnswer": [
+        "将源程序转换成目标程序"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 29,
+      "type": "单选",
+      "title": "29．在程序运行过程中，系统出现了一个必须由CPU立即处理的紧急事件，此时，CPU暂时中止当前程序的执行转而处理这个紧急事件的过程称为（ ）",
+      "options": [
+        { "label": "A", "text": "定时" },
+        { "label": "B", "text": "计数" },
+        { "label": "C", "text": "中断" },
+        { "label": "D", "text": "复位" }
+      ],
+      "correctAnswer": [
+        "中断"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 30,
+      "type": "单选",
+      "title": "30．8051 单片机程序存储器的寻址范围是由程序计数器 PC 的位数所决定的，因为 8051 的 PC 是 16 位的，因此其寻址的范围为（ ）KB。",
+      "options": [
+        { "label": "A", "text": "8" },
+        { "label": "B", "text": "16" },
+        { "label": "C", "text": "32" },
+        { "label": "D", "text": "64" }
+      ],
+      "correctAnswer": [
+        "64"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 31,
+      "type": "判断",
+      "title": "1、单片机是一种集成电路芯片，简称SCM。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 32,
+      "type": "判断",
+      "title": "2、单片机的编程语言是机器语言，只能是汇编语言。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 33,
+      "type": "判断",
+      "title": "3、Keil是C51的编程序软件，Protues软件只能做仿真，不能编写C51程序。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 34,
+      "type": "判断",
+      "title": "4、程序计数器PC中装的内容是当前正在执行指令的地址。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 35,
+      "type": "判断",
+      "title": "5、某特殊功能寄存器的字节地址为80H，它即能字节寻址，也能位寻址。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 36,
+      "type": "判断",
+      "title": "6、AT89S51单片机中的PC是不可寻址的。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 37,
+      "type": "判断",
+      "title": "7、单片机内部采的进制是十进制数，不是十六进制数。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 38,
+      "type": "判断",
+      "title": "8、AT89S51的定时器/计数器对外部脉冲进行计数时，要求输入的计数脉冲的高电平或低电平的持续时间不小于1个机器周期。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 39,
+      "type": "判断",
+      "title": "9、一个机器周期等于十二个时钟周期。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 40,
+      "type": "判断",
+      "title": "10、共阳极数码管显示1时的代码为0x99。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 41,
+      "type": "判断",
+      "title": "11、AT89S52与AT89S51相比，片内多出了4KB的Flash程序存储器、128B的RAM、1个中断源、1个定时器（且具有捕捉功能）。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 42,
+      "type": "判断",
+      "title": "12、单片机是一种CPU。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 43,
+      "type": "判断",
+      "title": "13、 使用AT89S51单片机且引脚=1时，仍可外扩64KB的程序存储器。 （ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 44,
+      "type": "判断",
+      "title": "14、PC可以看成是程序存储器的地址指针。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 45,
+      "type": "判断",
+      "title": "15、在C51语言编程中，编写中断服务函数时需要考虑如何进行现场保护、阻断其他中断、返回时自动恢复现场等处理的程序段的编写。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 46,
+      "type": "判断",
+      "title": "16、P0口作为总线端口使用时，它是一个双向口。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 47,
+      "type": "判断",
+      "title": "17、LED数码管动态扫描显示电路只要控制好每位数码管点亮显示的时间，就可造成“多位同时亮”的假象，达到多位LED数码管同时显示的效果。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 48,
+      "type": "判断",
+      "title": "18、LED数码管工作于动态显示方式时，同一时间只有一个数码管被点亮。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 49,
+      "type": "判断",
+      "title": "19、定时器T0中断可以被外部中断0中断。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 50,
+      "type": "判断",
+      "title": "20、AT89S51单片机中的同级中断不能嵌套。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 51,
+      "type": "判断",
+      "title": "21、定时器T0、T1对外部脉冲进行计数时，要求输入的计数脉冲的高电平或低电平的持续时间不小于1个机器周期。特殊功能寄存器SCON与定时器/计数器的控制无关。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 52,
+      "type": "判断",
+      "title": "22、发送数据的第9数据位的内容是在SCON寄存器的TB8位中预先准备好的。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 53,
+      "type": "判断",
+      "title": "23、串行通信接收到的第9位数据送SCON寄存器的RB8中保存。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 54,
+      "type": "判断",
+      "title": "24、串行口工作方式1的波特率是固定的，为fosc/32。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 55,
+      "type": "判断",
+      "title": "25、AT89S51单片机进行串行通讯时，定时器方式2能产生比方式1更低的波特率。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 56,
+      "type": "判断",
+      "title": "26、 单片机属于数字电路，其概念、术语、硬件结构和原理都源自数字电路，如果数字电路基础扎实，对复杂的单片机硬件结构和原理就容易理解。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 57,
+      "type": "判断",
+      "title": "27、 MCS-51单片机是高档16位单片机。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 58,
+      "type": "判断",
+      "title": "28、 单片机的指令周期是执行一条指令所需要的时间。一般由若干个机器周期组成。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 59,
+      "type": "判断",
+      "title": "29、在MCS-51单片机内部结构中，TMOD为模式控制寄存器，主要用来控制定时器的启动与停止。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 60,
+      "type": "判断",
+      "title": "30、MCS-1单片机的两个定时器均有两种工作方式，即定时和计数工作方式。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 61,
+      "type": "判断",
+      "title": "31、MCS-51单片机的数据存储器是指外部存储器。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 62,
+      "type": "判断",
+      "title": "32、若置8051的定时器/计数器T1于定时模式，工作于方式2，则工作方式字为20H。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 63,
+      "type": "判断",
+      "title": "33、开启中断总开关并启用INT0中断可使用以下语句：IE=0x84。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 64,
+      "type": "判断",
+      "title": "34、51单片机的定时/计数器的计数终点值是随机变化不定的。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 65,
+      "type": "判断",
+      "title": "35、51单片机的定时/计数器的计数在工作模式2（Mode 2）：模式下，以定时或计数100个脉冲为例，TLx作为计数寄存器初始值应设置为100。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 66,
+      "type": "判断",
+      "title": "36、单片机向外发送数据时，MAX232先将从单片机处接收的+5V的TTL/CMOS电平信号转换成220V的电压信号，然后将该信号传送到发送线路上。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "错误"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 67,
+      "type": "判断",
+      "title": "37、LCD1602液晶模块的读写操作、移位操作等都是通过向显示屏中写入指令实现的。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 68,
+      "type": "判断",
+      "title": "38、RS232C接口在总线上只允许连接1个收发器，即单站能力。而RS485接口在总线上允许连接多达128个收发器。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 69,
+      "type": "判断",
+      "title": "39、 使用I2C总线传输数据时只需要两根双向信号线，一根是数据线SDA，另一根是时钟线SCL。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 70,
+      "type": "判断",
+      "title": "40、 DS18B20是一种单总线接口的数字温度计，能够提供9～12位精度的温度数值。（ ）",
+      "options": [
+        { "label": "true", "text": "正确" },
+        { "label": "false", "text": "错误" }
+      ],
+      "correctAnswer": [
+        "正确"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 71,
+      "type": "填空",
+      "title": "1、常用的编写单片机程序的软件是（ ），可对单片机实验进行仿真的软件是（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "Keil",
+        "Protues"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 72,
+      "type": "填空",
+      "title": "2、单片机的最小系统必须要（ ）、（ ）、（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "电源电路",
+        "时钟电路",
+        "复位电路"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 73,
+      "type": "填空",
+      "title": "3、单片机是将（ ）、（ ）、（ ）、（ ）、（ ）等计算机部件集成在一块芯片，这块具有计算机功能的芯片也叫（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "具有数据处理能力的",
+        "中央处理器CPU",
+        "随机存储器RAM",
+        "只读存储器ROM",
+        "多种I/O口",
+        "微控制器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 74,
+      "type": "填空",
+      "title": "4、(10110011)2的16进制数是（ ），十进制数是（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "B3",
+        "179"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 75,
+      "type": "填空",
+      "title": "5、中断是（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "计算机系统中由硬件与软件协同实现的事件响应机制"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 76,
+      "type": "填空",
+      "title": "6、EA=1,表示（ ）, ET0=1,表示（ ）， EX0=1，表示（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "允许全局中断",
+        "允许定时器0中断",
+        "允许外部中断0"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 77,
+      "type": "填空",
+      "title": "7、计数器的频率为12MHZ,表示（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "计数器每秒计数12,000,000次"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 78,
+      "type": "填空",
+      "title": "8、TH0和TL0表示（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "定时器0的高8位寄存器和低8位寄存器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 79,
+      "type": "填空",
+      "title": "9、TMOD=0x01,表示计数器工在（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "模式1：16位定时器/计数器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 80,
+      "type": "填空",
+      "title": "10、步进电机分为（ ）、（ ）、（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "反应式步进电机VR",
+        "永磁式步进电机PM",
+        "混合式步进电机HB"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 81,
+      "type": "填空",
+      "title": "11、单片机与普通微型计算机的不同之处在于其将（ ）、（ ）、和（ ）三部分，通过内部（ ）连接在一起，集成于一块芯片上。",
+      "options": [],
+      "correctAnswer": [
+        "CPU",
+        "存储器",
+        "I/O口",
+        "总线"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 82,
+      "type": "填空",
+      "title": "12、AT89S51单片机工作频率上限为（ ）MHz。",
+      "options": [],
+      "correctAnswer": [
+        "33"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 83,
+      "type": "填空",
+      "title": "13、AT89S51单片机的机器周期等于（ ）个时钟振荡周期。",
+      "options": [],
+      "correctAnswer": [
+        "12"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 84,
+      "type": "填空",
+      "title": "14、内部RAM中，位地址为40H、88H的位，该位所在字节的字节地址分别为（ ）和（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "28H",
+        "88H"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 85,
+      "type": "填空",
+      "title": "15、C51用“*”和“&”运算符来提取指针变量的（ ）和变量的（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "内容",
+        "地址"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 86,
+      "type": "填空",
+      "title": "16、“8”字型的LED数码管如果不包括小数点段共计（ ）段，每一段对应一个发光二极管，有（ ）和（ ）两种。",
+      "options": [],
+      "correctAnswer": [
+        "7",
+        "共阳极",
+        "共阴极"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 87,
+      "type": "填空",
+      "title": "17、若（IP）=00010100B，则优先级最高者为（ ），最低者为（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "外部中断1",
+        "定时计数器T1"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 88,
+      "type": "填空",
+      "title": "18、AT89S51单片机复位后，中断优先级最高的中断源是（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "外部中断0"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 89,
+      "type": "填空",
+      "title": "19、定时器/计数器用作定时器模式时，其计数脉冲由（ ）提供，定时时间与（ ）有关。",
+      "options": [],
+      "correctAnswer": [
+        "系统时钟信号12分频后",
+        "定时器初值"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 90,
+      "type": "填空",
+      "title": "20、AT89S51的串行异步通信口为（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "全双工"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 91,
+      "type": "填空",
+      "title": "21、串行通信波特率的单位是（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "波特（Baud）"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 92,
+      "type": "填空",
+      "title": "22、单片机是一种集成电路芯片，是采用超大规模集成电路技术将具有数据处理能力的（ ）、（ ）、（ ）、（ ）和（ ）、（ ）等功能集成到一块硅片上构成的一个小而完善的微型计算机系统。",
+      "options": [],
+      "correctAnswer": [
+        "中央处理器CPU",
+        "随机存储器RAM",
+        "只读存储器ROM",
+        "多种I/O口",
+        "中断系统",
+        "定时器/计数器"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 93,
+      "type": "填空",
+      "title": "23、要将程序下载到单片机中，解决用串口下载程序到单片机的问题，通常可以选择USB转串行口线，USB转串口线属于一种硬件设备，需要安装（ ）程序才能正常工作。",
+      "options": [],
+      "correctAnswer": [
+        "驱动"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 94,
+      "type": "填空",
+      "title": "24、 MCS-51单片机的输出口有4个，分别为P0、P1、P2、P3，其中，（ ）口是准双向口，（ ）口为双向三态口。",
+      "options": [],
+      "correctAnswer": [
+        "P1，P2和P3",
+        "P0"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 95,
+      "type": "填空",
+      "title": "25、 +113与−113在8位单片机中的原码表示为： [+113]原=（ ）B； [-113]原=（ ）B； -73原码表示为：（ ）；[-73]补=（ ）B",
+      "options": [],
+      "correctAnswer": [
+        "01110001",
+        "11110001",
+        "11001001",
+        "10110111"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 96,
+      "type": "填空",
+      "title": "26、IE寄存器是中断启用寄存器，它控制着各个中断源的开关。只有当（ ）打开并启用相应中断源的中断后，该中断才能被CPU响应。",
+      "options": [],
+      "correctAnswer": [
+        "全局中断使能位（EA）"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 97,
+      "type": "填空",
+      "title": "27、 中断向量一般只有几个字节，这些字节用于存放中断子程序显然是不够的。所以，在汇编程序中，该地址处通常存放一条（ ）指令，通过该移指令使系统跳转到真正的中断子程序入口处。",
+      "options": [],
+      "correctAnswer": [
+        "跳转"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 98,
+      "type": "填空",
+      "title": "28、单片机的 C 语言程序由一个主函数和若干其他函数构成，主函数名必须为（ ）。",
+      "options": [],
+      "correctAnswer": [
+        "main"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 99,
+      "type": "填空",
+      "title": "29、 C51逻辑运算符是执行逻辑运算时的操作符号，包括（ ）、（ ）、（ ）三种运算符。",
+      "options": [],
+      "correctAnswer": [
+        "逻辑与（&&）",
+        "逻辑或（||）",
+        "逻辑非（!）"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    },
+    {
+      "id": 100,
+      "type": "填空",
+      "title": "30、DAC0832是双列直插式8位D/A转换器，它能够将输入的（ ）量转换成（ ）量。",
+      "options": [],
+      "correctAnswer": [
+        "数字",
+        "模拟"
+      ],
+      "selectedAnswer": [],
+      "images": []
+    }
+]

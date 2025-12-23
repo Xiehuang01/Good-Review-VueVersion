@@ -11,8 +11,9 @@ import DPJ5 from '../assets/data/单片机/5-LCD1602显示屏和AD、DA转换.js
 import DPJ7 from '../assets/data/单片机/7-总线.json'
 import DPJ8 from '../assets/data/单片机/8-温度传感器.json'
 import AlgorithmAnalysisAndDesign from '../assets/data/算法分析选择题.json'
-import DPJChooice_HG from '../assets/data/友情赞助/湖工—单片机.json'
-import DPJAdjustment_HG from '../assets/data/友情赞助/湖工—判断题.json'
+// import DPJChooice_HG from '../assets/data/友情赞助/湖工—单片机.json'
+// import DPJAdjustment_HG from '../assets/data/友情赞助/湖工—判断题.json'
+import DPJSummary from '../assets/data/单片机2025复习题/单片机复习题2025选择判断填空.json'
 
 export const USERSCRIPT_CONTENT = `// ==UserScript==
 // @name         Chaoxing Work Scraper
@@ -103,16 +104,23 @@ export const DEFAULT_BANKS: QuestionBank[] = [
     createdAt: 1765255903193,
     questions: AlgorithmAnalysisAndDesign
   },
+  // {
+  //   id: 'default-system',
+  //   name: '[赞助]湖工—单片机选择题',
+  //   createdAt: 1765255903193,
+  //   questions: DPJChooice_HG
+  // },
+  // {
+  //   id: 'default-system',
+  //   name: '[赞助]湖工—单片机判断题',
+  //   createdAt: 1765255903193,
+  //   questions: DPJAdjustment_HG
+  // },
   {
     id: 'default-system',
-    name: '[赞助]湖工—单片机选择题',
+    name: '单片机复习题2025选择判断填空',
     createdAt: 1765255903193,
-    questions: DPJChooice_HG
-  },
-  {
-    id: 'default-system',
-    name: '[赞助]湖工—单片机判断题',
-    createdAt: 1765255903193,
-    questions: DPJAdjustment_HG
-  },
+    questions: DPJSummary
+  }
+
 ];

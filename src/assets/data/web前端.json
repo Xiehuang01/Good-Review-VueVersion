@@ -5911,7 +5911,7 @@
       "title": "219. (简答题) 简述 HTML5 原生表单验证的三种常用方式，并各举一例。",
       "options": [],
       "correctAnswer": [
-        "类型验证:使用 自动检测 @ 与域名。范围验证: 限制数值区间。 模式验证: 利用正则强制 6 位数字。"
+        "类型验证:使用 <input type=\"email\"> 自动检测 @ 与域名。范围验证:<input type=\"number\" min=\"1\" max=\"100\"> 限制数值区间。模式验证:<input pattern=\"\\d{6}\" title=\"6 位数字\"> 利用正则强制 6 位数字。"
       ],
       "selectedAnswer": [],
       "images": []
