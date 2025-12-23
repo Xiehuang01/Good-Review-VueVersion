@@ -3532,11 +3532,11 @@
       "title": "128. (填空题, 1.0 points) 程序的功能是：接收从键盘输入的4个数字，数字之间使用空格分隔，对应的变量名是 x0、y0、x1、y1。计算两点(x0,y0)和(x1,y1)之间的距离并输出这个距离，保留2位小数。 例如，从键盘输入“0 1 3 5”，屏幕输出“5.00”。 在横线上书写代码，完善py101.Py，代码框架如下。 #请在 处使用一行代码或表达式替换 #注意：请不要修改其他已给出的代码 ntxt = input(\"请输入4个数字(空格分隔):\") ______ x0 = eval(nls[0]) y0 = eval(nls[1]) x1 = eval(nls[2]) y1 = eval(nls[3]) r = pow(pow(x1-x0,2)+pow(y1-y0,2), ______) print(\"{:.2f}\".format(r))",
       "options": [],
       "correctAnswer": [
-        "nls=ntxt.split();nls = ntxt.split()",
+        "nls=ntxt.split()",
         "0.5"
       ],
       "selectedAnswer": [
-        "nls=ntxt.split();nls = ntxt.split()",
+        "nls=ntxt.split()",
         "0.5"
       ],
       "images": []
@@ -3547,11 +3547,11 @@
       "title": "129. (填空题, 1.0 points) 已知一个列表中的元素都是由数字构成的字符串，如：st = [\"2\",\"4\",\"1\",\"56\"]，编程实现将列表中的元素进行数字的加法运算，并输出加法等式，即：2+4+1+56 = 63。要求不能使用循环语句。 st = [\"2\",\"4\",\"1\",\"56\"] s = ______ print(\"{0} = {1}\".format(s, ______))",
       "options": [],
       "correctAnswer": [
-        "\"+\".join(st);'+'.join(st)",
+        "\"+\".join(st)",
         "eval(s)"
       ],
       "selectedAnswer": [
-        "\"+\".join(st);'+'.join(st)",
+        "\"+\".join(st)",
         "eval(s)"
       ],
       "images": []

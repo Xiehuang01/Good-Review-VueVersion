@@ -130,26 +130,57 @@
       <div class="space-y-4 mb-8 relative z-10">
         <!-- Text Input -->
         <div v-if="isText" class="space-y-4">
+          <!-- 检测题目中的空格数量，为每个空格创建输入框 -->
+          <div v-if="getBlankCount(question.title) > 1" class="space-y-3">
+            <div class="text-sm font-medium text-slate-600 mb-3">
+              请依次填入 {{ getBlankCount(question.title) }} 个答案：
+            </div>
+            <div 
+              v-for="(blank, index) in getBlankCount(question.title)" 
+              :key="index"
+              class="flex items-center gap-3"
+            >
+              <span class="text-sm font-bold text-slate-500 w-8">{{ index + 1 }}.</span>
+              <input 
+                :class="[
+                  'flex-1 p-4 glass-input rounded-2xl outline-none focus:ring-0 transition-all text-lg font-medium placeholder:text-slate-400',
+                  revealed[currentIdx] 
+                   ? isBlankCorrect(index) 
+                       ? 'border-emerald-300 bg-emerald-50/50 text-emerald-900' 
+                       : 'border-red-300 bg-red-50/50 text-red-900'
+                   : 'focus:bg-white/60 text-slate-800'
+                ]"
+                :placeholder="`第 ${index + 1} 个答案`"
+                :value="userAnswers[currentIdx]?.[index] || ''"
+                @input="handleBlankChange(index, $event)"
+                @keydown="handleTextKeyDown"
+                :disabled="revealed[currentIdx]"
+              />
+            </div>
+          </div>
+          
+          <!-- 单个填空的情况，保持原有的大文本框 -->
           <textarea 
-              :class="[
-                'w-full p-6 glass-input rounded-3xl outline-none focus:ring-0 transition-all min-h-[160px] text-lg font-medium placeholder:text-slate-400',
-                revealed[currentIdx] 
-                 ? isCurrentCorrect 
-                     ? 'border-emerald-300 bg-emerald-50/50 text-emerald-900' 
-                     : 'border-red-300 bg-red-50/50 text-red-900'
-                 : 'focus:bg-white/60 text-slate-800'
-              ]"
-              :placeholder="t('quiz.typePlaceholder')"
-              :value="userAnswers[currentIdx]?.[0] || ''"
-              @input="handleTextChange"
-              @keydown="handleTextKeyDown"
-              :disabled="revealed[currentIdx]"
+            v-else
+            :class="[
+              'w-full p-6 glass-input rounded-3xl outline-none focus:ring-0 transition-all min-h-[160px] text-lg font-medium placeholder:text-slate-400',
+              revealed[currentIdx] 
+               ? isCurrentCorrect 
+                   ? 'border-emerald-300 bg-emerald-50/50 text-emerald-900' 
+                   : 'border-red-300 bg-red-50/50 text-red-900'
+               : 'focus:bg-white/60 text-slate-800'
+            ]"
+            :placeholder="t('quiz.typePlaceholder')"
+            :value="userAnswers[currentIdx]?.[0] || ''"
+            @input="handleTextChange"
+            @keydown="handleTextKeyDown"
+            :disabled="revealed[currentIdx]"
           />
           
           <button 
             v-if="!revealed[currentIdx]"
             @click="setRevealed(currentIdx, true)"
-            :disabled="!userAnswers[currentIdx]?.[0]?.trim()"
+            :disabled="!hasValidAnswers()"
             class="w-full sm:w-auto px-8 py-3.5 bg-brand-600 hover:bg-brand-700 disabled:bg-slate-300/50 disabled:cursor-not-allowed text-white rounded-2xl font-bold shadow-lg shadow-brand-500/30 transition-all flex items-center justify-center gap-2 ml-auto"
           >
             <CheckSquare :size="20" />
@@ -349,7 +380,21 @@ const checkAnswer = (q: QuestionItem, userAns: string[]) => {
   const isTextType = q.type.includes("填空") || q.type.includes("简答")
 
   if (isTextType) {
-    return userAns.length > 0 && correct.some(c => normalize(c) === normalize(userAns[0]))
+    const blankCount = getBlankCount(q.title)
+    
+    if (blankCount > 1) {
+      // 多个填空：每个空格都要正确
+      if (userAns.length < blankCount || correct.length < blankCount) return false
+      
+      for (let i = 0; i < blankCount; i++) {
+        if (!userAns[i] || !correct[i]) return false
+        if (normalize(userAns[i]) !== normalize(correct[i])) return false
+      }
+      return true
+    } else {
+      // 单个填空：检查第一个答案是否匹配任何正确答案
+      return userAns.length > 0 && correct.some(c => normalize(c) === normalize(userAns[0]))
+    }
   }
 
   if (userAns.length !== correct.length) return false
@@ -623,6 +668,55 @@ const handleTextChange = (e: Event) => {
   if (revealed.value[currentIdx.value]) return
   const val = (e.target as HTMLTextAreaElement).value
   userAnswers.value[currentIdx.value] = [val]
+}
+
+const handleBlankChange = (index: number, e: Event) => {
+  if (revealed.value[currentIdx.value]) return
+  const val = (e.target as HTMLInputElement).value
+  const current = userAnswers.value[currentIdx.value] || []
+  const newAnswers = [...current]
+  newAnswers[index] = val
+  userAnswers.value[currentIdx.value] = newAnswers
+}
+
+const getBlankCount = (title: string) => {
+  // 计算题目中括号的数量，每个括号代表一个空格
+  const matches = title.match(/[（(]\s*[）)]/g)
+  return matches ? matches.length : 1
+}
+
+const isBlankCorrect = (index: number) => {
+  if (!question.value) return false
+  const userAns = userAnswers.value[currentIdx.value] || []
+  const correctAns = question.value.correctAnswer || []
+  
+  if (index >= correctAns.length || index >= userAns.length) return false
+  
+  const normalize = (s: string) => s.trim().toLowerCase()
+      .replace(/[\uff01-\uff5e]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0))
+      .replace(/。/g, '.')
+      .replace(/，/g, ',')
+      .replace(/：/g, ':')
+      .replace(/？/g, '?')
+      .replace(/！/g, '!')
+      .replace(/（/g, '(')
+      .replace(/）/g, ')')
+      .replace(/\s+/g, ' ')
+  
+  return normalize(userAns[index]) === normalize(correctAns[index])
+}
+
+const hasValidAnswers = () => {
+  const current = userAnswers.value[currentIdx.value] || []
+  const blankCount = getBlankCount(question.value?.title || '')
+  
+  if (blankCount > 1) {
+    // 多个填空：检查是否所有空格都有答案
+    return current.length >= blankCount && current.every((ans, idx) => idx < blankCount ? ans?.trim() : true)
+  } else {
+    // 单个填空：检查第一个答案是否有内容
+    return current[0]?.trim()
+  }
 }
 
 const handleTextKeyDown = (e: KeyboardEvent) => {
