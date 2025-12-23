@@ -220,6 +220,18 @@
                         </div>
                       </div>
                     </div>
+
+                    <!-- AI Configuration -->
+                    <div class="border-t border-slate-200 pt-3 mt-3">
+                      <h3 class="text-sm font-bold mb-3 text-slate-800">{{ t('app.settings.aiSettings') }}</h3>
+                      <button
+                        @click="showAIModal = true; showSettingsDropdown = false"
+                        class="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left hover:bg-slate-100 text-slate-700 hover:text-slate-900"
+                      >
+                        <Bot :size="18" />
+                        <span class="text-sm font-medium">{{ t('app.settings.configureAI') }}</span>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -287,15 +299,107 @@
         </div>
       </div>
     </Teleport>
+
+    <!-- AI Configuration Modal -->
+    <Teleport to="body">
+      <div 
+        v-if="showAIModal" 
+        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center bg-slate-900/40 backdrop-blur-md animate-fade-in p-4" 
+        @click="showAIModal = false"
+      >
+        <div 
+          class="glass-panel-modal rounded-[2rem] shadow-2xl p-6 sm:p-8 max-w-md w-full transform transition-all scale-100 relative overflow-hidden"
+          @click.stop
+        >
+          <!-- Modal Header -->
+          <div class="flex items-start justify-between mb-6 relative z-10">
+            <div class="flex items-center gap-3 text-slate-800">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center shrink-0 text-white">
+                <Bot :size="24" />
+              </div>
+              <h3 class="text-2xl font-bold leading-tight">{{ t('app.ai.title') }}</h3>
+            </div>
+            <button @click="showAIModal = false" class="p-2 rounded-full hover:bg-slate-100/50 text-slate-400 hover:text-slate-600 transition-colors">
+              <X :size="24" />
+            </button>
+          </div>
+
+          <!-- AI Configuration Form -->
+          <div class="space-y-4 relative z-10">
+            <!-- Platform Selection -->
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-2">{{ t('app.ai.platform') }}</label>
+              <CustomSelect
+                v-model="aiConfig.platform"
+                :options="platformOptions"
+                :placeholder="t('app.ai.platform')"
+              />
+            </div>
+
+            <!-- API Key Input -->
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-2">{{ t('app.ai.apiKey') }}</label>
+              <input 
+                v-model="aiConfig.apiKey"
+                type="password"
+                :placeholder="t('app.ai.apiKeyPlaceholder')"
+                class="w-full p-3 rounded-xl border border-slate-200 bg-white/90 text-slate-700 focus:outline-none focus:ring-2 focus:ring-purple-500/30 shadow-sm transition-all"
+              />
+            </div>
+
+            <!-- Model Selection -->
+            <div>
+              <label class="block text-sm font-bold text-slate-700 mb-2">{{ t('app.ai.model') }}</label>
+              <CustomSelect
+                v-model="aiConfig.model"
+                :options="modelOptions"
+                :placeholder="t('app.ai.model')"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="bg-blue-50/50 border border-blue-200/50 rounded-xl p-4">
+              <p class="text-sm text-blue-700 mb-2">{{ t('app.ai.description') }}</p>
+              <a 
+                :href="t('app.ai.registerLink')" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="text-sm text-blue-600 hover:text-blue-800 underline font-medium"
+              >
+                {{ t('app.ai.registerLink') }}
+              </a>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex gap-3 mt-6 relative z-10">
+            <button 
+              @click="showAIModal = false"
+              class="flex-1 px-4 py-3 rounded-xl text-slate-600 hover:bg-slate-100/50 font-bold transition-colors"
+            >
+              {{ t('app.ai.cancel') }}
+            </button>
+            <button
+              @click="saveAIConfig"
+              class="flex-1 px-4 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold shadow-lg transition-all"
+            >
+              {{ t('app.ai.save') }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { Layout, Import, BookMarked, Sparkles, Languages, Github, X, Settings, RotateCcw, ImageIcon, Trash2 } from 'lucide-vue-next'
+import { Layout, Import, BookMarked, Sparkles, Languages, Github, X, Settings, RotateCcw, ImageIcon, Trash2, Bot } from 'lucide-vue-next'
 import { provideLanguage } from './composables/useLanguage'
 import { useBankStore } from './stores/bankStore'
+import { aiService } from './services/aiService'
+import CustomSelect from './components/CustomSelect.vue'
 
 // Language context
 const { language, setLanguage, t } = provideLanguage()
@@ -315,11 +419,31 @@ const showGithubModal = ref(false)
 // 设置下拉菜单状态
 const showSettingsDropdown = ref(false)
 
+// AI配置模态框状态
+const showAIModal = ref(false)
+
 // 背景图片状态
 const backgroundImage = ref<string | null>(null)
 
 // 毛玻璃模糊程度状态 (0-100)
 const glassBlurIntensity = ref<number>(50)
+
+// AI配置状态
+const aiConfig = ref({
+  platform: 'siliconflow',
+  apiKey: '',
+  model: 'deepseek-ai/DeepSeek-V3'
+})
+
+// AI配置选项
+const platformOptions = [
+  { value: 'siliconflow', label: '硅基流动 (SiliconFlow)' }
+]
+
+const modelOptions = [
+  { value: 'deepseek-ai/DeepSeek-R1', label: 'DeepSeek R1' },
+  { value: 'deepseek-ai/DeepSeek-V3', label: 'DeepSeek V3' }
+]
 
 // 文件输入引用
 const fileInput = ref<HTMLInputElement | null>(null)
@@ -447,6 +571,33 @@ const handleBlurChange = (event: Event) => {
 const updateGlassBlur = () => {
   document.documentElement.style.setProperty('--glass-blur', `${computedBlurValue.value}px`)
 }
+
+// 保存AI配置
+const saveAIConfig = () => {
+  try {
+    localStorage.setItem('ai-config', JSON.stringify(aiConfig.value))
+    // 更新AI服务的配置
+    aiService.updateConfig(aiConfig.value)
+    console.log('AI配置已保存')
+    showAIModal.value = false
+  } catch (error) {
+    console.error('保存AI配置失败:', error)
+    alert('保存失败，请重试')
+  }
+}
+
+// 加载AI配置
+const loadAIConfig = () => {
+  try {
+    const saved = localStorage.getItem('ai-config')
+    if (saved) {
+      aiConfig.value = JSON.parse(saved)
+      console.log('AI配置已加载')
+    }
+  } catch (error) {
+    console.error('加载AI配置失败:', error)
+  }
+}
 const removeBackgroundImage = () => {
   console.log('Removing background image...')
   backgroundImage.value = null
@@ -492,6 +643,9 @@ onMounted(() => {
     console.log('Glass blur intensity loaded from localStorage:', savedBlur)
   }
   
+  // 加载AI配置
+  loadAIConfig()
+  
   // 初始化CSS变量
   updateGlassBlur()
   
@@ -513,6 +667,10 @@ onMounted(() => {
         glassBlurIntensity.value = parseInt(e.newValue)
         updateGlassBlur()
       }
+    }
+    if (e.key === 'ai-config') {
+      console.log('localStorage ai-config changed')
+      loadAIConfig()
     }
   })
 })

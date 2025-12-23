@@ -27,10 +27,26 @@ export const translations = {
         blurLight: "Light",
         blurStrong: "Strong",
         blurIntensity: "Intensity",
+        aiSettings: "AI Settings",
+        configureAI: "Configure AI",
         fileSizeError: "Image file size cannot exceed 10MB",
         fileTypeError: "Please select an image file",
         imageTooLarge: "Image is too large even after compression. Please select a smaller image.",
         processingError: "Failed to process image: "
+      },
+      ai: {
+        title: "AI Configuration",
+        platform: "Platform",
+        apiKey: "API Key",
+        apiKeyPlaceholder: "Enter your API Key",
+        model: "Model",
+        description: "No API Key? Visit SiliconFlow official website and register",
+        registerLink: "https://cloud.siliconflow.cn/i/WnEkThoU",
+        save: "Save",
+        cancel: "Cancel",
+        askAI: "Ask AI",
+        thinking: "AI is thinking...",
+        error: "AI request failed, please check your API Key"
       }
     },
     guide: {
@@ -135,10 +151,26 @@ export const translations = {
         blurLight: "轻微",
         blurStrong: "强烈",
         blurIntensity: "模糊强度",
+        aiSettings: "AI设置",
+        configureAI: "配置AI",
         fileSizeError: "图片文件大小不能超过10MB",
         fileTypeError: "请选择图片文件",
         imageTooLarge: "图片太大，即使压缩后仍无法保存。请选择更小的图片。",
         processingError: "处理图片失败："
+      },
+      ai: {
+        title: "AI配置",
+        platform: "平台",
+        apiKey: "API Key",
+        apiKeyPlaceholder: "请输入您的API Key",
+        model: "模型",
+        description: "没有API Key？前往硅基流动官网并注册",
+        registerLink: "https://cloud.siliconflow.cn/i/WnEkThoU",
+        save: "保存",
+        cancel: "取消",
+        askAI: "不懂？提问AI",
+        thinking: "AI思考中...",
+        error: "AI请求失败，请检查您的API Key"
       }
     },
     guide: {

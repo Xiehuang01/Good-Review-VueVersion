@@ -237,32 +237,82 @@
 
       <!-- Controls -->
       <div class="mt-auto pt-6 border-t border-white/30 flex items-center justify-between relative z-10">
-         <div class="flex gap-4">
+         <div class="flex gap-2 sm:gap-4">
            <button 
               @click="prevQuestion"
               :disabled="currentIdx === 0"
-              class="p-4 rounded-2xl glass-button hover:bg-white/60 disabled:opacity-30 disabled:cursor-not-allowed text-slate-600 transition-all active:scale-95"
+              class="p-3 sm:p-4 rounded-2xl glass-button hover:bg-white/60 disabled:opacity-30 disabled:cursor-not-allowed text-slate-600 transition-all active:scale-95"
               :title="t('quiz.prev')"
            >
-              <ChevronLeft :size="24" :stroke-width="3" />
+              <ChevronLeft :size="20" :stroke-width="3" class="sm:w-6 sm:h-6" />
            </button>
            <button 
               @click="toggleReveal"
-              class="p-4 rounded-2xl glass-button text-brand-600 hover:text-brand-700 hover:bg-white/60 transition-all active:scale-95"
+              class="p-3 sm:p-4 rounded-2xl glass-button text-brand-600 hover:text-brand-700 hover:bg-white/60 transition-all active:scale-95"
               :title="revealed[currentIdx] ? t('quiz.hide') : t('quiz.show')"
            >
-              <EyeOff v-if="revealed[currentIdx]" :size="24" :stroke-width="2.5" />
-              <Eye v-else :size="24" :stroke-width="2.5" />
+              <EyeOff v-if="revealed[currentIdx]" :size="20" :stroke-width="2.5" class="sm:w-6 sm:h-6" />
+              <Eye v-else :size="20" :stroke-width="2.5" class="sm:w-6 sm:h-6" />
+           </button>
+           <button 
+              @click="askAI"
+              :disabled="aiLoading"
+              class="p-3 sm:p-4 rounded-2xl glass-button text-purple-600 hover:text-purple-700 hover:bg-white/60 transition-all active:scale-95 disabled:opacity-50 flex items-center gap-2"
+              :title="aiLoading ? t('app.ai.thinking') : t('app.ai.askAI')"
+           >
+              <Bot :size="20" :stroke-width="2.5" :class="{ 'animate-pulse': aiLoading }" class="sm:w-6 sm:h-6" />
+              <span v-if="aiLoading" class="text-xs font-medium hidden sm:inline">{{ t('app.ai.thinking') }}</span>
            </button>
          </div>
          
          <button 
            @click="nextQuestion"
-           class="flex items-center space-x-3 bg-slate-800 hover:bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:scale-95"
+           class="flex items-center space-x-2 sm:space-x-3 bg-slate-800 hover:bg-slate-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:scale-95 flex-shrink-0"
          >
-           <span class="text-lg">{{ currentIdx === total - 1 ? t('quiz.finish') : t('quiz.next') }}</span>
-           <ChevronRight :size="22" :stroke-width="3" />
+           <span class="text-base sm:text-lg">{{ currentIdx === total - 1 ? t('quiz.finish') : t('quiz.next') }}</span>
+           <ChevronRight :size="18" :stroke-width="3" class="sm:w-5 sm:h-5" />
          </button>
+      </div>
+
+      <!-- AI Loading Display -->
+      <div 
+        v-if="aiLoading" 
+        class="mt-6 p-6 rounded-3xl border bg-purple-50/40 border-purple-200/50 text-purple-900 relative z-10 animate-scale-in backdrop-blur-md"
+      >
+        <div class="flex items-center gap-3">
+          <div class="p-2.5 rounded-full shrink-0 shadow-sm bg-purple-200 text-purple-700">
+            <Bot :size="28" class="animate-pulse"/>
+          </div>
+          <div class="font-bold text-xl">{{ t('app.ai.thinking') }}</div>
+          <div class="ml-auto flex space-x-1">
+            <div class="w-2 h-2 bg-purple-500 rounded-full animate-bounce-dots"></div>
+            <div class="w-2 h-2 bg-purple-500 rounded-full animate-bounce-dots"></div>
+            <div class="w-2 h-2 bg-purple-500 rounded-full animate-bounce-dots"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI Answer Display -->
+      <div 
+        v-if="showAIAnswer && aiAnswer" 
+        class="mt-6 p-6 rounded-3xl border bg-purple-50/40 border-purple-200/50 text-purple-900 relative z-10 animate-scale-in backdrop-blur-md"
+      >
+        <div class="flex items-center gap-3 mb-4">
+          <div class="p-2.5 rounded-full shrink-0 shadow-sm bg-purple-200 text-purple-700">
+            <Bot :size="28"/>
+          </div>
+          <div class="font-bold text-xl">AI 解答</div>
+          <button 
+            @click="showAIAnswer = false"
+            class="ml-auto p-1 rounded-full hover:bg-purple-200/50 text-purple-500 hover:text-purple-700 transition-colors"
+          >
+            <X :size="20" />
+          </button>
+        </div>
+        
+        <div class="prose prose-purple max-w-none">
+          <div class="whitespace-pre-wrap text-sm leading-relaxed" v-html="renderMarkdown(aiAnswer)"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -296,9 +346,10 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, h } from 'vue'
-import { ArrowLeft, CheckCircle, XCircle, ChevronLeft, ChevronRight, Eye, EyeOff, RotateCcw, LayoutDashboard, Trophy, CheckSquare, X, Copy } from 'lucide-vue-next'
+import { ArrowLeft, CheckCircle, XCircle, ChevronLeft, ChevronRight, Eye, EyeOff, RotateCcw, LayoutDashboard, Trophy, CheckSquare, X, Copy, Bot } from 'lucide-vue-next'
 import type { QuestionBank, QuestionItem } from '../types/types'
 import { useLanguage } from '../composables/useLanguage'
+import { aiService } from '../services/aiService'
 
 interface Props {
   bank: QuestionBank
@@ -322,6 +373,9 @@ const isFinished = ref(false)
 const showImageModal = ref(false)
 const selectedImage = ref('')
 const copyButtonText = ref('复制题目')
+const showAIAnswer = ref(false)
+const aiAnswer = ref('')
+const aiLoading = ref(false)
 
 // Computed
 const total = computed(() => questions.value.length)
@@ -763,6 +817,52 @@ const handleRetryMistakes = () => {
     revealed.value = {}
     isFinished.value = false
   }
+}
+
+const askAI = async () => {
+  if (!question.value) return
+  
+  if (!aiService.hasValidConfig()) {
+    alert(t('app.ai.error'))
+    return
+  }
+  
+  aiLoading.value = true
+  showAIAnswer.value = false
+  aiAnswer.value = ''
+  
+  try {
+    // 准备问题和选项
+    const questionText = question.value.title
+    const options = question.value.options?.map(opt => opt.text) || []
+    
+    // 调用AI服务
+    const answer = await aiService.askQuestion(questionText, options)
+    
+    aiAnswer.value = answer
+    showAIAnswer.value = true
+  } catch (error) {
+    console.error('AI request failed:', error)
+    alert(error instanceof Error ? error.message : t('app.ai.error'))
+  } finally {
+    aiLoading.value = false
+  }
+}
+
+const renderMarkdown = (text: string) => {
+  if (!text) return ''
+  
+  return text
+    // 粗体
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    // 斜体
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+    // 代码块
+    .replace(/```([\s\S]*?)```/g, '<pre class="bg-slate-100 p-3 rounded-lg overflow-x-auto"><code>$1</code></pre>')
+    // 行内代码
+    .replace(/`(.*?)`/g, '<code class="bg-slate-100 px-1 py-0.5 rounded text-sm">$1</code>')
+    // 换行
+    .replace(/\n/g, '<br>')
 }
 
 // Keyboard navigation
