@@ -2,9 +2,9 @@
   <div v-if="bank">
     <!-- Exam Mode Header -->
     <div v-if="isExamMode" class="max-w-4xl mx-auto mb-6">
-      <div class="glass-panel rounded-2xl p-4 flex items-center justify-between">
+      <LiquidGlass :radius="20" :bezel="16" tint="rgba(255, 255, 255, 0.36)" class="p-4 flex items-center justify-between">
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full bg-purple-500 text-white flex items-center justify-center">
+          <div class="w-10 h-10 rounded-full bg-ember-500 text-white flex items-center justify-center">
             <FileText :size="20" />
           </div>
           <div>
@@ -12,10 +12,10 @@
             <p class="text-sm text-slate-600">{{ filteredQuestions?.length || 0 }} 题随机抽取</p>
           </div>
         </div>
-        <div class="text-sm font-bold text-purple-600 bg-purple-100/50 px-3 py-1 rounded-lg">
+        <div class="text-sm font-bold text-ember-600 bg-ember-100/50 px-3 py-1 rounded-lg">
           EXAM
         </div>
-      </div>
+      </LiquidGlass>
     </div>
 
     <QuizPlayer 
@@ -44,6 +44,7 @@ import { computed } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { FileText } from 'lucide-vue-next'
 import QuizPlayer from '@/components/QuizPlayer.vue'
+import LiquidGlass from '@/components/LiquidGlass.vue'
 import { useBankStore } from '../stores/bankStore'
 
 interface Props {

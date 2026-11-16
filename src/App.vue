@@ -1,24 +1,23 @@
 <template>
   <div 
     class="fixed inset-0 w-full h-[100dvh] font-sans text-slate-800 overflow-hidden"
-    :class="backgroundImage ? '' : 'bg-gradient-to-br from-white via-emerald-50/30 via-teal-50/30 to-green-50/50'"
-    :style="backgroundImage ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' } : {}"
+    :class="hasPhotoBg ? 'bg-brand-900' : 'bg-paper-100'"
+    :style="activeBackground ? { backgroundImage: `url(${activeBackground})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', transition: 'background-image 0.6s ease' } : {}"
   >
     
     <!-- Custom Background Image Overlay (if image exists) -->
-    <div v-if="backgroundImage" class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/30"></div>
+    <div v-if="hasPhotoBg" class="absolute inset-0 bg-gradient-to-b from-brand-900/35 via-brand-900/15 to-brand-900/35"></div>
     
-    <!-- Animated Background Blobs (only show if no custom image) - 优化性能 -->
-    <div v-if="!backgroundImage" class="absolute inset-0 overflow-hidden pointer-events-none">
-      <!-- 减少blob数量，只保留主要的4个 -->
-      <!-- Main Green Blob - Emerald (Dominant) -->
-      <div class="absolute top-[-15%] left-[-15%] w-[60vw] h-[60vw] bg-emerald-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob"></div>
-      <!-- Secondary Green Blob - Teal (Large) -->
-      <div class="absolute top-[30%] left-[35%] w-[45vw] h-[45vw] bg-teal-100 rounded-full mix-blend-multiply filter blur-3xl opacity-35 animate-blob animation-delay-3000"></div>
-      <!-- Third Green Blob - Lime (Medium) -->
-      <div class="absolute bottom-[-10%] right-[-10%] w-[50vw] h-[50vw] bg-lime-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
-      <!-- Yellow Accent (Small) -->
-      <div class="absolute top-[5%] left-[60%] w-[25vw] h-[25vw] bg-yellow-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-1000"></div>
+    <!-- Animated Background (only show if no custom image) -->
+    <!-- Warm paper base + a few soft harbor-blue / coral / sand light fields and a faint study grid,
+         so the Liquid Glass surfaces have something to refract without getting loud -->
+    <div v-if="!hasPhotoBg" class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-[-20%] left-[-14%] w-[56vw] h-[56vw] bg-brand-300 rounded-full filter blur-3xl opacity-40 animate-blob"></div>
+      <div class="absolute top-[-24%] right-[-10%] w-[40vw] h-[40vw] bg-ember-200 rounded-full filter blur-3xl opacity-60 animate-blob animation-delay-2000"></div>
+      <div class="absolute top-[-8%] left-[40%] w-[22vw] h-[22vw] bg-paper-300 rounded-full filter blur-3xl opacity-70 animate-blob animation-delay-1000"></div>
+      <div class="absolute top-[40%] left-[28%] w-[44vw] h-[44vw] bg-brand-200 rounded-full filter blur-3xl opacity-35 animate-blob animation-delay-3000"></div>
+      <div class="absolute bottom-[-14%] right-[-10%] w-[48vw] h-[48vw] bg-ember-100 rounded-full filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+      <div class="absolute inset-0 bg-study-grid"></div>
     </div>
 
     <!-- Scrollable Container -->
@@ -27,11 +26,19 @@
       @click="showSettingsDropdown = false"
     >
       <!-- Glass Navigation -->
-      <nav v-if="!isQuizRoute" :class="[
-        'sticky top-4 z-50 mx-4 sm:mx-8 mt-4 rounded-2xl shadow-sm transition-all mb-4',
-        backgroundImage ? 'glass-panel-strong' : 'glass-panel'
-      ]">
-        <div class="px-3 sm:px-6">
+      <!-- Liquid Glass Navigation (see components/LiquidGlass.vue) -->
+      <LiquidGlass
+        v-if="!isQuizRoute"
+        tag="nav"
+        radius="pill"
+        :thickness="80"
+        :bezel="28"
+        :blur="hasPhotoBg ? 0.8 : 0.3"
+        :tint="hasPhotoBg ? 'rgba(255, 255, 255, 0.10)' : 'rgba(255, 255, 255, 0.16)'"
+        class="sticky top-4 z-50 mx-4 sm:mx-8 mt-4 mb-4 transition-all"
+        :class="{ 'nav--cc-open': showSettingsDropdown }"
+      >
+        <div class="px-4 sm:px-7">
           <div class="flex justify-between items-center h-14 sm:h-16">
             
             <!-- Logo Area -->
@@ -39,14 +46,19 @@
               to="/"
               class="flex items-center cursor-pointer group select-none flex-shrink-0"
             >
-              <div class="relative">
-                <div class="relative bg-gradient-to-br from-brand-400 to-brand-600 p-1.5 sm:p-2 rounded-xl text-white mr-2 sm:mr-3 shadow-lg shadow-brand-200/50 group-hover:scale-110 transition-transform duration-300">
-                  <Sparkles :size="18" />
-                </div>
-              </div>
+              <img
+                :src="logoSrc"
+                :srcset="`${logoSrc} 2x, ${logoSrc3x} 3x`"
+                alt="Good Review"
+                width="40"
+                height="40"
+                decoding="async"
+                draggable="false"
+                class="w-9 h-9 sm:w-10 sm:h-10 mr-2 sm:mr-3 shrink-0 drop-shadow-[0_2px_4px_rgba(15,42,59,0.18)] group-hover:scale-110 transition-transform duration-300"
+              />
               <span :class="[
-                'font-black text-lg sm:text-xl tracking-tight group-hover:text-emerald-500 transition-colors',
-                backgroundImage ? 'text-white drop-shadow-lg' : 'text-slate-800/90'
+                'font-black text-lg sm:text-xl tracking-tight group-hover:text-brand-700 transition-colors',
+                hasPhotoBg ? 'text-white drop-shadow-lg' : 'text-slate-800/90'
               ]">
                 <span class="hidden sm:inline">Good Review</span>
                 <span class="sm:hidden">GR</span>
@@ -60,8 +72,8 @@
                 :class="[
                   'px-2 sm:px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5',
                   $route.name === 'Home' 
-                    ? (backgroundImage ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/60 text-emerald-500 shadow-sm ring-1 ring-white/60')
-                    : (backgroundImage ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
+                    ? (hasPhotoBg ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/75 text-brand-700 shadow-sm ring-1 ring-white/80')
+                    : (hasPhotoBg ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
                 ]"
               >
                 <Layout :size="16" :stroke-width="2.5" />
@@ -72,8 +84,8 @@
                 :class="[
                   'px-2 sm:px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5',
                   $route.name === 'Import' 
-                    ? (backgroundImage ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/60 text-emerald-500 shadow-sm ring-1 ring-white/60')
-                    : (backgroundImage ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
+                    ? (hasPhotoBg ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/75 text-brand-700 shadow-sm ring-1 ring-white/80')
+                    : (hasPhotoBg ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
                 ]"
               >
                 <Import :size="16" :stroke-width="2.5" />
@@ -84,14 +96,14 @@
                 :class="[
                   'px-2 sm:px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-1.5 relative',
                   $route.name === 'Dashboard' 
-                    ? (backgroundImage ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/60 text-emerald-500 shadow-sm ring-1 ring-white/60')
-                    : (backgroundImage ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
+                    ? (hasPhotoBg ? 'bg-white/80 text-slate-800 shadow-sm ring-1 ring-white/60' : 'bg-white/75 text-brand-700 shadow-sm ring-1 ring-white/80')
+                    : (hasPhotoBg ? 'text-white/90 hover:text-white hover:bg-white/20 drop-shadow' : 'text-slate-500 hover:text-slate-800 hover:bg-white/30')
                 ]"
               >
                 <BookMarked :size="16" :stroke-width="2.5" />
                 <span class="hidden md:inline">{{ t('app.nav.banks') }}</span>
                 <span v-if="bankStore.banks.value.length > 0" class="absolute -top-1 -right-1 flex h-2 w-2 sm:h-auto sm:w-auto">
-                  <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-500 sm:bg-brand-500 sm:text-white sm:px-1.5 sm:py-0.5 sm:text-[10px] sm:h-auto sm:w-auto justify-center items-center">
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-ember-500 sm:bg-ember-500 sm:text-white sm:px-1.5 sm:py-0.5 sm:text-[10px] sm:h-auto sm:w-auto justify-center items-center">
                     <span class="hidden sm:inline">{{ bankStore.banks.value.length }}</span>
                   </span>
                 </span>
@@ -99,14 +111,14 @@
 
               <div :class="[
                 'w-px h-4 sm:h-5 mx-0.5 sm:mx-1',
-                backgroundImage ? 'bg-white/30' : 'bg-slate-300/50'
+                hasPhotoBg ? 'bg-white/30' : 'bg-slate-300/50'
               ]" />
 
               <button
                 @click="toggleLanguage"
                 :class="[
-                  'p-1.5 sm:p-2 rounded-xl hover:text-emerald-500 transition-all',
-                  backgroundImage ? 'hover:bg-white/20 text-white/90 drop-shadow' : 'hover:bg-white/40 text-slate-500'
+                  'p-1.5 sm:p-2 rounded-xl hover:text-brand-600 transition-all',
+                  hasPhotoBg ? 'hover:bg-white/20 text-white/90 drop-shadow' : 'hover:bg-white/40 text-slate-500'
                 ]"
               >
                 <Languages :size="18" :stroke-width="2.5" />
@@ -117,147 +129,138 @@
                 @click="showGithubModal = true"
                 :class="[
                   'p-1.5 sm:p-2 rounded-xl transition-all',
-                  backgroundImage ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-500 hover:text-slate-800'
+                  hasPhotoBg ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-500 hover:text-slate-800'
                 ]"
                 title="GitHub Repository"
               >
                 <Github :size="18" :stroke-width="2.5" />
               </button>
 
-              <!-- Settings Button -->
-              <div class="relative">
+              <!-- Settings Button
+                   (no `relative` here on purpose: the dropdown is positioned against the
+                    sticky <nav> itself, so `top-full mt-3` = 12px below the nav's bottom edge,
+                    same as the module gaps, and its right edge lines up with the nav) -->
+              <div>
                 <button
                   @click.stop="showSettingsDropdown = !showSettingsDropdown"
                   :class="[
                     'p-1.5 sm:p-2 rounded-xl transition-all',
-                    backgroundImage ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-500 hover:text-slate-800'
+                    hasPhotoBg ? 'hover:bg-white/20 text-white/90 hover:text-white drop-shadow' : 'hover:bg-white/40 text-slate-500 hover:text-slate-800'
                   ]"
                   :title="t('app.settings.title')"
                 >
                   <Settings :size="18" :stroke-width="2.5" />
                 </button>
 
-                <!-- Settings Dropdown -->
-                <div 
+                <!-- Settings Dropdown — macOS Tahoe "Control Center" style.
+                     No container panel: a transparent layout wrapper, every module is its own LiquidGlass. -->
+                <div
                   v-if="showSettingsDropdown"
-                  :class="[
-                    'absolute right-0 top-full mt-2 w-64 sm:w-64 w-72 rounded-2xl shadow-2xl border overflow-hidden animate-fade-in z-[60]',
-                    backgroundImage ? 'glass-panel-mobile border-white/40' : 'glass-panel-mobile border-white/30'
-                  ]"
+                  class="settings-dropdown cc-layout absolute left-0 right-0 sm:left-auto top-full mt-3 sm:w-[340px] animate-glass-in z-[60]"
                   @click.stop
                 >
-                  <div class="p-4 space-y-3">
-                    <h3 class="text-sm font-bold mb-3 text-slate-800">{{ t('app.settings.background') }}</h3>
-                    
-                    <!-- Reset Background -->
-                    <button
-                      @click="resetBackground"
-                      class="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left hover:bg-slate-100 text-slate-700 hover:text-slate-900"
-                    >
-                      <RotateCcw :size="18" />
-                      <span class="text-sm font-medium">{{ t('app.settings.resetBackground') }}</span>
-                    </button>
+                  <div class="grid grid-cols-4 gap-2.5 text-white select-none">
 
-                    <!-- Upload Background Image -->
-                    <div class="relative">
-                      <input
-                        ref="fileInput"
-                        type="file"
-                        accept="image/*"
-                        @change="handleImageUpload"
-                        class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                      />
-                      <button
-                        class="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left hover:bg-slate-100 text-slate-700 hover:text-slate-900"
-                      >
-                        <ImageIcon :size="18" />
-                        <div class="flex-1">
-                          <div class="text-sm font-medium">{{ t('app.settings.uploadImage') }}</div>
-                          <div class="text-xs text-slate-500">{{ t('app.settings.uploadImageDesc') }}</div>
-                        </div>
-                      </button>
+                    <!-- Left column: pill toggles -->
+                    <div class="col-span-2 row-span-3 flex flex-col gap-2.5">
+                      <!-- Language -->
+                      <LiquidGlass tag="button" radius="pill" v-bind="ccGlass" class="cc-glass cc-toggle"
+                        :aria-pressed="language === 'cn'" @click="toggleLanguage">
+                        <span :class="['cc-icon-circle', language === 'cn' ? 'is-on' : '']"><Languages :size="17" :stroke-width="2.4" /></span>
+                        <span class="min-w-0 text-left">
+                          <span class="cc-title">{{ t('app.settings.language') }}</span>
+                          <span class="cc-sub">{{ language === 'cn' ? '简体中文' : 'English' }}</span>
+                        </span>
+                      </LiquidGlass>
+                      <!-- 小巧思 -->
+                      <LiquidGlass tag="button" radius="pill" v-bind="ccGlass" class="cc-glass cc-toggle"
+                        :disabled="!hasPhotoBg" :aria-pressed="smartBlurEnabled" :title="t('app.settings.smartBlurDesc')"
+                        @click="smartBlurEnabled = !smartBlurEnabled; handleSmartBlurToggle()">
+                        <span :class="['cc-icon-circle', smartBlurEnabled ? 'is-on' : '']"><Sparkles :size="17" :stroke-width="2.4" /></span>
+                        <span class="min-w-0 text-left">
+                          <span class="cc-title">{{ t('app.settings.smartBlur') }}</span>
+                          <span class="cc-sub">{{ smartBlurEnabled ? t('app.settings.on') : t('app.settings.off') }}</span>
+                        </span>
+                      </LiquidGlass>
+                      <!-- Upload custom background -->
+                      <LiquidGlass tag="label" radius="pill" v-bind="ccGlass" class="cc-glass cc-toggle cursor-pointer" :title="t('app.settings.uploadImageDesc')">
+                        <input ref="fileInput" type="file" accept="image/*" @change="handleImageUpload" class="sr-only" />
+                        <span :class="['cc-icon-circle', backgroundImage ? 'is-on' : '']"><ImageIcon :size="17" :stroke-width="2.4" /></span>
+                        <span class="min-w-0 text-left">
+                          <span class="cc-title">{{ t('app.settings.uploadShort') }}</span>
+                          <span class="cc-sub">{{ backgroundImage ? t('app.settings.customImage') : t('app.settings.uploadImageDesc') }}</span>
+                        </span>
+                      </LiquidGlass>
                     </div>
 
-                    <!-- Remove Background Image (if exists) -->
-                    <button
-                      v-if="backgroundImage"
-                      @click="removeBackgroundImage"
-                      class="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-100 text-slate-700 hover:text-slate-900 transition-all text-left"
-                    >
-                      <Trash2 :size="18" />
-                      <span class="text-sm font-medium">{{ t('app.settings.removeImage') }}</span>
-                    </button>
-
-                    <!-- Glass Blur Intensity Control -->
-                    <div class="border-t border-slate-200 pt-3 mt-3">
-                      <h3 class="text-sm font-bold mb-3 text-slate-800">{{ t('app.settings.glassBlur') }}</h3>
-                      
-                      <!-- 小巧思功能开关 -->
-                      <div v-if="backgroundImage" class="mb-4">
-                        <label class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-100 cursor-pointer transition-all">
-                          <input
-                            type="checkbox"
-                            v-model="smartBlurEnabled"
-                            @change="handleSmartBlurToggle"
-                            class="w-4 h-4 text-purple-600 bg-gray-100 border-gray-300 rounded focus:ring-purple-500 focus:ring-2"
-                          />
-                          <div class="flex-1">
-                            <div class="text-sm font-medium text-slate-700">{{ t('app.settings.smartBlur') }}</div>
-                            <div class="text-xs text-slate-500">{{ t('app.settings.smartBlurDesc') }}</div>
-                          </div>
-                        </label>
+                    <!-- Right: wallpaper tile (like the Now Playing module) -->
+                    <LiquidGlass :radius="30" v-bind="ccGlass" class="cc-glass col-span-2 row-span-2 p-3 flex flex-col justify-between">
+                      <div class="flex items-start gap-2">
+                        <div
+                          class="w-11 h-11 rounded-xl bg-cover bg-center ring-1 ring-white/30 shrink-0 shadow-md"
+                          :style="activeBackground ? { backgroundImage: `url(${activeBackground})` } : { background: '#F4F1EC' }"
+                        />
                       </div>
-                      
-                      <div v-if="!smartBlurEnabled || !backgroundImage" class="space-y-2">
-                        <div class="flex items-center justify-between text-xs text-slate-600">
-                          <span>{{ t('app.settings.blurLight') }}</span>
-                          <span>{{ t('app.settings.blurStrong') }}</span>
+                      <div class="min-w-0">
+                        <div class="cc-title">{{ t('app.settings.wallpaper') }}</div>
+                        <div class="cc-sub" :title="currentWallpaper?.title">
+                          {{ backgroundImage ? t('app.settings.customImage') : (currentWallpaper ? currentWallpaper.author : '—') }}
                         </div>
+                      </div>
+                      <div class="flex items-center justify-around text-white/90">
+                        <button v-if="backgroundImage" type="button" class="cc-mini" @click="removeBackgroundImage" :title="t('app.settings.removeImage')">
+                          <Trash2 :size="17" :stroke-width="2.4" />
+                        </button>
+                        <button type="button" class="cc-mini" :disabled="!!backgroundImage" @click="shuffleWallpaper" :title="t('app.settings.shuffleWallpaper')">
+                          <Shuffle :size="19" :stroke-width="2.4" />
+                        </button>
+                      </div>
+                    </LiquidGlass>
+
+                    <!-- Right: two circular buttons -->
+                    <LiquidGlass tag="button" radius="pill" v-bind="ccGlass" class="cc-glass cc-circle" @click="resetBackground" :title="t('app.settings.resetBackground')">
+                      <RotateCcw :size="20" :stroke-width="2.3" />
+                    </LiquidGlass>
+                    <LiquidGlass tag="button" radius="pill" v-bind="ccGlass" class="cc-glass cc-circle" @click="showGithubModal = true; showSettingsDropdown = false" title="GitHub">
+                      <Github :size="20" :stroke-width="2.3" />
+                    </LiquidGlass>
+
+                    <!-- Blur slider module (full width, icon at both ends) -->
+                    <LiquidGlass :radius="28" v-bind="ccGlass" class="cc-glass col-span-4 px-4 pt-3 pb-3.5">
+                      <div class="flex items-center justify-between mb-2.5">
+                        <span class="cc-title">{{ t('app.settings.glassBlur') }}</span>
+                        <span class="text-[11px] text-white/70 tabular-nums">{{ Math.round(computedBlurValue) }}px</span>
+                      </div>
+                      <div v-if="!smartBlurEnabled || !hasPhotoBg" class="flex items-center gap-3">
+                        <Droplet :size="15" class="text-white/80 shrink-0" />
                         <input
-                          type="range"
-                          min="0"
-                          max="100"
+                          type="range" min="0" max="100"
                           :value="glassBlurIntensity"
                           @input="handleBlurChange"
-                          :disabled="!!(smartBlurEnabled && backgroundImage)"
-                          class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer slider disabled:opacity-50 disabled:cursor-not-allowed"
+                          class="cc-slider flex-1"
+                          :style="{ '--val': `${glassBlurIntensity}%` }"
+                          :aria-label="t('app.settings.blurIntensity')"
                         />
-                        <div class="text-xs text-slate-500 text-center">
-                          {{ t('app.settings.blurIntensity') }}: {{ glassBlurIntensity }}%
-                        </div>
+                        <Droplets :size="18" class="text-white shrink-0" />
                       </div>
-                      
-                      <!-- 小巧思模式下的进度显示 -->
-                      <div v-if="smartBlurEnabled && backgroundImage && quizTotalCount > 0" class="space-y-2">
-                        <div class="text-xs text-slate-600 text-center">
-                          {{ t('app.settings.smartBlurProgress') }}
+                      <template v-else>
+                        <div class="flex items-center gap-3">
+                          <Sparkles :size="15" class="text-white/80 shrink-0" />
+                          <div class="cc-track flex-1">
+                            <div class="cc-track-fill" :style="{ width: quizTotalCount > 0 ? `${(quizCorrectCount / quizTotalCount) * 100}%` : '0%' }" />
+                          </div>
+                          <span class="text-[11px] text-white/80 tabular-nums shrink-0">{{ quizCorrectCount }}/{{ quizTotalCount }}</span>
                         </div>
-                        <div class="flex items-center justify-between text-xs text-slate-600">
-                          <span>{{ t('app.settings.blurStrong') }}</span>
-                          <span>{{ t('app.settings.blurLight') }}</span>
-                        </div>
-                        <div class="w-full h-2 bg-slate-200 rounded-lg overflow-hidden">
-                          <div 
-                            class="h-full bg-gradient-to-r from-purple-500 to-purple-600 transition-all duration-500"
-                            :style="{ width: `${(quizCorrectCount / quizTotalCount) * 100}%` }"
-                          />
-                        </div>
-                        <div class="text-xs text-slate-500 text-center">
-                          已答对: {{ quizCorrectCount }}/{{ quizTotalCount }} 题 (模糊度: {{ Math.round(computedBlurValue) }}px)
-                        </div>
-                      </div>
-                    </div>
+                        <div class="text-[11px] text-white/70 mt-1.5">{{ t('app.settings.smartBlurDesc') }}</div>
+                      </template>
+                    </LiquidGlass>
 
-                    <!-- AI Configuration -->
-                    <div class="border-t border-slate-200 pt-3 mt-3">
-                      <h3 class="text-sm font-bold mb-3 text-slate-800">{{ t('app.settings.aiSettings') }}</h3>
-                      <button
-                        @click="showAIModal = true; showSettingsDropdown = false"
-                        class="w-full flex items-center gap-3 p-3 rounded-xl transition-all text-left hover:bg-slate-100 text-slate-700 hover:text-slate-900"
-                      >
-                        <Bot :size="18" />
-                        <span class="text-sm font-medium">{{ t('app.settings.configureAI') }}</span>
-                      </button>
+                    <!-- Bottom pill (like 「编辑控制…」) -->
+                    <div class="col-span-4 flex justify-center pt-1">
+                      <LiquidGlass tag="button" radius="pill" v-bind="ccGlass" :bezel="12" class="cc-glass cc-pill" @click="showAIModal = true; showSettingsDropdown = false">
+                        <Bot :size="14" :stroke-width="2.4" />
+                        <span>{{ t('app.settings.configureAI') }}…</span>
+                      </LiquidGlass>
                     </div>
                   </div>
                 </div>
@@ -265,12 +268,12 @@
             </div>
           </div>
         </div>
-      </nav>
+      </LiquidGlass>
 
       <!-- Main Content -->
       <main :class="[
-        'max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 animate-fade-in pb-24 sm:pb-10 relative z-10',
-        backgroundImage ? 'custom-bg-text' : ''
+        'max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 animate-glass-in pb-24 sm:pb-10 relative z-10',
+        hasPhotoBg ? 'custom-bg-text' : ''
       ]">
         <router-view />
       </main>
@@ -280,17 +283,21 @@
     <Teleport to="body">
       <div 
         v-if="showGithubModal" 
-        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center bg-slate-900/40 backdrop-blur-md animate-fade-in p-4" 
+        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4" 
         @click="showGithubModal = false"
       >
-        <div 
-          class="glass-panel-modal rounded-[2rem] shadow-2xl p-6 sm:p-8 max-w-md w-full transform transition-all scale-100 relative overflow-hidden"
+        <div class="absolute inset-0 bg-slate-900/30 backdrop-blur-md animate-fade-in" aria-hidden="true"></div>
+        <LiquidGlass
+          :radius="32"
+          :blur="1"
+          tint="rgba(250, 248, 245, 0.74)"
+          class="p-6 sm:p-8 max-w-md w-full relative animate-glass-in"
           @click.stop
         >
           <!-- Modal Header -->
           <div class="flex items-start justify-between mb-4 relative z-10">
             <div class="flex items-center gap-3 text-slate-800">
-              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center shrink-0 text-white">
+              <div class="w-12 h-12 rounded-full bg-brand-600 flex items-center justify-center shrink-0 text-white">
                 <Github :size="24" />
               </div>
               <h3 class="text-2xl font-bold leading-tight">给个 Star 吧！</h3>
@@ -317,13 +324,13 @@
               target="_blank"
               rel="noopener noreferrer"
               @click="showGithubModal = false"
-              class="flex-1 px-4 py-3 rounded-xl bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white font-bold shadow-lg transition-all flex items-center justify-center gap-2"
+              class="flex-1 px-4 py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold shadow-lg transition-all flex items-center justify-center gap-2"
             >
               <Github :size="18" />
               <span>去 Star</span>
             </a>
           </div>
-        </div>
+        </LiquidGlass>
       </div>
     </Teleport>
 
@@ -331,17 +338,21 @@
     <Teleport to="body">
       <div 
         v-if="showAIModal" 
-        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center bg-slate-900/40 backdrop-blur-md animate-fade-in p-4" 
+        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4" 
         @click="showAIModal = false"
       >
-        <div 
-          class="glass-panel-modal rounded-[2rem] shadow-2xl p-6 sm:p-8 max-w-md w-full transform transition-all scale-100 relative overflow-hidden"
+        <div class="absolute inset-0 bg-slate-900/30 backdrop-blur-md animate-fade-in" aria-hidden="true"></div>
+        <LiquidGlass
+          :radius="32"
+          :blur="1"
+          tint="rgba(250, 248, 245, 0.74)"
+          class="p-6 sm:p-8 max-w-md w-full relative animate-glass-in"
           @click.stop
         >
           <!-- Modal Header -->
           <div class="flex items-start justify-between mb-6 relative z-10">
             <div class="flex items-center gap-3 text-slate-800">
-              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center shrink-0 text-white">
+              <div class="w-12 h-12 rounded-full bg-ember-600 flex items-center justify-center shrink-0 text-white">
                 <Bot :size="24" />
               </div>
               <h3 class="text-2xl font-bold leading-tight">{{ t('app.ai.title') }}</h3>
@@ -370,7 +381,7 @@
                 v-model="aiConfig.apiKey"
                 type="password"
                 :placeholder="t('app.ai.apiKeyPlaceholder')"
-                class="w-full p-3 rounded-xl border border-slate-200 bg-white/90 text-slate-700 focus:outline-none focus:ring-2 focus:ring-purple-500/30 shadow-sm transition-all"
+                class="w-full p-3 rounded-xl border border-slate-200 bg-white/90 text-slate-700 focus:outline-none focus:ring-2 focus:ring-ember-500/30 shadow-sm transition-all"
               />
             </div>
 
@@ -385,13 +396,13 @@
             </div>
 
             <!-- Description -->
-            <div class="bg-blue-50/50 border border-blue-200/50 rounded-xl p-4">
-              <p class="text-sm text-blue-700 mb-2">{{ t('app.ai.description') }}</p>
+            <div class="bg-brand-50/50 border border-brand-200/50 rounded-xl p-4">
+              <p class="text-sm text-brand-700 mb-2">{{ t('app.ai.description') }}</p>
               <a 
                 :href="t('app.ai.registerLink')" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="text-sm text-blue-600 hover:text-blue-800 underline font-medium"
+                class="text-sm text-brand-600 hover:text-brand-800 underline font-medium"
               >
                 {{ t('app.ai.registerLink') }}
               </a>
@@ -408,12 +419,12 @@
             </button>
             <button
               @click="saveAIConfig"
-              class="flex-1 px-4 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold shadow-lg transition-all"
+              class="flex-1 px-4 py-3 rounded-xl bg-ember-600 hover:bg-ember-700 text-white font-bold shadow-lg transition-all"
             >
               {{ t('app.ai.save') }}
             </button>
           </div>
-        </div>
+        </LiquidGlass>
       </div>
     </Teleport>
   </div>
@@ -422,11 +433,14 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted, provide } from 'vue'
 import { useRoute } from 'vue-router'
-import { Layout, Import, BookMarked, Sparkles, Languages, Github, X, Settings, RotateCcw, ImageIcon, Trash2, Bot } from 'lucide-vue-next'
+import { Layout, Import, BookMarked, Sparkles, Languages, Github, X, Settings, RotateCcw, ImageIcon, Trash2, Bot, Shuffle, Droplet, Droplets } from 'lucide-vue-next'
 import { provideLanguage } from './composables/useLanguage'
 import { useBankStore } from './stores/bankStore'
 import { aiService } from './services/aiService'
 import CustomSelect from './components/CustomSelect.vue'
+import LiquidGlass from './components/LiquidGlass.vue'
+import { setGlassBlur } from './utils/liquidGlass'
+import { WALLPAPERS, wallpaperUrl, randomWallpaperIndex } from './constants/wallpapers'
 
 // Language context
 const { language, setLanguage, t } = provideLanguage()
@@ -443,6 +457,10 @@ const isQuizRoute = computed(() => route.name === 'Quiz')
 // GitHub弹窗状态
 const showGithubModal = ref(false)
 
+// 站点 logo（public/images/logo，已裁掉透明边，80px=2x / 120px=3x）
+const logoSrc = `${import.meta.env.BASE_URL}images/logo/logo-80.webp`
+const logoSrc3x = `${import.meta.env.BASE_URL}images/logo/logo-120.webp`
+
 // 设置下拉菜单状态
 const showSettingsDropdown = ref(false)
 
@@ -451,6 +469,51 @@ const showAIModal = ref(false)
 
 // 背景图片状态
 const backgroundImage = ref<string | null>(null)
+
+// Control Center 模块统一的液态玻璃参数：低模糊、强边缘折射、浅色调，让背后的壁纸弯折清晰可见
+const ccGlass = {
+  thickness: 80,
+  bezel: 24,
+  ior: 3,
+  scaleRatio: 1,
+  blur: 0.6,
+  specularOpacity: 0.8,
+  specularSaturation: 6,
+  tint: 'rgba(22, 26, 32, 0.30)',
+} as const
+
+// 默认随机壁纸（用户没有上传自定义背景时使用，每次加载随机一张）
+const wallpaperIndex = ref<number>(randomWallpaperIndex())
+const wallpaperFailed = ref(false)
+const currentWallpaper = computed(() => (wallpaperFailed.value ? null : WALLPAPERS[wallpaperIndex.value] ?? null))
+const activeBackground = computed<string | null>(() =>
+  backgroundImage.value || (currentWallpaper.value ? wallpaperUrl(currentWallpaper.value) : null)
+)
+// 只要背后是照片（自定义或默认壁纸），就使用照片模式的文字/玻璃样式
+const hasPhotoBg = computed(() => !!activeBackground.value)
+
+const loadWallpaper = (index: number) => {
+  const w = WALLPAPERS[index]
+  if (!w) return
+  const img = new Image()
+  img.onload = () => {
+    wallpaperIndex.value = index
+    wallpaperFailed.value = false
+  }
+  img.onerror = () => {
+    // 图片加载失败时退回到纸色背景 + 光斑
+    if (index === wallpaperIndex.value) wallpaperFailed.value = true
+  }
+  img.src = wallpaperUrl(w)
+}
+
+// 首次加载的壁纸也探测一次：加载失败（离线、被拦截）时退回纸色背景，而不是一片深色
+if (typeof window !== 'undefined' && !backgroundImage.value) loadWallpaper(wallpaperIndex.value)
+
+const shuffleWallpaper = () => {
+  // 预加载完成后再切换，避免闪白
+  loadWallpaper(randomWallpaperIndex(wallpaperIndex.value))
+}
 
 // 毛玻璃模糊程度状态 (0-100)
 const glassBlurIntensity = ref<number>(50)
@@ -485,7 +548,7 @@ const computedBlurValue = computed(() => {
   const minBlur = 4
   const maxBlur = 40
   
-  if (smartBlurEnabled.value && backgroundImage.value) {
+  if (smartBlurEnabled.value && hasPhotoBg.value) {
     // 小巧思模式：每答对一题就减少模糊度
     if (quizCorrectCount.value === 0 || quizTotalCount.value === 0) {
       // 还没答对任何题或没有题目，使用最大模糊度
@@ -636,6 +699,8 @@ provide('resetQuizStats', resetQuizStats)
 // 更新CSS变量
 const updateGlassBlur = () => {
   document.documentElement.style.setProperty('--glass-blur', `${computedBlurValue.value}px`)
+  // 同步给 LiquidGlass 组件（Chromium 的 SVG 折射滤镜和降级模式都会跟随）
+  setGlassBlur(computedBlurValue.value)
 }
 
 // 保存AI配置
@@ -679,7 +744,7 @@ const removeBackgroundImage = () => {
 const handleClickOutside = (event: MouseEvent) => {
   const target = event.target as Element
   const settingsButton = target.closest('[title="设置"]')
-  const settingsDropdown = target.closest('.glass-panel')
+  const settingsDropdown = target.closest('.settings-dropdown')
   
   if (!settingsButton && !settingsDropdown) {
     showSettingsDropdown.value = false

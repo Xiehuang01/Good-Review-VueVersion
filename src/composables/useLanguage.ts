@@ -1,4 +1,4 @@
-import { ref, provide, inject, type InjectionKey, type Ref } from 'vue'
+import { ref, provide, inject, watchEffect, type InjectionKey, type Ref } from 'vue'
 import { translations, type Language } from '../constants/translations'
 
 interface LanguageContext {
@@ -15,6 +15,13 @@ export function provideLanguage() {
   const setLanguage = (lang: Language) => {
     language.value = lang
   }
+
+  // Keep <html lang> in sync so the browser picks Simplified-Chinese glyph variants
+  watchEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.documentElement.lang = language.value === 'cn' ? 'zh-CN' : 'en'
+    }
+  })
 
   const t = (path: string): string => {
     const keys = path.split('.')

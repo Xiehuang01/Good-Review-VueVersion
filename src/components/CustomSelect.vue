@@ -5,9 +5,9 @@
       :class="[
         'w-full p-3 rounded-xl border text-left flex items-center justify-between transition-all',
         isOpen 
-          ? 'border-purple-500 ring-2 ring-purple-500/30 bg-white shadow-lg' 
-          : 'border-slate-200 bg-white/90 hover:border-purple-300 hover:shadow-sm',
-        'focus:outline-none focus:ring-2 focus:ring-purple-500/30 focus:border-purple-500'
+          ? 'border-brand-500 ring-2 ring-brand-500/30 bg-white shadow-lg' 
+          : 'border-white/70 bg-white/60 backdrop-blur-md shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] hover:border-brand-300 hover:shadow-sm',
+        'focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-500'
       ]"
     >
       <span :class="selectedOption ? 'text-slate-700' : 'text-slate-400'">
@@ -21,10 +21,14 @@
 
     <!-- Dropdown Options -->
     <Teleport to="body">
-      <div
+      <LiquidGlass
         v-if="isOpen"
         :style="dropdownStyle"
-        class="fixed z-[10000] min-w-[200px] bg-white rounded-xl shadow-2xl border border-slate-200/80 py-2 animate-fade-in"
+        :radius="16"
+        :bezel="14"
+        :blur="1"
+        tint="rgba(250, 248, 245, 0.8)"
+        class="fixed z-[10000] min-w-[200px] py-2 overflow-hidden animate-glass-in"
         @click.stop
       >
         <div
@@ -33,9 +37,9 @@
           @click="selectOption(option)"
           :class="[
             'px-4 py-3 cursor-pointer transition-all duration-150 flex items-center justify-between',
-            'hover:bg-gradient-to-r hover:from-purple-50 hover:to-purple-100/50 hover:text-purple-700',
+            'hover:bg-brand-50/70 hover:text-brand-700',
             modelValue === option.value 
-              ? 'bg-gradient-to-r from-purple-500 to-purple-600 text-white font-semibold' 
+              ? 'bg-brand-600 text-white font-semibold' 
               : 'text-slate-700'
           ]"
         >
@@ -46,7 +50,7 @@
             class="text-white"
           />
         </div>
-      </div>
+      </LiquidGlass>
     </Teleport>
   </div>
 </template>
@@ -54,6 +58,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import { ChevronDown, Check } from 'lucide-vue-next'
+import LiquidGlass from './LiquidGlass.vue'
 
 interface Option {
   value: string

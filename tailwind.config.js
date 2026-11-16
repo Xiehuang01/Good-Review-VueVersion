@@ -7,15 +7,51 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // "Harbor" — deep ocean ink blue, the single confident accent
         brand: {
-          50: '#ecfdf5',
-          100: '#d1fae5',
-          200: '#a7f3d0',
-          300: '#6ee7b7',
-          400: '#34d399',
-          500: '#10b981',
-          600: '#059669',
-          700: '#047857',
+          50: '#EEF4F7',
+          100: '#DAE7EE',
+          200: '#B3CEDD',
+          300: '#83AFC7',
+          400: '#4C88AA',
+          500: '#2A6B90',
+          600: '#1E5677',
+          700: '#184562',
+          800: '#14384F',
+          900: '#0F2A3B',
+        },
+        // "Ember" — warm coral, used sparingly (exam / AI / highlights)
+        ember: {
+          50: '#FDF3EE',
+          100: '#FBE3D7',
+          200: '#F6C4AB',
+          300: '#EFA17D',
+          400: '#E6825A',
+          500: '#D7673E',
+          600: '#B7522F',
+          700: '#924128',
+          800: '#6E3221',
+          900: '#4E2418',
+        },
+        // "Sage" — muted green, only for correct-answer feedback
+        sage: {
+          50: '#F0F6F2',
+          100: '#DDEBE2',
+          200: '#BAD7C5',
+          300: '#8FBDA1',
+          400: '#62A07B',
+          500: '#3F845C',
+          600: '#306A49',
+          700: '#27543B',
+          800: '#1F4230',
+          900: '#183326',
+        },
+        // Warm paper neutrals for the page base
+        paper: {
+          50: '#FAF8F5',
+          100: '#F4F1EC',
+          200: '#EAE4DA',
+          300: '#DCD3C5',
         },
         glass: {
           100: 'rgba(255, 255, 255, 0.1)',
@@ -30,7 +66,32 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        // Latin glyphs from Inter, Chinese glyphs from a Simplified-Chinese font.
+        // Without explicit SC fonts the browser falls back per glyph and may pick a
+        // Japanese CJK font (e.g. Noto Sans CJK JP), whose 复/门/骨… shapes differ from zh-CN.
+        sans: [
+          'Inter',
+          'PingFang SC',
+          'Hiragino Sans GB',
+          'Microsoft YaHei',
+          'Noto Sans SC',
+          'Noto Sans CJK SC',
+          'Source Han Sans SC',
+          'system-ui',
+          'sans-serif',
+        ],
+        mono: [
+          'ui-monospace',
+          'SFMono-Regular',
+          'Menlo',
+          'Monaco',
+          'Consolas',
+          'PingFang SC',
+          'Microsoft YaHei',
+          'Noto Sans Mono CJK SC',
+          'Noto Sans CJK SC',
+          'monospace',
+        ],
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',
