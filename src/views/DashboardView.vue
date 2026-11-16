@@ -10,11 +10,15 @@
   <Teleport to="body">
     <div 
       v-if="deleteTargetId" 
-      class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/20 backdrop-blur-md animate-fade-in" 
+      class="fixed inset-0 z-[100] flex items-center justify-center p-4" 
       @click="deleteTargetId = null"
     >
-      <div 
-        class="glass-panel-modal rounded-3xl p-8 max-w-sm w-full transform transition-all scale-100"
+      <div class="absolute inset-0 bg-slate-900/20 backdrop-blur-md animate-fade-in" aria-hidden="true"></div>
+      <LiquidGlass
+        :radius="24"
+        :blur="1"
+        tint="rgba(250, 248, 245, 0.74)"
+        class="p-8 max-w-sm w-full animate-glass-in"
         @click.stop
       >
         <div class="flex items-center gap-4 mb-4 text-red-600">
@@ -42,7 +46,7 @@
             {{ t('common.delete') }}
           </button>
         </div>
-      </div>
+      </LiquidGlass>
     </div>
   </Teleport>
 </template>
@@ -52,6 +56,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { AlertTriangle } from 'lucide-vue-next'
 import BankDashboard from '@/components/BankDashboard.vue'
+import LiquidGlass from '@/components/LiquidGlass.vue'
 import type { QuestionItem } from '@/types/types'
 import { useBankStore } from '../stores/bankStore'
 import { useLanguage } from '@/composables/useLanguage'

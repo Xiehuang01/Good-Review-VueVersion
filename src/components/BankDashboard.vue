@@ -4,7 +4,7 @@
       {{ t('dashboard.title') }}
     </h2>
     
-    <div v-if="banks.length === 0" class="text-center py-20 animate-fade-in glass-panel rounded-[3rem]">
+    <LiquidGlass v-if="banks.length === 0" :radius="48" :bezel="30" tint="rgba(255, 255, 255, 0.32)" class="text-center py-20 animate-glass-in">
       <div class="bg-white/50 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl border border-white/50 backdrop-blur-sm">
         <Layers :size="48" class="text-brand-400" />
       </div>
@@ -12,13 +12,16 @@
       <p class="text-slate-600 max-w-md mx-auto text-lg font-medium">
         {{ t('dashboard.emptyDesc') }}
       </p>
-    </div>
+    </LiquidGlass>
     
     <div v-else class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div 
-        v-for="bank in banks" 
-        :key="bank.id" 
-        class="glass-card rounded-3xl p-6 flex flex-col h-full group hover:bg-white/50 transition-all duration-300 hover:-translate-y-1 relative overflow-hidden"
+      <LiquidGlass
+        v-for="bank in banks"
+        :key="bank.id"
+        :radius="24"
+        :bezel="20"
+        tint="rgba(255, 255, 255, 0.36)"
+        class="p-6 flex flex-col h-full group transition-transform duration-300 hover:-translate-y-1 overflow-hidden"
       >
         <!-- Glossy shine effect -->
         <div class="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
@@ -61,7 +64,7 @@
           <div class="flex items-center gap-2">
             <button
               @click="handleStartClick(bank)"
-              class="flex-1 flex items-center justify-center space-x-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white px-3 py-2.5 rounded-xl font-bold transition-all shadow-lg shadow-brand-500/20 hover:shadow-brand-500/40 active:scale-95 text-sm"
+              class="flex-1 flex items-center justify-center space-x-2 bg-brand-600 hover:bg-brand-700 text-white px-3 py-2.5 rounded-xl font-bold transition-all shadow-lg shadow-brand-500/20 hover:shadow-brand-500/40 active:scale-95 text-sm"
             >
               <PlayCircle :size="18" />
               <span>{{ t('dashboard.btnPractice') }}</span>
@@ -69,7 +72,7 @@
             
             <button
               @click="handleExamClick(bank)"
-              class="flex-1 flex items-center justify-center space-x-2 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 py-2.5 rounded-xl font-bold transition-all shadow-lg shadow-purple-500/20 hover:shadow-purple-500/40 active:scale-95 text-sm"
+              class="flex-1 flex items-center justify-center space-x-2 bg-ember-600 hover:bg-ember-700 text-white px-3 py-2.5 rounded-xl font-bold transition-all shadow-lg shadow-ember-500/20 hover:shadow-ember-500/40 active:scale-95 text-sm"
             >
               <FileText :size="18" />
               <span>{{ t('dashboard.btnExam') }}</span>
@@ -78,18 +81,22 @@
           
 
         </div>
-      </div>
+      </LiquidGlass>
     </div>
 
     <!-- Filter Modal -->
     <Teleport to="body">
       <div 
         v-if="configBank" 
-        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center bg-slate-900/40 backdrop-blur-md animate-fade-in p-4" 
+        class="fixed top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4" 
         @click="configBank = null"
       >
-         <div 
-           class="glass-panel-modal rounded-[2rem] shadow-2xl p-6 sm:p-8 max-w-md w-full transform transition-all scale-100 relative overflow-hidden flex flex-col max-h-[90vh]"
+         <div class="absolute inset-0 bg-slate-900/30 backdrop-blur-md animate-fade-in" aria-hidden="true"></div>
+         <LiquidGlass
+           :radius="32"
+           :blur="1"
+           tint="rgba(250, 248, 245, 0.74)"
+           class="p-6 sm:p-8 max-w-md w-full relative flex flex-col max-h-[90vh] animate-glass-in"
            @click.stop
          >
             <!-- Modal Header -->
@@ -150,13 +157,13 @@
               <button 
                   @click="confirmStartFiltered"
                   :disabled="selectedGroupIds.length === 0"
-                  class="w-full px-6 py-4 rounded-xl bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold text-lg shadow-lg shadow-brand-500/30 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center justify-center gap-2"
+                  class="w-full px-6 py-4 rounded-xl bg-brand-600 hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold text-lg shadow-lg shadow-brand-500/30 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center justify-center gap-2"
               >
                   <PlayCircle :size="22" />
                   <span>{{ t('dashboard.startFiltered') }}</span>
               </button>
             </div>
-         </div>
+         </LiquidGlass>
       </div>
     </Teleport>
   </div>
@@ -166,6 +173,7 @@
 import { ref, computed } from 'vue'
 import { Trash2, PlayCircle, BookOpen, Layers, Filter, CheckSquare, Square, X, FileText } from 'lucide-vue-next'
 import type { QuestionBank, QuestionItem } from '../types/types'
+import LiquidGlass from './LiquidGlass.vue'
 import { useLanguage } from '../composables/useLanguage'
 
 interface Props {

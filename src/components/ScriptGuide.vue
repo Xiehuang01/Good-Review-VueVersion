@@ -1,12 +1,12 @@
 <template>
   <div class="max-w-5xl mx-auto space-y-8">
     <div class="text-center space-y-4 pt-6">
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-button text-emerald-600 text-xs font-extrabold uppercase tracking-wide mb-2 animate-float">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-button text-brand-600 text-xs font-extrabold uppercase tracking-wide mb-2 animate-float">
         <span>✨ New Way to Review</span>
       </div>
       <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-slate-800/90 drop-shadow-sm leading-tight">
         {{ t('guide.title') }} <br class="sm:hidden" />
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">{{ t('guide.titleHighlight') }}</span>
+        <span class="text-transparent bg-clip-text bg-brand-700">{{ t('guide.titleHighlight') }}</span>
       </h1>
       <p class="text-lg text-slate-600/90 max-w-xl mx-auto leading-relaxed px-4 font-medium">
         {{ t('guide.subtitle') }}
@@ -16,9 +16,9 @@
     <div class="grid md:grid-cols-2 gap-6 sm:gap-8">
       <!-- Step 1 -->
       <div class="relative group">
-        <div class="glass-panel rounded-[2rem] p-6 sm:p-8 h-full flex flex-col hover:bg-white/30 transition-all duration-300">
+        <LiquidGlass :radius="32" :bezel="26" tint="rgba(255, 255, 255, 0.34)" class="p-6 sm:p-8 h-full flex flex-col">
           <div class="flex items-center gap-4 mb-5">
-            <div class="w-12 h-12 rounded-2xl bg-white/50 flex items-center justify-center text-emerald-600 shadow-sm shrink-0 backdrop-blur-md">
+            <div class="w-12 h-12 rounded-2xl bg-white/50 flex items-center justify-center text-brand-600 shadow-sm shrink-0 backdrop-blur-md">
                <Terminal :size="24" :stroke-width="2.5" />
             </div>
             <h2 class="text-xl sm:text-2xl font-bold text-slate-800">{{ t('guide.step1.title') }}</h2>
@@ -29,11 +29,11 @@
           </p>
 
           <div class="mt-auto space-y-4">
-              <div class="bg-slate-900/90 backdrop-blur rounded-2xl p-4 relative group/code overflow-hidden border border-slate-700/50 shadow-inner h-32">
+              <div class="bg-brand-900/90 backdrop-blur rounded-2xl p-4 relative group/code overflow-hidden border border-brand-800/50 shadow-inner h-32">
                   <div class="absolute top-0 right-0 p-2 opacity-0 group-hover/code:opacity-100 transition-opacity">
                        <div class="bg-slate-800 text-[10px] text-slate-400 px-1.5 py-0.5 rounded">JS</div>
                   </div>
-                  <code class="text-emerald-300 font-mono text-xs block opacity-80">
+                  <code class="text-brand-200 font-mono text-xs block opacity-80">
                       // ==UserScript==<br/>
                       // @name Chaoxing...<br/>
                       // @name         Chaoxing Work Scraper<br/>
@@ -46,7 +46,7 @@
               <div class="grid grid-cols-2 gap-3">
                 <button
                   @click="handleCopyScript"
-                  class="py-4 rounded-xl bg-emerald-600/90 hover:bg-emerald-600 text-white font-bold transition-all shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 flex items-center justify-center gap-2 active:scale-[0.98] backdrop-blur-sm"
+                  class="py-4 rounded-2xl bg-brand-700 hover:bg-brand-800 text-white font-bold transition-all shadow-lg shadow-brand-900/20 ring-1 ring-inset ring-white/20 flex items-center justify-center gap-2 active:scale-[0.98]"
                 >
                   <CheckCircle2 v-if="copiedScript" :size="18" />
                   <Clipboard v-else :size="18" />
@@ -55,7 +55,7 @@
                 
                 <button
                   @click="handleCopyFormat"
-                  class="py-4 rounded-xl bg-green-600/90 hover:bg-green-600 text-white font-bold transition-all shadow-lg shadow-green-500/20 hover:shadow-green-500/40 flex items-center justify-center gap-2 active:scale-[0.98] backdrop-blur-sm"
+                  class="py-4 rounded-2xl glass-button text-brand-700 font-bold flex items-center justify-center gap-2 active:scale-[0.98]"
                 >
                   <CheckCircle2 v-if="copiedFormat" :size="18" />
                   <FileText v-else :size="18" />
@@ -78,14 +78,14 @@
                   <span>{{ t('guide.step1.tip') }}</span>
               </div>
           </div>
-        </div>
+        </LiquidGlass>
       </div>
 
       <!-- Step 2 -->
       <div class="relative group">
-        <div class="glass-panel rounded-[2rem] p-6 sm:p-8 h-full flex flex-col hover:bg-white/30 transition-all duration-300">
+        <LiquidGlass :radius="32" :bezel="26" tint="rgba(255, 255, 255, 0.34)" class="p-6 sm:p-8 h-full flex flex-col">
            <div class="flex items-center gap-4 mb-5">
-            <div class="w-12 h-12 rounded-2xl bg-white/50 flex items-center justify-center text-green-500 shadow-sm shrink-0 backdrop-blur-md">
+            <div class="w-12 h-12 rounded-2xl bg-white/50 flex items-center justify-center text-ember-500 shadow-sm shrink-0 backdrop-blur-md">
                <Database :size="24" :stroke-width="2.5" />
             </div>
             <h2 class="text-xl sm:text-2xl font-bold text-slate-800">{{ t('guide.step2.title') }}</h2>
@@ -117,11 +117,11 @@
               </div>
           </div>
 
-           <div class="mt-8 p-4 bg-amber-100/30 rounded-2xl border border-amber-200/40 flex items-start gap-3 text-amber-800 text-sm font-medium backdrop-blur-sm">
+           <div class="mt-8 p-4 bg-ember-50/30 rounded-2xl border border-ember-200/40 flex items-start gap-3 text-ember-800 text-sm font-medium backdrop-blur-sm">
                <div class="mt-0.5">💡</div>
                <p>{{ t('guide.step2.tipBox') }}</p>
            </div>
-        </div>
+        </LiquidGlass>
       </div>
     </div>
   </div>
@@ -130,6 +130,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Clipboard, CheckCircle2, Terminal, ArrowDownCircle, Database, FileText } from 'lucide-vue-next'
+import LiquidGlass from './LiquidGlass.vue'
 import { FULL_USERSCRIPT } from '../constants/constants'
 import { useLanguage } from '../composables/useLanguage'
 

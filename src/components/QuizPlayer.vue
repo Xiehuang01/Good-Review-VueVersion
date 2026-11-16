@@ -16,11 +16,11 @@
        </div>
     </div>
 
-    <div class="relative z-10 w-full glass-panel rounded-[3rem] p-8 sm:p-12 text-center">
+    <LiquidGlass :radius="48" :bezel="30" tint="rgba(255, 255, 255, 0.36)" class="relative z-10 w-full p-8 sm:p-12 text-center">
        
        <div :class="[
          'mx-auto w-24 h-24 rounded-full flex items-center justify-center mb-6 shadow-xl border-4 border-white/50 backdrop-blur-md',
-         isPerfect ? 'bg-gradient-to-br from-yellow-300 to-amber-500 text-white' : 'bg-gradient-to-br from-brand-500 to-brand-600 text-white'
+         isPerfect ? 'bg-gradient-to-br from-ember-300 to-ember-500 text-white' : 'bg-brand-600 text-white'
        ]">
           <Trophy v-if="isPerfect" :size="48" class="animate-bounce" />
           <LayoutDashboard v-else :size="40" />
@@ -34,9 +34,9 @@
        </p>
 
        <div class="grid grid-cols-2 gap-4 mb-10">
-          <div class="p-6 rounded-3xl bg-emerald-100/40 border border-emerald-200/50 flex flex-col items-center justify-center group hover:scale-105 transition-transform backdrop-blur-sm">
-             <div class="text-5xl font-black text-emerald-500 mb-2 group-hover:scale-110 transition-transform drop-shadow-sm">{{ results.correct }}</div>
-             <div class="text-sm font-bold text-emerald-700 uppercase tracking-wide flex items-center gap-1">
+          <div class="p-6 rounded-3xl bg-sage-100/40 border border-sage-200/50 flex flex-col items-center justify-center group hover:scale-105 transition-transform backdrop-blur-sm">
+             <div class="text-5xl font-black text-sage-500 mb-2 group-hover:scale-110 transition-transform drop-shadow-sm">{{ results.correct }}</div>
+             <div class="text-sm font-bold text-sage-700 uppercase tracking-wide flex items-center gap-1">
                <CheckCircle :size="16" /> {{ t('quiz.results.statsCorrect') }}
              </div>
           </div>
@@ -52,7 +52,7 @@
          <button 
            v-if="!isPerfect"
            @click="handleRetryMistakes"
-           class="w-full flex items-center justify-center space-x-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 active:translate-y-0"
+           class="w-full flex items-center justify-center space-x-2 bg-brand-600 hover:bg-brand-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 active:translate-y-0"
          >
            <RotateCcw :size="22" :stroke-width="2.5" />
            <span>{{ t('quiz.results.btnRetry') }}</span>
@@ -62,14 +62,14 @@
            @click="emit('exit')"
            :class="[
              'w-full flex items-center justify-center space-x-2 px-6 py-4 rounded-2xl font-bold text-lg transition-all',
-             isPerfect ? 'bg-slate-800 text-white hover:bg-slate-900 shadow-lg' : 'bg-white/40 hover:bg-white/60 text-slate-700 border border-white/50'
+             isPerfect ? 'bg-slate-800 text-white hover:bg-slate-900 shadow-lg' : 'glass-button text-slate-700'
            ]"
          >
            <ArrowLeft :size="22" :stroke-width="2.5" />
            <span>{{ t('quiz.results.btnDashboard') }}</span>
          </button>
        </div>
-    </div>
+    </LiquidGlass>
   </div>
 
   <!-- Quiz Question -->
@@ -83,7 +83,7 @@
         <ArrowLeft :size="20" class="group-hover:-translate-x-1 transition-transform" />
         <span>{{ t('quiz.exit') }}</span>
       </button>
-      <div class="text-sm font-bold text-brand-700 bg-white/40 px-5 py-2 rounded-full border border-white/50 shadow-sm backdrop-blur-md">
+      <div class="text-sm font-bold text-brand-700 glass-button px-5 py-2 rounded-full">
         {{ currentIdx + 1 }} <span class="text-slate-400 mx-1">/</span> {{ total }}
       </div>
     </div>
@@ -91,13 +91,13 @@
     <!-- Progress Bar -->
     <div class="w-full bg-slate-200/30 h-3 rounded-full mb-8 overflow-hidden backdrop-blur-sm border border-white/20">
       <div 
-        class="bg-gradient-to-r from-brand-400 to-brand-500 h-full transition-all duration-500 ease-out shadow-[0_0_15px_rgba(52,211,153,0.6)]"
+        class="bg-brand-500 h-full transition-all duration-500 ease-out shadow-[0_0_15px_rgba(42,107,144,0.45)]"
         :style="{ width: `${((currentIdx + 1) / total) * 100}%` }"
       />
     </div>
 
     <!-- Question Card -->
-    <div class="glass-panel rounded-[2.5rem] p-6 md:p-10 flex-1 flex flex-col relative overflow-hidden transition-all duration-300">
+    <LiquidGlass :radius="40" :bezel="28" tint="rgba(255, 255, 255, 0.4)" class="p-6 md:p-10 flex-1 flex flex-col relative overflow-hidden">
       
       <div class="mb-8 relative z-10">
         <div class="flex items-start justify-between gap-4 mb-4">
@@ -151,7 +151,7 @@
                   'flex-1 p-4 glass-input rounded-2xl outline-none focus:ring-0 transition-all text-lg font-medium placeholder:text-slate-400',
                   revealed[currentIdx] 
                    ? isBlankCorrect(index) 
-                       ? 'border-emerald-300 bg-emerald-50/50 text-emerald-900' 
+                       ? 'border-sage-300 bg-sage-50/50 text-sage-900' 
                        : 'border-red-300 bg-red-50/50 text-red-900'
                    : 'focus:bg-white/60 text-slate-800'
                 ]"
@@ -172,7 +172,7 @@
               'w-full p-6 glass-input rounded-3xl outline-none focus:ring-0 transition-all min-h-[160px] text-lg font-medium placeholder:text-slate-400',
               revealed[currentIdx] 
                ? isCurrentCorrect 
-                   ? 'border-emerald-300 bg-emerald-50/50 text-emerald-900' 
+                   ? 'border-sage-300 bg-sage-50/50 text-sage-900' 
                    : 'border-red-300 bg-red-50/50 text-red-900'
                : 'focus:bg-white/60 text-slate-800'
             ]"
@@ -217,11 +217,11 @@
         v-if="revealed[currentIdx]" 
         :class="[
           'mt-auto mb-6 p-6 rounded-3xl border flex flex-col items-start relative z-10 animate-scale-in backdrop-blur-md',
-          isCurrentCorrect ? 'bg-emerald-100/40 border-emerald-200/50 text-emerald-900' : 'bg-red-100/40 border-red-200/50 text-red-900'
+          isCurrentCorrect ? 'bg-sage-100/40 border-sage-200/50 text-sage-900' : 'bg-red-100/40 border-red-200/50 text-red-900'
         ]"
       >
           <div class="flex items-center gap-3 mb-4">
-              <div :class="['p-2.5 rounded-full shrink-0 shadow-sm', isCurrentCorrect ? 'bg-emerald-200 text-emerald-700' : 'bg-red-200 text-red-700']">
+              <div :class="['p-2.5 rounded-full shrink-0 shadow-sm', isCurrentCorrect ? 'bg-sage-200 text-sage-700' : 'bg-red-200 text-red-700']">
                 <CheckCircle v-if="isCurrentCorrect" :size="28"/>
                 <XCircle v-else :size="28"/>
               </div>
@@ -234,7 +234,7 @@
               <span class="block mb-2 font-bold opacity-70 text-sm uppercase tracking-wider">{{ t('quiz.correctAnswer') }}</span>
               <div class="w-full bg-white/50 rounded-2xl border border-white/50 p-4 text-lg font-bold shadow-sm overflow-x-auto">
                 <div v-for="(ans, idx) in question.correctAnswer" :key="idx" class="mb-2 last:mb-0">
-                    <div v-if="isHtml(ans)" :class="['font-mono bg-emerald-50 text-emerald-700 p-2 rounded border border-emerald-200']">{{ ans }}</div>
+                    <div v-if="isHtml(ans)" :class="['font-mono bg-sage-50 text-sage-700 p-2 rounded border border-sage-200']">{{ ans }}</div>
                     <pre v-else class="whitespace-pre-wrap font-mono">{{ ans }}</pre>
                 </div>
               </div>
@@ -263,7 +263,7 @@
            <button 
               @click="askAI"
               :disabled="aiLoading"
-              class="p-3 sm:p-4 rounded-2xl glass-button text-purple-600 hover:text-purple-700 hover:bg-white/60 transition-all active:scale-95 disabled:opacity-50 flex items-center gap-2"
+              class="p-3 sm:p-4 rounded-2xl glass-button text-ember-600 hover:text-ember-700 hover:bg-white/60 transition-all active:scale-95 disabled:opacity-50 flex items-center gap-2"
               :title="aiLoading ? t('app.ai.thinking') : t('app.ai.askAI')"
            >
               <Bot :size="20" :stroke-width="2.5" :class="{ 'animate-pulse': aiLoading }" class="sm:w-6 sm:h-6" />
@@ -273,7 +273,7 @@
          
          <button 
            @click="nextQuestion"
-           class="flex items-center space-x-2 sm:space-x-3 bg-slate-800 hover:bg-slate-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:scale-95 flex-shrink-0"
+           class="flex items-center space-x-2 sm:space-x-3 bg-brand-800 hover:bg-brand-900 text-white ring-1 ring-inset ring-white/15 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:scale-95 flex-shrink-0"
          >
            <span class="text-base sm:text-lg">{{ currentIdx === total - 1 ? t('quiz.finish') : t('quiz.next') }}</span>
            <ChevronRight :size="18" :stroke-width="3" class="sm:w-5 sm:h-5" />
@@ -283,17 +283,17 @@
       <!-- AI Loading Display -->
       <div 
         v-if="aiLoading" 
-        class="mt-6 p-6 rounded-3xl border bg-purple-50/40 border-purple-200/50 text-purple-900 relative z-10 animate-scale-in backdrop-blur-md"
+        class="mt-6 p-6 rounded-3xl border bg-ember-50/40 border-ember-200/50 text-ember-900 relative z-10 animate-scale-in backdrop-blur-md"
       >
         <div class="flex items-center gap-3">
-          <div class="p-2.5 rounded-full shrink-0 shadow-sm bg-purple-200 text-purple-700">
+          <div class="p-2.5 rounded-full shrink-0 shadow-sm bg-ember-200 text-ember-700">
             <Bot :size="28" class="animate-pulse"/>
           </div>
           <div class="font-bold text-xl">{{ t('app.ai.thinking') }}</div>
           <div class="ml-auto flex space-x-1">
-            <div class="w-2 h-2 bg-purple-500 rounded-full animate-bounce-dots"></div>
-            <div class="w-2 h-2 bg-purple-500 rounded-full animate-bounce-dots"></div>
-            <div class="w-2 h-2 bg-purple-500 rounded-full animate-bounce-dots"></div>
+            <div class="w-2 h-2 bg-ember-500 rounded-full animate-bounce-dots"></div>
+            <div class="w-2 h-2 bg-ember-500 rounded-full animate-bounce-dots"></div>
+            <div class="w-2 h-2 bg-ember-500 rounded-full animate-bounce-dots"></div>
           </div>
         </div>
       </div>
@@ -301,26 +301,26 @@
       <!-- AI Answer Display -->
       <div 
         v-if="showAIAnswer && aiAnswer" 
-        class="mt-6 p-6 rounded-3xl border bg-purple-50/40 border-purple-200/50 text-purple-900 relative z-10 animate-scale-in backdrop-blur-md"
+        class="mt-6 p-6 rounded-3xl border bg-ember-50/40 border-ember-200/50 text-ember-900 relative z-10 animate-scale-in backdrop-blur-md"
       >
         <div class="flex items-center gap-3 mb-4">
-          <div class="p-2.5 rounded-full shrink-0 shadow-sm bg-purple-200 text-purple-700">
+          <div class="p-2.5 rounded-full shrink-0 shadow-sm bg-ember-200 text-ember-700">
             <Bot :size="28"/>
           </div>
           <div class="font-bold text-xl">AI 解答</div>
           <button 
             @click="showAIAnswer = false"
-            class="ml-auto p-1 rounded-full hover:bg-purple-200/50 text-purple-500 hover:text-purple-700 transition-colors"
+            class="ml-auto p-1 rounded-full hover:bg-ember-200/50 text-ember-500 hover:text-ember-700 transition-colors"
           >
             <X :size="20" />
           </button>
         </div>
         
-        <div class="prose prose-purple max-w-none">
+        <div class="prose prose-ember max-w-none">
           <div class="whitespace-pre-wrap text-sm leading-relaxed" v-html="renderMarkdown(aiAnswer)"></div>
         </div>
       </div>
-    </div>
+    </LiquidGlass>
   </div>
 
   <!-- Image Modal -->
@@ -353,6 +353,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, h, nextTick, inject } from 'vue'
 import { ArrowLeft, CheckCircle, XCircle, ChevronLeft, ChevronRight, Eye, EyeOff, RotateCcw, LayoutDashboard, Trophy, CheckSquare, X, Copy, Bot } from 'lucide-vue-next'
+import LiquidGlass from './LiquidGlass.vue'
 import type { QuestionBank, QuestionItem } from '../types/types'
 import { useLanguage } from '../composables/useLanguage'
 import { aiService } from '../services/aiService'
@@ -642,7 +643,7 @@ const getOptionClasses = (opt: any, i: number) => {
 
   if (revealed.value[currentIdx.value]) {
     if (isActualAnswer) {
-      containerClass = "border-emerald-400 bg-emerald-100/40 shadow-md ring-1 ring-emerald-400/50"
+      containerClass = "border-sage-400 bg-sage-100/40 shadow-md ring-1 ring-sage-400/50"
     } else if (isSelected && !isActualAnswer) {
       containerClass = "border-red-400 bg-red-100/40 shadow-md ring-1 ring-red-400/50"
     } else {
@@ -663,7 +664,7 @@ const getMarkerClasses = (opt: any) => {
 
   if (revealed.value[currentIdx.value]) {
     if (isActualAnswer) {
-      markerClass = "bg-emerald-500 border-emerald-500 text-white"
+      markerClass = "bg-sage-500 border-sage-500 text-white"
     } else if (isSelected && !isActualAnswer) {
       markerClass = "bg-red-500 border-red-500 text-white"
     }
@@ -682,7 +683,7 @@ const getTextClasses = (opt: any) => {
 
   if (revealed.value[currentIdx.value]) {
     if (isActualAnswer) {
-      textClass = "text-emerald-900"
+      textClass = "text-sage-900"
     } else if (isSelected && !isActualAnswer) {
       textClass = "text-red-900"
     }
