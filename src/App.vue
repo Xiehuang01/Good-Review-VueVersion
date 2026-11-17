@@ -54,7 +54,7 @@
                 height="40"
                 decoding="async"
                 draggable="false"
-                class="w-9 h-9 sm:w-10 sm:h-10 mr-2 sm:mr-3 shrink-0 drop-shadow-[0_2px_4px_rgba(15,42,59,0.18)] group-hover:scale-110 transition-transform duration-300"
+                class="w-9 h-9 sm:w-10 sm:h-10 mr-2 sm:mr-3 shrink-0 drop-shadow-[0_2px_4px_rgb(var(--brand-900)/0.18)] group-hover:scale-110 transition-transform duration-300"
               />
               <span :class="[
                 'font-black text-lg sm:text-xl tracking-tight group-hover:text-brand-700 transition-colors',
@@ -156,7 +156,7 @@
                      No container panel: a transparent layout wrapper, every module is its own LiquidGlass. -->
                 <div
                   v-if="showSettingsDropdown"
-                  class="settings-dropdown cc-layout absolute left-0 right-0 sm:left-auto top-full mt-3 sm:w-[340px] animate-glass-in z-[60]"
+                  class="settings-dropdown cc-layout absolute left-0 right-0 sm:left-auto top-full mt-2 sm:w-[348px] animate-glass-in z-[60]"
                   @click.stop
                 >
                   <div class="grid grid-cols-4 gap-2.5 text-white select-none">
@@ -253,6 +253,54 @@
                         </div>
                         <div class="text-[11px] text-white/70 mt-1.5">{{ t('app.settings.smartBlurDesc') }}</div>
                       </template>
+                    </LiquidGlass>
+
+                    <!-- Theme colours: preset swatches + custom pickers -->
+                    <LiquidGlass :radius="28" v-bind="ccGlass" class="cc-glass col-span-4 px-4 pt-3 pb-3.5">
+                      <div class="flex items-center justify-between mb-2.5 gap-2">
+                        <span class="cc-title">{{ t('app.settings.theme') }}</span>
+                        <span class="cc-sub text-right">{{ currentThemeName }}</span>
+                      </div>
+                      <div class="flex items-center justify-between gap-1" role="radiogroup" :aria-label="t('app.settings.theme')">
+                        <button
+                          v-for="p in themePresets"
+                          :key="p.id"
+                          type="button"
+                          role="radio"
+                          :aria-checked="theme.preset === p.id"
+                          :title="p.name[language]"
+                          :class="['cc-swatch', theme.preset === p.id ? 'is-active' : '']"
+                          :style="{ '--sw-a': p.primary, '--sw-b': p.accent }"
+                          @click="selectPreset(p.id)"
+                        />
+                        <button
+                          type="button"
+                          role="radio"
+                          :aria-checked="isCustomTheme"
+                          :title="t('app.settings.themeCustom')"
+                          :class="['cc-swatch cc-swatch--custom', isCustomTheme ? 'is-active' : '']"
+                          :style="isCustomTheme ? { '--sw-a': theme.primary, '--sw-b': theme.accent } : {}"
+                          @click="enterCustomTheme"
+                        >
+                          <Pipette v-if="!isCustomTheme" :size="14" :stroke-width="2.4" />
+                        </button>
+                      </div>
+                      <div v-if="isCustomTheme" class="grid grid-cols-2 gap-2 mt-3">
+                        <label class="cc-color">
+                          <input type="color" :value="theme.primary.toLowerCase()" @input="onCustomColor('primary', $event)" :aria-label="t('app.settings.primaryColor')" />
+                          <span class="min-w-0">
+                            <span class="cc-title !text-[12px]">{{ t('app.settings.primaryColor') }}</span>
+                            <span class="cc-sub font-mono">{{ theme.primary }}</span>
+                          </span>
+                        </label>
+                        <label class="cc-color">
+                          <input type="color" :value="theme.accent.toLowerCase()" @input="onCustomColor('accent', $event)" :aria-label="t('app.settings.accentColor')" />
+                          <span class="min-w-0">
+                            <span class="cc-title !text-[12px]">{{ t('app.settings.accentColor') }}</span>
+                            <span class="cc-sub font-mono">{{ theme.accent }}</span>
+                          </span>
+                        </label>
+                      </div>
                     </LiquidGlass>
 
                     <!-- Bottom pill (like 「编辑控制…」) -->
@@ -433,11 +481,12 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted, provide } from 'vue'
 import { useRoute } from 'vue-router'
-import { Layout, Import, BookMarked, Sparkles, Languages, Github, X, Settings, RotateCcw, ImageIcon, Trash2, Bot, Shuffle, Droplet, Droplets } from 'lucide-vue-next'
+import { Layout, Import, BookMarked, Sparkles, Languages, Github, X, Settings, RotateCcw, ImageIcon, Trash2, Bot, Shuffle, Droplet, Droplets, Pipette } from 'lucide-vue-next'
 import { provideLanguage } from './composables/useLanguage'
 import { useBankStore } from './stores/bankStore'
 import { aiService } from './services/aiService'
 import CustomSelect from './components/CustomSelect.vue'
+import { useTheme } from './composables/useTheme'
 import LiquidGlass from './components/LiquidGlass.vue'
 import { setGlassBlur } from './utils/liquidGlass'
 import { WALLPAPERS, wallpaperUrl, randomWallpaperIndex } from './constants/wallpapers'
@@ -460,6 +509,18 @@ const showGithubModal = ref(false)
 // 站点 logo（public/images/logo，已裁掉透明边，80px=2x / 120px=3x）
 const logoSrc = `${import.meta.env.BASE_URL}images/logo/logo-80.webp`
 const logoSrc3x = `${import.meta.env.BASE_URL}images/logo/logo-120.webp`
+
+// 主题配色（预设 + 自定义），选择会写入 localStorage，index.html 在首帧前应用
+const { theme, isCustom: isCustomTheme, presets: themePresets, selectPreset, enterCustom: enterCustomTheme, setCustomColor, initTheme } = useTheme()
+initTheme()
+const currentThemeName = computed(() => {
+  if (isCustomTheme.value) return t('app.settings.themeCustom')
+  const p = themePresets.find((x) => x.id === theme.value.preset)
+  return p ? p.name[language.value] : ''
+})
+const onCustomColor = (which: 'primary' | 'accent', e: Event) => {
+  setCustomColor(which, (e.target as HTMLInputElement).value.toUpperCase())
+}
 
 // 设置下拉菜单状态
 const showSettingsDropdown = ref(false)

@@ -91,7 +91,7 @@
     <!-- Progress Bar -->
     <div class="w-full bg-slate-200/30 h-3 rounded-full mb-8 overflow-hidden backdrop-blur-sm border border-white/20">
       <div 
-        class="bg-brand-500 h-full transition-all duration-500 ease-out shadow-[0_0_15px_rgba(42,107,144,0.45)]"
+        class="bg-brand-500 h-full transition-all duration-500 ease-out shadow-[0_0_15px_rgb(var(--brand-500)/0.45)]"
         :style="{ width: `${((currentIdx + 1) / total) * 100}%` }"
       />
     </div>

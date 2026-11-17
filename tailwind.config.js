@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+const SHADES = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900]
+const scale = (name) =>
+  Object.fromEntries(SHADES.map((s) => [s, `rgb(var(--${name}-${s}) / <alpha-value>)`]))
+
 module.exports = {
   content: [
     "./index.html",
@@ -7,45 +11,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // "Harbor" — deep ocean ink blue, the single confident accent
-        brand: {
-          50: '#EEF4F7',
-          100: '#DAE7EE',
-          200: '#B3CEDD',
-          300: '#83AFC7',
-          400: '#4C88AA',
-          500: '#2A6B90',
-          600: '#1E5677',
-          700: '#184562',
-          800: '#14384F',
-          900: '#0F2A3B',
-        },
-        // "Ember" — warm coral, used sparingly (exam / AI / highlights)
-        ember: {
-          50: '#FDF3EE',
-          100: '#FBE3D7',
-          200: '#F6C4AB',
-          300: '#EFA17D',
-          400: '#E6825A',
-          500: '#D7673E',
-          600: '#B7522F',
-          700: '#924128',
-          800: '#6E3221',
-          900: '#4E2418',
-        },
-        // "Sage" — muted green, only for correct-answer feedback
-        sage: {
-          50: '#F0F6F2',
-          100: '#DDEBE2',
-          200: '#BAD7C5',
-          300: '#8FBDA1',
-          400: '#62A07B',
-          500: '#3F845C',
-          600: '#306A49',
-          700: '#27543B',
-          800: '#1F4230',
-          900: '#183326',
-        },
+        // Theme colours are CSS variables ("R G B" triplets) so they can be switched live
+        // (presets / custom colours in Settings → 主题配色, see src/utils/theme.ts).
+        // brand = primary, ember/accent = accent (same variables), sage = correct-answer feedback.
+        brand: scale('brand'),
+        ember: scale('accent'),
+        accent: scale('accent'),
+        sage: scale('sage'),
         // Warm paper neutrals for the page base
         paper: {
           50: '#FAF8F5',
