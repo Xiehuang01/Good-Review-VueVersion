@@ -12,6 +12,21 @@
     <link rel="manifest" href="/Good-Review-VueVersion/site.webmanifest" />
     <meta name="theme-color" content="#F4F1EC" />
     
+    <!-- Apply the saved theme colours before first paint (no flash of the default theme).
+         Values are computed by src/utils/theme.ts and stored with the choice. -->
+    <script>
+      (function () {
+        try {
+          var t = JSON.parse(localStorage.getItem('goodreview-theme') || 'null');
+          if (!t || !t.vars) return;
+          var st = document.documentElement.style;
+          for (var k in t.vars) {
+            if (/^--(brand|accent)-\d{2,3}$/.test(k) && /^\d{1,3} \d{1,3} \d{1,3}$/.test(t.vars[k])) st.setProperty(k, t.vars[k]);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
@@ -69,9 +84,9 @@
   /* Glass effects are now defined in src/styles/style.css */
 
 </style>
-  <script type="module" crossorigin src="/Good-Review-VueVersion/assets/index-C3kQmeyg.js"></script>
+  <script type="module" crossorigin src="/Good-Review-VueVersion/assets/index-DJhZw0OU.js"></script>
   <link rel="modulepreload" crossorigin href="/Good-Review-VueVersion/assets/vendor-DUxAkxSS.js">
-  <link rel="stylesheet" crossorigin href="/Good-Review-VueVersion/assets/index-C1wLC91y.css">
+  <link rel="stylesheet" crossorigin href="/Good-Review-VueVersion/assets/index-Bb-MgUfU.css">
 </head>
   <body class="text-slate-800 antialiased selection:bg-brand-200 selection:text-brand-900">
     <div id="app"></div>
