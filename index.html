@@ -12,6 +12,21 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#F4F1EC" />
     
+    <!-- Apply the saved theme colours before first paint (no flash of the default theme).
+         Values are computed by src/utils/theme.ts and stored with the choice. -->
+    <script>
+      (function () {
+        try {
+          var t = JSON.parse(localStorage.getItem('goodreview-theme') || 'null');
+          if (!t || !t.vars) return;
+          var st = document.documentElement.style;
+          for (var k in t.vars) {
+            if (/^--(brand|accent)-\d{2,3}$/.test(k) && /^\d{1,3} \d{1,3} \d{1,3}$/.test(t.vars[k])) st.setProperty(k, t.vars[k]);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
